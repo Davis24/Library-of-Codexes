@@ -4,17 +4,12 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 ## To Do
 
-* Create SVGs of all codexes currently available 
-* Design/Implement fluid header
-* Implement Banner
-* Implement new homepage
-* Implement footer
-* ....
+* Check notes inside home.html
 
 
 ## Built With
 
-* To be added
+* W3.CSS Library
 
 ## Authors
 
