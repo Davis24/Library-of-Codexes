@@ -1,0 +1,68 @@
+/* attributes are a-z order */
+.modal-header{
+    text-align:center;
+}
+#button1{
+
+    margin-bottom: 2%;
+
+}
+
+#banner{
+    max-height: 325px;  
+    width:100%;
+}
+
+#testing{
+
+    margin-top: 20%;
+
+}
+.centering{
+    display:block;
+    margin:0px auto 0px auto;
+    max-width:1248px;
+}
+
+#book-img img{
+    max-width: 200px;
+    width:100%;
+}
+nav{
+    font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+   font-family: 'Merriweather', serif; 
+}
+
+#popup h4{
+    margin-bottom: 10px;
+}
+
+#popup h1{
+    margin-top: 10px;
+}
+
+  /*  font-family: 'Oswald', sans-serif;
+
+    font-family: 'Merriweather', serif; */
+
+
+@media only screen and (max-width: 600px){
+
+    #banner-display{
+        display: none;
+    }
+}
+
+#popup{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 10;
+}
+/* change this in W3 */
+.w3-panel{
+    margin-bottom: 0 !important;
+}
