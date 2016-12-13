@@ -4,7 +4,13 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 ## To Do
 
-* Check notes inside home.html
+* Home Page - check home.html comments
+* Create About Page
+* Create Game Page
+* Create Search Page
+* Create Author Page
+* Create Codex Page
+* Create Ebook page
 
 
 ## Built With
