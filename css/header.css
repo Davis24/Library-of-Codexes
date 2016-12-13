@@ -1,38 +1,34 @@
 /* attributes are a-z order */
-.modal-header{
-    text-align:center;
+nav, .w3-modal h2{
+    font-family: 'Oswald', sans-serif;
 }
-#button1{
-
-    margin-bottom: 2%;
-
-}
-
-#banner{
-    max-height: 325px;  
-    width:100%;
-}
-
-#testing{
-
-    margin-top: 20%;
-
+h1,h2,h3,h4,h5,p{
+   font-family: 'Merriweather', serif; 
 }
 .centering{
     display:block;
     margin:0px auto 0px auto;
     max-width:1248px;
 }
+.modal-header{
+    text-align:center;
+}
+/* change this in W3 */
+.w3-panel{
+    margin-bottom: 0 !important;
+}
+#button1{
+    margin-bottom: 2%;
+}
 
-#book-img img{
-    max-width: 200px;
+#banner{
+    max-height: 325px;  
     width:100%;
 }
-nav{
-    font-family: 'Oswald', sans-serif;
-}
-h1,h2,h3,h4,h5,p{
-   font-family: 'Merriweather', serif; 
+#book-img img{
+    margin-top: 15%;
+    max-width: 200px;
+    width:100%;
 }
 
 #popup h4{
@@ -46,23 +42,18 @@ h1,h2,h3,h4,h5,p{
   /*  font-family: 'Oswald', sans-serif;
 
     font-family: 'Merriweather', serif; */
-
+#popup{
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
 
 @media only screen and (max-width: 600px){
-
     #banner-display{
         display: none;
     }
 }
 
-#popup{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 0;
-    z-index: 10;
-}
-/* change this in W3 */
-.w3-panel{
-    margin-bottom: 0 !important;
-}
+
