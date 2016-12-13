@@ -10,10 +10,11 @@
 <body>
 
 <!-- TO DO: Nav Bar 
-	- Change color scheme [Black, Orange, tanish]
-	- On search - have it expand over support and contact
+	- Change nav bar color scheme in W3.css
 	- Backend connectivity for search
 	- Backend connectivity for contact
+	- Remove extra uneeded colors in W3.css
+	- Have nav change at certain width to avoid items dropping down
 -->
 
 <!-- web header navigation -->
@@ -34,6 +35,7 @@
 				</div>
 			</li>
 			<li class="w3-hide-small w3-right"><a class="w3-book" href="#"><i class="fa fa-search"></i></a></li>
+			<li class="w3-hide-small w3-right"><input type="text" class="w3-input" placeholder="Search.."></li>
 			<li class="w3-hide-small w3-right"><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
 			<li class="w3-hide-small w3-right"><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
 		</div>
@@ -54,7 +56,7 @@
     </li>
     <li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
     <li><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
-    <li><a href="#"><i class="fa fa-search"></i></a></li>
+    <li><span><input type="text" class="w3-input" placeholder="Search.."><a href="#"><i class="fa fa-search"></i></a></span></li>
   </ul>
 </nav>
 
