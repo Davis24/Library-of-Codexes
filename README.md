@@ -5,7 +5,6 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 ## To Do
 
 * Home Page - check home.html comments
-* Create About Page
 * Create Game Page
 * Create Search Page
 * Create Author Page
@@ -16,6 +15,7 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 ## Built With
 
 * W3.CSS Library
+* Adobe Illustrator
 
 ## Authors
 
