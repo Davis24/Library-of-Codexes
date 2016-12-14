@@ -1,9 +1,16 @@
 /* attributes are a-z order */
-nav, .w3-modal h2{
+nav, .w3-modal h2, #popup h1, #popup h4, #about-banner h1, #about-banner h2{
     font-family: 'Oswald', sans-serif;
 }
 h1,h2,h3,h4,h5,p{
-   font-family: 'Merriweather', serif; 
+   font-family: 'Merriweather', serif;
+   padding-left: 2%;
+   padding-right:2%; 
+}
+p{
+    font-size: 19px;
+    padding-left: 2%;
+   padding-right: 2%;
 }
 .centering{
     display:block;
@@ -24,6 +31,24 @@ h1,h2,h3,h4,h5,p{
 #banner{
     max-height: 325px;  
     width:100%;
+}
+#about-banner{ 
+    width:100%;
+    position: relative;   
+    top: -15px;
+}
+#about-banner h1{
+    font-size: 48px;
+}
+#about-banner h1{
+    font-size: 48px;
+}
+#about-banner .centering{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 15px;
 }
 #book-img img{
     margin-top: 15%;

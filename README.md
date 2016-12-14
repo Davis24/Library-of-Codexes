@@ -21,5 +21,5 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 * **Megan Davis** - *Initial work* - [davis24](https://github.com/davis24)
 
-## Acknowledgments
+## Acknowledgements
 
