@@ -5,7 +5,7 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 ## To Do
 
 * Home Page - check home.html comments
-* Create Game Page
+* Game Page - check game.php comments 
 * Create Search Page
 * Create Author Page
 * Create Codex Page
