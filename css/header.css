@@ -1,11 +1,15 @@
 /* attributes are a-z order */
-nav, .w3-modal h2, #popup h1, #popup h4, #about-banner h1, #about-banner h2{
+nav, .w3-modal h2, #popup h1, #popup h4, #about-banner h1, #about-banner h2, footer a,{
     font-family: 'Oswald', sans-serif;
 }
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,p,  tr, th {
    font-family: 'Merriweather', serif;
    padding-left: 2%;
    padding-right:2%; 
+}
+
+#text-change{
+    font-family: 'Oswald', sans-serif;
 }
 p{
     font-size: 19px;
@@ -81,4 +85,52 @@ p{
     }
 }
 
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+table
+{
+    font-size: 16px;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+#Codexes{
+    display: block;
+}
 
