@@ -10,17 +10,22 @@
 	$game_num = (int)$_GET["g"];
 	$game_title = $db->query("SELECT GAME_TITLE FROM GAMES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
 	//Codex Count Query
-	//$value = $db->query("SELECT COUNT(*) as 'count' FROM CODEXES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->count;
+ 
 	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM CODEXES WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$collections_num = $db->query("SELECT COUNT(COLLECTIONS_ID) as 'count' FROM COLLECTIONS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
-//	$test = "SELECT COUNT(CODEX_TITLE) FROM CODEXES WHERE FK_GAME_ID = ('".$game_num."')";
-//	echo $test;
-//	$row = $query->fetch_row();
-//	echo $row[0];
+ 
 	include('header.php') 
 ?>
 
+<!-- TO DO LIST 
+	-Add links for Ebooks
+	-Create tab content that will work for authors/collections
+	-Find a good location to put the scripts
+	-Font Size increase on all
+
+
+-->
 <!--- Banner -->
 <div id="about-banner" style = "background-color: #fff4d3;">
 	<div class="centering" style="text-align: center;">
@@ -54,18 +59,16 @@
         		$query = "SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as Name,
                 	FK_AUTHOR_ID, CODEX_ID FROM codexes INNER JOIN authors ON codexes.FK_AUTHOR_ID = authors.AUTHOR_ID 
                 	WHERE codexes.FK_GAME_ID = ('".$game_num."')";
-                $result = mysqli_query($db, $query);
-          		if (mysqli_num_rows($result) > 0) 
-          		{
-            		// output data of each row
-            		while($row = mysqli_fetch_assoc($result)) 
-            		{
+       			if($result = $db->query($query))
+           		{
+           			while($row = $result ->fetch_assoc())
+           			{
               			$codex_temp = str_replace(" ", "-", $row["CODEX_TITLE"]);
               			$author_temp = str_replace(" ", "-", $row["Name"]); 
               			echo "<tr><td><a href = '/library-of-codexes/codex=".$row["CODEX_ID"]."/".$codex_temp."'>".$row["CODEX_TITLE"] ."</a></td>";
               			echo "<td><a href = '/library-of-codexes/author=" .$row["FK_AUTHOR_ID"]."/".$author_temp."'>" .$row["Name"]  ."</td></tr>"; 
             		}
-          		}
+            	}
           		mysqli_close($db);		
             ?>
         	</tbody>

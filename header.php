@@ -52,10 +52,10 @@
     <li><a href="#">Ebooks</a></li>
     <li class="w3-dropdown-hover"><a href="#">Games</a>
     	<div class="w3-dropdown-content w3-white w3-card-4">
-			<a href="#"> Game 1</a>	
-			<a href="#"> Game 1</a>	
-			<a href="#"> Game 1</a>
-	  		<a href="#"> Game 1</a>
+				<a href="game=3/Baldur's-Gate">Baldur's Gate</a>	
+				<a href="game=9/Deus-Ex"> Deus Ex</a>	
+				<a href="game=4/Diablo"> Diablo</a>
+	  			<a href="game=1/Dishonored"> Dishonored</a>
 		</div>
     </li>
     <li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>

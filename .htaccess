@@ -4,7 +4,7 @@ RewriteRule ^about$ about.php [L]
 RewriteRule ^$ home.php [L]
 RewriteRule ^home$ home.php [L]
 RewriteRule ^game=([0-9]+)/[A-Za-z0-9\-\'\:]+/?$ game.php?g=$1 [L]
-RewriteRule ^author=([0-9]+)/[A-Za-z0-9\-\[\]\.]+/?$ author_show.php?a=$1 [L]
+RewriteRule ^author=([0-9]+)/[A-Za-z0-9\-\[\]\.]+/?$ author.php?a=$1 [L]
 RewriteRule ^collection=([0-9]+)/[A-Za-z0-9\-\[\]]+/?$ collection_show.php?co=$1 [L]
 RewriteRule ^codex=([0-9]+)/[A-Za-z0-9\-\[\]\;\:\,\.\"\!]*/?$ codex_show.php?c=$1 [L]
 </IfModule>
