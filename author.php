@@ -45,7 +45,10 @@
            			while($row = $result ->fetch_assoc())
            			{
            				$codex_temp = str_replace(" ", "-", $row["CODEX_TITLE"]);
-              			echo "<tr><td><a href = '/library-of-codexes/codex=".$row["CODEX_ID"]."/".$codex_temp."'>" .$row["CODEX_TITLE"] . "</a></td></tr>";
+              			echo "<tr>
+              					<td><a href='/library-of-codexes/codex=".$row["CODEX_ID"]."/".$codex_temp."'>".$row["CODEX_TITLE"]."</a>
+              					</td>
+              				</tr>";
             		}
             	}
           		mysqli_close($db);		

@@ -8,8 +8,9 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 * Game Page - check game.php comments 
 * Create Search Page
 * Author Page - check author.php comments
-* Create Codex Page
-* Create Ebook page
+* Codex Page - check codex.php comments
+* Ebook Page - check ebooks.php comments
+* Change .htcaccess
 
 
 ## Built With

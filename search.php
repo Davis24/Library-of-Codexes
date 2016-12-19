@@ -1,40 +1,26 @@
-<?php 
-	//Database Connection
-	$config = parse_ini_file('config.ini');
+<?php
+	include('header.php');
+		$config = parse_ini_file('config.ini');
 	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
 	if($db === false)
 	{
 		echo "error occured, put in an error page";
 	}
 	//Variables and Queries 
-	$game_num = (int)$_GET["g"];
-	$game_title = $db->query("SELECT GAME_TITLE FROM GAMES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
+//	$game_num = (int)$_GET["g"];
+//	$game_title = $db->query("SELECT GAME_TITLE FROM GAMES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
 	//Codex Count Query
  
 	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM CODEXES WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$collections_num = $db->query("SELECT COUNT(COLLECTIONS_ID) as 'count' FROM COLLECTIONS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
  
-	include('header.php') 
 ?>
-
-<!-- TO DO LIST 
-	-Add links for Ebooks
-	-Create tab content that will work for authors/collections
-	-Find a good location to put the scripts
-	-Font Size increase on all
-
-
--->
-<!--- Banner -->
-<div id="about-banner" style = "background-color: #fff4d3;">
-	<div class="centering" style="text-align: center;">
-	</div>
-</div>
+<br/><br/><br/>
 
 <div  class="centering" style="text-align:center;">
-	<h1 id="text-change"><?php echo $game_title ?></h1>
-	<h4 id="text-change"> Epub * Epub * Epub </h4>
+	<h1 id="text-change">Search Results for </h1>
+	<h4 id="text-change"> </h4>
 </div>
 <br/>
 <!-- table -->
@@ -63,9 +49,9 @@
            		{
            			while($row = $result ->fetch_assoc())
            			{
-           				$codex_temp = preg_replace("![^a-z0-9]+!i", "-", $row["CODEX_TITLE"]);
-           				$author_temp = trim($row["Name"]);
-           				$author_temp = preg_replace("![^a-z0-9]+!i", "-", $author_temp);
+              			$codex_temp = str_replace(" ", "-", $row["CODEX_TITLE"]);
+              			$author_temp = str_replace(" ", "-", $row["Name"]); 
+              			$author_temp = str_replace("'", "&#39;", $author_temp);
               			echo "<tr><td><a href='/library-of-codexes/codex=".$row["CODEX_ID"]."/".$codex_temp."'>".$row["CODEX_TITLE"] ."</a></td>";
               			echo "<td><a href='/library-of-codexes/author=" .$row["FK_AUTHOR_ID"]."/".$author_temp."'>" .$row["Name"]  ."</a></td></tr>"; 
             		}
@@ -102,4 +88,5 @@ function openTab(evt, libraryType) {
     evt.currentTarget.className += " active";
 }
 </script>
-<?php include('footer.html') ?>
+
+<?php include('footer.html'); ?>

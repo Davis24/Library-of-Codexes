@@ -79,9 +79,37 @@ p{
     z-index: 10;
 }
 
+#buttons{
+
+    display: block;
+    margin:0px auto 0px auto;
+    /*position: relative;
+    left:40%;*/
+    font-size: 20px;
+}
+
+#buttons .w3-btn{
+    float:none;
+}
+
+#buttons2{
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    margin:0px auto 0px auto;
+    z-index: 5;
+    
+}
 @media only screen and (max-width: 600px){
     #banner-display{
         display: none;
+    }
+    #buttons{
+        display:none;
+    }
+    #buttons2{
+        display:block;
+        
     }
 }
 
@@ -133,4 +161,3 @@ table
 #Codexes{
     display: block;
 }
-

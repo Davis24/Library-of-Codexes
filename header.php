@@ -22,20 +22,26 @@
 -->
 
 <!-- web header navigation -->
+
 <nav>
 	<ul class = "w3-navbar w3-black w3-xlarge">
 		<div class="centering">
-			<li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+			<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
     			<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
     		</li>
 			<li><a href="/library-of-codexes/home"><b>Library of Codexes</b></a></li>
-			<li class="w3-hide-small"><a href="#">Ebooks</a></li>
+			<li class="w3-hide-small w3-hover-book"><a href="/library-of-codexes/ebooks">Ebooks</a></li>
 			<li class="w3-hide-small w3-dropdown-hover"><a href="#">Games <i class="fa fa-caret-down"></i></a>
 				<div class="w3-dropdown-content w3-white w3-card-4">
-					<a href="game=3/Baldur's-Gate">Baldur's Gate</a>	
-					<a href="game=9/Deus-Ex"> Deus Ex</a>	
-					<a href="game=4/Diablo"> Diablo</a>
-	  				<a href="game=1/Dishonored"> Dishonored</a>
+					<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
+					<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
+					<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
+	  				<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
+	  				<a href="/library-of-codexes/game=7/Fable">Fable</a>
+	  				<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
+                  	<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
+                  	<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
+                  	<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>	
 				</div>
 			</li>
 			<li class="w3-hide-small w3-right"><a class="w3-book" href="#"><i class="fa fa-search"></i></a></li>
@@ -52,10 +58,15 @@
     <li><a href="#">Ebooks</a></li>
     <li class="w3-dropdown-hover"><a href="#">Games</a>
     	<div class="w3-dropdown-content w3-white w3-card-4">
-				<a href="game=3/Baldur's-Gate">Baldur's Gate</a>	
-				<a href="game=9/Deus-Ex"> Deus Ex</a>	
-				<a href="game=4/Diablo"> Diablo</a>
-	  			<a href="game=1/Dishonored"> Dishonored</a>
+					<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
+					<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
+					<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
+	  				<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
+	  				<a href="/library-of-codexes/game=7/Fable">Fable</a>
+	  				<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
+                  	<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
+                  	<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
+                  	<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>
 		</div>
     </li>
     <li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
