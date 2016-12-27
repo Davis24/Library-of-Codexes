@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<title> Testing </title>
+	<title> Library of Codexes </title>
 	<meta name = "viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
 	<link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -8,73 +8,61 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/library-of-codexes/css/header.css">
 	<link rel="stylesheet" href="/library-of-codexes/css/footer.css">
-
-<body>
-
-<!-- TO DO: Nav Bar 
-	- Change nav bar color scheme in W3.css
-	- Figure out color scheme and update W3.CSS 
-	- Figure out to make the pictures less the same (different controllers?)
-	- Backend connectivity for search
-	- Backend connectivity for contact
-	- Remove extra uneeded css in W3.css
-	- Have nav change at certain width to avoid items dropping down
--->
-
-<!-- web header navigation -->
-
-<nav>
-	<ul class = "w3-navbar w3-black w3-xlarge">
-		<div class="centering">
-			<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-    			<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-    		</li>
-			<li><a href="/library-of-codexes/home"><b>Library of Codexes</b></a></li>
-			<li class="w3-hide-small w3-hover-book"><a href="/library-of-codexes/ebooks">Ebooks</a></li>
-			<li class="w3-hide-small w3-dropdown-hover"><a href="#">Games <i class="fa fa-caret-down"></i></a>
-				<div class="w3-dropdown-content w3-white w3-card-4">
-					<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
-					<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
-					<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
-	  				<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
-	  				<a href="/library-of-codexes/game=7/Fable">Fable</a>
-	  				<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
-                  	<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
-                  	<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
-                  	<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>	
+	<link rel="stylesheet" href="/library-of-codexes/css/modernscale.css"> 
+	<header>
+	<!--web header navigation -->
+		<nav>
+			<ul class = "w3-navbar w3-black w3-xlarge">
+				<div class="centering">
+					<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    				</li>
+					<li><a href="/library-of-codexes/home"><b>Library of Codexes</b></a></li>
+					<li class="w3-hide-small w3-hover-book"><a href="/library-of-codexes/ebooks">Ebooks</a></li>
+					<li class="w3-hide-small w3-dropdown-hover"><a href="javascript:void(0);">Games <i class="fa fa-caret-down"></i></a>
+						<div class="w3-dropdown-content w3-white w3-card-4">
+							<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
+							<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
+							<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
+	  						<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
+	  						<a href="/library-of-codexes/game=7/Fable">Fable</a>
+	  						<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
+                  			<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
+                  			<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
+                  			<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>	
+						</div>
+					</li>
+					<li class="w3-hide-small w3-right"><a class="w3-book" href="#"><i class="fa fa-search"></i></a></li>
+					<li class="w3-hide-small w3-right"><input type="text" class="w3-input" placeholder="Search.."></li>
+					<li class="w3-hide-small w3-right"><a href="javascript:void(0);" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
+					<li class="w3-hide-small w3-right"><a href="javascript:void(0);" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
 				</div>
-			</li>
-			<li class="w3-hide-small w3-right"><a class="w3-book" href="#"><i class="fa fa-search"></i></a></li>
-			<li class="w3-hide-small w3-right"><input type="text" class="w3-input" placeholder="Search.."></li>
-			<li class="w3-hide-small w3-right"><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
-			<li class="w3-hide-small w3-right"><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
-		</div>
-	</ul>
-</nav>
-
-<!-- mobile header navigation-->
-<nav id="mobile" class="w3-hide w3-hide-large w3-hide-medium">
-  <ul class="w3-navbar w3-left-align w3-large w3-black">
-    <li><a href="#">Ebooks</a></li>
-    <li class="w3-dropdown-hover"><a href="#">Games</a>
-    	<div class="w3-dropdown-content w3-white w3-card-4">
-					<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
-					<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
-					<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
-	  				<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
-	  				<a href="/library-of-codexes/game=7/Fable">Fable</a>
-	  				<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
-                  	<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
-                  	<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
-                  	<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>
-		</div>
-    </li>
-    <li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
-    <li><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
-    <li><span><input type="text" class="w3-input" placeholder="Search.."><a href="#"><i class="fa fa-search"></i></a></span></li>
-  </ul>
-</nav>
-
+			</ul>
+		</nav>
+		<!-- mobile header navigation-->
+		<nav id="mobile" class="w3-hide w3-hide-large w3-hide-medium">
+  			<ul class="w3-navbar w3-left-align w3-large w3-black">
+    			<li><a href="/library-of-codexes/ebooks">Ebooks</a></li>
+    			<li class="w3-dropdown-hover"><a href="#">Games</a>
+    				<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
+						<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
+						<a href="/library-of-codexes/game=4/Diablo">Diablo</a>
+	  					<a href="/library-of-codexes/game=1/Dishonored">Dishonored</a>
+	  					<a href="/library-of-codexes/game=7/Fable">Fable</a>
+	  					<a href="/library-of-codexes/game=5/Mass-Effect">Mass Effect</a>
+                  		<a href="/library-of-codexes/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
+                  		<a href="/library-of-codexes/game=8/The-Last-of-Us">The Last of Us</a>
+                  		<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>
+					</div>
+    			</li>
+    			<li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
+    			<li><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
+    			<li><span><input type="text" class="w3-input" placeholder="Search.."><a href="#"><i class="fa fa-search"></i></a></span></li>
+  			</ul>
+		</nav>
+	</header>
+<body>
 <!-- Support Modal -->
 <div id="support_modal" class="w3-modal">
 	<div class="w3-modal-content">
@@ -93,8 +81,6 @@
 		</div>
 	</div>
 </div>
-
-
 <!-- Contact Modal -->
 <div id="contact_modal" class="w3-modal">
 	<div class="w3-modal-content">

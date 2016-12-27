@@ -7,7 +7,9 @@ h1,h2,h3,h4,h5,p,  tr, th {
    padding-left: 2%;
    padding-right:2%; 
 }
-
+.w3-navbar{
+    margin-top:-1px;
+}
 #text-change{
     font-family: 'Oswald', sans-serif;
 }
@@ -16,10 +18,17 @@ p{
     padding-left: 2%;
    padding-right: 2%;
 }
+
 .centering{
     display:block;
     margin:0px auto 0px auto;
     max-width:1248px;
+}
+.centering-text{
+    display:block;
+    margin:0px auto 0px auto;
+    max-width:1248px;
+    text-align: center
 }
 .modal-header{
     text-align:center;
@@ -40,6 +49,7 @@ p{
     width:100%;
     position: relative;   
     top: -15px;
+    background-color: #fff4d3;
 }
 #about-banner h1{
     font-size: 48px;
@@ -54,7 +64,11 @@ p{
     padding-bottom: 2%;
     margin-top: 15px;
 }
-#book-img img{
+
+.book-img{
+    text-align: center;
+}
+.book-img img{
     margin-top: 15%;
     max-width: 200px;
     width:100%;
@@ -68,9 +82,6 @@ p{
     margin-top: 10px;
 }
 
-  /*  font-family: 'Oswald', sans-serif;
-
-    font-family: 'Merriweather', serif; */
 #popup{
     bottom: 0;
     position: fixed;
@@ -161,3 +172,17 @@ table
 #Codexes{
     display: block;
 }
+table tr td a {
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+h3 a:hover, h4 a:hover, #game_info a:hover{
+    color: gray;
+}
+
+.w3-closebtn:hover{
+    color:gray;
+}
+
