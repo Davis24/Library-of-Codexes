@@ -4,19 +4,24 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 ## To Do
 
-* Home Page - check home.html comments
-* Game Page - check game.php comments 
-* Create Search Page
-* Author Page - check author.php comments
-* Codex Page - check codex.php comments
-* Ebook Page - check ebooks.php comments
-* Change .htcaccess
+* Remove unused CSS
+* Minify created CSS sheets
+* Create 404 Page
+* Table Column Header Location
+* Game - Ajax none clickable if that column has no results i.e Collections(0)
+* Ebooks - fix table formating
+* Search Page
+* Banner Images for - Ebooks, Game, Author, and book images
+* Search Button Hover - Color
+* Fix Nav issues @ 1044px
 
 
 ## Built With
 
 * W3.CSS Library
 * Adobe Illustrator
+* Datatables Library
+* TypeCast
 
 ## Authors
 
