@@ -3,7 +3,7 @@
 	//Database Connection
 	$config = parse_ini_file('config.ini');
 	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if($db === false)	{
+	if(!$db)	{
 		echo "error occured, put in an error page";
 	}
 	$row = $db->query("SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, BIOGRAPHY FROM AUTHORS WHERE AUTHOR_ID = ('".$author_id."')")->fetch_assoc();

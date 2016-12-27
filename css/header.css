@@ -2,7 +2,7 @@
 nav, .w3-modal h2, #popup h1, #popup h4, #about-banner h1, #about-banner h2, footer a,{
     font-family: 'Oswald', sans-serif;
 }
-h1,h2,h3,h4,h5,p,  tr, th {
+h1,h2,h3,h4,h5,p, tr, th {
    font-family: 'Merriweather', serif;
    padding-left: 2%;
    padding-right:2%; 
@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,p,  tr, th {
 p{
     font-size: 19px;
     padding-left: 2%;
-   padding-right: 2%;
+    padding-right: 2%;
 }
 
 .centering{

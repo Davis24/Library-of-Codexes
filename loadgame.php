@@ -1,12 +1,10 @@
 <?php
-	if(isset($_POST['game']))
-	{
-		$game_id = $_POST['game'];
+	if(isset($_POST['game'])) {
+		$game_id = $_POST['game']; //Incoming Variable
 		//Create database connection
 		$config = parse_ini_file('config.ini');
 		$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-		if(!$db)
-		{
+		if(!$db) {
 			echo "error occured, put in an error page";
 		}
 		$row = $db->query("SELECT GAME_TITLE, GAME_DESCRIPTION FROM GAMES WHERE GAME_ID = ('".$game_id."')")->fetch_assoc();

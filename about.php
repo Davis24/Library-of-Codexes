@@ -3,8 +3,8 @@
 	//Database Connection
 	$config = parse_ini_file('config.ini');
 	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if($db === false)
-	{
+	if(!$db)
+{
 		echo "error occured, put in an error page";
 	}
 	//Query for numbers
@@ -15,7 +15,7 @@
 ?>
 <!--Banner-->
 <div id="about-banner" style = "background-color: #fff4d3;">
-	<div class="centering" style="text-align: center;">
+	<div class="centering-text">
 		<h1> The Library of Codexes currently contains: <?php echo $codexes_num." individual works, ".$authors_num." authors, ".$collections_num." collections, and ".$games_num." games."?></h1>
 	</div>
 </div>

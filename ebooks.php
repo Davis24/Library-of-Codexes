@@ -2,19 +2,16 @@
   //Database Connection
 	$config = parse_ini_file('config.ini');
 	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if($db === false)	{
+	if(!$db)	{
 		echo "error occured, put in an error page";
 	}
 	include('header.php');
 ?>
 
 <!--- Banner -->
-<div id="about-banner" style = "background-color: #fff4d3;">
-	<div class="centering" style="text-align: center;">
-	</div>
-</div>
+<div id="about-banner" style = "background-color: #fff4d3;"></div>
 
-<div  class="centering" style="text-align:center;">
+<div class="centering-text">
 	<h1 id="text-change">EBOOKS</h1>
 </div>
 <br/>
@@ -45,6 +42,4 @@
         </tbody>
     </table>
 </div>
-
-
 <?php include('footer.html'); ?>
