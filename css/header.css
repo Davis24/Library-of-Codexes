@@ -1,5 +1,5 @@
 /* attributes are a-z order */
-nav, .w3-modal h2, #popup h1, #popup h4, #about-banner h1, #about-banner h2, footer a,{
+nav, .w3-modal h2, #popup h1, #popup h4, #banner h1, #banner h2, footer a,{
     font-family: 'Oswald', sans-serif;
 }
 h1,h2,h3,h4,h5,p, tr, th {
@@ -7,9 +7,7 @@ h1,h2,h3,h4,h5,p, tr, th {
    padding-left: 2%;
    padding-right:2%; 
 }
-.w3-navbar{
-    margin-top:-1px;
-}
+
 #text-change{
     font-family: 'Oswald', sans-serif;
 }
@@ -19,7 +17,6 @@ p{
     padding-right: 2%;
 }
 /*Banner CSS - Need to be before centering CSS*/
-
 #banner{    
     background-color: #fff4d3;
     position: relative;   
@@ -38,8 +35,7 @@ p{
     max-height: 325px;  
     width:100%;
 }
-
-
+/* Centering body element and text */
 .centering{
     display:block;
     margin:0px auto 0px auto;
@@ -51,14 +47,13 @@ p{
     max-width:1248px;
     text-align: center;
 }
+
 .modal-header{
     text-align:center;
 }
-/* change this in W3 */
-.w3-panel{
-    margin-bottom: 0 !important;
-}
-#button1{
+
+#modal-button{
+    float: right;
     margin-bottom: 2%;
 }
 
@@ -72,14 +67,10 @@ p{
     max-width: 200px;
     width:100%;
 }
-
-#popup h4{
-    margin-bottom: 10px;
+.book-img img:hover{
+    opacity: .7;
 }
 
-#popup h1{
-    margin-top: 10px;
-}
 
 #popup{
     bottom: 0;
@@ -157,10 +148,7 @@ ul.tab li a:hover {
 ul.tab li a:focus, .active {
     background-color: #ccc;
 }
-table
-{
-    font-size: 16px;
-}
+
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -181,8 +169,9 @@ h3 a:hover, h4 a:hover, #game_info a:hover{
     color: gray;
 }
 
-.w3-closebtn:hover{
-    color:gray;
+th {
+    text-align: left;
 }
+
 
 

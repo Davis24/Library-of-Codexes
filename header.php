@@ -13,12 +13,12 @@
 		<nav>
 			<ul class = "w3-navbar w3-black w3-xlarge">
 				<div class="centering">
-					<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+					<li class="w3-hide-large w3-opennav w3-right">
     					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
     				</li>
 					<li><a href="/library-of-codexes/home"><b>Library of Codexes</b></a></li>
-					<li class="w3-hide-small w3-hover-book"><a href="/library-of-codexes/ebooks">Ebooks</a></li>
-					<li class="w3-hide-small w3-dropdown-hover"><a href="javascript:void(0);">Games <i class="fa fa-caret-down"></i></a>
+					<li class="w3-hide-small w3-hide-medium w3-hover-book"><a href="/library-of-codexes/ebooks">Ebooks</a></li>
+					<li class="w3-hide-small w3-hide-medium w3-dropdown-hover"><a href="javascript:void(0);">Games <i class="fa fa-caret-down"></i></a>
 						<div class="w3-dropdown-content w3-white w3-card-4">
 							<a href="/library-of-codexes/game=3/Baldur-s-Gate">Baldur's Gate</a>	
 							<a href="/library-of-codexes/game=9/Deus-Ex">Deus Ex</a>	
@@ -31,15 +31,23 @@
                   			<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>	
 						</div>
 					</li>
-					<li class="w3-hide-small w3-right"><a class="w3-book" href="#"><i class="fa fa-search"></i></a></li>
-					<li class="w3-hide-small w3-right"><input type="text" class="w3-input" placeholder="Search.."></li>
-					<li class="w3-hide-small w3-right"><a href="javascript:void(0);" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
-					<li class="w3-hide-small w3-right"><a href="javascript:void(0);" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
+					<form method = "post" action ="search">
+						<li  class="w3-hide-small w3-hide-medium w3-right">
+							<button class="w3-book w3-btn w3-hover-gray" type="submit" name="submit">
+								<i class="fa fa-search"></i>
+							</button>
+						</li>
+						<li class="w3-hide-small w3-hide-medium w3-right">
+							<input type="text" class="w3-input" name="search" placeholder="Search..">
+						</li>
+					</form>
+					<li class="w3-hide-small w3-hide-medium w3-right"><a href="javascript:void(0);" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
+					<li class="w3-hide-small w3-hide-medium w3-right"><a href="javascript:void(0);" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
 				</div>
 			</ul>
 		</nav>
 		<!-- mobile header navigation-->
-		<nav id="mobile" class="w3-hide w3-hide-large w3-hide-medium">
+		<nav id="mobile" class="w3-hide w3-hide-large">
   			<ul class="w3-navbar w3-left-align w3-large w3-black">
     			<li><a href="/library-of-codexes/ebooks">Ebooks</a></li>
     			<li class="w3-dropdown-hover"><a href="#">Games</a>
@@ -57,7 +65,10 @@
     			</li>
     			<li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
     			<li><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
-    			<li><span><input type="text" class="w3-input" placeholder="Search.."><a href="#"><i class="fa fa-search"></i></a></span></li>
+    			<form method = "post" action ="search">
+    				<li><input type="text" class="w3-input" name="search" placeholder="Search.."></li>
+    				<li><button class="w3-btn" type="submit" name="submit"><i class="fa fa-search"></i></button></li>
+    			</form>
   			</ul>
 		</nav>
 	</header>
@@ -85,7 +96,7 @@
 	<div class="w3-modal-content">
 		<header class="w3-container w3-book modal-header">
 			<span onclick="document.getElementById('contact_modal').style.display ='none'" class="w3-closebtn">&times;</span>
-			<h2>Contact Us</h2>
+			<h2>Contact</h2>
 		</header>
 		<div class ="w3-container">
 			<form class="w3-container">
@@ -98,7 +109,7 @@
 				<p><label>Comments</label></p>
 				<p><textarea class="w3-input w3-border" name="comments"></textarea></p>
 		
-				<button id="button1" class="w3-btn w3-book">Send</button>
+				<p><button id="modal-button" class="w3-btn w3-green">Send</button></p>
 			</form>
 		</div>
 	</div>

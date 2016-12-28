@@ -68,6 +68,6 @@
   <div id="Authors" class="tabcontent"></div>
 	<div id="Collections" class="tabcontent"></div>
 </div>
-</br>
+<br/>
 <script src="/library-of-codexes/scripts/game.js"></script>
 <?php include('footer.html') ?>
