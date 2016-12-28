@@ -18,7 +18,26 @@ p{
     padding-left: 2%;
     padding-right: 2%;
 }
-
+#about-banner h1{
+    font-size: 48px;
+}
+#about-banner h1{
+    font-size: 48px;
+}
+#about-banner .centering{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 15px;
+}
+#about-banner .centering-text{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 15px;
+}
 .centering{
     display:block;
     margin:0px auto 0px auto;
@@ -28,7 +47,7 @@ p{
     display:block;
     margin:0px auto 0px auto;
     max-width:1248px;
-    text-align: center
+    text-align: center;
 }
 .modal-header{
     text-align:center;
@@ -51,19 +70,13 @@ p{
     top: -15px;
     background-color: #fff4d3;
 }
-#about-banner h1{
-    font-size: 48px;
+
+#ebook-banner{
+        width:100%;
+    position: relative;   
+    background-color: #fff4d3;
 }
-#about-banner h1{
-    font-size: 48px;
-}
-#about-banner .centering{
-    padding-top: 2%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 2%;
-    margin-top: 15px;
-}
+
 
 .book-img{
     text-align: center;

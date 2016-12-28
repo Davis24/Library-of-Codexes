@@ -9,11 +9,14 @@
 ?>
 
 <!--- Banner -->
-<div id="about-banner" style = "background-color: #fff4d3;"></div>
-
+<div id="about-banner" style = "background-color: #fff4d3;">
+<!--	<img src ="/library-of-codexes/img/Ebook.png">-->
 <div class="centering-text">
 	<h1 id="text-change">EBOOKS</h1>
 </div>
+</div>
+
+
 <br/>
 <div class="centering">
 	<table id="page_table" class="display" width="100%" cellspacing="0">

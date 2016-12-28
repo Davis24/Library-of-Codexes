@@ -11,7 +11,7 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 * Game - Ajax none clickable if that column has no results i.e Collections(0)
 * Ebooks - fix table formating
 * Search Page
-* Banner Images for - Ebooks, Game, Author, and book images
+* Banner Images for book images
 * Search Button Hover - Color
 * Fix Nav issues @ 1044px
 
