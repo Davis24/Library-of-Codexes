@@ -12,16 +12,16 @@
 	include('header.php'); 
 ?>
 <!--- Banner -->
-<div id="about-banner">
-<div class="centering-text">
-  <h1 id="text-change"><?php echo $author ?></h1>
-  <h4><?php echo $bio ?></h4>
-</div>
+<div id="banner">
+  <div class="centering-text">
+    <h1 id="text-change"><?php echo $author ?></h1>
+    <h4><?php echo $bio ?></h4>
+  </div>
 </div>
 
 <br/>
 <div class="centering">
-  <table id="page_table" class="display" width="100%" cellspacing="0">
+  <table id="page_table" class="display row-table-link" width="100%" cellspacing="0">
     <thead>
       <tr>
         <th>Title</th>

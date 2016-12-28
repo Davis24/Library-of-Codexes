@@ -17,11 +17,11 @@
 	include('header.php'); 
 ?>
 <!--- Banner -->
-<div id="about-banner" style = "background-color: #fff4d3;">
-<div class="centering-text">
-  <h1 id="text-change"><?php echo $game_title ?></h1>
-  <h3 id="text-change"><?php echo '<a href="files/azw3/'.$game_temp.'.azw3">AZW3</a> · <a href="files/epub/'.$game_temp.'.epub">EPUB</a> · <a href="files/pdf/'.$game_temp.'.pdf">PDF</a>'; ?></h3>
-</div>
+<div id="banner">
+  <div class="centering-text">
+    <h1 id="text-change"><?php echo $game_title ?></h1>
+    <h3 id="text-change"><?php echo '<a href="files/azw3/'.$game_temp.'.azw3">AZW3</a> · <a href="files/epub/'.$game_temp.'.epub">EPUB</a> · <a href="files/pdf/'.$game_temp.'.pdf">PDF</a>'; ?></h3>
+  </div>
 </div>
 
 <br/>
@@ -35,7 +35,7 @@
 	<div id="Codexes" class="tabcontent">
 	<br/>
     <div id="table_info">
-		  <table id="page_table" class="display" width="100%" cellspacing="0">
+		  <table id="page_table" class="display row-table-link" width="100%" cellspacing="0">
         <thead>
           <tr>
             <th>Title</th>

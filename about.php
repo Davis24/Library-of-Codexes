@@ -14,7 +14,7 @@
 	$games_num = $db->query("SELECT COUNT(*) as 'count' FROM GAMES")->fetch_object()->count;
 ?>
 <!--Banner-->
-<div id="about-banner" style = "background-color: #fff4d3;">
+<div id="banner">
 	<div class="centering-text">
 		<h1> The Library of Codexes currently contains: <?php echo $codexes_num." individual works, ".$authors_num." authors, ".$collections_num." collections, and ".$games_num." games."?></h1>
 	</div>

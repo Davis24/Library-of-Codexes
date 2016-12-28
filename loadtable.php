@@ -12,7 +12,7 @@
 
 		if("Authors" == $type)
 		{
-			echo '<table id="game_table" class="display" width="100%" cellspacing="0">
+			echo '<table id="game_table" class="display row-table-link" width="100%" cellspacing="0">
         	  <thead><tr><th>Author</th><th>Biography</th></tr></thead><tbody>';
 			$query = "SELECT BIOGRAPHY, CONCAT(FIRST_NAME, ' ', LAST_NAME) as Name, AUTHOR_ID FROM authors WHERE FK_GAME_ID = ('".$game_id."')";
 	    if($result = $db->query($query)) {
@@ -27,7 +27,7 @@
       echo '</tbody></table>';
 		}
 		elseif ("Codexes" == $type) {
-			echo '<table id="game_table" class="display" width="100%" cellspacing="0">
+			echo '<table id="game_table" class="display row-table-link" width="100%" cellspacing="0">
             <thead><tr><th>Title</th><th>Author</th></tr></thead><tbody>';
       $query = "SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as Name, FK_AUTHOR_ID, CODEX_ID 
                 FROM codexes INNER JOIN authors ON codexes.FK_AUTHOR_ID = authors.AUTHOR_ID 

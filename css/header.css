@@ -18,26 +18,28 @@ p{
     padding-left: 2%;
     padding-right: 2%;
 }
-#about-banner h1{
-    font-size: 48px;
+/*Banner CSS - Need to be before centering CSS*/
+
+#banner{    
+    background-color: #fff4d3;
+    position: relative;   
+    top: -15px;
+    width:100%;
 }
-#about-banner h1{
-    font-size: 48px;
-}
-#about-banner .centering{
+
+#banner > .centering, #banner > .centering-text{
     padding-top: 2%;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 2%;
     margin-top: 15px;
 }
-#about-banner .centering-text{
-    padding-top: 2%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 2%;
-    margin-top: 15px;
+#home-banner{
+    max-height: 325px;  
+    width:100%;
 }
+
+
 .centering{
     display:block;
     margin:0px auto 0px auto;
@@ -60,22 +62,6 @@ p{
     margin-bottom: 2%;
 }
 
-#banner{
-    max-height: 325px;  
-    width:100%;
-}
-#about-banner{ 
-    width:100%;
-    position: relative;   
-    top: -15px;
-    background-color: #fff4d3;
-}
-
-#ebook-banner{
-        width:100%;
-    position: relative;   
-    background-color: #fff4d3;
-}
 
 
 .book-img{
@@ -185,7 +171,7 @@ table
 #Codexes{
     display: block;
 }
-table tr td a {
+.row-table-link tr td a {
     display:block;
     height:100%;
     width:100%;
@@ -198,4 +184,5 @@ h3 a:hover, h4 a:hover, #game_info a:hover{
 .w3-closebtn:hover{
     color:gray;
 }
+
 

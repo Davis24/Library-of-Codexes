@@ -9,11 +9,10 @@
 ?>
 
 <!--- Banner -->
-<div id="about-banner" style = "background-color: #fff4d3;">
-<!--	<img src ="/library-of-codexes/img/Ebook.png">-->
-<div class="centering-text">
-	<h1 id="text-change">EBOOKS</h1>
-</div>
+<div id="banner">
+  <div class="centering-text">
+	   <h1 id="text-change">EBOOKS</h1>
+  </div>
 </div>
 
 
