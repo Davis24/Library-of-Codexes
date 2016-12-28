@@ -7,13 +7,9 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 * Remove unused CSS
 * Minify created CSS sheets
 * Create 404 Page
-* Table Column Header Location
 * Game - Ajax none clickable if that column has no results i.e Collections(0)
-* Ebooks - fix table formating
-* Search Page
-* Banner Images for book images
-* Search Button Hover - Color
-* Fix Nav issues @ 1044px
+* Different Book Pages for Main Page 
+
 
 
 ## Built With
