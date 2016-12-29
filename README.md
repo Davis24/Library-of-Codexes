@@ -4,10 +4,7 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 ## To Do
 
-* Remove unused CSS
-* Minify created CSS sheets
 * Create 404 Page
-* Game - Ajax none clickable if that column has no results i.e Collections(0)
 * Different Book Pages for Main Page 
 
 
