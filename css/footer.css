@@ -1,15 +1,16 @@
 html {
-    position: relative;
-    min-height: 100%;
+	min-height: 100%;
+    position: relative; 
 }
 body {
     margin: 0 0 200px; /* bottom = footer height */
 }
 footer {
-    position: absolute;
-    left: 0;
+    
     bottom: 0;
     height: 200px;
+    left: 0;
+    position: absolute;
     width: 100%;
 }
 
@@ -17,10 +18,13 @@ footer {
 	background-color: #000000;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-	text-align: center;
 	font: normal 18px sans-serif;
-	padding: 45px;
 	margin-top: 80px;
+	padding: 45px;
+	text-align: center;
+	
+	
+	
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -36,17 +40,19 @@ footer {
 }
 
 .footer-basic-centered .footer-links{
-	list-style: none;
-	font-weight: bold;
 	color:  #ffffff;
-	padding: 35px 0 23px;
+	font-weight: bold;
+	list-style: none;
 	margin: 0;
+	padding: 35px 0 23px;
+	
 }
 
 .footer-basic-centered .footer-links a{
+	color: inherit;
 	display:inline-block;
 	text-decoration: none;
-	color: inherit;
+	
 }
 .footer-links a:hover{
 	color:gray;
@@ -56,10 +62,10 @@ footer {
     	margin: 0 0 300px; /* bottom = footer height */
 	}
 	footer {
-    	position: absolute;
-    	left: 0;
-    	bottom: 0;
-    	height: 300px;
+		bottom: 0;
+		height: 300px;
+		left: 0;
+    	position: absolute;  	
     	width: 100%;
 	}	
 }

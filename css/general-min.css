@@ -1,0 +1,30 @@
+nav,.w3-modal h2,#popup h1,#popup h4,#banner h1,#banner h2,footer a,{font-family:'Oswald',sans-serif}
+h1,h2,h3,h4,h5,p,tr,th{font-family:'Merriweather',serif;padding-left:2%;padding-right:2%}
+#text-change{font-family:'Oswald',sans-serif}
+p{font-size:19px;padding-left:2%;padding-right:2%}
+#banner{background-color:#fff4d3;position:relative;top:-15px;width:100%}
+#banner > .centering,#banner > .centering-text{margin-top:15px;padding:2% 1%}
+#home-banner{max-height:325px;width:100%}
+.centering{display:block;margin:0 auto;max-width:1248px}
+.centering-text{display:block;margin:0 auto;max-width:1248px;text-align:center}
+.modal-header{text-align:center}
+#modal-button{float:right;margin-bottom:2%}
+.book-img{text-align:center}
+.book-img img{margin-top:15%;max-width:200px;width:100%}
+.book-img img:hover{opacity:.7}
+#popup{bottom:0;margin-bottom:0;position:fixed;width:100%;z-index:10}
+#buttons{display:block;font-size:20px;margin:0 auto}
+#buttons .w3-btn{float:none}
+@media only screen and (max-width: 600px) {
+#banner-display{display:none}
+}
+ul.tab{background-color:#f1f1f1;border:1px solid #ccc;list-style-type:none;margin:0;overflow:hidden;padding:0}
+ul.tab li{float:left}
+ul.tab li a{color:#000;display:inline-block;font-family:'Merriweather',serif;padding:14px 16px;text-align:center;text-decoration:none;transition:.3s}
+ul.tab li a:hover{background-color:#ddd}
+ul.tab li a:focus,.active{background-color:#ccc}
+.tabcontent{border:1px solid #ccc;border-top:none;display:none;padding:6px 12px}
+.row-table-link tr td a{display:block;height:100%;width:100%}
+#Codexes{display:block}
+h3 a:hover,h4 a:hover,#game_info a:hover{color:gray}
+th{text-align:left}
