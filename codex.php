@@ -22,7 +22,7 @@
 
 	include('header.php');
 ?> 
-<br/><br/><br/>
+<br/><br/>
 <div class="centering-text">
 	<h1 id="text-change"><?php echo $codex_title; ?></h1>
 	<h3><?php echo "<a href='/library-of-codexes/author=".$author_id."/".$author_temp."'>".$author_name; ?></a></h3> 
@@ -47,17 +47,10 @@
   		?>
 	</div>
 </div>
-
-<br/><br/><br/>
+<br/><br/>
 <div class="centering">
 	<p id="text"><?php echo nl2br($codex_text); ?> </p>
 </div>
 <br/><br/>
-<div id="buttons2" class="w3-btn-group">
- 	<button class="w3-btn w3-white w3-border w3-hover-black"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-  	<button class="w3-btn w3-white w3-border w3-hover-black"><i class="fa fa-plus" aria-hidden="true"></i></button>
-  	<button class="w3-btn w3-white w3-border w3-hover-black"><i class="fa fa-minus" aria-hidden="true"></i></button>
-  	<button class="w3-btn w3-white w3-border w3-hover-black"><i class="fa fa-adjust" aria-hidden="true"></i></button>
-  	<button class="w3-btn w3-white w3-border w3-hover-black"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-</div>
+
 <?php include('footer.html'); ?>

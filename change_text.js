@@ -1,17 +1,14 @@
 //Takes current font-size/reading color scheme of the codex and changes it based on button press
-$( document ).ready(function() { 
+$(document).ready(function() { 
   color_scheme_normal = true; 
   $('#increase_font').click(function(){    
-  		//console.log("Button_Clicked!");
-        curSize= parseInt($('#text').css('font-size')) + 2;
-        console.log("Current size" +curSize);
+      curSize= parseInt($('#text').css('font-size')) + 2;
   		if(curSize<=60)
   		{
   			$('#text').css('font-size', curSize);
   		}	
   });  
-  $('#decrease_font').click(function(){ 
-  		//console.log("DEC_BUTTON_CLICKED!");   
+  $('#decrease_font').click(function(){   
   		curSize= parseInt($('#text').css('font-size')) - 2;
   		if(curSize>=12)
   		{

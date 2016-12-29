@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <!-- Jumbotron Banner -->
-<div id="banner-display" class ="w3-display-container w3-text-white" >
+<div id="banner-display" class ="w3-display-container w3-text-white">
 	<img id="home-banner" src="img/banner.jpg" alt="">
 	<div class ="w3-display-middle w3-container">
 		<h1><b>Find a codex to read.</b></h1>

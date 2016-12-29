@@ -47,7 +47,6 @@ p{
     max-width:1248px;
     text-align: center;
 }
-
 .modal-header{
     text-align:center;
 }
@@ -56,9 +55,6 @@ p{
     float: right;
     margin-bottom: 2%;
 }
-
-
-
 .book-img{
     text-align: center;
 }
@@ -71,72 +67,48 @@ p{
     opacity: .7;
 }
 
-
 #popup{
     bottom: 0;
-    position: fixed;
     margin-bottom: 0;
+    position: fixed;
     width: 100%;
     z-index: 10;
 }
 
 #buttons{
-
     display: block;
-    margin:0px auto 0px auto;
-    /*position: relative;
-    left:40%;*/
     font-size: 20px;
+    margin:0px auto 0px auto;   
 }
 
 #buttons .w3-btn{
     float:none;
 }
 
-#buttons2{
-    display: none;
-    position: fixed;
-    bottom: 0px;
-    margin:0px auto 0px auto;
-    z-index: 5;
-    
-}
 @media only screen and (max-width: 600px){
     #banner-display{
         display: none;
     }
-    #buttons{
-        display:none;
-    }
-    #buttons2{
-        display:block;
-        
-    }
 }
-
-
-ul.tab {
+ul.tab { 
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    padding: 0;
 }
-
 /* Float the list items side by side */
 ul.tab li {float: left;}
-
 /* Style the links inside the list items */
 ul.tab li a {
-    display: inline-block;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 18px;
+    display: inline-block;
     font-family: 'Merriweather', serif;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;  
 }
 
 /* Change background color of links on hover */
@@ -151,18 +123,19 @@ ul.tab li a:focus, .active {
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    display: none;
+    padding: 6px 12px;
 }
-#Codexes{
-    display: block;
-}
+
 .row-table-link tr td a {
     display:block;
     height:100%;
     width:100%;
+}
+#Codexes{
+    display: block;
 }
 
 h3 a:hover, h4 a:hover, #game_info a:hover{

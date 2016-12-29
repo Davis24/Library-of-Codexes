@@ -109,7 +109,7 @@
 				<p><label>Comments</label></p>
 				<p><textarea class="w3-input w3-border" name="comments"></textarea></p>
 		
-				<p><button id="modal-button" class="w3-btn w3-green">Send</button></p>
+				<p><button id="modal-button" class="w3-btn w3-green w3-hover-light-green">Send</button></p>
 			</form>
 		</div>
 	</div>
