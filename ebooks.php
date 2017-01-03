@@ -5,6 +5,9 @@
 	if(!$db)	{
 		echo "error occured, put in an error page";
 	}
+  $_tpl = array();
+  $_tpl['title'] = 'Ebooks | Library of Codexes';
+  $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
 	include('header.php');
 ?>
 
@@ -35,7 +38,7 @@
                 $game_temp = preg_replace("![^a-z0-9]+!i", "-", $row["GAME_TITLE"]);
             		echo "<tr>
               					<td><a href = '/game=" .$row["GAME_ID"]."/".$game_temp."'>".$row["GAME_TITLE"]."</a></td>
-              					<td><a href = '/ebooks/epub/".$game_temp.".epub'>EPUB</a> · <a href = '/ebooks/azw3/".$game_temp.".azw3'>AZW3</a> · <a href = '/ebooks/pdf/".$game_temp.".pdf
+              					<td><a href = '/files/epub/".$game_temp.".epub'>EPUB</a> · <a href = '/files/azw3/".$game_temp.".azw3'>AZW3</a> · <a href = '/library-of-codexes/files/pdf/".$game_temp.".pdf
               					'>PDF</a></td></tr>";
             		}
             	}

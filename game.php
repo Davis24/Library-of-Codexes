@@ -14,6 +14,11 @@
 	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$collections_num = $db->query("SELECT COUNT(COLLECTIONS_ID) as 'count' FROM COLLECTIONS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
  
+  $_tpl = array();
+  $_tpl['title'] = $game_title ." | Library of Codexes";
+  $_tpl['meta_desc'] = $game_title. "'s completed collection of in-game codexes and authors.";
+
+
 	include('header.php'); 
 ?>
 <!--- Banner -->

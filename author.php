@@ -9,6 +9,11 @@
 	$row = $db->query("SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, BIOGRAPHY FROM AUTHORS WHERE AUTHOR_ID = ('".$author_id."')")->fetch_assoc();
 	$author = $row['Name'];
 	$bio = $row['BIOGRAPHY'];
+
+  $_tpl = array();
+  $_tpl['title'] =  $author .' | Library of Codexes';
+  $_tpl['meta_desc'] = 'Biography: '$bio;
+
 	include('header.php'); 
 ?>
 <!--- Banner -->

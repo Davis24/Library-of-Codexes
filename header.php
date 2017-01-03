@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	<title> Library of Codexes </title>
+    <?php 
+    if(!isset($_tpl))
+    {
+        $_tpl = array();
+        $_tpl['title'] = 'Library of Codexes';
+        $_tpl['meta_desc'] = '';
+    }
+    ?>
+    <link rel="icon" href="/library-of-codexes/img/library_of_codexes_icon-3.png" />
+    <meta name = "description" content = "<?php echo $_tpl['meta_desc']?>">
+    <meta name = "keywords" content = "library, codexes, video games, reading, lore, codex, dishonored, mass effect">
+	<title><?php echo $_tpl['title']?></title>
 	<meta name = "viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
 	<link rel="stylesheet" href="/library-of-codexes/css/w3.css">
@@ -41,7 +52,7 @@
 							<input type="text" class="w3-input" name="search" placeholder="Search..">
 						</li>
 					</form>
-					<li class="w3-hide-small w3-hide-medium w3-right"><a href="javascript:void(0);" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
+					<li class="w3-hide-small w3-hide-medium w3-right"><a href="/library-of-codexes/contact">Contact</a></li>
 					<li class="w3-hide-small w3-hide-medium w3-right"><a href="javascript:void(0);" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
 				</div>
 			</ul>
@@ -63,7 +74,7 @@
                   		<a href="/library-of-codexes/game=6/Tomb-Raider">Tomb Raider</a>
 					</div>
     			</li>
-    			<li><a href="#" onclick="document.getElementById('contact_modal').style.display ='block'">Contact</a></li>
+    			<li><a href="/library-of-codexes/contact">Contact</a></li>
     			<li><a href="#" onclick="document.getElementById('support_modal').style.display ='block'">Support</a></li>
     			<form method = "post" action ="search">
     				<li><input type="text" class="w3-input" name="search" placeholder="Search.."></li>
@@ -73,6 +84,16 @@
 		</nav>
 	</header>
 <body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79563886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <!-- Support Modal -->
 <div id="support_modal" class="w3-modal">
 	<div class="w3-modal-content">
@@ -88,29 +109,6 @@
 				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
     			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     		</form>
-		</div>
-	</div>
-</div>
-<!-- Contact Modal -->
-<div id="contact_modal" class="w3-modal">
-	<div class="w3-modal-content">
-		<header class="w3-container w3-book modal-header">
-			<span onclick="document.getElementById('contact_modal').style.display ='none'" class="w3-closebtn">&times;</span>
-			<h2>Contact</h2>
-		</header>
-		<div class ="w3-container">
-			<form class="w3-container">
-				<p><label>Name</label></p>
-				<p><input class="w3-input w3-border" name="name" type="text"></p>
-			
-				<p><label>Email</label></p>
-				<p><input class="w3-input w3-border" name="email" type="text"></p>
-
-				<p><label>Comments</label></p>
-				<p><textarea class="w3-input w3-border" name="comments"></textarea></p>
-		
-				<p><button id="modal-button" class="w3-btn w3-green w3-hover-light-green">Send</button></p>
-			</form>
 		</div>
 	</div>
 </div>

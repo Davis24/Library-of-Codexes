@@ -54,4 +54,4 @@
 	</div>
 </div>
 <script src="/library-of-codexes/scripts/home.js"></script>
-<?php include('footer_min.html'); ?>
+<?php include('footer.html'); ?>

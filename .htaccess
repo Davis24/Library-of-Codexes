@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule ^about$ about.php [L]
+RewriteRule ^contact$ contact.php [L]
 RewriteRule ^$ home.php [L]
 RewriteRule ^home$ home.php [L]
 RewriteRule ^ebooks$ ebooks.php [L]

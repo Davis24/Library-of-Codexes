@@ -6,7 +6,9 @@
 	if(!$db)	{
 		echo "error occured, put in an error page";
 	}  
-
+  $_tpl = array();
+  $_tpl['title'] = $search .' | Library of Codexes Search';
+  $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
 	include('header.php'); 
 ?>
 

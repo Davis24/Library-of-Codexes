@@ -65,13 +65,13 @@ for( $i = $start_ID; $i <= $end_ID; $i++)
 	{	
 		#stripping file information
 		$filename_stripped = $test[0];
-		$filename_stripped =~ s/(:|")//g;
+		$filename_stripped =~ s/(:|"|\?)//g;
 		$filename = $filename_stripped.".html";
 		$var = "<p></p>";
 		$test[3] =~ s/\n/$var/g;
 
 		#opening filing 
-		open(my $fh, '>', $filename) or die "Could not open file";
+		open(my $fh, '>', $filename) or die "Failed on ID $i";
 		print $fh "<html><head><title> $test[0] </title></head><body> \n"; 
 		print $fh "<h2><b> $test[0] </b></h2> \n";
 		print $fh "<h3><b> $test[1] </b></h3> \n";

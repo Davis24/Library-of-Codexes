@@ -20,6 +20,10 @@
 	$codex_temp = preg_replace("![^a-z0-9]+!i", "-", $row["CODEX_TITLE"]);
 	$codex_text = $row["CODEX_TEXT"];
 
+	$_tpl = array();
+    $_tpl['title'] = $codex_title .' | Library of Codexes';
+    $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
+
 	include('header.php');
 ?> 
 <br/><br/>
