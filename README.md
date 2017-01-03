@@ -2,7 +2,7 @@
 
 The purpose of this project is to rewrite the Library of Codexes website (which currently uses bootstrap) using semantic tags and without bootstrap. During the rewrite, numerous pages, including the home page, will be redesigned or removed to eliminate confusion and redundancies.
 
-2017: Now that the site has been fully rewritten most work will focused on expanding Library of Codexes archive list.
+2017: Now that the site has been fully rewritten my work will focused on expanding Library of Codexes archive list.
 
 ## To Do
 
