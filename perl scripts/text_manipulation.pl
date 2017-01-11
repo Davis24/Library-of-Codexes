@@ -5,7 +5,6 @@ use Encode;
 #use strict;
 use warnings;
 
-
 my $filename = 'es_shadowkey.txt';
 my $string;
 my $temp = 0;
@@ -79,9 +78,93 @@ while(my $row = <$fh>){
 	}
 
 }
-for my $item (keys %titlehash) {
-        print "The color of '$item' is $titlehash{$item}\n";
+
+
+######## Check Titles for ASCII ISSUES #########
+print "Start of Title ASCII Replacing \n";
+for my $item (keys %titlehash){
+	my @array = split(//, $titlehash{$item});
+	my $replaceString;
+	foreach my $r (@array){
+		if(ord($r) > 128)
+		{
+			print "$r is higher than 128 - ".ord($r)."\n";
+		}
+		if(ord($r) == 8221)
+		{
+			$replaceString .= "\"";
+		}
+		elsif(ord($r) == 65279)
+		{
+			$replaceString .= "";
+		}
+		else
+		{
+			$replaceString .= $r;
+		}
+	}
+
+	$titlehash{$item} = $replaceString;
+	$replaceString = "";
 }
+
+###### CHECK AUTHORS FOR ASCII ISSUES ################
+print "Start of Author ASCII Replacing \n";
+for my $item (keys %authorhash){
+	my @array = split(//, $authorhash{$item});
+	my $replaceString;
+	foreach my $r (@array){
+		if(ord($r) > 128)
+		{
+			print "$r is higher than 128 - ".ord($r)."\n";
+		}
+		if(ord($r) == 8221)
+		{
+			$replaceString .= "\"";
+		}
+		elsif(ord($r) == 65279)
+		{
+			$replaceString .= "";
+		}
+		else
+		{
+			$replaceString .= $r;
+		}
+	}
+
+	$authorhash{$item} = $replaceString;
+	$replaceString = "";
+}
+
+
+###### CHECK TEXT FOR ASCII ISSUES ################
+print "Start of Text ASCII Replacing \n";
+for my $item (keys %texthash){
+	my @array = split(//, $texthash{$item});
+	my $replaceString;
+	foreach my $r (@array){
+		if(ord($r) > 128)
+		{
+			print "$r is higher than 128 - ".ord($r)."\n";
+		}
+		if(ord($r) == 8221)
+		{
+			$replaceString .= "\"";
+		}
+		elsif(ord($r) == 65279)
+		{
+			$replaceString .= "";
+		}
+		else
+		{
+			$replaceString .= $r;
+		}
+	}
+
+	$texthash{$item} = $replaceString;
+	$replaceString = "";
+}
+print "########################################\n";
 
 print Dumper \%titlehash;
 print "########################################\n";
