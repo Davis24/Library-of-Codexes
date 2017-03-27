@@ -22,3 +22,6 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 
 ## Acknowledgements
 
+* **Gerrit Bond** - Fellow programmer/Rubber Ducky - [gerritbond] (https://github.com/gerritbond)
+* **Connor Waters** - Fellow programmer/Rubber Ducky - [connorwaters] (https://github.com/connorwaters)
+* **Grev** - Quality Assurance/Design Tester 
