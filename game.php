@@ -8,7 +8,7 @@
 	//Variables and Queries 
 	$game_num = (int)$_GET["g"];
 	$game_title = $db->query("SELECT GAME_TITLE FROM GAMES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
-  $game_temp = preg_replace("![^a-z0-9]+!i", "-", $game_title);
+  
 	//Codex Count Query
 	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM CODEXES WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
 	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
@@ -16,7 +16,7 @@
   $_tpl = array();
   $_tpl['title'] = $game_title ." | Library of Codexes";
   $_tpl['meta_desc'] = $game_title. "'s completed collection of in-game codexes and authors.";
-
+  $game_file = str_replace(" ", "%20", preg_replace("![^a-z0-9\s]+!i", "", $game_title));
 
 	include('header.php'); 
 ?>
@@ -24,7 +24,7 @@
 <div id="banner">
   <div class="centering-text">
     <h1 id="text-change"><?php echo $game_title ?></h1>
-    <h3 id="text-change"><?php echo '<a href="/files/azw3/'.$game_temp.'.azw3">AZW3</a> · <a href="/files/epub/'.$game_temp.'.epub">EPUB</a> · <a href="/files/pdf/'.$game_temp.'.pdf">PDF</a>'; ?></h3>
+    <h3 id="text-change"><?php echo '<a href="/files/'.$game_file.'/'.$game_file.'.azw3">AZW3</a> · <a href="/files/'.$game_file.'/'.$game_file.'.epub">EPUB</a> · <a href="/files/'.$game_file.'/'.$game_file.'.pdf">PDF</a>'; ?></h3>
   </div>
 </div>
 
