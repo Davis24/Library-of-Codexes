@@ -1,0 +1,18 @@
+Mercury 
+Ghost Fragment: Mercury 
+########################################
+$VAR1 = {
+          '0' => {
+                   'Text' => 'Legends say that Mercury was once a garden world. Now its surface, baked in the Sun\'s glare, is honeycombed with forgotten Vex structures. No life stirs here. Not anymore.
+',
+                   'Title' => 'Mercury'
+                 },
+          '1' => {
+                   'Text' => 'Dreams of Alpha Lupi\\n\\nOne face is blistered, the other plunged into a brutal chill. Is this how it\'s always been?\\n\\nYou remember hot oceans, nourishing atmosphere. But something transpired, kicked what was wet and fertile into space, stealing away everything of value. Or perhaps what thrived here for a day or for ten million years decided to leave, peeling its wet organics off the bones.
+',
+                   'Title' => 'Ghost Fragment: Mercury'
+                 }
+        };
+########################################
+Ghost Fragment: Mercury '','' Dreams of Alpha Lupi\n\nOne face is blistered, the other plunged into a brutal chill. Is this how it's always been?\n\nYou remember hot oceans, nourishing atmosphere. But something transpired, kicked what was wet and fertile into space, stealing away everything of value. Or perhaps what thrived here for a day or for ten million years decided to leave, peeling its wet organics off the bones.
+Mercury '','' Legends say that Mercury was once a garden world. Now its surface, baked in the Sun's glare, is honeycombed with forgotten Vex structures. No life stirs here. Not anymore.

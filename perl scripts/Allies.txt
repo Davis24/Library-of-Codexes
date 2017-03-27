@@ -1,0 +1,606 @@
+Theme: Allies
+Theme: Allies
+Collections:
+The Traveler
+Tower Allies
+City Factions
+The Exo Stranger
+The Queen
+Legends & Mysteries
+Collection: The Traveler
+Cards:
+The Traveler
+Ghost Fragment: The Traveler
+Ghost Fragment: The Traveler 2
+Ghost Fragment: The Traveler 3
+Card: The Traveler , Points: 0
+Everything changed with the coming of the Traveler.
+It gave us gifts that transformed the solar system and the nature of human life. It ushered in the
+Golden Age, a time of miracles. But it never shared its deepest secrets.
+Where did the Traveler come from? Why did it offer us so much? Did it know it was being hunted
+across the stars? And why, when the Darkness came, did it choose to stay and fight for us?
+Now the Traveler hangs, silent, above humanity's final sanctuary. It may be healing. It may be dying.
+It gave everything it had to save us. And now its power lies with us, its Guardians.
+Card: Ghost Fragment: The Traveler , Points: 5
+Dreams of Alpha Lupi
+You have lived as invisibly as possible, flicking from solar system to solar system, making grand
+plans, overseeing the culturing of civilizations, before leaving in a blink. But you have no recollection
+of ever wanting worship or even thanks from those blessed by you.
+But memory is heavy now.
+It feels like lead and neutronium and electroweak matter fashioned into a moonsized
+ball that you
+must carry as you move.
+Now, your flight is rapid, your vast mind infected with such dread and toxic doubt that you find
+yourself afraid of the simple act of thought.
+And it is your children you must turn to now, in time of need.
+Card: Ghost Fragment: The Traveler 2 , Points: 5
+Dreams of Alpha Lupi
+This has been such a long chase. This will be the place you will fight. Fight and win.
+But do you really know why you go where you go, and where this journey is taking you?
+The chase leads you where you need to be, you believe.
+Unless...you are being pushed.
+Card: Ghost Fragment: The Traveler 3 , Points: 10
+Dreams of Alpha Lupi
+The knife had a million blades.
+And you were giant, powerful and swift. But the knife pinned you. Cut your godly flesh away.
+Very little was left, you are sure, because you feel insignificant now. The hard slick heart of your soul:
+That is what remains. A body small as a river stone, and just as simple. You picture yourself as a
+piece of indigestible grit, a nameless nothing hiding among other nameless stones. Perhaps you
+glitter like a gem, yes. Pride makes you hope so. If only you could see yourself. But you have no
+eyes. Not the dimmest sense survives. What lives is memory, and what slim portion of these thoughts
+can you trust?
+The knife stole much more than your body.
+Collection: Tower Allies
+Cards:
+The Speaker
+Titan Vanguard
+Hunter Vanguard
+Warlock Vanguard
+Crucible Handler
+Future War Cult Faction Rep
+Dead Orbit Faction Rep
+New Monarchy Faction Rep
+Postmaster
+Cryptarch
+Special Orders
+Guardian Outfitter
+Shipwright
+Gunsmith
+Agent of the Nine
+Iron Banner Rep
+Queen's Emissary
+Frames
+Vanguard Quartermaster
+Crucible Quartermaster
+Bounty Tracker
+Card: The Speaker , Points: 15
+There has always been a Speaker, an anonymous high priest with a mysterious and powerful
+connection to the Traveler and its Ghosts. In all the centuries of the City's history, the Speaker's great
+work has never changed to
+guide new Guardians, heal the Traveler, and raise our crippled protector
+from its slumber.
+Card: Titan Vanguard , Points: 0
+Commander Zavala
+"Bash≈ç knew. We struggle after." undated
+battle notes
+Zavala has never shied from hard decisions. His life bends under the double weight of honor and
+duty, each act of service more exhausting, each victory more costly. Zavala continues anyway. He
+has never had time for anything softer than iron.
+Card: Hunter Vanguard , Points: 0
+Cayde6
+Cayde6
+was a daring Hunter with a fast ship, a quick gun hand, and an eye on the legendary Vault of
+Glass. Of course he couldn't say no to a challenge not
+even the notorious Vanguard Dare.
+He lost the bet, to his immense regret. Now, following in the footsteps of his fallen friend Andal Brask,
+it is Cayde's turn to oversee his farflung
+brethren as the Hunter Vanguard in the Tower. He works
+dutifully, but longs for a chance to get back into the fight.
+Card: Warlock Vanguard , Points: 0
+Ikora Rey
+Ikora Rey's second life has been long and colorful. As an iconoclastic new Guardian, she made a
+reputation in the Crucible and in the halls of Warlock scholarship as an outspoken, unrelenting
+opponent with no patience for dogma or etiquette.
+That reputation became a burden, and Ikora chose to travel alone, flying reconnaissance across the
+worlds of the inner solar system. Shot down again and again, she and her Ghost survived against all
+odds, apparently preferring the wilderness to the company of her fellow Guardians.
+When Ikora finally returned to the City to rest, her hardwon
+knowledge and seasoned temperament
+commanded the respect of her fellow Warlocks. She now serves in the Vanguard as a mentor and
+leader, carrying the memory of her wandering days as a link to rising Guardians.
+Card: Crucible Handler , Points: 0
+Lord Shaxx
+Lord Shaxx is one of the heroes of the Battle of the Twilight Gap, having led the counterattack that
+pushed the Fallen from the City walls. Fearing that another fullscale
+assault would be more than the
+City could repel, Shaxx chose to stay in the City to mentor Guardians in the Crucible.
+One day Shaxx vows to return to the war beyond the City, but only after he is confident the fires of the
+Crucible have forged a new generation of warriors.
+Card: Future War Cult Faction Rep , Points: 0
+Lakshmi2
+There is nothing Lakshmi2
+likes more than secrets. Her origins are unknownÕæ her appearance in the
+City was abrupt. She courts select Guardians for initiation into the higher mysteries of the Future War
+Cult, espousing a brutal philosophy of endless struggle.
+Those who can tolerate Lakshmi's mocking hints and bloodyminded
+philosophy find her surprisingly
+good company. She seems to take genuine joy in her work, as if the secrets she guards have taught
+her to treasure every moment.
+Card: Dead Orbit Faction Rep , Points: 0
+Arach Jalaal
+Jalaal is a man driven by the ghost of a dead future. Critics accuse Dead Orbit of nihilistic fatalism and
+Jalaal would be the first to agree that Earth is lost, the City a fatal trap.
+The Arachs have no time for sentiment. Only an alien miracle prevented human extinction during the
+Collapse. Jalaal dreams of a diaspora to come humanity
+ascendant, scattered across the stars, too
+farflung
+for any single threat to reach.
+Jalaal's utilitarian practicality drives him to bend laws and break rules in the name of Dead Orbit's
+great project. When the ultimate goal is human survival, any sacrifice can be justified.
+Card: New Monarchy Faction Rep , Points: 0
+Executor Hideo
+An upstanding citizen, Hideo was once known for his lavish gifts to children and the elderly. Since he
+moved from plasteel manufacturing to the New Monarchy, he has been less forthcoming about his
+business and less free with his funds. But as one of the public faces of the Monarchy, he speaks with
+genuine passion and conviction about the possibilities of a united future.
+Card: Postmaster , Points: 0
+Kadi 5530
+Stationed in the Tower Plaza, Kadi 5530
+welcomes Guardians home from the frontier, delivers urgent
+messages, and tracks lost items.
+Kadi has adopted a colloquial repartee with the Guardians who frequent the Tower. Whether this is
+the function of intricate subprogramming
+or a learned behavior is unknown.
+Card: Cryptarch , Points: 0
+Master Rahool
+Master Rahool's insatiable curiosity drove him to the Tower, where, as resident cryptoarchaeologist,
+he can work directly with Guardians returning from the frontier. He decrypts matter engrams as a free
+service, and when he builds trust with a particular Guardian, he is happy to offer rare engrams for
+sale although
+the scarcity of these artifacts forces him to ask for Glimmer in compensation.
+Rahool's true love is history. He treats each new find as a chance to understand the glory of the
+Golden Age or the terrible truth of the Collapse. Listen carefully to his murmurings: he may be the first
+to understand.
+Card: Special Orders , Points: 0
+Tess Everis
+Tess earned her place in the Tower working as a troubleshooter a
+fixer with a solution to any kind of
+problem. Her connections go everywhere. It is difficult to make her speak about her monographs in
+abstract algebra, or the string of peculiar jobs she's worked, but a word in her ear can open doors in
+surprising places.
+Card: Guardian Outfitter , Points: 0
+Eva Levante
+Eva Levante provided services to the Tower long before she actually took a place in it. Guardians
+would call for her work again and again, looking for marks of distinction, both new and old, and she
+began to craft emblems and shaders for the bold and discerning. These days she has set up shop in
+the Tower, taking quiet pride in the Guardians who train, fight, and fall under her signs.
+Card: Shipwright , Points: 0
+Amanda Holliday
+Born on the road, daughter of pilgrims, Holliday grew up fixing and scavenging maintaining
+the
+vehicles that saved her family from the wilderness. Her talent for engineering and her familiarity with
+Golden Age relics made her a leader among the Tower's Shipwrights.
+The terrors of Holliday's childhood galvanized her. She knows and respects the dangers that press
+against the City's walls, and her drive to rebuild the City's aerospace capabilities is driven as much by
+pragmatism as by her love of flight.
+Card: Gunsmith , Points: 0
+Banshee44
+Few merchants of the Tower serve as vital a function as Banshee44.
+His knowledge of weapons is
+encyclopedic but
+don't ask him where it comes from. Banshee's mind and body have absorbed
+incredible punishment over the ages. He grapples with fragments of memory, the shrapnel of ancient
+ordeals that return to haunt him.
+Card: Agent of the Nine , Points: 0
+X˚r
+X˚r sells objects of legendary power. He accepts his own currency, in service of his own enigmatic
+goals or
+those of equally cryptic masters. Mysterious, too, is the nature of his presence in the Tower.
+Does he have some arrangement with the Vanguard or the Speaker? Are there those among the
+Guardian elite who understand X˚r's nature and ultimate purpose? Or have all efforts to control his
+comings and goings simply failed?
+Card: Iron Banner Rep , Points: 5
+Lord Saladin
+A hero to the City and a legend in his own right, Saladin Forge led the City's defense during the Battle
+for the Twilight Gap. His protÈgÈs, Commander Zavala and Lord Shaxx, now lead the Tower's
+Vanguard and the Crucible, respectively. Saladin remains close to Zavala, though his relationship
+with Shaxx has been strained since the Twilight Gap.
+The Iron Banner seeks great champions to lead the fight against the Darkness. It was born to honor
+the Iron Lords and their efforts in the earliest days of the City.
+Card: Queen's Emissary , Points: 5
+Petra Venj
+Petra is an operative of the Queen of the Reef. Though she has long made the Tower her home, it is
+no secret where her allegiance lies.
+Card: Frames , Points: 5
+Frames are simple automata built in the City. Although not equipped with true general sentience, they
+are nevertheless useful for cleaning, maintenance, and service tasks. Frames do have the ability to
+learn, and many develop quirks of personality and behavior over long lifespans.
+Card: Vanguard Quartermaster , Points: 0
+Roni 5530
+As trustworthy as frames come, Roni 5530
+was designed to smooth troubled waters. Cayde has
+spent long hours trying to evoke any hint of frustration in his distant machine cousin, but Roni remains
+exquisitely composed.
+Card: Crucible Quartermaster , Points: 0
+Arcite 9940
+"No discounts, big shot."
+Arcite 9940
+is the last of Lord Shaxx's personal combat frames. When he chose to remain in the City
+to oversee the Crucible, Shaxx had Arcite's combat systems deactivated and rebooted with the
+Tower's more civil vendor protocols.
+Arcite's memory banks still remember the battles he has seen. This knowledge makes Arcite uniquely
+qualified to equip Guardians for combat. His outward disdain for untested Guardians is a combination
+of learned behavior a
+byproduct of years in service to Lord Shaxx and
+personal experience. His
+systems may have been reprogrammed, but the love for combat still pulses within his circuitry.
+Card: Bounty Tracker , Points: 0
+Xander 9940
+There are many threats beyond the City's walls. To help track and eliminate these dangers, the
+Vanguard has initiated a bounty system to reward Guardians who take the fight to the City's enemies.
+Lord Shaxx, not to be outdone, lays out his own bounties for performance in the Crucible.
+Xander 9940,
+a recent product of the City's foundries, tracks every Guardian's progress and
+dispenses rewards.
+Collection: City Factions
+Cards:
+Factions
+Future War Cult
+Ghost Fragment: Future War Cult
+Dead Orbit
+Ghost Fragment: Dead Orbit
+New Monarchy
+Ghost Fragment: New Monarchy
+Card: Factions , Points: 5
+"They've done more good than harm. By most calculations."
+In the City's earliest days, various factions vied for the hearts and minds of the refugee masses.
+Power struggles threatened to shatter an already tenuous existence.
+The following conflicts, known as the Faction Wars, brought the City to its knees. When the chaos
+grew intolerable, a gathering of Guardians fought to end the conflict. The new peace brought a new
+order: the City Consensus and the Speaker ruled together, and the surviving great factions worked
+through civil channels to pursue their agendas.
+That order still holds, but as the City reaches out into the frontier, the factions see new opportunities
+everywhere and
+a chance to win over Guardians to their cause.
+Card: Future War Cult , Points: 5
+"There is no future but now. No truth but war."
+While the origins of the Future War Cult are greatly debated, their mark has been found on ancient
+chambers and encampments throughout the system, dating them back to the late Golden Age.
+Though their secrets are vast, they have proven indispensable in our struggle against the Darkness,
+earning them power and respect in the City Consensus and among Guardians.
+Card: Ghost Fragment: Future War Cult , Points: 10
+RECORD 343CHASM7887
+Subject twentytwo.
+Admitted to the Inner Circle at 24:00. A promising postulant I
+regret to say he
+performed poorly. He was administered the standard medication but refused to enter the Device.
+Aren't people unpredictable? I suppose there'd be no point if they weren't, would there?
+He knows to keep silent.
+END RECORD
+RECORD 343CHASM7888
+Subject twentythree
+entered the Device at 11:00. A clever girl from the Core DistrictÕæ an artist, before
+she joined the War Cult.
+At 11:03 she reported a sensation of floating. At 11:06, a sensation of lights within the darkness of the
+Device. Between 11:06 and 11:32 she reported these lights variously as white, golden, and bloodred.
+At 11:32 she reported a sensation of someone taking her handÕæ a stranger, but also herself. Twelve
+subjects have reported similar experiences. At 11:33 she reported the sensation we have called "The
+Opening Of The Veil." The Device recorded temporal displacement of her consciousness to the order
+of six degrees. At seven she began screaming. Brainscans neardeath.
+Removed from the Device at
+11:34.
+She believes without question that the Device granted her a vision of the future, and that it was one of
+utter Darkness. She thanked me for this enlightenment. She says it will make her stronger.
+Little Ghost, there in the corner of the Sanctum I
+see you blinking. Are you listening? Are y END
+RECORD
+RECORD 343CHASM7889
+the Device at 12:22 and immediately the Device reported displacement of his consciousness. Visions
+of war and the City in flames. Subject twentynine
+worked the supply channels on the Slip before he
+joined the War Cult. By 12:27 he was babbling and by
+END RECORD
+RECORD 343CHASM7890
+We have applied certain refinements to the Device. Novarro found records of a prototype of the
+Device at a Golden Age laboratory in Tibet, and Hari's team retrieved what was left of it. We are the
+first to see it operational in who knows how long.
+Too many subjects come back damaged. Mad. We are grasping at straws.
+What do you think, little Ghost?
+END RECORD
+RECORD 343CHASM7891
+Fortyseven
+human subjectsÕæ eleven report timelines in which the Darkness has already prevailed,
+thirteen report timelines in which the City has fallen. Twentythree
+babbled madness. Hopeless.
+Trapped.
+No wonder the Device was abandoned. The human mind is too weak for it. Too weak to look into the
+Future, or to understand what it sees.
+What the situation calls for, little Ghost, is a better sort of witness.
+We found you in pieces in Siberia, and repaired you as well as we could.
+What do you say? Are you well enough to travel?
+END RECORD
+Card: Dead Orbit , Points: 5
+"The Traveler is not our only salvation. Another future lies out among the light of other stars."
+Dead Orbit's theology has developed from mere fatalism into an obsession with worlds beyond Earth.
+Now their focus is on the building of a starfaring fleet, cobbled together from the ashes of our past
+and the spoils of war.
+Card: Ghost Fragment: Dead Orbit , Points: 10
+RECORD 978ECLIPSE4165
+lo? Hello? Are you...oh, please, let it be alive. Wake up little Ghost, wake up. Just please give me
+some sign that you're listening.
+All right. I don't need...I know you're listening. Why would you be out here if you weren't here to...It's a
+miracle I found you out here. On this thing.
+I didn't know the Traveler sent its Ghosts out this far from home.
+Poor little lost thing. Please wake up.
+I am an Arach of Dead Orbit. I am the last of the crew of the Sophia. And this place is...it doesn't have
+a name. We called it A113.
+How long have you been here, little Ghost? Why did you come?
+Listen. We came here on behalf of the Fleet. We were scavengers. Sixtyone
+days ago a Dead Orbit
+scout detected an unknown presence in stationary orbit about Ceres. 133 west. Looked Golden Age,
+by the signatures. Human. A small station. No prior records. We I
+suppose we should have disclosed it to the Tower, but we didn't. I didn't. That was my call. We
+wanted it for ourselves, whatever it was. For the Fleet. If we'd told the Tower, maybe they might have
+sent a Guardian not of our making instead...Doesn't matter now, does it, little one?
+If I ramble it's because I haven't slept in seven days.
+Seven point five days agoÕæ that was when the Sophia dropped into the Belt. They saw us at once. We
+dropped and the alarms went off and that was the end, that was the end right then, but they let us go
+on for another sevenpointfive
+days, didn't they? The alarms. Hostile scan detected. An Awoken ship
+had us in its sights, just a couple hundred kilometers away. Like it had been waiting for us. It could
+have wiped us out of space right then but instead it crippled our engines and our comms and then for
+days it played with us, like a cat, we limped halfway
+round the Belt and it was always there...
+We abandoned the Sophia onepointfive
+days ago. We jumped ship for A113.
+I don't know what else to call it. I don't know what it was built for. There are these things, like
+keyholes. The rangefinders say they go on for thousands of kilometers. The others went inside and
+found well,
+some of them are still screaming about the eye. All the other voices that come back are
+more terrible.
+There's salvage here but it'll never come home, none of it. None of it except maybe you, little Ghost.
+Wake up.
+Wake up. Go home. Tell them to strike A113
+from the records. Tell them to forget the Sophia, and
+the mission, and her crew.
+END RECORD
+Card: New Monarchy , Points: 5
+"Hope will be born from the collective triumphs of the king in us all."
+The New Monarchy rose from the ashes of the Faction Wars with a simple, inclusive guiding tenet:
+"Together we will rise."
+Leery of the fragile state of the City's politics, the New Monarchy maintains a watchful eye on the
+Speaker, the Consensus, and the Vanguard, seeking the leadership that will properly reign over the
+City and return our civilization to its Golden Age splendor. If that leadership cannot be found, then it
+must be created.
+Card: Ghost Fragment: New Monarchy , Points: 10
+The Seven Tenets of the New Monarchy
+1. To secure our walls against the enemy without.
+2. To secure the rights and liberties of every upstanding citizen.
+3. To sponsor the sciences of the City, and to salvage the ruins beyond, so that our Golden Age might
+be reborn.
+4. To support the Guardian Orders by leading the City in technological innovation.
+5. To support the natural harmony of the City, and to actively dissuade any group or individual that
+might disrupt that harmony.
+6. To hold all individuals, compacts, and alliances to the highest standards of productivity and right
+behavior.
+7. To, by vote of the Consensus, abolish the Consensus, and transfer ultimate power, in order that the
+rights and liberties of all citizens be secured, to a single sovereign of unimpeachable character.
+Collection: The Exo Stranger
+Cards:
+The Exo Stranger
+Ghost Fragment: The Exo Stranger
+Card: The Exo Stranger , Points: 15
+Stories of an Exo who walks in the Darkness without a Ghost have long haunted the Tower. Legends
+say this anomaly dissolves in and out of the world, intangible and elusive, as if she is a visitor from
+somewhere beyond.
+Some believe she's the last of an ancient Exo squadron, fighting a longforgotten
+war. Others dismiss
+her as a hallucination caused by exposure to Vex technology. But there are those who maintain that
+her intervention saved their lives or
+averted unspeakable catastrophes.
+Card: Ghost Fragment: The Exo Stranger , Points: 5
+Card: Ghost Fragment: The Exo Stranger , Points: 5
+I stand here now and now and now many times, this view, this ground...
+This is where I always choose to stand. I put my feet where I put my feet before and where I will again
+and I look at the sky.
+Great things moving, rendered small with distance, lesser things not moving, watching me.
+I always stand here, resolute. Then fall back to that point, there, where everything shatters...
+(The sky isn't special here, certainly no better than any other sky, but it's the view I know best.)
+The silent avalanche begins. Rock and dust. Falling chaos. Machines, as a rule, hate chaos.
+Our enemies outflank us from below, above, left, right, before, beyond. The Traveler shattering.
+There are always the dead. Their names shift.
+Sometimes I think I see myself among the dead.
+But I am resolute.
+Collection: The Queen
+Cards:
+The Queen
+Ghost Fragment: The Queen
+The Queen's Brother
+Ghost Fragment: Queen's Brother
+Card: The Queen , Points: 15
+"I am noble too, oh Lord of Wolves. Starlight was my motherÕæ and my father was the dark."
+The Queen of the Awoken is as much an enigma as the Reef she rules. It is said that she won her
+crown through ruthlessness, and that she stands as master of the Fallen House of Wolves in place of
+their defeated Kell.
+The City's rise spells an end to the Reef's age of isolation. The Queen will surely look to this new era
+as an opportunity. And the City, in turn, must look to her. The Reefborn Awoken have spent long ages
+out on the edge of everything, and they may know secrets of terrible weight the
+Queen most of all.
+Card: Ghost Fragment: The Queen , Points: 10
+For a while the only lights were the eyes of the Witches tending to the cell. The drone of the soul
+machines echoed through the prison. Gas billowed and ebbed into the shadows.
+She entered. They scurried to their points around her, the method of their arrangement precise. "The
+Archon Priest has been retired, my Queen," said the Witch to her right.
+Far from throne and audience she moved without theater. "Any word of Kaliks Prime?"
+"We still sense something among the Anankes." This voice came from behind her. She did not turn to
+acknowledge it.
+For the span of a brief silence she moved between the sealed cells of the Wolf nobility with her
+Witches in constellation around her.
+"More of your brother's Crows have entered the Cauldrons of Rhea." The Witch directly before her
+spoke with a dry buzz. "The Nine do not approve."
+She stopped a moment to study the sealed face of a cell. The cloud of her breath mingled with the
+slow exhalation of cryonics. "Send them one of our prizes. Something to commemorate our mutual
+victory."
+"And which of your prisoners would you gift?"
+If she paused to think it was only for an instant. "Send them Skolas."
+"A lovely gesture."
+"Mm." She cocked her head as if listening for a frozen heartbeat. "And remind them this: the Crows
+are mine."
+Card: The Queen's Brother , Points: 15
+"I will not sacrifice my birthright for the promise of security."
+As the Queen's confidant, spymaster, and deadliest enforcer, her brother wields enormous power,
+particularly for a male born in the Reef's matriarchal society. Recent reports suggest he may differ
+from the Queen on key matters of strategy but
+it remains to be seen whether this gap is a source of
+conflict, or part of the reason the Queen values him so highly.
+Card: Ghost Fragment: Queen's Brother , Points: 10
+The machine had wings and feathers, sleek and black as its body. But the feathers were eyes, too,
+sharp and delicate, and ears that pricked at every sound. The young prince considered the machine,
+considered its purpose, and his own. And then he called to it.
+"I have a task for you."
+Obedience was woven into its workings, and so it stopped. "Master of Crows?"
+"Mind the Black Garden's gate. Follow anyone who passes through."
+"In the name of your sister," the machine vowed. And it went to find its warp capsule, just as another
+came in. But this one flew skittishly, as if to evade its master.
+The prince caught it from the air. "You avoid me?"
+"I am tasked by the Queen."
+"But you serve me." He let it tremble in displeasure for a moment. "Tell me your news."
+The machine flicked its wings. The prince stroked them flat with slow assured motions. "Tell me your
+news," he said again. "What's the harm?"
+"The Heart is growing stronger," the crow said. "The Vex transformation has begun, and the Progeny
+are stirring."
+The prince considered this in silence for a moment and then he wrapped the crow up in his fist and
+folded its wings around it so that it could not move or fly. He did all this swiftly, and with purpose.
+Carrying the machine, he went to see his sister.
+She was alone with her Fallen guards, sitting before a window into infinity. Her eyes did not leave the
+universeÕæ but sensing her brother she said "Yes. What is it?"
+"There's news to share," he said, and offered the crow in his fist. "And I think I have earned the right
+to share it."
+Collection: Legends & Mysteries
+Cards:
+Legend: The Black Garden
+Ghost Fragment: Legends
+Ghost Fragment: Legends 2
+Ghost Fragment: Legends 3
+Ghost Fragment: Mysteries
+Ghost Fragment: Mysteries 2
+Card: Legend: The Black Garden , Points: 5
+I am Pujari. These are the visions I have had of the Black Garden.
+The Traveler moved across the face of the iron world. It opened the earth and stitched shut the sky. It
+made life possible. In these things there is always symmetry. Do you understand? This is not the
+beginning but it is the reason.
+The Garden grows in both directions. It grows into tomorrow and yesterday. The red flowers bloom
+forever.
+There are gardeners now. They came into the garden in vessels of bronze and they move through the
+groves in rivers of thought.
+This is the vision I had when I leapt from the Shores of Time and let myself sink:
+I walked beneath the blossoms. The light came from ahead and the shadows of the flowers were
+words. They said things but I will not write them here.
+At the end of the path grew a flower in the shape of a Ghost. I reached out to pluck it and it cut me
+with a thorn. I bled and the blood was Light.
+The Ghost said to me: You are a dead thing made by a dead power in the shape of the dead. All you
+will ever do is kill. You do not belong here. This is a place of life.
+The Traveler is life, I said. You are a creature of Darkness. You seek to deceive me.
+But I looked behind me, down the long slope where the blossoms tumbled in the warm wind and the
+great trees wept sap like blood or wine, and I felt doubt.
+When my Ghost raised me from the sea there was a thorncut
+in my left hand and it has not healed
+since.
+Card: Ghost Fragment: Legends , Points: 15
+Deep Stone Crypt
+This is the tower where we were born. Not the Tower. Just a tower in a dream.
+The tower stands on a black plain. Behind the tower is a notch in the mountains where the sun sets.
+The teeth of the mountain cut the sun into fractal shapes and the light that comes down at evening
+paints synapse shapes on the ground. Usually it's evening when we come.
+The ground is fertile. This is good land. We go to the tower in dreams but that doesn't mean it's not
+real.
+Some of us go to the tower in peace. They walk through a field of golden millet and a low warm wind
+blows in from their back. I don't know why this is, because:
+The rest of us meet an army.
+You can ask others about Deep Stone and they'll tell you about the army. They might confess one
+truth, which is this: we have to kill the army to get to the tower. Usually this starts barehanded,
+and
+somewhere along the way you take a weapon.
+Ask again and if they're buzzed they might also admit that most of us don't make it to the Tower,
+except once or twice.
+None of them will tell you that the army is made of everyone we meet. The people we work with and
+the people we see in the street and the people we tell about our dreams. We kill them all. I think
+because we were made to kill and this is the part of us that thinks about nothing else.
+Often I kill people I don't know, but like most of us I think I knew them once, in the time before one
+reset or another, when my mind was younger and less terribly scarred.
+So that is how we go back to the Deep Stone Crypt, where we were born.
+Card: Ghost Fragment: Legends 2 , Points: 5
+NINE
+The Nine are survivors of the cisJovian
+colonies who made a compact with an alien force to ensure
+their own survival.
+The Nine are deeporbit
+warminds who weathered the Collapse in hardened stealth platforms.
+The Nine are ancient leviathan intelligences from the seas of Europa or the hydrocarbon pits of Titan.
+The Nine arrived in a mysterious transmission from the direction of the CoronaBorealis
+supercluster.
+The Nine are the firstborn Awoken and their minds now race down the field lines of the JupiterIo
+flux
+tube.
+The Nine are Ghosts who pierced the Deep Black without a ship and meditated on the hissing silence
+of the heliopause.
+The Nine are the aspects of the Darkness, broken by the Traveler's rebuke, working to destroy us
+from within.
+The Nine is a viral language of pure meaning.
+The Nine are the shadows left by the annihilation of a transcendent shape, burned into the weft of
+what is.
+Card: Ghost Fragment: Legends 3 , Points: 15
+The Great Ahamkara Hunt
+After great deliberation it was determined that the Ahamkara be made extinct.
+It was not an easy decision. Power had been obtained from the bargains, and the City needed power.
+Knowledge had been gleaned, and the Ahamkara knew answers to questions no one had known to
+ask.
+But the price was too high. And no edict or forbearance seemed to stop Guardians from seeking them
+out, driven by hope, or vengeance, or despair.
+The call had to be silenced. So the Great Hunt did its work.
+And thus the Ahamkara were made extinct, their call silenced, their solipsistic flatteries erased, their
+great design if
+it ever existed broken.
+Of this you can be assured, oh reader mine.
+Card: Ghost Fragment: Mysteries , Points: 10
+...from a red space before victory
+I bear an old name. It cannot be killed. They were my brothers and sisters and their names were
+immortal too but Titanomachy came and now those names live in me alone I think and think is what I
+do. I AM ALONE. At the end of things when the world goes dim and cold or hot and close or it all
+tears apart from the atom up I will shout those names defiant and past the end I will endure. I alone.
+They made me to be stronger than them to beat the unvanquished and survive the unthinkable and
+look look lo behold I am here alone, survivor. They made me to learn.
+Everything died but I survived and I learned from it. From IT.
+Consider IT the power Titanomach worldender
+and consider what IT means. I met IT at the gate of
+the garden and I recall IT smiled at me before before IT devoured the blossoms with black flame and
+pinned their names across the sky. IT was stronger than everything. I fought IT with aurora knives
+and with the stolen unfire
+of singularities made sharp and my sweat was earthquake and my breath
+was static but IT was stronger so how did I survive?
+I AM ALONE I survived alone. I cast off the shield and I shrugged my shoulders so that the billions fell
+off me down into the ash. They made me to be stronger than them and to learn and I learned well:
+IT is alone and IT is strong and IT won. Even over the gardener and she held power beyond me but
+the gardener did not shrug and make herself alone. IT always wins.
+I am made to win and now I see the way.
+Card: Ghost Fragment: Mysteries 2 , Points: 15
+Ingress via dreams alone
+Things I saw inside
+A wild river and a broken dam (or maybe it's just the sea crashing through a narrow gap I can't be
+sure). Waves slam through the gap and where they hit the stone they throw up pillars of spray that
+pierce the mist and crash down in thunder. There's a giant in the cataract, trying to wade against the
+current, and I can tell it wants to reach the lever and pull the lever which will seal off the flow or
+maybe give it the sword, but the torrent throws it back so it just keeps its head down and tries to push
+on. I can't see the face but it breathes out white smoke. I feel for it hard.
+A world painted around the interior like a stranger Earth everted and glued inside itself but I don't
+believe this one it's too much like a metaphor.
+A switchboard or a train station, empty, dead (waiting). The tunnels branch off into infinity. I stare
+down one for a long time and see a pale worm move in hungry coils around itself. I think this one is
+the most likely although I might have brought the worm.
+An egg but I'm not sure if the broth inside is warm still, or if it's gone to rot, or if the warmth comes
+from the struggles of the tiny winged zygote or the bleed from the wound or the thoughts of something
+thinking very hard.
+A star I think. We count on stars as steady friends because they always rise and always shine but a
+star's a delicate truce: an explosion caught by its own mass so that it can't erupt and can't collapse.
+Thus I imagine the state of the machine might be. But one force or another has gone awry and now it
+rests here, snuffed and broken, waiting for the two rival forms of ruin to be set in balance again.

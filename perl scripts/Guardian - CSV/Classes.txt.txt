@@ -1,0 +1,55 @@
+Ghost Fragment: Warlock '','' Why did I set her on the trail?\n\nYou try and try and try to explain, but no one ever understands. No one who's not a Warlock. Who hasn't spent a dozen years scouring the ruins for one string of symbols, one clean code, one black talon. Titans just make a hmphing noise, if they've stayed awake. Hunters clean their nails with their knives and look at you like you've grown a third eye.\n\nBut when you've spent your life searching through arcana for ancient power, you have the urge to reach out and educate others. Especially if you've had one too many.\n\nNah, she's not my type at all. We've played dice, cards, war games, you know, the usual stuff. I'd never tried to show off before. I don't know what came over me.\n\nI had a broken vertebrae in my pocket that I'd borrowed from yes, borrowed, I was going to put it back what do you think you are, my conscience? It was a fossil, that means mineral replacement, a rock, basically. They can survive a few hours in my pocket. Do shut up.\n\nThe Cryptarchs weren't going to miss it. Everyone knows the Ahamkaras were hunted to extinction.\n\nThere's nothing to be afraid of anymore.\n\nThink of how mysterious this system is, I said. How much life sprang up when the Traveler came. Like the Ahamkara. Do you know the legends? The dragon that made promises? And I pulled out the fossil with a flourish She pulled out her knife and started to pick the dirt from her nails. That set me off.\n\nYou could never have brought down one of these, I said. Ever. Not the greatest Hunter, not the brawniest Titan.\n\nHer eyes narrowed. She said, Oh? Is that so? And I saw right then that she wasn't going to pass on the challenge.\n\nI've murdered a Guardian, I thought. She's going to die. It'll be my fault.\n\nAnd I looked at the piece of spine in my hand and wondered why did I say that? What moved me to such pride?
+Ghost Fragment: Hunter '','' She leaves the Sparrow and climbs a long way across spars of volcano rock and between vents of blue fire. Down below the Ishtar ruins spark with skirmish light but the guns seem as distant and brief as the constant starfall and the brooding crater high above. She is alone on the rock. She goes on with her head down so as to fight the sense that she is going to fall up off the world and burn like an inverse meteor.\n\nThe message that brought her to this place had no sign but she could hear Cayde in it. Draksis in the\n\nCinders it said. Is it true?\n\nAnd also: Remember your promise.\n\nAt dawn she finds a sentry and kills it with her knife. Its throat bleeds gas. She takes its post and lays out her bullets one by one on the rock as if to make a count of all the years she has been waiting. Her rifle is near as long as she is tall. She lies down by her bullets and uses them to kill the other sentries one by one until at last they understand the thunder and the Shanks rise up angry from the Cinders below to seek her out.\n\nShe leaves the rifle and walks across the naked obsidian into the swarm firing from the hip as she goes, each kick of the old revolver a word, Draksis, Draksis, Kell of Winter, Kell of hate, lord of the kingdom of her vendetta. Her jaw aches. She used to imagine biting out his throat with armored teeth.\n\nThe stone smokes around her where the arc fire lashes it and the shrapnel guns throw up leaves of obsidian like glass butterflies. She shoots her bandoliers dry and a team of Vandals in glassy stealth leap up to rush her with knives but she raises her hand and burns them down with the golden gun, laughing, crying out Draksis, Draksis, I am come!\n\nShe kills them all and takes the next ridge, high above the Cinders. She can see the bluegreen pools and the cave mouths where the Vex lights dance. And there among them, gowned in smoke and ash, is the long shark shape of a Ketch, a Wintership, the Kell's ship, come down to nest.\n\nShe could go down there now and finish this. But she made a promise.\n\nA Captain jumps her. She throws two knives into his armor and then staves his chest in with her own\n\nGhost, wrapped up in her fist like a stone.
+"Tell the Vanguard," she says to her Etherspattered fist. "Tell them Draksis is here."\n\nHer Ghost looks up at her in silence. When she makes no move to go down the cliff towards the ship it blinks once, in its own way, and makes a soft sound, like a sigh, like relief.
+Titan '','' "Strive for honor. Stand for hope."\n\nTitans are warriors heroic defenders of the Light, channeling the gifts of the Traveler to wage war on the Darkness. Steadfast and sure, Titans face any challenge headon, blunt force instruments of the\n\nTraveler's will.
+Hunter '','' "Our old worlds have grown feral rabid beasts with teeth of rust and ruin. But such beasts are meant to be tamed. Or broken."\n\nHunters stalk the wilderness beyond the City, harnessing the Light to reclaim the secrets of our lost worlds. They are daring scouts and stealthy killers, expert with knives and precision weapons.\n\nHunters blaze their own trails and write their own laws.
+Guardians '','' "Legends are carved across history by the brave."\n\nGuardians are warriors forged in the Traveler's Light, a final hope in a universe falling into Darkness.\n\nChosen from the dead by the Traveler's Ghosts, Guardians are those rare few able to wield the Light as a weapon. For centuries they have defended the City. But that defense cannot hold forever.\n\nNow, with the Darkness rising again, the time has come to retake our lost worlds. The Guardians who lead the way will save humanity and become legend.
+Ghost Fragment: Warlock 2 '','' My name is Eriana3, disciple of the Praxic Warlocks, marked by the Cormorant Seal. We came here under one banner, united in a host of thousands, to claim the Moon. But the battle goes against us. I have taken a prisoner and this is the record of its interrogation. If I transgress in your eyes I ask for your forgiveness.
+[sound of current or discharge]
+/Eriana. It responds to pain.\n\nIt responds to the Light. Hurt it again. Monster, heed me. Who is your master with the sword?
+[static event]\n\nI can hear it. In my head. The swordbearer's name is CROTA. Record that.
+/Should I burn it again?\n\nNo. I think you're only feeding it. I will touch its mind. Ghost help.\n\nThey call you Wizard. You must be ancient. I think you value power very much. Will you still be powerful without this piece of your mind?\n\nTell me how to kill Crota.
+[static event]\n\nIt showed me the battle. It showed me Wei Ning dead on Crota's blade. It showed me how Crota killed a Guardian with a screaming knife hammered out of his own Ghost.\n\nSo I will take a piece of its mind, and ask again.\n\nTell me how to kill Crota.
+[static event]\n\nIncredible. Where? Where is his throne? Where is the twilight world under the dead star eye?
+/Eriana there's word from the company in Mare Imbrium. Crota is upon them. Half a hundred dead.\n\nThey need us.\n\nTell me where! Tell me how! TELL ME!
+[static event]
+/Eriana what did it say It showed me how it did this, just exactly this, to an Awoken man, the knives arranged by its will, like little silver ships, like Ghosts It laughed at me. It said we were the same.
+/Crota marches with a thousand Knights and they say the sky above Mare Imbrium has turned into green fire. They are dying in numbers I cannot bear to repeat. He kills them one by one with a sword that eats their Light. Eriana, we have to do something Kill the Wizard. Scatter the ash. It has nothing but lies to offer.\n\nGet your Sparrows. We have Light and fury. That will be enough.
+Ghost Fragment: Titan '','' / Tighten that strap.
+/ Eh?
+/ The gardbrace is loose. Could slip.
+/ Huh.
+/ It's new?
+/ Agema. Type 1.
+/ How's it hold up? I tried using Agema at the Gap, remember? It didn't well, what's this?
+/ A Ghost!
+/ Yes. Light be with you.
+/ Excuse me, little Ghost Tubach, pass me my helmet thank you. Little Ghost, what are you doing here?
+/ It's just looking around.
+/ Where's your Guardian?
+/ I don't think it has one.
+/ Well, any servant of the Light is welcome among us. We are Holborn's Host, and I'm Holborn. The\n\nCity's hand on Mars.
+/ Tubach.
+/ That's Tubach, my second. One of the finest Titans of the City. Now see here, little Ghost, on my shoulder? That's the mark of Holborn's Host. Record it. The twelvepointed star. One for each of the oh well, off it goes! It doesn't look well.
+/ We should get moving.
+/ A Ghost without a Guardian. I remember when I was risen, you know. When I woke in that wreckage, to see my Ghost hovering there, its light in my eyes, like an angel. And it said /\n\nThis story again.
+/ Disrespectful youngster.
+/ Youngster? I could be older than you, Tibon!
+/ True. The gardbrace is fine now. Stop worrying at it. Will you take the Jigoku?
+/ Thought I'd take the long rifle. Bayle has the Jigoku.
+/ Good. That Ghost what do you think is wrong with it? It's echoing something ancient, an Old Earth language. You know what that Ghost reminds me of, flitting about over there?
+/ I don't.
+/ The time Ghosts from Jagi's Host came back without them. Remember they got in that fight at some point east of the Caspian? Seven Ghosts, damn near silent, buzzing with some sort of corruption. Drifting back to the Tower, one by one. Scared the Speaker well enough.
+/ I remember. A long time ago. Jagi tells the story differently.
+/ Well. We all grow old. In our way. Little Ghost! Come back here!
+/ It's not going to make it, wherever it's going.
+/ I want to talk to it. Little Ghost!
+/ Lyssa and Bayle are probably there already.
+/ Cabal move slowly. We've got time.
+/ But the Warlocks have had a vision.
+/ Yes. That new one, what's her name. Ingora?
+/ Ikora.
+/ She's always been hasty. I've faced these Cabal before. I know 'em like I know my own armor.
+/ Message from Lyssa. "At the Dust Palace, now. All quiet."
+/ See? All quiet. Why not come with us, little Ghost? We are looking for the old Warmind here, and the one who guards it.
+Warlock '','' "We have found new ways to weaponize curiosity. Pathways into the darkness."\n\nWarriorscholars of the Light, Warlocks devote themselves to understanding the Traveler and its power. A Warlock's mind is an arsenal of deadly secrets, balanced between godhood and madness.\n\nOn the battlefield, those secrets can shatter reality itself.

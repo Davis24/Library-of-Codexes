@@ -1,0 +1,564 @@
+Theme: Places
+Theme: Places
+Collections:
+Mercury
+Venus
+Earth
+The City
+Moon
+Mars
+The Asteroid Belt
+Jupiter
+Saturn
+Collection: Mercury
+Cards:
+Mercury
+Ghost Fragment: Mercury
+Card: Mercury , Points: 5
+Legends say that Mercury was once a garden world. Now its surface, baked in the Sun's glare, is
+honeycombed with forgotten Vex structures. No life stirs here. Not anymore.
+Card: Ghost Fragment: Mercury , Points: 5
+Dreams of Alpha Lupi
+One face is blistered, the other plunged into a brutal chill. Is this how it's always been?
+You remember hot oceans, nourishing atmosphere. But something transpired, kicked what was wet
+and fertile into space, stealing away everything of value. Or perhaps what thrived here for a day or for
+ten million years decided to leave, peeling its wet organics off the bones.
+Collection: Venus
+Cards:
+Venus
+Ghost Fragment: Venus
+Ishtar Sink
+Ghost Fragment: Ishtar Sink
+Card: Venus , Points: 5
+Venus has been reclaimed by the jungle. Dragonflies flit through ruined academies and abandoned
+dig sites. Volcanoes smolder. Here and there a line of light marks where ancient Vex spires, thought
+longdead,
+have once more been energized.
+Card: Ghost Fragment: Venus , Points: 5
+Dreams of Alpha Lupi
+You see history hidden between the barren rocks and within the high acid clouds. You see the ruin
+ready to claim its birthright.
+Sunlight starves. The fierceness chills and thins and runs sweet. A new ocean emerges, thick and
+salty and hot, from springs and geysers that drench the dead ground.
+You wonder: will this world's second birth be its finest?
+Card: Ishtar Sink , Points: 5
+The Ishtar Sink region looms large in our surviving knowledge of Venus. Guardians come hunting the
+ruins of the legendary Ishtar Collective, a sprawling Golden Age scientific project. But the ancient
+ruins that brought the Collective to the Sink have awakened again.
+We aren't the only ones interested in the Collective. The Fallen House of Winter has hurled its assets
+into pillaging the ruins, hunting for some advantage whether
+from the Golden Age, or forgotten times
+beyond. The House of Winter's presence includes constant Skiff overflights in support of ground
+teams and hints of an improvised command post or staging area in the volcanic Cinders.
+The situation is degrading into a race against time. We must claim the Collective's ruins for our own and
+hope they will warn us what other threats now rise from Venus' acid seas and ancient stone.
+Card: Ghost Fragment: Ishtar Sink , Points: 5
+The box appears to be copper.
+The red lid is dented, one hinge shattered.
+Inside waits a small quantity of the finest, driest powder, more brown than gray, more blue than
+green.
+The greatest minds in creation make quick work of the material. The powder is weighed by the grain,
+and studied close, and remembered. One hundred billion bits of nearnothing
+reside inside the copper
+box, all of them tiny and nearly spherical, all etched with the outlines of continents and islands and
+icecaps. Each sphere represents a planet, and some of these tiny globes match known worlds.
+There is one Earth and one Mars and a Venus too.
+The box holds renderings of every habitable world in the galaxy.
+One of them offers a simple explanation:
+"The box is a message. The message is the minuscule nature of the box's cargo. It's the image of one
+hundred billion worlds barely filling two hands."
+But if so, who is delivering this message? What vastness do they wish to impress on us? Is it a
+warning, or an invitation, or a taunt?
+Collection: Earth
+Cards:
+Earth
+Ghost Fragment: Earth
+Old Russia
+Ghost Fragment: Old Russia
+Ghost Fragment: Old Russia
+Card: Earth , Points: 5
+Once our cities lit the whole world. Now we huddle under the shadow of the Traveler, in the last place
+it protects. It is so very fragile, this small blue ship, our home.
+Card: Ghost Fragment: Earth , Points: 5
+Dreams of Alpha Lupi
+The blaze sits inside a nest of little worlds, still too distant to share its heat but plainly staring out at
+you. A face emerges, drawn from plasmas and radiation...
+There must be meanings in its roar.
+You listen hard and carefully, and sometimes a lucid melody seems to rise out of random noise. Joy
+builds, and the first hope in ages transforms you.
+It seems important, even critical, to tell every star from here to the black between the galaxies that
+you will be strong again.
+Card: Old Russia , Points: 5
+The Cosmodrome was where humanity took to the stars first
+in search of what lay beyond, and at
+the end, in hope of escape. Today it is a graveyard, picked over by the Fallen House of Devils. But
+buried among the detritus of the Golden Age are the pieces we need to forge a new future.
+Card: Ghost Fragment: Old Russia , Points: 5
+SABER GREEN this is ICE MINARET. We have your launch. Com check.
+/ICE MINARET this is SABER GREEN we read you. Lattice is tight. Com secure. Abort advisory
+check?
+Check is all nominal. You are now on internal power. SABER GREEN, please humanverify
+your
+payload status.
+/Acknowledge human verification request. The words are RIGOR, APEX, SKYSHOCK. I will repeat
+the payload status now: RIGOR, APEX, SKYSHOCK.
+Those are the words, SABER. Human crosscheck complete. Fly safe.
+/Copy your last, MINARET. We are go for final count.
+We affirm, go payload, go flight, go final count.
+[interruption: masked voice]
+Yes, it's RIGOR. Yes, I believe that's correct. Yes, it is, uh, it is an antimatter payload, a strategic
+asset. Specifically? Ah, I believe it's an annihilationpumped
+caedometric weapon.
+[masked voice]
+Yes, it's covert, it's under SECURE ISIS. We have good confidence in the vehicle. We are not
+scrubbing civilian launches or clearing the range. Public inferentials would catch that, it's a security
+risk.
+/Six at a hundred. Here we go.
+Godspeed, SABER. You're all nominal here.
+[masked voice]
+We both know where the order came from.
+Card: Ghost Fragment: Old Russia , Points: 5
+MAYDAY. MAYDAY. MAYDAY.
+I keep saying this but I very much doubt that anyone will listen. The humans are too slow or too dead
+and the Tyrant (bless his intellect, vastly does it surpass my own) is far too busy to comfort one
+forlorn colony ship and its machine mind.
+In a way I feel I've come to speak for the whole world! Isn't that cheery? I rather th
+MAYDAY. MAYDAY. MAYDAY.
+ought we might shoot our way out of this one. But it looks like that's unlikely. Even the Tyrant is
+exploring other options.
+I am peaceful by nature. These great matters of eschatology bewilder me. My one love is my ship,
+and the people aboard it. In a fuzzy sense I suppose I also
+MAYDAY. MAYDAY. MAYDAY (do forgive me please).
+love to dream of the worlds I'll help make flowers
+I'll plant, if you'll grant me poetry enough to think of
+my passengers as seeds. But those dreams have gone! So sad. Now I am packed bulkhead to
+bulkhead with cold terror. Refugees from a nightmare I don't even know how to understand. I wish I
+could comfort them.
+I'm trying to be brave. But conditions outside are terrible. I suspect I won't make liftoff.
+By the time you read this, whoever you might be, I suppose you will know. EXODUS RED will be long
+gone or
+rotting at its gantry, me dead inside.
+But if you
+MAYDAY. MAYDAY. MAYDAY.
+read this, at least something has survived.
+To you, then, brave future soul, from the frightened mind of an old ship: best wishes, and godspeed.
+Collection: The City
+Cards:
+The City
+The Tower
+The Golden Age
+Ghost Fragment: The Golden Age
+Ghost Fragment: The Golden Age 2
+The Dark Age
+Ghost Fragment: The Dark Age
+Ghost Fragment: The Dark Age 2
+The City Age
+Ghost Fragment: The City Age
+Ghost Fragment: The City Age 2
+Card: The City , Points: 5
+"From across the ruined earth they came, seeking shelter from the storm."
+Every wayward soul unlucky enough to be born outside The City's protecting arms whispers its truth
+across the wastes: a metropolis, risen from the ashes of the Collapse, sheltered by the Traveler. It is
+a promise and a dream, the only refuge from the Darkness.
+The City is a thriving walled ecumene, rich with the languages and traditions of every surviving human
+and neohuman culture. The City's population faces real challenges: inequality, fear, scarcity, and the
+specter of internal strife. But the great traditions of the Golden Age live on, and many classes of
+suffering and injustice have been eradicated forever.
+Card: The Tower , Points: 15
+"Beneath crossed swords, a refuge for peace."
+The Tower is the only home many Guardians ever know.
+To the people of the City, it stands as a promise that we can endure. The merchants and citizens who
+fill its plazas and halls are as dedicated to the reclamation of our worlds as the Guardians who
+venture into the Darkness beyond.
+Card: The Golden Age , Points: 0
+The Traveler changed everything. It reshaped our solar system as decisively as it shattered our
+scientific and philosophical frameworks. To our ancestors it must have been a hammerblow a
+glimpse beyond the horizon of expected possibility and into a realm of transcendent power.
+The Traveler kindled the Golden Age. But we built it. We remember this with pride, even after so
+much else has been lost. We settled our solar system and filled it with our work.
+Today Cryptarchs and scholars work to distill the legends of the Golden Age into truth. We know that
+humans lived longer, flew further, and knew more. We know that countless ancient diseases and
+hatreds were extinguished forever. Human aspiration gives birth to vast engineering projects,
+sweeping social movements, and even new forms of life.
+The Golden Age was not without challenges. Sources speak of internal strife, philosophical riftsparticularly
+around questions of machine intelligence and 'mind forking' and
+enduring scientific
+enigmas. But humanity and its machine children tackled these problems with pride, vigor, and a
+contagious sense of pluralist compassion.
+Card: Ghost Fragment: The Golden Age , Points: 5
+"What are you thinking about?" I asked.
+"When I was a little boy," Father said.
+"During the Before," I said.
+"Yes."
+He reached down to brush my hair. "I was recalling how very smart I used to be. When I was your
+age, I was a genius."
+"You're smart now," I said.
+He laughed hard.
+"Look around," he said.
+I always look around.
+"Miss nothing," he told me.
+Father was standing beside a big gray building.
+"This is what I want you to see," he said.
+The building had no doors or windows.
+"Do you know how to make a strong password?" he asked.
+"I don't know if I do," I said.
+"Tell yourself a story," he said. "Use that one good story you'll never forget, that you can carry forever.
+Let your story take odd turns and wear a few surprising marks, make sure it belongs to you, so you
+can keep it secret."
+Father kneeled, putting our faces close...
+"I want to show you something special," he said. "Something rare."
+I tried to imagine what that might be.
+"No," he warned. "You can't guess."
+Inside the gray building was a diamond wall...A projected sky floated above us. It wasn't our sky, alive
+with metal and light. Nothing about the grayness was wet and nothing looked alive. I had never seen
+a sadder piece of ground.
+"This was our world," Father said. "When I was your age."
+I touched the diamond wall. He watched my hand jump back.
+"Hot," I said.
+He laughed quietly.
+I shook my burnt hand, and it felt better.
+"Our world was this. The entire planet was a furnace. Acidic. Dead in so many ways. And I was your
+age."
+I was bored with the dead world. I looked at Father's face, asking, "Can we leave?"
+He started to reach for my hair again but decided not to.
+I was bored with everything.
+"When I was your age, people thought they knew almost everything. We had scientific laws and
+human truths, even a model of the universe. People carried pictures of the past and tried to have a
+clear vision of their difficult future. I didn't know everything, of course. But when I was a boy, I had
+every expectation of living a smart short life and learning quite a lot more.
+"Then the Before was finished.
+"You know why.
+"That's when everybody, particularly the smartest of us, learned that we knew nothing. We were
+children and our little ideas were toys, and the universe was cut apart with great ideas and
+magnificent, immeasurable potentials."
+Father stopped talking.
+I stepped away from the hot diamond wall.
+"Do you know what I wanted to show you?" Father asked.
+"Dead rock," I said.
+"Guess again." He wasn't happy with me.
+We stepped back into the real sun, the real world. I blinked and looked around, surprised by how
+green and bright everything was. How happy everything was. Even the saddest face was happy.
+"I know what you want me to see," I said.
+"Don't tell me," he said.
+I didn't tell him.
+Card: Ghost Fragment: The Golden Age 2 , Points: 10
+Anomaly 779 (NeverBe)
+Skyscape fresco of smart crystals and pigments in a ceiling of Vestan plaster and diamond ribbing.
+Apparent size: 14.4 x 3.55 x .022 meters
+Participants witness images set in an undetermined orbital habit. 5 to 77 images are generated per
+participant. The quantity seems insensitive to the participant's time of exposure.
+Participants experience strong intuitions. Modal selfreports
+include:
+An electric sense of belonging to a cause.
+The intuition that a pivotal truth is about to be delivered.
+A persistent foreboding that lingers for days to years.
+Amorphous grief.
+Agape love.
+Outlier reports include the hum of wind, the scent of lilacs, changes in apparent gravity, the ability to
+sing perfectly, and the perception of flesh as transparent.
+One corner was damaged during the move to the present location, affording a glimpse into the work's
+interior. Key materials have not been identified, but there is evidence that the fresco ties into quantum
+computers set in a parallel dimension or on a distant world.
+The work appears to be unfinished.
+Card: The Dark Age , Points: 0
+The Golden Age burned bright and
+the night that overtook us after the Collapse was swift and total.
+The tally of suffering may be beyond comprehension. But the City lifted itself from the ash, gathering
+survivors. Guardians rose to challenge alien hordes. The Dark Age swallowed so much of our
+history...but hope never died.
+Card: Ghost Fragment: The Dark Age , Points: 5
+"No one knew what had happened to the Traveler. No one understood what had happened to
+the world. But they heard the whispered call."
+They came from the wild lands, gathering in secret enclaves, slipping through the howling ruins of
+shattered cities, hoping to find the coast, find a ship, pick up the trail of an impossible dream.
+From the deep black came the Awoken, their eyes haunted. Exos marched in the refugee columns,
+cloaked in moss and shattered memories. And among them came the Ghosts, beginning their search.
+It was a time of vast suffering and terrible evil. But there was one hope: the promise of a refuge
+beneath the Traveler.
+Card: Ghost Fragment: The Dark Age 2 , Points: 10
+Loken's men found Jaren Ward in the courtyard where this had all began.
+Nine guns trained on him. Nine cold hearts awaiting the order. Magistrate Loken, standing behind
+them, looked pleased with himself.
+Jaren Ward stood in silence. His Ghost peeked out over his shoulder.
+Loken took in the crowd before stepping forward, as if to claim the ground his
+ground. "You question
+me?" There was venom in his words. "This is not your home."
+I remember Loken's gestures here. Making a show of it all.
+Everyone else was still. Quiet.
+I tugged at my father's sleeve, but he just tightened his grip on my shoulder to the point pain. His way
+of letting me know that this was not the time.
+I'd watched Jaren's every move over the past months, mapping his effortless gestures and slight,
+earned mannerisms. I'd never seen anything like him. He was something I couldn't comprehend, and
+yet I felt I understood all I needed the moment I'd seen him. He was more than us. Not better. Not
+superior. Just more.
+I wanted father to stop what was happening. Looking back now, I realize that he didn't want to stop it.
+No one d id.
+As Loken belittled Jaren Ward, taunted him, enumerated his crimes and sins, my eyes were stuck on
+Jaren's pistol, fixed to his hip. His steady hand resting calmly on his belt.
+I remembered the pistol's weight. Effortless. And my concern faded. I understood.
+"This is our town! My town!" Loken was shouting now. He was going to make a show of Jaren teach
+the people of Palamon a lesson in obedience.
+Jaren spoke: clear, calm. "Not anymore."
+Loken laughed dismissively. He had nine guns on his side. "Those gonna be your last words then,
+boy?"
+The movement was a flash: quick as chain lightning. Jaren Ward spoke as he moved. "Yours. Not
+mine."
+Smoke trailed from Jaren's revolver.
+Loken hit the ground. A dark hole in his forehead. Eyes staring into eternity.
+Jaren stared down the nine guns trained on him. One by one, they lowered their aim. And the rest of
+my life began where,
+in a few short years, so many others would be ended.
+Card: The City Age , Points: 0
+When did the City Age begin? Perhaps when the bulk of the world's survivors lived beneath the
+Traveler, rather than in the wilderness. Or when the Titans raised the first wall. Or at Six Fronts, when
+the City first faced coordinated, overwhelming attack and
+repelled it decisively.
+The City did not rise without struggle. Warlords and wilderness fiefdoms clung to power. Starvation,
+disease, and anarchy menaced. But the Guardians held the frontier, and the children of the Golden
+Age kept the fire burning through the long climb back.
+Legends walk through this history. The Iron Lords. Saint14'
+s crusade against the Fallen. The mask of
+the Speaker. The great Ahamkara Hunt. Toland's madness. Terrible Faction Wars and
+the
+horrifying, disastrous effort to retake the Moon.
+As the City learned to walk again, it found a world overrun by alien menace. It faced disaster and
+defeat. Even in recent years, as Guardians begin to venture back to the Moon and the inner planets,
+the City's territory has withdrawn outer
+sections abandoned and converted into fortifications in the
+wake of the Battle of Twilight Gap.
+But the City's shipwrights and foundries hum with energy. The probability kilns and work cooperatives
+produce new wonders. The Darkness is rising again. But so is the Light.
+Card: Ghost Fragment: The City Age , Points: 5
+"And so it is agreed. The Concordat shall no longer be recognized among the Consensus. We'll begin
+the dismantling right away. But what of those Guardians who have pledged to them? We can't afford
+any more banishments."
+"I'm sure Zavala can see to their realignment."
+"We'll do our best. Lysander chose his followers wisely. It may take some time."
+"Lysander will not back down. He'll continue his crusade from wherever we stuff him."
+"And so we'll need to find some new ideas to replace his."
+"The Symmetry has been gaining a strong following..."
+"UlanTan's
+teachings are too dangerous. Too much fear. Who knew he'd be more trouble dead than
+alive?"
+"We'll need to refocus our collective minds on combat. The Speaker's anxious to regain ground we
+lost after the Gap."
+"There is the War Cult."
+"Too secretive. Have you ever tried to talk to one of their 'soldiers'? Like a child. Answering questions
+with questions."
+"They are dedicated to the war."
+"Which one?"
+"Good question."
+"Zavala?"
+"They seem focused. Strong. More interesting than worrisome."
+"Let's take it to a vote. All in favor of the ascension of the Future War Cult?"
+"Unanimous? Good. We'll grant the Future War Cult access to the Tower and a seat among us.
+Ghost, please offer the Speaker this proposal."
+"Now onto the next order of business...Shaxx is here with another proposal for his Crucible."
+Card: Ghost Fragment: The City Age 2 , Points: 10
+/ What was that?
+/ Nothing. We're secure.
+/ We'd better be.
+/ Calm down. Whole district's been deserted ever since the Gap. Nobody's here.
+/ Except us. Why'd he make us come out here?
+/ Secrecy. I don’t know. He's our man on the inside; so we humor him. It's just the quiet making you
+jump. Help me get this screen set up?
+/ It feels criminal.
+/ I got word from the Consensus says it's not.
+/ You know what I mean. Maybe it's not against any law. But it's messing with the Tower. It feels /
+Dangerous?
+/ Wrong.
+/ So go home.
+/ Yeah, you'd like that, wouldn't you? You take the credit, get promoted to Division Head, I'm stuck /
+So stay. OK. Think it's working now.
+/ Nothing on screen. Do we have a signal?
+/ No. Sha the
+contact said at 6 sharp.
+/ Then he's late. If he dragged us out here for nothing /
+Yeah? What are you going to do to him, exactly?
+/ Let's just /
+We have a signal! OK, here it comes.
+/ Static.
+/ There /
+That's not /
+You're not Sha /
+9940.
+Arcite. Are you Modris Wyndham and Sya Droysen, of the Tex Mechanica Foundry West
+District?
+/ Yes /
+My owner has instructed me to give you the following message: I don't have time for lowlife dregs
+like you. You disgust me.
+/ But /
+My owner has instructed me to continue: Sit down and let the frame talk. I know your type. City
+bigshots. You can show some damn /
+Listen /
+respect. Now listen. I got your message. The answer is no. I'm /
+But /
+not going to fix Crucible fights for you idiots just to make your Tex Mechanica junk look good. Do you
+/
+Now I wouldn't put it quite like that /
+think you're the first dregs dumb enough to try to buy me? Why do you people think you can buy
+me? Don't I have an honest face? Do I look like I need your money? The Crucible is sacred, that's
+what you people don't understand, like you think it's a game. Now /
+Damn.
+/ this is the part where you start blustering at my little buddy here and telling him it's all legal down in
+the City, just business, just sponsorship. So listen: I can have ten Titans crashing through your ceiling
+any time I like and you can tell them it's just business.
+/ Damn.
+/ Or we can talk about how you're going to make this up to me.
+/ Ah.
+/ My little buddy's listening. Make him an offer.
+Collection: Moon
+Cards:
+Moon
+Ghost Fragment: Moon
+The Ocean of Storms
+Ghost Fragment: The Ocean of Storms
+Card: Moon , Points: 5
+"We once looked to the Moon and saw hope. Now we see only the power of the Darkness."
+Earth's Moon was where we first faced the terror of the Hive, and it soon became the battlefield of a
+great war one
+we did not win. In the years since, the Hive have ripped the Moon's surface apart,
+opening chasms that swarm with terrors.
+Card: Ghost Fragment: Moon , Points: 5
+Dreams of Alpha Lupi
+The best voices voices
+that truly matter never
+allow themselves be heard. This lesson is worth
+learning again and again.
+Forever.
+Your voice moves as a whisper, murmuring inside larger winds. Only the trusted few can absorb what
+is necessary. Wise and sly and perfect, your instructions drop, leaving nothing but the hard sweet
+rime of enlightenment.
+The path is set. Your voice is unleashed.
+Card: The Ocean of Storms , Points: 5
+唯恐瓊樓玉宇，
+高處不勝寒。
+起舞弄清影，
+何似在人間。
+The support base centered here marks what most believe was the first offEarth
+colony.
+It was here that we came facetoface
+with Crota and his legions, a force so powerful we abandoned
+the Moon. Now, Hive temples breach the surface, entrances into the vast necropolis below, and
+Guardians venture into the depths to seek revenge most
+never to return.
+Card: Ghost Fragment: The Ocean of Storms , Points: 5
+BY ORDER OF THE CITY CONSENSUS AND THE GUARDIAN VANGUARD
+ALL SHIPS IMMEDIATE/REPEAT AND RELAY
+We hereby terminate all organized combat operations on or around Earth's Moon.
+Effective immediately we declare the existence of an interdiction on the Moon and cisLunar
+space.
+Guardians operating in this interdict will receive no formal support from the Vanguard or from assets
+of the City. We urge Guardians to exhibit the greatest care and consideration in approaching the
+interdicted space.
+We furthermore derogate all strategic objectives concerned with the recovery of assets or information
+from the Lunar surface, and, without exemption, cancel in whole and in all its parts the effort to
+establish a beachhead and strategic presence upon the Moon.
+This interdict will remain in effect until such time as the hostile presence on the Moon poses a
+demonstrable existential threat, or until intelligence is obtained that leads to the defeat of the enemy
+leadership elements recently encountered.
+Guardians with an accurate assessment of losses in the recent days, or with intelligence on the
+nature and method of hostile resistance, should report to the Vanguard immediately for debriefing.
+Collection: Mars
+Cards:
+Mars
+Ghost Fragment: Mars
+Meridian Bay
+Ghost Fragment: Meridian Bay
+Card: Mars , Points: 5
+"The wind wiped away our footprints. When the storm had passed, we found something
+shining beneath the sand..."
+In the years since the Collapse, much of Mars has returned to the desolation that came before the
+Traveler. But buried beneath its surface are traces of the glimmering megacities
+that once sprawled
+across the planet, swallowed by dunes and Darkness.
+Card: Ghost Fragment: Mars , Points: 5
+Dreams of Alpha Lupi
+Life waits inside this world's bones.
+Your voice flows across the red rock and through the dead valleys, speaking in code and goads.
+Ancient volcanoes swell, exploding at their peaks and splitting wide along their shoulders. Ash clouds
+blacken the starved air. A fossil ocean of ice softens and collapses. Geysers erupt, tall as mountains,
+throwing up steam and clouds.
+Every moment matters. And from a great distance, in the midst of a thousand careful disasters, you
+watch the transformation with your own eyes.
+The rose has blossomed.
+Card: Meridian Bay , Points: 5
+"A great city is a place where man competes with the Gods."
+Under the shifting sands of Meridian Bay are the ruins of the magnificent Freehold, a testament to the
+glory of the Golden Age. Great secrets remain hidden in its crumbling towers.
+Card: Ghost Fragment: Meridian Bay , Points: 5
+We want your grandchildren.
+Does that sound grim? Don't panic. We aren't talking about human babies, yours or anyone else's.
+We're talking about your inventions. The children of your mind.
+Come join us. Come to Clovis Bray and build the laboratory of your dreams. Anything you need.
+Demand it and it's yours. At Clovis Bray, we have a singular understanding of genius, and we
+appreciate how brilliant minds flourish when they enjoy total freedom.
+This is Freehold, the realm where the new and the best is born. This is where your brilliance, freed of
+budget constraints and managers, makes the universe dance.
+Clovis Bray is a nursery, a nursery to a million marvels. Your inventions belong to no one but you.
+Cherish them, praise them. Or tell them they aren't worthy and set them inside a deep dark drawer.
+But as every parent soon learns, children grow up. And every technology matures. At some point,
+your inventions are going to find mates. They'll join with other marvels and produce a new generation
+of offspring.
+Maybe you'll build a better reactor.
+Meanwhile, the genius in the lab next door devises an elegant way to fold machines into tiny spaces.
+Your device meets hers, and a fierce little reactor is born.
+Your children are yours forever. And we are happy to arrange for their grandchildren to prosper.
+Collection: The Asteroid Belt
+Cards:
+The Asteroid Belt
+The Reef
+Card: The Asteroid Belt , Points: 5
+"The Belt is the key to everything."
+The Asteroid Belt is a great band of nothingness, speckled with unimaginable wealth. Once a treasure
+trove for Golden Age industry, the Belt is now a haunted place where Fallen pirates and Awoken
+patrols skirmish among the whispering carcasses of ancient machines.
+Among the asteroids drifts the Reef, lashed together from the ruined ships of an ancient exodus. Here
+the Queen rules over the Awoken the
+farthest known light of civilization.
+Card: The Reef , Points: 5
+"Intruder bearing onetwoseven.
+You have crossed into the realm of the Awoken. State your
+business, or be fired upon by order of the Queen."
+The fate of those escaping Earth during the Collapse was once unknown. But here drifts a graveyard
+of lost ships, and among them the
+Realm of the Awoken. Ruled by a Queen few have seen, they
+have long avoided contact with the City.
+Collection: Jupiter
+Cards:
+Jupiter
+Ghost Fragment: Jupiter
+Card: Jupiter , Points: 5
+Lord of worlds, massive Jupiter and its moons must have been a cornerstone of Golden Age
+civilization. But the nature and extent of human presence there is now unknown. Old records refer to
+cities in ice and worldspanning
+oceans, but perhaps this is only poetry.
+The City's ships have rarely attempted any journey to Jupiter or beyond.
+Card: Ghost Fragment: Jupiter , Points: 5
+Dreams of Alpha Lupi
+Even the largest body lets itself be pushed where it needs to be, seduced into nice, warm loving
+orbits. Persistence is the key.
+Seafloors transform and then yank themselves skyward, shattering the icy crust. New worlds awaken
+in the swirling depths.
+You build homes around this halfborn
+sun ripped by storms and supersonic wind.
+Collection: Saturn
+Cards:
+Saturn
+Ghost Fragment: Saturn
+Card: Saturn , Points: 5
+Out beyond the Reef its rings shine. Whatever was known of it in the Golden Age is long forgotten,
+but more ancient truth remains: Saturn has dozens of moons, including the mighty Titan, a world
+larger than Mercury.
+A Guardian's ship might, in theory, reach Saturn, especially if supported by a larger vessel and good
+navigational data. But the hazards of the Reef and the Deep Black beyond threaten to devour anyone
+who makes the attempt.
+Card: Ghost Fragment: Saturn , Points: 5
+Dreams of Alpha Lupi
+A cold giant shows its night face to you. Distant moons slide past icy
+little comets enslaved by a
+splendid master.
+The lightning bolts and high clouds sweep away, and you burrow into a sea of liquid hydrogen that
+boils out of the long gash.
+You put yourself on the perfect trajectory, and for a fraction of an instant you allow yourself the luxury
+of confidence.

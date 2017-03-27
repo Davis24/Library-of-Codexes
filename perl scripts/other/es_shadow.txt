@@ -1,0 +1,33 @@
+Start of Text ASCII Replacing 
+﻿ is higher than 128 - 65279
+########################################
+$VAR1 = {
+          '1' => {
+                   'Author' => 'Anonymous',
+                   'Text' => '...chosen to explore this relation of world to shadow, Azra was the first to realize that shadows were not a mere absence of light, but a reflection of possible worlds created by forces in conflict. A light strikes a rock, and the shadow is a record of their clash, past, present and future. Other conflicting forces produced less obvious shadows, fire and water, wind and rock, or nations at war. With skill and patience the shadows of all could be read, and patterns teased out, emphasized or eradicated. Manipulating a shadow could, through contagion, manipulate the object or force which cast it. Azra was eminent master of this nearly imperceptible magic.',
+                   'Title' => 'Scrolls #1'
+                 },
+          '2' => {
+                   'Author' => 'Jagar Tharn',
+                   'Text' => 'My most estimable Lakvan, You must understand you risk my wrath by continued association with this Pergan Asuul. Your claim he is a Shadomage opposed to Skelos Undriel is irrelevant. Shadow magics by their nature will twist on their casters and so do the words of the magic\'s practitioners. My plan to have utterly destroy Undriel can tolerate no such risk this close to fruition. End your association with Pergan Asuul or I shall end mine with you. Ponder that choice as you will.
+
+Sincerely, Jagar Tharn.',
+                   'Title' => 'Brown Scroll'
+                 },
+          '3' => {
+                   'Author' => 'Anonymous',
+                   'Text' => 'Meya Violet was a great merchant captain. Her selfness skills of negotiation made the Dragonstar guild great. No one know what took her that night. We honor her, and pray we can sustain her greatness.',
+                   'Title' => 'Council Hall Scroll'
+                 },
+          '4' => {
+                   'Author' => 'Anonymous',
+                   'Text' => '...Azra attempted what had never been done before, manipulating his own shadow to such and extent that he instantiated and melded all possible Azras at the same time, crossing over from this singular existences in shadow. Ignorant Redguard soldier, fearing the power of Azra should he succeed, trapped and confronted Azra. The battle did not go well for the wizard. The hole blasted when he lost control of his magics can still be seen at the village that bears his name, Azra\'s Crossing. The science of shadow lost a great man that day, although others, such as Pergan Asuul, strive to take his place.',
+                   'Title' => 'Scrolls #2'
+                 },
+          '5' => {
+                   'Author' => 'General Duvais',
+                   'Text' => 'A third of the payment accompanies this note. The rest shall be paid in full by our agents. Scout Dragonstar, deliver the map to our agents in Earthtear Caverns.',
+                   'Title' => 'Letter From General Duvais'
+                 }
+        };
+########################################

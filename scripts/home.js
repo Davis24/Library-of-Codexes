@@ -6,7 +6,7 @@ function reloadGame(game_choice){
 	if(game_choice){
 		$.ajax ({
 			type: 'post',
-			url: '/library-of-codexes/loadgame.php',
+			url: '/loadgame.php',
 			data: {
 				game: game_choice,
 			},

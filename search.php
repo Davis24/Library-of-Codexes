@@ -1,11 +1,8 @@
 <?php 
 	//Database Connection
   $search=$_POST['search'];
-	$config = parse_ini_file('config.ini');
-	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if(!$db)	{
-		echo "error occured, put in an error page";
-	}  
+	require_once('./scripts/dbconnect.php');
+  
   $_tpl = array();
   $_tpl['title'] = $search .' | Library of Codexes Search';
   $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
@@ -39,21 +36,21 @@
               $query = "SELECT CODEX_TITLE, CODEX_ID FROM codexes WHERE LOWER(CODEX_TITLE) LIKE LOWER('%".$search."%')";
               if($result = $db ->query($query)) {
                 while($row = $result -> fetch_assoc()) {
-                  echo "<tr><td><a href = '/library-of-codexes/codex=".$row['CODEX_ID']."/".preg_replace("![^a-z0-9]+!i", "-", $row["CODEX_TITLE"])."'>".$row['CODEX_TITLE']."</a></td>";
+                  echo "<tr><td><a href = '/codex=".$row['CODEX_ID']."/".preg_replace("![^a-z0-9]+!i", "-", $row["CODEX_TITLE"])."'>".$row['CODEX_TITLE']."</a></td>";
                   echo "<td> Codex </td></tr>";
                 }
               }
               $query = "SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, AUTHOR_ID FROM AUTHORS WHERE LOWER(CONCAT(FIRST_NAME, ' ', LAST_NAME)) LIKE LOWER('%".$search."%')";
               if($result = $db ->query($query)) {
                 while($row = $result -> fetch_assoc()) {
-                  echo "<tr><td><a href = '/library-of-codexes/author=".$row["AUTHOR_ID"]."/".preg_replace("![^a-z0-9]+!i", "-", $row["Name"])."'>".$row['Name']."</a></td>";
+                  echo "<tr><td><a href = '/author=".$row["AUTHOR_ID"]."/".preg_replace("![^a-z0-9]+!i", "-", $row["Name"])."'>".$row['Name']."</a></td>";
                   echo "<td> Author </td></tr>";
                 }
               }
               $query = "SELECT NAME, COLLECTIONS_ID FROM COLLECTIONS WHERE LOWER(NAME) LIKE LOWER('%".$search."%')";
               if($result = $db ->query($query)) {
                 while($row = $result -> fetch_assoc()) {
-                  echo "<tr><td><a href = '/library-of-codexes/collections=".$row["COLLECTIONS_ID"]."/".preg_replace("![^a-z0-9]+!i", "-", $row["NAME"]) ."'>".$row['NAME']."</a></td>";
+                  echo "<tr><td><a href = '/collections=".$row["COLLECTIONS_ID"]."/".preg_replace("![^a-z0-9]+!i", "-", $row["NAME"]) ."'>".$row['NAME']."</a></td>";
                   echo "<td> Collection </td></tr>";
                 }
         		}

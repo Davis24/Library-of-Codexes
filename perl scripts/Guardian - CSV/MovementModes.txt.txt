@@ -1,0 +1,5 @@
+Lift '','' Leap into a powered jump. The long, slow arc makes you a target, but used carefully, it's a superb way to break contact, gain control of the high ground, or set up devastating ambushes.
+Glide '','' Break the bonds of gravity and convert your jump into a long, smooth glide. Cross dangerous terrain and float from perch to perch to keep the high ground.
+Double Jump '','' Bend momentum to jump again in midair.\n\nLeap to even greater heights, or make a quick adjustment while airborne to disorient your foes.
+Blink '','' Rip a hole in space and leap from point to point. Master the Blink, and you will be a fearsome killer a spectral force, hard to evade and impossible to pin down.
+ '','' Curiosity gets a Warlock into trouble, and force of will gets a Warlock out. Even novices can shear reality with a single deadly gesture.\n\nMovementModesCards:\n\nDouble Jump\n\nGlide\n\nBlink\n\nLift

@@ -1,18 +1,15 @@
 <?php 
-  $author_id = (int)$_GET["a"]; //Incoming Variable
-	//Database Connection
 	$config = parse_ini_file('config.ini');
-	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if(!$db)	{
-		echo "error occured, put in an error page";
-	}
-	$row = $db->query("SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, BIOGRAPHY FROM AUTHORS WHERE AUTHOR_ID = ('".$author_id."')")->fetch_assoc();
+    $db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+  	$author_id = (int)$_GET["a"]; //Incoming Variable
+	
+	$row = $db->query("SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, BIOGRAPHY FROM authors WHERE AUTHOR_ID = ('".$author_id."')")->fetch_assoc();
 	$author = $row['Name'];
 	$bio = $row['BIOGRAPHY'];
 
-  $_tpl = array();
-  $_tpl['title'] =  $author .' | Library of Codexes';
-  $_tpl['meta_desc'] = 'Biography: '$bio;
+  	$_tpl = array();
+  	$_tpl['title'] =  $author .' | Library of Codexes';
+  	$_tpl['meta_desc'] = 'Biography: ' .$bio;
 
 	include('header.php'); 
 ?>
@@ -34,11 +31,11 @@
     </thead>
     <tbody>
       <?php
-        $query = "SELECT CODEX_TITLE, CODEX_ID FROM CODEXES WHERE FK_AUTHOR_ID = ('".$author_id."')";
+        $query = "SELECT CODEX_TITLE, CODEX_ID FROM codexes WHERE FK_AUTHOR_ID = ('".$author_id."')";
         if($result = $db->query($query)) {
           while($row = $result ->fetch_assoc()) {
             $codex_temp = preg_replace("![^a-z0-9]+!i", "-", $row["CODEX_TITLE"]);
-            echo "<tr><td><a href='/library-of-codexes/codex=".$row["CODEX_ID"]."/".$codex_temp."'>".$row["CODEX_TITLE"]."</a></td></tr>";
+            echo "<tr><td><a href='/codex=".$row["CODEX_ID"]."/".$codex_temp."'>".$row["CODEX_TITLE"]."</a></td></tr>";
           }
         }
         mysqli_close($db);		

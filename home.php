@@ -33,11 +33,14 @@
     <div class="w3-col s6 m3 l3">
     	<a href="javascript:void(0);" onclick="gamepopup(2);"><img src="img/swtor-min.png" alt="Star Wars: The Old Republic"></a>
     </div>
-		<div class="w3-col s6 m3 l3">
-      <a href="javascript:void(0);" onclick="gamepopup(8);"><img src="img/the_last_of_us-min.png" alt="The Last of Us"></a>
+    <div class="w3-col s6 m3 l3">
+      <a href="javascript:void(0);" onclick="gamepopup(10);"><img src="img/the_elder_scrolls-min.png" alt="The Elder Scrolls"></a>
     </div>
   </div>
   <div class="w3-row-padding book-img">
+    <div class="w3-col s6 m3 l3">
+      <a href="javascript:void(0);" onclick="gamepopup(8);"><img src="img/the_last_of_us-min.png" alt="The Last of Us"></a>
+    </div>
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(6);"><img src="img/tomb_raider-min.png" alt="Tomb Raider"></a>
     </div>
@@ -53,5 +56,5 @@
     <div id="game_info"></div>
 	</div>
 </div>
-<script src="/library-of-codexes/scripts/home.js"></script>
+<script src="/scripts/home.js"></script>
 <?php include('footer.html'); ?>

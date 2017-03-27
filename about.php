@@ -2,21 +2,17 @@
 	include('header.php'); 
 	//Database Connection
 	$config = parse_ini_file('config.ini');
-	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if(!$db)
-{
-		echo "error occured, put in an error page";
-	}
+		$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
 	//Query for numbers
-	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM CODEXES")->fetch_object()->count;
-	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS")->fetch_object()->count;
-	$collections_num = $db->query("SELECT COUNT(COLLECTIONS_ID) as 'count' FROM COLLECTIONS")->fetch_object()->count;
-	$games_num = $db->query("SELECT COUNT(*) as 'count' FROM GAMES")->fetch_object()->count;
+	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM codexes")->fetch_object()->count;
+	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM authors")->fetch_object()->count;
+	$games_num = $db->query("SELECT COUNT(*) as 'count' FROM games")->fetch_object()->count;
+	mysqli_close($db);
 ?>
 <!--Banner-->
 <div id="banner">
 	<div class="centering-text">
-		<h1> The Library of Codexes currently contains: <?php echo $codexes_num." individual works, ".$authors_num." authors, ".$collections_num." collections, and ".$games_num." games."?></h1>
+		<h1> The Library of Codexes currently contains: <?php echo $codexes_num." individual works, ".$authors_num." authors, and ".$games_num." games."?></h1>
 	</div>
 </div>
 <br/>

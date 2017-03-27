@@ -1,0 +1,264 @@
+TheCityCards:
+The City
+The Tower
+The Golden Age
+Ghost Fragment: The Golden Age
+Ghost Fragment: The Golden Age 2
+The Dark Age
+Ghost Fragment: The Dark Age
+Ghost Fragment: The Dark Age 2
+The City Age
+Ghost Fragment: The City Age
+Ghost Fragment: The City Age 2
+Card: The City , Points: 5
+"From across the ruined earth they came, seeking shelter from the storm."
+Every wayward soul unlucky enough to be born outside The City's protecting arms whispers its truth
+across the wastes: a metropolis, risen from the ashes of the Collapse, sheltered by the Traveler. It is
+a promise and a dream, the only refuge from the Darkness.
+The City is a thriving walled ecumene, rich with the languages and traditions of every surviving human
+and neohuman culture. The City's population faces real challenges: inequality, fear, scarcity, and the
+specter of internal strife. But the great traditions of the Golden Age live on, and many classes of
+suffering and injustice have been eradicated forever.
+Card: The Tower , Points: 15
+"Beneath crossed swords, a refuge for peace."
+The Tower is the only home many Guardians ever know.
+To the people of the City, it stands as a promise that we can endure. The merchants and citizens who
+fill its plazas and halls are as dedicated to the reclamation of our worlds as the Guardians who
+venture into the Darkness beyond.
+Card: The Golden Age , Points: 0
+The Traveler changed everything. It reshaped our solar system as decisively as it shattered our
+scientific and philosophical frameworks. To our ancestors it must have been a hammerblow a
+glimpse beyond the horizon of expected possibility and into a realm of transcendent power.
+The Traveler kindled the Golden Age. But we built it. We remember this with pride, even after so
+much else has been lost. We settled our solar system and filled it with our work.
+Today Cryptarchs and scholars work to distill the legends of the Golden Age into truth. We know that
+humans lived longer, flew further, and knew more. We know that countless ancient diseases and
+hatreds were extinguished forever. Human aspiration gives birth to vast engineering projects,
+sweeping social movements, and even new forms of life.
+The Golden Age was not without challenges. Sources speak of internal strife, philosophical riftsparticularly
+around questions of machine intelligence and 'mind forking' and
+enduring scientific
+enigmas. But humanity and its machine children tackled these problems with pride, vigor, and a
+contagious sense of pluralist compassion.
+Card: Ghost Fragment: The Golden Age , Points: 5
+"What are you thinking about?" I asked.
+"When I was a little boy," Father said.
+"During the Before," I said.
+"Yes."
+He reached down to brush my hair. "I was recalling how very smart I used to be. When I was your
+age, I was a genius."
+"You're smart now," I said.
+He laughed hard.
+"Look around," he said.
+I always look around.
+"Miss nothing," he told me.
+Father was standing beside a big gray building.
+"This is what I want you to see," he said.
+The building had no doors or windows.
+"Do you know how to make a strong password?" he asked.
+"I don't know if I do," I said.
+"Tell yourself a story," he said. "Use that one good story you'll never forget, that you can carry forever.
+Let your story take odd turns and wear a few surprising marks, make sure it belongs to you, so you
+can keep it secret."
+Father kneeled, putting our faces close...
+"I want to show you something special," he said. "Something rare."
+I tried to imagine what that might be.
+"No," he warned. "You can't guess."
+Inside the gray building was a diamond wall...A projected sky floated above us. It wasn't our sky, alive
+with metal and light. Nothing about the grayness was wet and nothing looked alive. I had never seen
+a sadder piece of ground.
+"This was our world," Father said. "When I was your age."
+I touched the diamond wall. He watched my hand jump back.
+"Hot," I said.
+He laughed quietly.
+I shook my burnt hand, and it felt better.
+"Our world was this. The entire planet was a furnace. Acidic. Dead in so many ways. And I was your
+age."
+I was bored with the dead world. I looked at Father's face, asking, "Can we leave?"
+He started to reach for my hair again but decided not to.
+I was bored with everything.
+"When I was your age, people thought they knew almost everything. We had scientific laws and
+human truths, even a model of the universe. People carried pictures of the past and tried to have a
+clear vision of their difficult future. I didn't know everything, of course. But when I was a boy, I had
+every expectation of living a smart short life and learning quite a lot more.
+"Then the Before was finished.
+"You know why.
+"That's when everybody, particularly the smartest of us, learned that we knew nothing. We were
+children and our little ideas were toys, and the universe was cut apart with great ideas and
+magnificent, immeasurable potentials."
+Father stopped talking.
+I stepped away from the hot diamond wall.
+"Do you know what I wanted to show you?" Father asked.
+"Dead rock," I said.
+"Guess again." He wasn't happy with me.
+We stepped back into the real sun, the real world. I blinked and looked around, surprised by how
+green and bright everything was. How happy everything was. Even the saddest face was happy.
+"I know what you want me to see," I said.
+"Don't tell me," he said.
+I didn't tell him.
+Card: Ghost Fragment: The Golden Age 2 , Points: 10
+Anomaly 779 (NeverBe)
+Skyscape fresco of smart crystals and pigments in a ceiling of Vestan plaster and diamond ribbing.
+Apparent size: 14.4 x 3.55 x .022 meters
+Participants witness images set in an undetermined orbital habit. 5 to 77 images are generated per
+participant. The quantity seems insensitive to the participant's time of exposure.
+Participants experience strong intuitions. Modal selfreports
+include:
+An electric sense of belonging to a cause.
+The intuition that a pivotal truth is about to be delivered.
+A persistent foreboding that lingers for days to years.
+Amorphous grief.
+Agape love.
+Outlier reports include the hum of wind, the scent of lilacs, changes in apparent gravity, the ability to
+sing perfectly, and the perception of flesh as transparent.
+One corner was damaged during the move to the present location, affording a glimpse into the work's
+interior. Key materials have not been identified, but there is evidence that the fresco ties into quantum
+computers set in a parallel dimension or on a distant world.
+The work appears to be unfinished.
+Card: The Dark Age , Points: 0
+The Golden Age burned bright and
+the night that overtook us after the Collapse was swift and total.
+The tally of suffering may be beyond comprehension. But the City lifted itself from the ash, gathering
+survivors. Guardians rose to challenge alien hordes. The Dark Age swallowed so much of our
+history...but hope never died.
+Card: Ghost Fragment: The Dark Age , Points: 5
+"No one knew what had happened to the Traveler. No one understood what had happened to
+the world. But they heard the whispered call."
+They came from the wild lands, gathering in secret enclaves, slipping through the howling ruins of
+shattered cities, hoping to find the coast, find a ship, pick up the trail of an impossible dream.
+From the deep black came the Awoken, their eyes haunted. Exos marched in the refugee columns,
+cloaked in moss and shattered memories. And among them came the Ghosts, beginning their search.
+It was a time of vast suffering and terrible evil. But there was one hope: the promise of a refuge
+beneath the Traveler.
+Card: Ghost Fragment: The Dark Age 2 , Points: 10
+Loken's men found Jaren Ward in the courtyard where this had all began.
+Nine guns trained on him. Nine cold hearts awaiting the order. Magistrate Loken, standing behind
+them, looked pleased with himself.
+Jaren Ward stood in silence. His Ghost peeked out over his shoulder.
+Loken took in the crowd before stepping forward, as if to claim the ground his
+ground. "You question
+me?" There was venom in his words. "This is not your home."
+I remember Loken's gestures here. Making a show of it all.
+Everyone else was still. Quiet.
+I tugged at my father's sleeve, but he just tightened his grip on my shoulder to the point pain. His way
+of letting me know that this was not the time.
+I'd watched Jaren's every move over the past months, mapping his effortless gestures and slight,
+earned mannerisms. I'd never seen anything like him. He was something I couldn't comprehend, and
+yet I felt I understood all I needed the moment I'd seen him. He was more than us. Not better. Not
+superior. Just more.
+I wanted father to stop what was happening. Looking back now, I realize that he didn't want to stop it.
+No one d id.
+As Loken belittled Jaren Ward, taunted him, enumerated his crimes and sins, my eyes were stuck on
+Jaren's pistol, fixed to his hip. His steady hand resting calmly on his belt.
+I remembered the pistol's weight. Effortless. And my concern faded. I understood.
+"This is our town! My town!" Loken was shouting now. He was going to make a show of Jaren teach
+the people of Palamon a lesson in obedience.
+Jaren spoke: clear, calm. "Not anymore."
+Loken laughed dismissively. He had nine guns on his side. "Those gonna be your last words then,
+boy?"
+The movement was a flash: quick as chain lightning. Jaren Ward spoke as he moved. "Yours. Not
+mine."
+Smoke trailed from Jaren's revolver.
+Loken hit the ground. A dark hole in his forehead. Eyes staring into eternity.
+Jaren stared down the nine guns trained on him. One by one, they lowered their aim. And the rest of
+my life began where,
+in a few short years, so many others would be ended.
+Card: The City Age , Points: 0
+When did the City Age begin? Perhaps when the bulk of the world's survivors lived beneath the
+Traveler, rather than in the wilderness. Or when the Titans raised the first wall. Or at Six Fronts, when
+the City first faced coordinated, overwhelming attack and
+repelled it decisively.
+The City did not rise without struggle. Warlords and wilderness fiefdoms clung to power. Starvation,
+disease, and anarchy menaced. But the Guardians held the frontier, and the children of the Golden
+Age kept the fire burning through the long climb back.
+Legends walk through this history. The Iron Lords. Saint14'
+s crusade against the Fallen. The mask of
+the Speaker. The great Ahamkara Hunt. Toland's madness. Terrible Faction Wars and
+the
+horrifying, disastrous effort to retake the Moon.
+As the City learned to walk again, it found a world overrun by alien menace. It faced disaster and
+defeat. Even in recent years, as Guardians begin to venture back to the Moon and the inner planets,
+the City's territory has withdrawn outer
+sections abandoned and converted into fortifications in the
+wake of the Battle of Twilight Gap.
+But the City's shipwrights and foundries hum with energy. The probability kilns and work cooperatives
+produce new wonders. The Darkness is rising again. But so is the Light.
+Card: Ghost Fragment: The City Age , Points: 5
+"And so it is agreed. The Concordat shall no longer be recognized among the Consensus. We'll begin
+the dismantling right away. But what of those Guardians who have pledged to them? We can't afford
+any more banishments."
+"I'm sure Zavala can see to their realignment."
+"We'll do our best. Lysander chose his followers wisely. It may take some time."
+"Lysander will not back down. He'll continue his crusade from wherever we stuff him."
+"And so we'll need to find some new ideas to replace his."
+"The Symmetry has been gaining a strong following..."
+"UlanTan's
+teachings are too dangerous. Too much fear. Who knew he'd be more trouble dead than
+alive?"
+"We'll need to refocus our collective minds on combat. The Speaker's anxious to regain ground we
+lost after the Gap."
+"There is the War Cult."
+"Too secretive. Have you ever tried to talk to one of their 'soldiers'? Like a child. Answering questions
+with questions."
+"They are dedicated to the war."
+"Which one?"
+"Good question."
+"Zavala?"
+"They seem focused. Strong. More interesting than worrisome."
+"Let's take it to a vote. All in favor of the ascension of the Future War Cult?"
+"Unanimous? Good. We'll grant the Future War Cult access to the Tower and a seat among us.
+Ghost, please offer the Speaker this proposal."
+"Now onto the next order of business...Shaxx is here with another proposal for his Crucible."
+Card: Ghost Fragment: The City Age 2 , Points: 10
+/ What was that?
+/ Nothing. We're secure.
+/ We'd better be.
+/ Calm down. Whole district's been deserted ever since the Gap. Nobody's here.
+/ Except us. Why'd he make us come out here?
+/ Secrecy. I don’t know. He's our man on the inside; so we humor him. It's just the quiet making you
+jump. Help me get this screen set up?
+/ It feels criminal.
+/ I got word from the Consensus says it's not.
+/ You know what I mean. Maybe it's not against any law. But it's messing with the Tower. It feels /
+Dangerous?
+/ Wrong.
+/ So go home.
+/ Yeah, you'd like that, wouldn't you? You take the credit, get promoted to Division Head, I'm stuck /
+So stay. OK. Think it's working now.
+/ Nothing on screen. Do we have a signal?
+/ No. Sha the
+contact said at 6 sharp.
+/ Then he's late. If he dragged us out here for nothing /
+Yeah? What are you going to do to him, exactly?
+/ Let's just /
+We have a signal! OK, here it comes.
+/ Static.
+/ There /
+That's not /
+You're not Sha /
+9940.
+Arcite. Are you Modris Wyndham and Sya Droysen, of the Tex Mechanica Foundry West
+District?
+/ Yes /
+My owner has instructed me to give you the following message: I don't have time for lowlife dregs
+like you. You disgust me.
+/ But /
+My owner has instructed me to continue: Sit down and let the frame talk. I know your type. City
+bigshots. You can show some damn /
+Listen /
+respect. Now listen. I got your message. The answer is no. I'm /
+But /
+not going to fix Crucible fights for you idiots just to make your Tex Mechanica junk look good. Do you
+/
+Now I wouldn't put it quite like that /
+think you're the first dregs dumb enough to try to buy me? Why do you people think you can buy
+me? Don't I have an honest face? Do I look like I need your money? The Crucible is sacred, that's
+what you people don't understand, like you think it's a game. Now /
+Damn.
+/ this is the part where you start blustering at my little buddy here and telling him it's all legal down in
+the City, just business, just sponsorship. So listen: I can have ten Titans crashing through your ceiling
+any time I like and you can tell them it's just business.
+/ Damn.
+/ Or we can talk about how you're going to make this up to me.
+/ Ah.
+/ My little buddy's listening. Make him an offer.

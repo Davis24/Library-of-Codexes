@@ -10,7 +10,7 @@
   $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
 	include('header.php');
 ?>
-
+<link rel="stylesheet" href="css/downloads.css"> 
 <!--- Banner -->
 <div id="banner">
   <div class="centering-text">
@@ -18,33 +18,56 @@
   </div>
 </div>
 
-
 <br/>
 <div class="centering">
-	<table id="page_table" class="display" width="100%" cellspacing="0">
-    	<thead>
-       		<tr>
-           		<th>Game</th>
-           		<th>Ebook</th>
-        	</tr>
-     	</thead>
-        <tbody>
-        	<?php
-        		$query = "SELECT GAME_TITLE, GAME_ID FROM GAMES ORDER BY GAME_TITLE";
-       			if($result = $db->query($query))
-           	{
-           		while($row = $result ->fetch_assoc())
-           		{
-                $game_temp = preg_replace("![^a-z0-9]+!i", "-", $row["GAME_TITLE"]);
-            		echo "<tr>
-              					<td><a href = '/game=" .$row["GAME_ID"]."/".$game_temp."'>".$row["GAME_TITLE"]."</a></td>
-              					<td><a href = '/files/epub/".$game_temp.".epub'>EPUB</a> · <a href = '/files/azw3/".$game_temp.".azw3'>AZW3</a> · <a href = '/library-of-codexes/files/pdf/".$game_temp.".pdf
-              					'>PDF</a></td></tr>";
-            		}
-            	}
-          		mysqli_close($db);		
-            ?>
-        </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>Size</th>
+      </tr>
+    </thead>
+    <tbody>
+<?php 
+  function formatSizeUnits($bytes) {
+    if ($bytes >= 1073741824) {
+      $bytes = number_format($bytes / 1073741824, 2) . ' GB';
+    }
+    elseif ($bytes >= 1048576) {
+      $bytes = number_format($bytes / 1048576, 2) . ' MB';
+    }
+    elseif ($bytes >= 1024) {
+      $bytes = number_format($bytes / 1024, 2) . ' kB';
+    }
+    elseif ($bytes > 1){
+      $bytes = $bytes . ' bytes';
+    }
+    return $bytes;
+  }
+  $dir = "files/";
+  $scanned_directory = array_diff(scandir($dir), array('..', '.'));
+  foreach ($scanned_directory as $value) {
+    $folder_name = str_replace("-", ' ', $value);
+    echo '<tbody class="labels"><tr><td colspan="3"><label for="'.$value.'">'.$folder_name.'&#x25BC;</label><input type="checkbox" name="'.$value.'" id="'.$value.'" data-toggle="toggle"></td></tr></tbody><tbody class="hide">';
+    $tempdir = $dir  .$value . "/*.*";
+    foreach(glob($tempdir) as $filename) {
+      $individual_file = basename($filename);
+      $individual_file = str_replace("-", ' ', $individual_file);
+      echo '<tr><td><a href ="'.$filename.'">'.$individual_file.'</a><td>'.formatSizeUnits(filesize($filename)).'</td></tr>';
+    }
+    echo '</tbody>';
+  }
+?>
+  </tbody>
+</table>
 </div>
+
 <?php include('footer.html'); ?>
+<script>
+$(document).ready(function() {
+  $('[data-toggle="toggle"]').change(function(){
+    $(this).parents().next('.hide').toggle();
+  });
+});
+
+</script>

@@ -1,0 +1,457 @@
+Collections:
+Story: Earth, Old Russia
+Story: Moon, Ocean of Storms
+Story: Venus, Ishtar Sink
+Story: Mars, Meridian Bay
+Strikes
+Raids
+Crucible Playlists
+Crucible Arenas
+Other Activities
+Collection: Story: Earth, Old Russia
+Cards:
+Story Activity Introduction
+A Guardian Rises
+Restoration
+The Dark Within
+The Warmind
+The Last Array
+Card: Story Activity Introduction , Points: 0
+You are a Guardian. You choose your own path.
+Before you lie the worlds of our broken past, overrun by nature, claimed by Darkness and alien intent.
+There are secrets to uncover, alliances to forge, and implacable foes to vanquish.
+What will your legend say?
+Card: A Guardian Rises , Points: 5
+And so you rise again. Who you were before or how you ended up at the wall of an Old Russian
+spaceport is a story for another time. You have been chosen by the Traveler as one of our Guardians,
+gifted with the power to wield its Light in the coming battles of a timeless war. Trust this Ghost. It will
+guide you on your path.
+Card: Restoration , Points: 5
+"Taking down an Archon is no easy task. With the master of the Fallen servitors gone, the House of
+Devils will scramble to protect their Prime Servitor. And securing an NLS Drive will let you join the
+fight beyond Earth. Mind the Speaker's wise words. I believe he speaks for the Traveler." Commander
+Zavala
+Card: The Dark Within , Points: 5
+"We always feared the Hive would rise again, harbingers of the Darkness to come. Their presence on
+Earth demands that we strike their strongholds on the Moon, the last place we faced them. A lot of
+Guardians never come back, especially the new. Are you new? Oh. Well! I'm sure you'll make it." Cayde6
+Card: The Warmind , Points: 5
+"They say the Warminds were a legend, even in their own time. Now we know Rasputin lives. Your
+discovery is priceless, Guardian. Nothing in the Cosmodrome is more important." Ikora
+Rey
+Card: The Last Array , Points: 10
+"The Terrestrial Array was Dead Orbit's hope to reconnect to the lost colonies of our inner system.
+You succeeded where they failed. Though Rasputin seized control of the Array, that only strengthens
+our resolve to break the old Warmind's firewalls and enlist its help in the wars to come. We must
+reach Rasputin, and make our case." Commander
+Zavala
+Collection: Story: Moon, Ocean of Storms
+Cards:
+The Dark Beyond
+The World's Grave
+The Sword of Crota
+Chamber of Night
+Shrine of Oryx
+Card: The Dark Beyond , Points: 5
+"Your foray into the Hive fortress marks the beginning of our next battle against an ancient foe. After
+centuries of silence, they have turned their will against Earth. We must be ready for this war." The
+Speaker
+Card: The World's Grave , Points: 5
+"At long last we have a chance to learn the Hive's ultimate goals. The Cryptarchs are in a frenzy,
+working day and night to decipher what you stole from the World's Grave." Ikora
+Rey
+Card: The Sword of Crota , Points: 5
+"The Swarm Princes are dead, and the Sword of Crota is gone. Though many still believe Crota's
+return is inevitable, that thousands of weapons will be forged in His name, I have faith that we are
+now one step closer to ending the Hive's reign over the Moon." Master
+Rahool
+Card: Chamber of Night , Points: 5
+"Your discovery is perhaps the greatest of our time. If the Hive were able to infect the Traveler
+through this longlost
+shard of its battered shell, UlanTan's
+theory may be true all
+Light remains
+connected, across space and time. We cannot let our enemies use this power against us." Ikora
+Rey
+Card: Shrine of Oryx , Points: 10
+"Though Osiris has vanished, his prophecies and parables offer undeniable insight. Even in his time
+among the Vanguard he spoke with fear of the King named Oryx. His Eyes still hunt for the Shrines. If
+Osiris lives, he will know that you struck a blow against one." Master
+Rahool
+Collection: Story: Venus, Ishtar Sink
+Cards:
+A Stranger's Call
+Ishtar Collective
+The Archive
+Scourge of Winter
+Eye of a Gate Lord
+Card: A Stranger's Call , Points: 5
+"The Ishtar Collective studied the Vex with all the instruments and power of the Golden Age. And we
+must understand the Vex if we are to survive. There are tales of the Black Garden and the Darkness
+that lives at its heart. If this is where the Vex are born, then finding it is of the utmost importance." The
+Speaker
+Card: Ishtar Collective , Points: 5
+"The Vex have us all worried. Terrible things are stirring beneath Venus, but what you've discovered
+gives us hope that we can stop them. Just be careful when you make deals with the Awoken, would
+you? The Queen always collects." Cayde6
+Card: The Archive , Points: 5
+"The Cryptarchs are overjoyed, Guardian. An entire hidden Archive full of Vex research. Even
+chronicles of the legendary Vault of Glass. Perhaps this will finally help us crack its riddles." Master
+Rahool
+Card: Scourge of Winter , Points: 5
+"I will admit to a very personal satisfaction at the death of Draksis. He hurt my City and he hurt my
+friends. Few Guardians have ever assaulted a Kell in the throne room of his own Ketch. The entire
+Tower is abuzz at the chance to explore this downed Wintership, but more important, we've removed
+another Fallen nightmare from our worlds. We thank you, Guardian." Commander
+Zavala
+Card: Eye of a Gate Lord , Points: 10
+"While defeat of any champion of the Dark is cause for celebration, be leery of the promises of the
+Queen. The Awoken play both sides of this battle, and a debt to her is potentially ruinous. But if it gets
+you into the Black Garden, you have the City's full support." The
+Speaker
+Collection: Story: Mars, Meridian Bay
+Cards:
+Exclusion Zone
+The Buried City
+The Garden's Spire
+A Rising Tide
+The Black Garden
+Card: Exclusion Zone , Points: 5
+"Breaking the Exclusion Zone brings us one step closer to the Garden and
+it gives us access to
+Freehold, a triumph of Golden Age civilization. But I must warn you again of the Awoken's tactics.
+They see us all as playthings in some cosmic joke." The
+Speaker
+Card: The Buried City , Points: 5
+"I wish I could walk the halls of Clovis Bray. Losing their machines to Rasputin is unfortunate, but we
+still have access to so much we thought we'd lost. This is the dawn of a new era for us." Master
+Rahool
+Card: The Garden's Spire , Points: 5
+"No one's ever penetrated the Blind Legion perimeter and made it into that Warbase. Until now. I'm
+going to tell everyone you took out an admiral and seized the Spire, and they won't believe me, and
+then I will win so very many bets. Speaking of, I have a thousand Glimmer down on your death in the
+Black Garden. Nothing personal!" Cayde6
+Card: A Rising Tide , Points: 10
+"Of all the tactics we have to use against the Vex, shutting down their gates may be the most
+effective. You may have saved Freehold from being overrun. I sense a pattern here a
+connection
+between this Vex outbreak, the Black Garden, and the Vault of Glass...I need to know more." Ikora
+Rey
+Card: The Black Garden , Points: 15
+"At last, the Heart of the Garden has been destroyed, its stranglehold on the Traveler released. Our
+Light brightens. But the power of the Vex is not broken. Look into the Vault, Guardian, for it is said to
+hold powers the Progeny were meant to bring forth." The
+Speaker
+Collection: Strikes
+Cards:
+Strikes Introduction
+Dust Palace
+The Summoning Pits
+The Nexus
+Devils' Lair
+Cerberus Vae III
+Winter's Run
+Weekly Strike Challenges Introduction
+Card: Strikes Introduction , Points: 0
+"There are threats that must be faced with unfettered aggression. Are you ready?"
+Our enemies hide among our lost worlds, plotting to ensure our extinction. But the Vanguard keeps a
+vigilant watch on places where the creatures of the Darkness grow strongest, and seeks Guardians
+bold enough to join forces to face them.
+Card: Dust Palace , Points: 0
+"The Dust Palace is lost to us again. Back in Cabal hands. Word is they've let Psion Flayers out of
+their cages, to dig around in the Central AI's Cortex. Which means they really want what's buried in
+there. If Rasputin was protecting it, it's valuable. We've got to flush those Flayers out." Cayde6
+Card: The Summoning Pits , Points: 5
+"Something dark stirs in the depths of the Hellmouth. We can feel it. A Hive abomination bred for
+unthinkable evil. We must pierce the veil of their Summoning Pits and destroy this creature...before
+the Hive unleash it upon us all." Ikora
+Rey
+Card: The Nexus , Points: 5
+"Far below the Ishtar Academy, the Vex have set something in motion, a worldeating
+machine
+transforming Venus into another link in their intergalactic chain. This Nexus must be stopped and the
+Mind that controls it, destroyed." Ikora
+Rey
+Card: Devils' Lair , Points: 5
+"The Fallen will continue to claw at the walls of our City, unless we strike them down. Beneath the
+ruins of the Cosmodrome, in the shadow of an old colony ship, we've located the House of Devils' Lair
+and
+the High Servitor feeding them their strength. We must destroy this machine god...and send
+their souls screaming back to hell." Commander
+Zavala
+Card: Cerberus Vae III , Points: 5
+"Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. So let's get to taking
+out their command, one by one. Valus Ta'aurc. From what I can gather he commands the Siege
+Dancers from an Imperial Land Tank outside of Rubicon. He's well protected, but with the right team,
+we can punch through those defenses, take this beast out, and break their grip on Freehold." Commander
+Zavala
+Card: Winter's Run , Points: 5
+"Those Fallen in the Ishtar Sink on Venus...story is they raided the Prison of Elders in the Reef. Got
+an Archon Priest. The Queen's bounty is high so we know it's powerful. We need to hunt this thing
+down before they fully restore its soul." Cayde6
+Card: Weekly Strike Challenges Introduction , Points: 0
+Our enemies thrive among the Darkness, and where it gathers the Light will face great challenges.
+Expect to face the enemy's elite under shifting, dangerous conditions.
+Collection: Raids
+Cards:
+Raids Introduction
+Vault of Glass
+Relic: The Aegis
+Card: Raids Introduction , Points: 0
+Some evils you cannot fight alone. Join with other brave Guardians to quest deep into the heart of
+Darkness and confront threats beyond imagination.
+Steel yourself. You will be tested to the very edge of your strength.
+Card: Vault of Glass , Points: 5
+His name was Kabr. He wasn't my friend but I knew and respected him as a Guardian and a good
+man.
+He fought the Vex alone. This destroyed him. In the time before he vanished he said things that I
+think should be remembered. These are some of them:
+"In the Vault time frays and a needle moves through it. The needle is the will of Atheon. I do not know
+the name of the shape that comes after the needle.
+No one can open the Vault alone. I opened the Vault. There was no one with me but I was not alone.
+You will meet the Templar in a place that is a time before or after stars. The stars will move around
+you and mark you and sing to you. They will decide if you are real.
+I drank of them. It tasted like the sea."
+That is all I can remember.
+Pahanin
+Card: Relic: The Aegis , Points: 5
+These are the last words of Kabr, the Legionless:
+I have destroyed myself to do this. They have taken my Ghost. They are in my blood and brain. But
+now there is hope.
+I have made a wound in the Vault. I have pierced it and let in the Light. Bathe in it, and be cleansed.
+Look to it, and understand:
+From my own Light and from the thinking flesh of the Vex I made a shield. The shield is your
+deliverance. It will break the unbreakable. It will change your fate.
+Bind yourself to the shield. Bind yourself to me. And if you abandon your purpose, let the Vault
+consume you, as it consumed me.
+Now it is done. If I speak again, I am not Kabr.
+Collection: Crucible Playlists
+Cards:
+Crucible Introduction
+Control
+Clash
+Rumble
+Skirmish
+Salvage
+Combined Arms
+Crucible Tournaments
+Card: Crucible Introduction , Points: 0
+"You wanna live? You're gonna have to prove it."
+The Crucible is a series of grueling challenges that pit Guardians against one another in open
+combat. Crucible combat is livefire,
+with Ghosts standing by to save the dead.
+Whether alone or with a Fireteam, Guardians enter the Crucible to hone vital survival skills, build their
+own reputations, and win the patronage of City factions. Most importantly, the Crucible allows
+Guardians to train against formidable adversaries without fear of disaster.
+Card: Control , Points: 5
+"Capture and defend, Guardians!"
+6v6. Fight for control of strategic battle zones. Hold your ground to gain the momentum.
+Seize control of key locations. The more zones you hold, the more points each kill will be worth.
+Card: Clash , Points: 5
+"Engage and execute all targets!"
+6v6. Form an alliance and fight for supremacy across the ruins of our old worlds.
+Pure combat. Two teams. Engage and eliminate your enemy utilizing teamwork and skill. In victory or
+defeat, all Guardians who brave the Crucible will be better prepared for the dangers beyond the City.
+Card: Rumble , Points: 5
+"Watch your back, Guardian. No one else will."
+You against all. Hone your Light by challenging your fellow Guardians in a fight for survival.
+Rumble is a freeforall
+fight for dominance. You have no friends here. There will be no mercy.
+Challenge the strong and prey on the weak.
+Card: Skirmish , Points: 5
+"Stick together, team!"
+3v3. A focused engagement between two fireteams. Teamwork is your greatest weapon.
+Small scale tactical combat. Revive teammates to get them back in the fight, but be wary: you might
+just be feeding the enemy kills.
+Card: Salvage , Points: 5
+"Secure the relics! But expect heavy resistance."
+3v3. Secure and defend the Relics to claim the secrets of our past.
+Golden Age mysteries litter our old worlds. Scour the battlefield for the relics, lock them down, and
+keep the other team from contesting your claim.
+Card: Combined Arms , Points: 5
+"Honor is earned, not given. So earn it."
+6v6. Coordinate vehicles and your ground game to control the battlefield and rout your opponents.
+This is war. Guardians face off in largescale
+combat across harsh terrain with vehicles in play.
+Card: Crucible Tournaments , Points: 5
+"Only the brave and the strong are worthy of this test."
+On occasion, the Crucible will call upon those Guardians who have proven themselves to face
+challenges greater than any they can imagine.
+Grueling tests of strength, skill and Light, these tournaments offer the chance to cement your legend,
+by defeating the best of the best.
+Collection: Crucible Arenas
+Cards:
+The Burning Shrine
+Shores of Time
+Asylum
+Twilight Gap
+The Rusted Lands
+Exodus Blue
+The Anomaly
+First Light
+Firebase Delphi
+Bastion
+Blind Watch
+Card: The Burning Shrine , Points: 5
+"They do not simply invade new worlds, they infect them remaking
+them in their image, until
+only Vex remain."
+ARENA DESIGNATION: The Burning Shrine
+LOCATION: Fields of Glass, Mercury
+This clockwork impossibility is but one small conduit in a vast network, extending throughout the dead
+planet's core.
+The unknown energies and complex mechanics of the Shrine have been studied and mapped by the
+curious, yet its purpose remains a mystery. The only truth that can be agreed upon is that the
+structure is intimately tied to the past, and future, of one of our greatest enemies the
+Vex.
+The Shrine has been claimed as a battleground for the Crucible in an effort to familiarize Guardians
+with both Vex architecture and the otherworldly energies that signal their presence. Having a constant
+flow of combatready
+Guardians on hand should the Shrine ever achieve a higher functionality is
+simply a strategic byproduct of the Crucible's presence.
+Card: Shores of Time , Points: 5
+"All power is humbled when weighed against the eternal tide."
+ARENA DESIGNATION: Shores of Time
+LOCATION: Maat Mons, Venus
+The sulfur caves along the Shores of Time are now too unstable to be an effective base of operations
+for the Vex, but they suit the purposes of the Crucible just fine.
+The region, which also houses the remains of one of the Ishtar Collective's many research stations, is
+a mix of geological chaos and the structured intent of ancient Vex machinery. The contrast between
+jagged, boiling terrain and the measured purpose of each Vex surface creates a unique battlefield one
+where the planet itself seems to have risen up in defiance of the Vex intrusion.
+Card: Asylum , Points: 5
+"There used to be life here. Now it's just overgrowth."
+ARENA DESIGNATION: Asylum
+LOCATION: Ishtar Sink, Venus
+Before the Collapse, this would've been just another stop on the subway line between Clovis Bray's
+Venus arcology headquarters and the Academy campus by the shore. Now, it's a grim reminder of the
+lives, the dreams, and the progress we lost when the Darkness came. For the Guardians of the
+Crucible, it's a place to sharpen their blades in the shadow of the Vex, an enemy who knows no such
+sentimentality.
+Card: Twilight Gap , Points: 5
+"Here we fight, for the memory of those who stood. Here we die, for the glory of the Light that
+never fades."
+ARENA DESIGNATION: Twilight Gap
+LOCATION: City Perimeter, Earth
+Named for the City's greatest battle, this defensive battery once held the front line against the
+combined might of the Fallen Houses. Overrun during the course of the invasion, many Guardians
+lost their lives to hold the line.
+That the Crucible now claims this hallowed ground is seen as a privilege a
+rite of passage, as new
+generations of Guardians stand and fight where the brave fell, heroes rose, and legends were born.
+Card: The Rusted Lands , Points: 5
+"The scars of our collapse mark the land. Reminders that all is fragile in the face of time."
+ARENA DESIGNATION: The Rusted Lands
+LOCATION: Eastern Flood Zone, Earth
+"The Hive never leaves the Moon." This is dogma a
+way to soothe frightened children and reassure
+wary Guardians.
+Not so long ago, a wandering Hunter and her Fireteam stumbled onto a feral community in the
+Eastern Flood Zone. The gaunt survivors huddled in these bombedout
+ruins spoke of a terrible
+presence and begged for protection. No selfrespecting
+Guardian could refuse.
+As night fell, the Guardians found themselves the hunted stalked
+through the ruins by shapes of
+bone and shadow. The discovery of a Hive Seeder made the truth plain. Mankind's ancient enemy
+had come to Earth.
+The final confrontation came in the shadow of the Seeder, as a Hive Wizard and her Knights rose to
+challenge the Guardians. Only one Guardian returned to the City, her knife painted in black ash, a
+trail of grateful survivors in tow.
+Now, in the chilling shadows of the Hive's pods, Guardians hone their skills in hopes that they may
+one day live up to the heroes of the Rusted Lands.
+Card: Exodus Blue , Points: 0
+"In the shadows of all that we were, we fight for all we can be."
+ARENA DESIGNATION: Exodus Blue
+LOCATION: Cosmodrome, Earth
+Grimly referred to as "The Graveyard," Exodus Blue was only recently secured for Crucible combat.
+Located among the ruins of one of the Cosmodrome's colony ship gantries, this site is a memorial to
+the grief and horror of the Collapse. Thousands died here in a lastditch
+effort to outrun the oncoming
+Darkness.
+But it is also a sign of hope. Once the Cosmodrome is secure, the great colony ships may fly again.
+And this location was chosen specifically to send a message to the Fallen House of Devils "
+You may
+be picking at the bones of our history, but we are still here, and we are still strong."
+Card: The Anomaly , Points: 5
+"Our greatest enemy is the unknown."
+ARENA DESIGNATION: Anomaly
+LOCATION: Mare Cognitum, Earth's Moon
+Documents recovered onsite
+listed this research station only as "K1", although the location was hard
+to keep secret, given the intense electromagnetic fluctuations emanating from what City scholars
+have come to know as the Anomaly. Attempts to scan the Anomaly itself have proven futile, as the
+casing is constructed in a manner that defies modern techniques.
+Reports suggest that those who spent time in proximity to the Anomaly reported symptoms of
+insomnia, some so severe they required hospitalization. It was the City's recommendation that only
+remote sensing equipment be used until such time that a full review of the existing data could be
+completed.
+In the meantime, stewardship of the facility was handed over to the Guardians in order to maintain a
+watch against the Hive forces that will inevitably come in search of this mysterious power.
+Card: First Light , Points: 5
+"The Earth shines so bright from here."
+ARENA DESIGNATION: First Light
+LOCATION: Mare Cognitum, Earth's Moon
+What was once an unassuming exobotany laboratory complex turned into ringside seats to the end of
+the world during the Collapse. Immense fissures in the Moon's crust spew a sickly yellow miasma,
+and hint at the utter destruction going on deep beneath the surface. Whatever the Hive are up to,
+they've been at it a long time, and they're not overly concerned with keeping Luna in one piece.
+Card: Firebase Delphi , Points: 5
+"It's empty for now like
+a ghost town. But for how long...and why?"
+ARENA DESIGNATION: Firebase Delphi
+LOCATION: Eos Chasma, Mars
+When the Cabal decide to hold an area, they dig in deep. It's surprising, then, that the tunnel system
+at Firebase Delphi is woefully incomplete by Sand Eater standards. One theory is that it was built
+simply to be inspected, to satisfy some commander's lack of progress on another front. Perhaps the
+Cabal simply cut their losses once they realized that the location of the base was suboptimal,
+although halfmeasures
+are really not something they're known for. We're talking about a culture that
+will grind a mountain to dust rather than build around it.
+Card: Bastion , Points: 5
+"There's no telling the scale of devastation hidden beneath these red sands."
+ARENA DESIGNATION: Bastion
+LOCATION: Meridian Bay, Mars
+Thick, rugged terrain masks one of the largest Vex structures on Mars, leaving this imposing gate as
+the only conventional entrance. With the Cabal's interest in Vex activity, it was a matter of when, not
+if, they would set their sights here.
+The Cabal deployed a massive ground and air offensive to breach the wall and enter the
+subterranean labyrinth. We don't know what the Vex deployed in defense, but we know this: the
+Cabal didn't make it very far.
+The Vex have since mysteriously vanished from this region, giving the Crucible one of its largest
+arenas in the solar system. The Cabal, on the other hand, still prefer to keep their distance.
+Card: Blind Watch , Points: 5
+"Dry as the bones you'll break."
+ARENA DESIGNATION: The Blind Watch
+LOCATION: Meridian Bay, Mars
+The Blind Watch was once a clandestine Guardian outpost on the outskirts of Freehold, used to
+monitor Cabal activity in and around the Buried City. After the Cabal consolidated their forces nearer
+their fortified Exclusion Zone, the site was reclaimed by the Crucible as a combat training ground.
+Resting atop an old Clovis Bray science facility, the Blind Watch allows Guardians to acclimate to the
+harsh Martian environment, while maintaining a combat ready presence should the Cabal ever begin
+to mobilize.
+Collection: Other Activities
+Cards:
+Patrols Introduction
+Public Events Introduction
+Card: Patrols Introduction , Points: 0
+"These are our worlds...Take them back. Inch by inch. Bullet by bullet."
+Some Guardians roam the wastelands in search of adventure. For decades they have placed
+beacons across the frontier, so that our allies in the Tower can transmit requests to those out in the
+wilds.
+There are ancient mysteries buried in the ruins, great treasures of our Golden Age to seek. There are
+fearsome enemies to be slaughtered, their secrets and technology to be brought home and studied.
+Only Guardians can push through the Darkness to reach these contested areas, and this makes their
+particular expertise very valuable to those bound by the City's walls.
+Card: Public Events Introduction , Points: 0
+"Trust me. You can't do this alone."
+Our enemies never rest. If the City is to reclaim its lost worlds, Guardians must band together to stop
+our foes from completing their objectives.
+The City trusts its Guardians to assess the situation whether
+a Fallen extraction crew, a Cabal
+demolition team, a Hive ritual, a mysterious Vex behavior, or something stranger yet and
+engage or
+retreat as you see fit. Every battle won is another victory against the Darkness. But our foes will send
+their strongest, and they may be too much to overcome alone.
+Guardians who band together will survive to tell stories of their triumph. Watch the skies. When the
+enemy moves, look to the Guardians beside you, comrades and strangers alike.

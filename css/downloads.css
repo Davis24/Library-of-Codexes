@@ -1,0 +1,45 @@
+table { 
+	width: 100%; 
+	margin:50px auto;
+	}
+tr:nth-child(even){
+      background-color: #eeeeee;
+    }
+th { 
+	background: white; 
+	color: black; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	
+	text-align: left; 
+	font-size: 18px;
+	
+	}
+
+.labels tr td {
+	background-color: #808080 ;
+	
+	
+	color: white;
+}
+
+label{
+	cursor:pointer;
+}
+
+.hide{
+	display:none;
+}
+
+.label tr td label {
+	display: block;
+
+}
+
+
+[data-toggle="toggle"] {
+	display: none;
+}

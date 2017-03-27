@@ -1,0 +1,646 @@
+Theme: Guardian
+Theme: Guardian
+Collections:
+Classes
+Races
+Ghost
+SubClasses
+Melee Abilities
+Grenade Abilities
+Movement Modes
+Super Abilities
+Collection: Classes
+Cards:
+Guardians
+Titan
+Ghost Fragment: Titan
+Hunter
+Ghost Fragment: Hunter
+Warlock
+Ghost Fragment: Warlock
+Ghost Fragment: Warlock 2
+Card: Guardians , Points: 0
+"Legends are carved across history by the brave."
+Guardians are warriors forged in the Traveler's Light, a final hope in a universe falling into Darkness.
+Chosen from the dead by the Traveler's Ghosts, Guardians are those rare few able to wield the Light
+as a weapon. For centuries they have defended the City. But that defense cannot hold forever.
+Now, with the Darkness rising again, the time has come to retake our lost worlds. The Guardians who
+lead the way will save humanity and
+become legend.
+Card: Titan , Points: 0
+"Strive for honor. Stand for hope."
+Titans are warriors heroic
+defenders of the Light, channeling the gifts of the Traveler to wage war on
+the Darkness. Steadfast and sure, Titans face any challenge headon,
+blunt force instruments of the
+Traveler's will.
+Card: Ghost Fragment: Titan , Points: 5
+/ Tighten that strap.
+/ Eh?
+/ The gardbrace is loose. Could slip.
+/ Huh.
+/ It's new?
+/ Agema. Type 1.
+/ How's it hold up? I tried using Agema at the Gap, remember? It didn't well,
+what's this?
+/ A Ghost!
+/ Yes. Light be with you.
+/ Excuse me, little Ghost Tubach,
+pass me my helmet thank
+you. Little Ghost, what are you doing
+here?
+/ It's just looking around.
+/ Where's your Guardian?
+/ I don't think it has one.
+/ Well, any servant of the Light is welcome among us. We are Holborn's Host, and I'm Holborn. The
+City's hand on Mars.
+/ Tubach.
+/ That's Tubach, my second. One of the finest Titans of the City. Now see here, little Ghost, on my
+shoulder? That's the mark of Holborn's Host. Record it. The twelvepointed
+star. One for each of the oh
+well, off it goes! It doesn't look well.
+/ We should get moving.
+/ A Ghost without a Guardian. I remember when I was risen, you know. When I woke in that
+wreckage, to see my Ghost hovering there, its light in my eyes, like an angel. And it said /
+This story again.
+/ Disrespectful youngster.
+/ Youngster? I could be older than you, Tibon!
+/ True. The gardbrace is fine now. Stop worrying at it. Will you take the Jigoku?
+/ Thought I'd take the long rifle. Bayle has the Jigoku.
+/ Good. That Ghost what
+do you think is wrong with it? It's echoing something ancient, an Old Earth
+language. You know what that Ghost reminds me of, flitting about over there?
+/ I don't.
+/ The time Ghosts from Jagi's Host came back without them. Remember they
+got in that fight at
+some point east of the Caspian? Seven Ghosts, damn near silent, buzzing with some sort of
+corruption. Drifting back to the Tower, one by one. Scared the Speaker well enough.
+/ I remember. A long time ago. Jagi tells the story differently.
+/ Well. We all grow old. In our way. Little Ghost! Come back here!
+/ It's not going to make it, wherever it's going.
+/ I want to talk to it. Little Ghost!
+/ Lyssa and Bayle are probably there already.
+/ Cabal move slowly. We've got time.
+/ But the Warlocks have had a vision.
+/ Yes. That new one, what's her name. Ingora?
+/ Ikora.
+/ She's always been hasty. I've faced these Cabal before. I know 'em like I know my own armor.
+/ Message from Lyssa. "At the Dust Palace, now. All quiet."
+/ See? All quiet. Why not come with us, little Ghost? We are looking for the old Warmind here, and the
+one who guards it.
+Card: Hunter , Points: 0
+"Our old worlds have grown feral rabid
+beasts with teeth of rust and ruin. But such beasts
+are meant to be tamed. Or broken."
+Hunters stalk the wilderness beyond the City, harnessing the Light to reclaim the secrets of our lost
+worlds. They are daring scouts and stealthy killers, expert with knives and precision weapons.
+Hunters blaze their own trails and write their own laws.
+Card: Ghost Fragment: Hunter , Points: 5
+She leaves the Sparrow and climbs a long way across spars of volcano rock and between vents of
+blue fire. Down below the Ishtar ruins spark with skirmish light but the guns seem as distant and brief
+as the constant starfall and the brooding crater high above. She is alone on the rock. She goes on
+with her head down so as to fight the sense that she is going to fall up off the world and burn like an
+inverse meteor.
+The message that brought her to this place had no sign but she could hear Cayde in it. Draksis in the
+Cinders it said. Is it true?
+And also: Remember your promise.
+At dawn she finds a sentry and kills it with her knife. Its throat bleeds gas. She takes its post and lays
+out her bullets one by one on the rock as if to make a count of all the years she has been waiting. Her
+rifle is near as long as she is tall. She lies down by her bullets and uses them to kill the other sentries
+one by one until at last they understand the thunder and the Shanks rise up angry from the Cinders
+below to seek her out.
+She leaves the rifle and walks across the naked obsidian into the swarm firing from the hip as she
+goes, each kick of the old revolver a word, Draksis, Draksis, Kell of Winter, Kell of hate, lord of the
+kingdom of her vendetta. Her jaw aches. She used to imagine biting out his throat with armored teeth.
+The stone smokes around her where the arc fire lashes it and the shrapnel guns throw up leaves of
+obsidian like glass butterflies. She shoots her bandoliers dry and a team of Vandals in glassy stealth
+leap up to rush her with knives but she raises her hand and burns them down with the golden gun,
+laughing, crying out Draksis, Draksis, I am come!
+She kills them all and takes the next ridge, high above the Cinders. She can see the bluegreen
+pools
+and the cave mouths where the Vex lights dance. And there among them, gowned in smoke and ash,
+is the long shark shape of a Ketch, a Wintership, the Kell's ship, come down to nest.
+She could go down there now and finish this. But she made a promise.
+A Captain jumps her. She throws two knives into his armor and then staves his chest in with her own
+Ghost, wrapped up in her fist like a stone.
+"Tell the Vanguard," she says to her Etherspattered
+fist. "Tell them Draksis is here."
+Her Ghost looks up at her in silence. When she makes no move to go down the cliff towards the ship
+it blinks once, in its own way, and makes a soft sound, like a sigh, like relief.
+Card: Warlock , Points: 0
+"We have found new ways to weaponize curiosity. Pathways into the darkness."
+Warriorscholars
+of the Light, Warlocks devote themselves to understanding the Traveler and its
+power. A Warlock's mind is an arsenal of deadly secrets, balanced between godhood and madness.
+On the battlefield, those secrets can shatter reality itself.
+Card: Ghost Fragment: Warlock , Points: 5
+Why did I set her on the trail?
+You try and try and try to explain, but no one ever understands. No one who's not a Warlock. Who
+hasn't spent a dozen years scouring the ruins for one string of symbols, one clean code, one black
+talon. Titans just make a hmphing noise, if they've stayed awake. Hunters clean their nails with their
+knives and look at you like you've grown a third eye.
+But when you've spent your life searching through arcana for ancient power, you have the urge to
+reach out and educate others. Especially if you've had one too many.
+Nah, she's not my type at all. We've played dice, cards, war games, you know, the usual stuff. I'd
+never tried to show off before. I don't know what came over me.
+I had a broken vertebrae in my pocket that I'd borrowed from yes,
+borrowed, I was going to put it
+back what
+do you think you are, my conscience? It was a fossil, that means mineral replacement, a
+rock, basically. They can survive a few hours in my pocket. Do shut up.
+The Cryptarchs weren't going to miss it. Everyone knows the Ahamkaras were hunted to extinction.
+There's nothing to be afraid of anymore.
+Think of how mysterious this system is, I said. How much life sprang up when the Traveler came. Like
+the Ahamkara. Do you know the legends? The dragon that made promises? And I pulled out the fossil
+with a flourish She
+pulled out her knife and started to pick the dirt from her nails. That set me off.
+You could never have brought down one of these, I said. Ever. Not the greatest Hunter, not the
+brawniest Titan.
+Her eyes narrowed. She said, Oh? Is that so? And I saw right then that she wasn't going to pass on
+the challenge.
+I've murdered a Guardian, I thought. She's going to die. It'll be my fault.
+And I looked at the piece of spine in my hand and wondered why
+did I say that? What moved me to
+such pride?
+Card: Ghost Fragment: Warlock 2 , Points: 5
+My name is Eriana3,
+disciple of the Praxic Warlocks, marked by the Cormorant Seal. We came here
+under one banner, united in a host of thousands, to claim the Moon. But the battle goes against us. I
+have taken a prisoner and this is the record of its interrogation. If I transgress in your eyes I ask for
+your forgiveness.
+[sound of current or discharge]
+/Eriana. It responds to pain.
+It responds to the Light. Hurt it again. Monster, heed me. Who is your master with the sword?
+[static event]
+I can hear it. In my head. The swordbearer's name is CROTA. Record that.
+/Should I burn it again?
+No. I think you're only feeding it. I will touch its mind. Ghost help.
+They call you Wizard. You must be ancient. I think you value power very much. Will you still be
+powerful without this piece of your mind?
+Tell me how to kill Crota.
+[static event]
+It showed me the battle. It showed me Wei Ning dead on Crota's blade. It showed me how Crota
+killed a Guardian with a screaming knife hammered out of his own Ghost.
+So I will take a piece of its mind, and ask again.
+Tell me how to kill Crota.
+[static event]
+Incredible. Where? Where is his throne? Where is the twilight world under the dead star eye?
+/Eriana there's word from the company in Mare Imbrium. Crota is upon them. Half a hundred dead.
+They need us.
+Tell me where! Tell me how! TELL ME!
+[static event]
+/Eriana what did it say It
+showed me how it did this, just exactly this, to an Awoken man, the knives arranged by its will, like
+little silver ships, like Ghosts It
+laughed at me. It said we were the same.
+/Crota marches with a thousand Knights and they say the sky above Mare Imbrium has turned into
+green fire. They are dying in numbers I cannot bear to repeat. He kills them one by one with a sword
+that eats their Light. Eriana, we have to do something Kill
+the Wizard. Scatter the ash. It has nothing but lies to offer.
+Get your Sparrows. We have Light and fury. That will be enough.
+Collection: Races
+Cards:
+Human
+Ghost Fragment: Human
+Ghost Fragment: Human 2
+Ghost Fragment: Human 3
+Ghost Fragment: Human 4
+Awoken
+Ghost Fragment: Awoken
+Ghost Fragment: Awoken 2
+Exo
+Ghost Fragment: Exo
+Ghost Fragment: Exo 2
+Card: Human , Points: 0
+"This was our world, our solar system. We were here first. And no matter what the darkness
+brings, we will be here at the dawn."
+Humans are survivors, tough and resilient, descended from those who built a Golden Age only to see
+it ripped away. Now, after an age of retreat and desperate struggle, they fight to take back their solar
+system and claim a new future.
+There are those who believe the Traveler chose Earth for a reason. Now it is humanity's obligation to
+prove itself worthy of the Traveler's faith.
+Card: Ghost Fragment: Human , Points: 5
+From the diaries of Commander Jacob Hardy, pilot, Ares One
+The mission is a go. Crew of three: Mihaylova, Qiao, myself. Immediate departure at the next
+Hohmann window to Mars. The MREs and return ships will chase us out.
+How do I feel? I said at the press conference I felt privileged. Historians will read this diary, but it won't
+take their insight to tell the world that I'm terrified. It's the human reaction.
+What I wish I could convey is the the
+exhilaration. That's the biggest thing. I'm not a spiritual man,
+but I've always believed there's something transcendent about spaceflight. Something pure. We go
+out there because we can. Because it's who we are.
+Now we go because we have to. Because the unknown came to us. In fourteen months we'll be face
+to face with it, and by the time we arrive, it should be active again just
+like it was active on Jupiter,
+and Mercury, and Venus.
+I wonder what happens if it doesn't stop at Mars. I wonder if it'll leave us there in the sand, and come
+to Earth, and do here what it's done everywhere else.
+I hate that we're carrying weapons. I understand the necessity. But I hold to my belief: there's
+something beautiful out there.
+It's up to us to reach it.
+Card: Ghost Fragment: Human 2 , Points: 5
+From the diaries of Commander Jacob Hardy, pilot, Ares One
+Everybody asks about the words.
+The truth is I'm not much of a poet. Ares One didn't leave us with bandwidth for anything except blunt
+competence. We came in perilously hot, trying to select a landing site through the chaos of thickening
+atmosphere and turbulence that bloomed off the target. A twenty minute roundtrip
+lightspeed delay to
+Earth meant we could only count on ourselves.
+When the number three engine went diagnostic during the second course correction, I thought we
+might go catastrophic.
+But Qiao brought us in. Mihaylova brought us in. I just flew the ship.
+The Ares One excursion vehicle was built for thin winds and icy dust. We came down into a storm: the
+breath of God, a ripple of change rolling down off the artifact. We aborted on three sites and finally I
+took us into powered hover and brought us down on reflexes and instinct.
+Then we ran the checklists, suited up, and left the vehicle.
+There was a script, and it's true, I botched it. I got my boots down and I made the most famous gaffe
+in human history. Said the first thing that came to mind: a warning to the others.
+"We're walking into a rising wind."
+I didn't mean to say anything immortal. I just thought it'd be useful to know.
+Card: Ghost Fragment: Human 3 , Points: 10
+From the diaries of Commander Jacob Hardy, pilot, Ares One
+The hike from Ares One.
+You've watched it. Everything was recorded. I think you can get it in full immersion, now, and fly
+around like a hummingbird. I'll add what I can.
+The route was planned. We all went together the
+CEV and Ares One itself had enough automation
+to go home alone in the event of crew loss. Whatever we'd find at the artifact, it needed the human
+element.
+We carried rifles. They made us heavier and slower and probably less safe. I think the argument
+about the rifles can be left for another time. What's important is It
+turned out well. Look at me. Look at us! You're talking to a ninetyyearold
+man. A ninetyyearold
+who's never been sharper. I'm miles ahead of every cognitive benchmark.
+What's happened to me is good. What's happened to all of us is good. When we crested that rise and
+made visual contact with the artifact I don't think any one of us dared dream that it would end this
+well.
+We went to Mars at the cutting edge of human civilization. And it wasn't our weapons that won the
+day.
+It was our ship. Our training. Our camaraderie. Our belief that if we just reached out to the universe,
+not to grasp for profit or security but with an open hand, we would be elevated.
+We were right. That makes me so happy. To this day.
+Card: Ghost Fragment: Human 4 , Points: 15
+From the diaries of Commander Jacob Hardy, pilot, Ares One
+Three human beings stood on a high ridge and saw the shape of the future. Saw rain strike a
+millenniaold
+desert. Felt the air sweeten with oxygen and warm water and the beginnings of life.
+I am sometimes asked if I felt something die. The end of the era of human selfsufficiency.
+I don't know how to answer that question. I do know that I was changed. Nobody could experience
+that kind of wonder and remain unchanged. The decades since have proven that to me.
+I knew I'd never fly another mission like that. I recognized the need for a new love. That's why I threw
+my fresh cognitive skills into understanding the Traveler. How can one entity so quickly and utterly
+remake an entire world? Fifty years later, I'm conversant in high mathematics, particularly topological
+thoughts and the slippery irreality of Light. I'm involved in a project to study the Traveler's terraforming
+actions right now.
+But I still enjoy the interviews. I like going back to that mission.
+It makes me unspeakably happy to see how well it all turned out. And it makes me happy to
+remember I was there.
+
+Card: Awoken , Points: 0
+"The others sing this song of Light and Dark. We, together, have transcended such
+unimaginative limitations."
+It is said that the Awoken were born in the Collapse, descended from those who tried to flee its wrath.
+Something happened to them out on the edge of the deep black, and they were forever changed.
+Today many Awoken live in the distant Reef, aloof and mysterious. But others returned to Earth,
+where their descendants now fight for the City.
+Earthborn Awoken who venture out to the Reef, hoping to learn its secrets, find no special welcome
+from the reclusive Queen.
+Card: Ghost Fragment: Awoken , Points: 5
+Reports from a derelict vessel boarded in the first known voyage to the Reef
+Eleven hundred meter length.
+Active gravity generation.
+Residual heat. Fast neutron scatter.
+Designation code: CORRUPTED
+Date of commissioning: Unknown
+Origin point: Unknown
+Presumed to have collided/merged with onekilometer
+comet: assessment based on depth of
+hydrocarbon crust covering the hull, water content of soil, atmosphere of oxygen and carbon dioxide
+with isotopic ratios placing the comet in the Oort population.
+Lowlight
+foliage grown from terrestrial stocks, mirrors focusing starlight into growth
+chambers...resident fauna...five insect species, plus rats descended from uncertain ancestors.
+Surface heavily wooded until recently, unknown event triggering firestorm...seventy percent of world
+forest consumed, atmosphere laced with smoke and particulates...free oxygen in short supply.
+No distress calls noted. No evidence of crew or passengers on exterior.
+Interior scans inconclusive.
+Cleared to attempt approach.
+Card: Ghost Fragment: Awoken 2 , Points: 5
+Card: Ghost Fragment: Awoken 2 , Points: 5
+I was nothingness. If I existed before, I existed as possibility, as potential, stretched thin across the
+aether. And maybe there was a body that looked like my body, complete with a soul that could be
+confused for someone rather like me. What I am now was not yet real. And then I was born, and the
+universe was free to begin.
+Others were present at my birth.
+A great ceremony had just begun. Because newborns are selfish beasts, I assumed I was the object
+of attention.
+I didn't notice the singing until the singers fell silent. And then She appeared.
+She was above me. Ethereal and handsome and elegant. I assumed my face was like her face and
+that odd idea gave me strength enough to smile.
+"Secrets," she said. "Creation is built on secrets and the encryptions that keep those secrets safe."
+I made my first sound. It meant nothing but she understood it as a question.
+"We are a beautiful creation," she said. "And we must keep ourselves very safe."
+Card: Exo , Points: 0
+"Ask yourself: what threatened your Golden Age ancestors so much that they constructed the
+Exos to defend themselves?"
+Built for a longforgotten
+struggle, Exos are selfaware
+war machines so advanced that nothing short
+of a Ghost can understand their inner functions. They remain ciphers, even to themselves: their
+origins and purpose lost to time.
+Whoever built the Exos fashioned them in humanity's image, gifting them with diversity of mind and
+body. Many of the City's Exo citizens live and work alongside their organic brethren. But others fight
+again, reforged
+in the Light of the Traveler to serve as Guardians.
+Card: Ghost Fragment: Exo , Points: 5
+which
+in the end is just a matter of substrate chauvinism. It doesn't matter if the system thinks with
+flesh or superconductor or topological braids in doped metallic hydrogen, as long as the logic is the
+same. And our logic is the same. Yours and mine.
+If I am a machine then so are you. If you are not a machine then neither am I. Exo minds are human.
+It is incontrovertible.
+You understand? I'm going to take that slackjawed
+stare as understanding.
+Now here's the real question. Why are Exo minds human? What's the design imperative? Why does a
+war machine yes,
+absolutely, I am a war machine, built by human hands; and you are a survival
+machine built by the engine of evolution. Don't interrupt me.
+Why does a war machine have emotions? Why should a war machine have awareness? These are
+not useful traits on the battlefield. Don't flatter yourself. They are not useful. So why should the Exo
+mind mimic the human architecture so closely?
+You know what I smell on you? I smell the stink of anthropocentrism. I think you think that there's only
+one way to think. That's why the Exo mind is so human, you presume. Because all higher thought
+converges.
+My friend, you should meet the Vex. There is nothing human in them.
+Now. This is what I believe happened, back in the time before any Exo can remember. It explains
+everything.
+I think someone wanted to live forever.
+Card: Ghost Fragment: Exo 2 , Points: 5
+Hi. Thanks for your interest. I'm recording this for posterity.
+Warlock thanatonauts die and come back with insight. I'm going to attempt the same process to get at
+buried memories. Specifically, I'm going to fire a charged particle beam into my head and see what
+comes out. We Exos have been around a very long time. I want to know what's in there.
+My Ghost is standing by to repair me.
+Okay. Three two one
+STAG echo six SWORD sierra nine SERPENT
+We are falling into the world. Everyone is on fire. There's a ship above us but it's coming apart just
+like a flower, alloy and fusion flash, pierced through and through The
+voice says Atmospheric interface. Trajectory nominal. Rabid two three you are outside the
+window. (I think I am the voice)
+I can see the whole earth below me and the sky we are falling out of is black without stars.
+Ghost, shoot me again.
+RAPID four RAMPART four RATCHET tango eight zero
+We are on the ice. This is elsewhere and elsewhen. There is a mighty aurora and it is reflected in the
+ice so I walk between two fires although the one below is cracked and full of corpses. I have and am a
+weapon.
+Up in the sky there is a hole in Jupiter and it tears at me when I look at it. It tears at me. It is hungry.
+Maybe the hole is not in Jupiter but in me.
+CROWN castle candor cobalt coral
+Ghost bring me back.
+serrate sulfur ANATHEMA amber actual aspen
+Ghost bring me back now.
+Collection: Ghost
+Cards:
+Ghosts
+Dead Ghosts
+Ghost Fragment: Ghosts
+Card: Ghosts , Points: 0
+"In its dying breath, the Traveler created the Ghosts...To seek out those who can wield its
+Light as a weapon. Guardians, to protect us, and do what the Traveler itself no longer can."
+Built from machinery and the Traveler's Light, Ghosts guide their Guardian companions in the quest
+to reclaim our solar system.
+Every Ghost seeks out its Guardian among the ancient dead. The Ghost serves as scout, librarian,
+and mechanic, waking ancient machinery and cracking alien codes. In the right situations, a Ghost
+can even save a Guardian from death.
+But Ghosts are not immortal. As far as Guardians know, every loss is irreplaceable.
+Card: Dead Ghosts , Points: 0
+Battered and drained of their Light, these Ghosts are nevertheless valuable for the information they
+preserve. Their recovered memories may well prove vital to the City's survival.
+The problem of dead Ghosts troubles the City's scholars. Are new Ghosts still being born? Or is the
+number of Ghosts dwindling? Will there come a day when no more remain an
+end to the rise of new
+Guardians?
+If that day is coming, then the City faces a desperate race against time to heal the Traveler before
+attrition takes its toll.
+Card: Ghost Fragment: Ghosts , Points: 5
+Beyond.
+It is a place, a place casting shadows and emotion.
+It's a real place, I know.
+One hot blue sun, say. And other suns too. Five? I like seven better. What I'm recalling is a giant star
+with a family of six smaller suns, and you could spend days and nights counting all of the planets
+circling those suns...except there are no planets. Not anymore. The powers in charge have carved up
+all of the worlds, and maybe a brown dwarf or two for good measure. With that rubble, they fashioned
+a topologically creative enclosure, a twisting of space and time sealed behind doors that admit only
+those who know the magic words. The bones of a hundred planets have been cut smooth and laid out
+like a floor, a polished and lovely floor creating vast living spaces. A floor bigger than ten thousand
+worlds, catching the fierce glory of the seven suns. For light, for food. For beauty. And nothing
+escapes. Not heat, not gravity. Not even the faintest proud sound.
+It could be anywhere. It can live in the cold between galaxies, or folded up inside matter, near enough
+to touch right now...
+I remember it and maybe it's exactly as I describe it. Seven suns wrapped inside magic. Or it's
+something else entirely, perhaps. A place still fat with life. An abundance of sentient souls, some
+decent, maybe a few of lesser quality, and everybody stands about or floats about, or they bounce
+between dimensions. The point is that the residents of this hidden realm live inside a bottle so
+perfectly hidden that they can't see beyond their own borders. Which shapes a mind in very specific
+ways.
+But, Beyond is their name for a mysterious, doubtful realm that they can't see.
+Which is us, of course.
+Collection: SubClasses
+Cards:
+Guardian Abilities
+Ghost Fragment: Abilities
+Striker
+Defender
+Gunslinger
+Bladedancer
+Voidwalker
+Sunsinger
+Card: Guardian Abilities , Points: 0
+"There is a Light in you from which no Darkness can hide."
+Only Guardians have the gift of the Traveler's Light the
+ability to channel its energies to project vast
+power into the world. Even without a firearm, a Guardian is a radiant engine of destruction.
+While these abilities rise from within, Guardians master their power in different ways. Titans
+understand the Light as a force to hone through practice and strict discipline. Hunters roam and
+explore in order to learn, using dangerous methods to survive the wilds. And Warlocks study the Light
+and its inner mechanisms, confronting unfathomable mysteries in the search for transcendent might.
+Card: Ghost Fragment: Abilities , Points: 5
+From Lord Saladin's Induction Speech
+Nothing born is born strong.
+I know I began weak, the same as you. I don't care if you're an Exo, staring at that number and
+wondering where you've come from. Or a Human hungry to understand the ancient world that left you
+for dead. Or an Awoken reborn in the very essence of what your people hide from. Together, we're
+the pointed end of a long stick of happenstance. Change one ripple in an ancient ocean and we would
+never have been granted the Light within us, or the good Ghosts that want to help us.
+Humble origins.
+Every world begins as a big pebble lost among trillions of pebbles. Every worthy sun was once cold
+hydrogen spread thin across the vacuum. Even the universe, this cosmic garden that surrounds us
+and awes us...this monument to Creation was once the size of an apple seed. And everything that's
+splendid and great stands at the end of incalculable chance and mayhem.
+Yes, you have talents. Enormous, wondrous powers. But you should put the smirk away. Do you
+know what a Guardian is? Not yet. Your name is another pebble. You are a cold apple seed.
+But you will grow.
+Card: Striker , Points: 0
+"At close quarters a fist is better than any gun."
+Striker Titans charge into close combat, armored in Light and wielding fistfuls of thunder.
+Striker tactics depend on shock and disciplined aggression. They must awe and scatter the enemy, or
+risk being overwhelmed. Fellow Guardians prize their ability to draw fire as they shatter the enemy
+line.
+Card: Defender , Points: 0
+"The wall against which the Darkness breaks."
+Defender Titans are immovable anchors, trained to absorb punishment and control the flow of battle.
+Armed with unflinching conviction and an armory of Void techniques, Defenders block the enemy's
+movements, shrug off their fiercest weapons, and rally fellow Guardians to strike back.
+Card: Gunslinger , Points: 0
+"A lone wolf who lives for the perfect shot."
+In the end, doesn't it all come down to you and your gun?
+Don't see much else to say about it. That's just truth.
+Card: Bladedancer , Points: 0
+"Beautiful lethality, relentless style."
+There's something to be said for the blade. A knife won't jam. A knife won't run dry. A knife is very,
+very quiet.
+Leave the noise and fire to others. There's work to be done, out there in the dark monsters
+that
+deserve death, delivered quickly, silently, and without mercy.
+Card: Voidwalker , Points: 0
+"Those who have stared into the Void are not bound by the laws of space and time."
+The Traveler came out of the void that surrounds all things. Thus we know that the void is full of
+power. Thus we enter the void without fear.
+Small minds will call your abilities blasphemous. They will compare you to the abominable Wizards of
+the Hive.
+But you will not be held back. Gifted with the Traveler's Light, armed with the secret physics of a lost
+age, you will tear reality asunder.
+You will fear nothing, and nothing will not fear you.
+Card: Sunsinger , Points: 0
+"There are flames that even the Darkness cannot extinguish."
+These are dark times. Humanity stands on the brink of extinction. We will carry fire into that darkness
+a
+beacon to guide the way, and a pyre to consume our great enemy.
+The Light saved us from death and forged us into weapons. We seek to understand it, to embrace it,
+to consume and be consumed by it. We hope to become radiant.
+Our fellow Guardians need our power. Our civilization needs our strength.
+Collection: Melee Abilities
+Cards:
+Punch
+Stab
+Palm
+Card: Punch , Points: 0
+The brute strength of a Titan's melee offers a fullforce
+response to immediate danger.
+Card: Stab , Points: 0
+With their finely tuned reflexes, Hunters are naturally gifted with knives. The make and shape of the
+perfect knife is a matter of endless debate.
+Card: Palm , Points: 0
+Curiosity gets a Warlock into trouble, and force of will gets a Warlock out. Even novices can shear
+reality with a single deadly gesture.
+Collection: Grenade Abilities
+Cards:
+Flashbang Grenade
+Pulse Grenade
+Lightning Grenade
+Magnetic Grenade
+Scatter Grenade
+Suppressor Grenade
+Skip Grenade
+Arcbolt Grenade
+Flux Grenade
+Incendiary Grenade
+Tripmine Grenade
+Swarm Grenade
+Solar Grenade
+Firebolt Grenade
+Fusion Grenade
+Vortex Grenade
+Spike Grenade
+Axion Bolt
+Card: Flashbang Grenade , Points: 0
+An explosive grenade that disorients the enemies it damages, leaving them vulnerable to gunfire and
+close combat.
+Card: Pulse Grenade , Points: 0
+A grenade that periodically damages enemies inside its explosion radius. An effective tool for area
+denial.
+Card: Lightning Grenade , Points: 0
+A grenade that sticks to any surface, periodically emitting bolts of lightning.
+Card: Magnetic Grenade , Points: 0
+A grenade that attaches to enemies and explodes twice. Designed to crack the armor of hard targets.
+Card: Scatter Grenade , Points: 0
+A grenade that splits into many submunitions and covers a large area with explosions.
+Card: Suppressor Grenade , Points: 0
+An explosive grenade that prevents enemies from using abilities for a short time.
+Card: Skip Grenade , Points: 0
+A grenade which splits on impact, creating multiple projectiles which seek out enemies.
+Card: Arcbolt Grenade , Points: 0
+A grenade that chains bolts of lightning to nearby enemies, tidying up groups of hostiles.
+Card: Flux Grenade , Points: 0
+A grenade which deals additional damage when attached to enemies. Practice your toss.
+Card: Incendiary Grenade , Points: 0
+An explosive grenade that catches enemies on fire, causing additional damage over time.
+Card: Tripmine Grenade , Points: 0
+An explosive grenade that sticks to surfaces and detonates when enemies pass through its laser
+trigger.
+Card: Swarm Grenade , Points: 0
+A grenade which detonates on impact, releasing multiple drones that seek nearby enemies.
+Card: Solar Grenade , Points: 0
+A grenade that creates a flare of Solar Light which continually damages enemies trapped inside.
+Card: Firebolt Grenade , Points: 0
+A grenade that unleashes bolts of Solar Light at nearby enemies.
+Card: Fusion Grenade , Points: 0
+An explosive grenade that causes bonus damage when attached to its target.
+Card: Vortex Grenade , Points: 0
+A grenade that creates a Vortex which continually damages enemies trapped inside.
+Card: Spike Grenade , Points: 0
+A grenade that attaches to any surface and emits a torrent of damaging Void Light.
+Card: Axion Bolt , Points: 0
+A bolt of Void Light which forks into smaller bolts on impact, seeking out enemies.
+Collection: Movement Modes
+Cards:
+Double Jump
+Glide
+Blink
+Lift
+Card: Double Jump , Points: 0
+Bend momentum to jump again in midair.
+Leap to even greater heights, or make a quick adjustment
+while airborne to disorient your foes.
+Card: Glide , Points: 0
+Break the bonds of gravity and convert your jump into a long, smooth glide. Cross dangerous terrain
+and float from perch to perch to keep the high ground.
+Card: Blink , Points: 0
+Rip a hole in space and leap from point to point. Master the Blink, and you will be a fearsome killer a
+spectral force, hard to evade and impossible to pin down.
+Card: Lift , Points: 0
+Leap into a powered jump. The long, slow arc makes you a target, but used carefully, it's a superb
+way to break contact, gain control of the high ground, or set up devastating ambushes.
+Collection: Super Abilities
+Cards:
+Fist of Havoc
+Ward of Dawn
+Golden Gun
+Arc Blade
+Nova Bomb
+Radiance
+Card: Fist of Havoc , Points: 0
+Leap forward and smash the ground, obliterating everything nearby. You will be a thunderbolt but
+use your fury carefully. If there are survivors, you will surely draw their wrath.
+Card: Ward of Dawn , Points: 0
+Open a pocket in the universe, an impregnable fortress for you and your allies. The mighty Ward
+allows Guardians to hold key points and gather their strength in the face of overwhelming opposition.
+Card: Golden Gun , Points: 0
+Draw a hand cannon burning with Solar Light and loaded with three rounds of sunfire. Aim steady and
+keep your wits about you. You are a Gunslinger, and this is what you live for.
+Card: Arc Blade , Points: 0
+Set aside your weapons and lose yourself in the blade trance. Arc Light galvanizes your armor and
+hastens your movements, and when your knife finds a target it discharges a snap of annihilating
+current. For as long as the trance lasts, you are the very shadow of death.
+Card: Nova Bomb , Points: 0
+Channel the Traveler's Light into a bolt of energy with the power of a collapsing star. The devastating
+Nova Bomb scours the battlefield with ethereal fire but
+be careful in its use. It takes precious
+moments to summon, and it must be aimed precisely to avoid obstacles.
+Card: Radiance , Points: 0
+Open yourself to the Light. Glimpse, for a few rapturous moments, the truth beyond the powers you
+wield.
+A Warlock in a state of Radiance threatens to slip beyond the bonds of the material, shrugging off
+physical harm, channeling a torrent of abilities. Some may learn to elevate nearby Guardians, gifting
+them with power. Others, entranced by the Ghosts' power to reach beyond death, may learn to pluck
+themselves out of nothingness like the phoenix of ancient myth.

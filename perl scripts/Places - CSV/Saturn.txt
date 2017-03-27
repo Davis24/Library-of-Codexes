@@ -1,0 +1,19 @@
+SaturnCards:
+Saturn
+Ghost Fragment: Saturn
+Card: Saturn , Points: 5
+Out beyond the Reef its rings shine. Whatever was known of it in the Golden Age is long forgotten,
+but more ancient truth remains: Saturn has dozens of moons, including the mighty Titan, a world
+larger than Mercury.
+A Guardian's ship might, in theory, reach Saturn, especially if supported by a larger vessel and good
+navigational data. But the hazards of the Reef and the Deep Black beyond threaten to devour anyone
+who makes the attempt.
+Card: Ghost Fragment: Saturn , Points: 5
+Dreams of Alpha Lupi
+A cold giant shows its night face to you. Distant moons slide past icy
+little comets enslaved by a
+splendid master.
+The lightning bolts and high clouds sweep away, and you burrow into a sea of liquid hydrogen that
+boils out of the long gash.
+You put yourself on the perfect trajectory, and for a fraction of an instant you allow yourself the luxury
+of confidence.

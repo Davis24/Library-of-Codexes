@@ -1,0 +1,1183 @@
+Collections:
+Fallen
+Fallen Arsenal
+Fallen Leadership
+Hive
+Hive Arsenal
+Exalted Hive
+Vex
+Vex Arsenal
+Vex Axis Minds
+Cabal
+Cabal Arsenal
+Cabal Command
+Darkness
+Collection: Fallen
+Cards:
+The Fallen
+Dreg
+Shank
+Vandal
+Captain
+Servitor
+House of Devils
+House of Exile
+House of Winter
+House of Kings
+House of Wolves
+Ghost Fragment: Fallen
+Ghost Fragment: Fallen 2
+Card: The Fallen , Points: 5
+"We have butchers at our gates fourarmed
+and eager for slaughter."
+The Fallen are ruthless scavengers. Brutal and uncaring, they arrived on their massive Ketches in the
+wake of the Collapse to loot and pillage our devastated worlds.
+There are hints of ancient nobility to the Fallen the
+scars of lost grandeur. The Kells of their
+scattered Houses still claim to be royalty. But they leave only grief and wreckage in their wake.
+Card: Dreg , Points: 5
+"Don't underestimate a cutthroat, or you'll get your throat cut."
+Dregs cling to the lowest rung of Fallen society. Docked of their lower arms in a ritual of humiliation
+and obedience, Dregs seek to prove their worth. Only a few will survive to gain promotion and regrow
+their limbs. Their suicidal bravery is fueled by ambition and shame.
+Card: Shank , Points: 5
+"Death flies on tarnished wings."
+Shanks are the bulldogs of the Fallen. Small and tough enough to go where Dregs won't fit, they
+scout, keep watch, and patrol. Fallen Walkers deploy Shanks from internal bays for tactical support
+and field repairs.
+Card: Vandal , Points: 5
+"You could drown the City in the blood they've spilt."
+Soldiers, brawlers, assassins, and scouts, Vandals are the seasoned regulars who fill out the skilled
+roles within a Fallen crew. Whether from distance or up close and personal, they are seasoned,
+efficient killers, with an arsenal of weaponry and tech to match their bloodlust.
+Card: Captain , Points: 5
+"Waves of them smashed against our walls, hissing and wailing. But it was the one who stood
+beyond them, silent and scenting the air, that froze the blood in our veins."
+Having clawed and knifed his way to the top, scattering bodies and limbs in his wake, the Captain is
+the strongest and most ferocious member of the crew he musters around himself. His ration of Ether
+is the largest, his blades the sharpest, his guns the finest. Upon his shoulders hangs the flag of his
+House, if he swears loyalty to any. For his crew, the slightest hesitation to comply earns a slash from
+his sword. Defiance results in immediate amputation, if he is in a good mood, or death, if he is not.
+Card: Servitor , Points: 5
+"A floating light, a sleepless eye. Their hope, their faith, their sustenance."
+Servitors are living relics of the oncemighty
+Fallen civilization. Packed with ultrasophisticated
+machinery, they process matter and energy into the Ether that the Fallen depend on for life. In battle
+they support the Fallen with defensive systems and their own powerful energy weapons. Outside,
+they anchor Fallen comms and provide vital technological acumen.
+Servitors have complex relationships with each other and with their Fallen crews. Servitors are
+attached to a Prime, a massive Servitor which exists in unclear symbiosis with a Fallen Archon. The
+Archon conveys the Kell's wishes to the Prime Servitor, and exerts some measure of control. Recent
+developments suggest that Prime Servitors are more than a focus of worship and logistical activity.
+They may play a key role in Fallen star flight.
+Card: House of Devils , Points: 10
+"The Devils take whatever nature has yet to claim."
+These are the scourge of the City, the shadow below our walls. This is the House that led the battle at
+the Twilight Gap, the House we tell our children about to frighten them into behaving.
+The House of Devils have now devoted great strength to pillaging the Cosmodrome in Old Russia,
+hunting for something buried below. If they are not held in check, whatever they find might prove the
+City's undoing.
+Card: House of Exile , Points: 10
+"They live among the Hive. Of course they're crazy."
+There is more than a whiff of desolation about these Fallen. Their ranks are swollen with Dregs; their
+rags threadbare. Perhaps this is a new House, gathered from the outcast malcontents and disgraced
+castaways of the others, galvanized by pride or hate or the desire for freedom.
+Be watchful. If this is true, they will surely be hungry to secure their position and
+that may drive them
+to bold action.
+Card: House of Winter , Points: 10
+"Their greed is as much a threat as their blades."
+The Fallen House of Winter, led by the ruthless Kell Draksis, have been found operating in and
+around the Ishtar Sink on Venus. Their interests there seem directed at the ruins of the Academy
+along the Shattered Coast, but there are concerns that their focus may, in actuality, be directed
+elsewhere toward
+the ominous Citadel that rises like a warning above the Waking Ruins.
+Card: House of Kings , Points: 10
+"Another great House hides among us..."
+The colors of the House of Kings are rarely seen. They act with brutal contempt, as if they hold their
+rivals other
+Fallen and City alike in
+disdain. We have yet to grasp the full measure of their strength.
+Card: House of Wolves , Points: 10
+"These ones are mine."
+The bulk of the House of Wolves now falls under the control of the Queen of the Reef. There are
+many stories of how this came to be, but they are too varied for the truth to be separated from rumor.
+Card: Ghost Fragment: Fallen , Points: 5
+Cayde6
+Reminisces
+Okay, okay, I'll tell the story about that one Fallen.
+It didn't happen like that. We didn't, you know, do anything actively no
+handshake, no icy stare of
+grudging mutual respect. I don't even know which hand you would shake. Do they shake hands? It
+must be complicated.
+Anyway, it was like this. I was on the Moon. I cracked a Hive structure near Mare Imbrium, looking for
+a Shrine, and they just swarmed.
+Ranks and ranks and ranks of Thrall, pouring out between the
+columns, but the columns were Knights, and all the shadows behind them rose up hissing sorcery.
+Of course I ran.
+I had a line of egress and while yes it was full of Thrall I had a backup too. I went upslope. Took cover
+in the shadow of a crashed Phaeton. Emptied my machine gun, ducked down to reload, and saw her
+at the other end of the hull, killing Thrall: a Fallen in Exile colors, bannered in the marks of a Baron,
+though the flags were clawtorn
+and stained with Hive ash. She was alone. I think she must have lost
+her crew.
+I didn't really have time to shoot her and she didn't really have time to shoot me so we just went back
+to killing Hive. Knights pushed me out into the open and back up the range to a high stone saddle in
+the shadow of an old interferometry array. It was good ground so she came up there too.
+For a while we just killed things which is hard to make interesting in a story so I'll pass it over.
+At the end the Wizards came. I climbed the array to get an angle on them and she fell back to the
+base of the antennae where she broke her swords off in a Knight. I saw that happen and I don't know
+if I can tell you how I felt. She was another living thing with a mind I could understand and she hadn't
+howled at me or tried to eat my Ghost. I cheered when the Knight went down.
+When I came down, empty on all guns, she was slumped against a bulkhead staring at me with all her
+tiny black eyes. Ether leaking out of her like smoke. The Knight hadn't died easily. Downslope the last
+Wizard moved like fire behind another line of Thrall.
+I looked at her and wondered how many innocent human lives she'd ended on those broken blades.
+She did the strangest thing then. Took the last shock pistol from her bandolier and threw it between
+us, as if to offer it. When I went to pick it up she tried to knife me, but she was slow, and when I broke
+her arms and opened her throat she didn't seem surprised.
+To this day I wonder if she hated me, or wanted to make me kill her, or just felt she should spare me
+the choice.
+I did kill a few Thrall with that pistol.
+Card: Ghost Fragment: Fallen 2 , Points: 5
+A ROUTINE SUMMATION OF DARLINGS WON AND HEROICALLY HELD DURING THIS
+PROFITABLE CYCLE, AS COMPILED BY A DREG
+ammunition of rich makes, quantity adequate to incinerate 6X6 foe
+11 operational weapons, alien design, suitable for salvage
+3 explosive charges of obvious design, suitable for salvage
+1 cabal fusion reactor, disabled but perhaps repairable
+61 machines, alien, inoperable, unknown significances
+13 alien machines, inoperable, known significances
+3 glints
+7 herealways
+1103 twists of essence
+15 human body parts, kept for study, scorn
+55 human adornments, full of glory and warm memory, worth the cost of their acquisition and more so
+some ether, quantity negligible
+considerable experience in battle
+4 dregs dead, rendering House of Winter weaker
+1 dreg honoring self and House, leading to consideration of fabricated arms
+1 disabled Fallen skiff, scrubbed of House identity and stories
+1 Fallen story found beside the disabled skiff, unknown House, partly corrupted, rendered as follows:
+what others call dark which is not I know what it is but no time room calm given for an appropriate
+telling so I say only that what is not shadow is an ally and a wonder and I respect what I cannot steal
+from and you cannot take from the dark you can claim only pain from the dark and that is why the
+dark is worthy of love beyond all other love that astonishing ability to evade being robbed
+I love what I will not name
+1 story, Fallen and found beneath the skiff, unknown House, story uncorrupted
+subsequently the second recording has been washed away
+operator error
+I know what no one else knows and now I am a marvel with ten thousand arms
+Collection: Fallen Arsenal
+Cards:
+Shock Pistol
+Shock Rifle
+Shrapnel Launcher
+Wire Rifle
+Shock Dagger
+Shock Blade
+Shock Grenade
+Skiff
+Pike
+Walker
+Card: Shock Pistol , Points: 10
+The Shock Pistol is a simple but deadly weapon, and a mainstay of the Fallen arsenal. Primarily
+utilized by the lower ranking members of a given Fallen crew, Shock Pistols discharge bolts of Arc
+energy.
+Card: Shock Rifle , Points: 10
+Although based on the same Arc technology as other Fallen weaponry, this rifle has a distinct
+advantage: the projectiles it fires track unerringly to the target. The exact mechanism behind this is
+unclear, but the rifle seems to steer the slowmoving
+molten projectile down an artificial field line.
+Card: Shrapnel Launcher , Points: 10
+The Shrapnel Launcher is a simple, effective, robust weapons system that the Fallen can build
+without risking vital resources.
+The weapon fires looseforged
+canisters of explosives and shrapnel down electromagnetic rails
+embedded in the barrel. Captains favor this weapon for its intimidating presence. It deals Solar
+damage.
+Card: Wire Rifle , Points: 10
+The Wire Rifle utilizes shock cores to charge thin wires of an exotic metal, converting them into Arcinfused
+molten shards with an extraordinary muzzle velocity.
+Card: Shock Dagger , Points: 10
+The Shock Dagger is a deadly combination of stun gun and knife. Composed of a lightweight metal
+and powered by a small Arc charge, the Shock Dagger is capable of cutting through armor and
+delivering a staggering jolt of electricity. The Fallen use them for every purpose imaginable, from light
+metalwork to handtohand
+combat.
+Card: Shock Blade , Points: 10
+These fulllength
+edged weapons gather Arc energy from a system of shock cores and charging caps
+in the hilt, converting the entire length of the blade into a plasma cutting torch.
+Brutally efficient in the hands of a skilled Captain, Shock Blades are not ceremonial weapons built for
+show. Guardians would do well to respect the threat they present.
+Card: Shock Grenade , Points: 10
+The Shock Grenade is a simple, effective Fallen weapon. The core of the device is a shock core
+encased in an induction motor. Once activated, an Arc charge builds in the core until it reaches critical
+mass, starting a chain reaction that ends with a devastating explosion.
+Card: Skiff , Points: 5
+Slipping out of stealth only to offload a crew of Fallen, the Skiff is rarely seen. On the other hand, its
+rumbling, booming arrival is difficult to miss as
+are the weapons it uses to support its troop
+deployments.
+Card: Pike , Points: 5
+A Pike looks and sounds like rusted junk but moves like a shark. Lightning crackles in the engine,
+which can accelerate to fantastic speed. Twin guns mow down infantry. The Fallen deploy Pikes as
+highspeed
+harassers and patrol vehicles.
+Card: Walker , Points: 5
+Fallen Walkers are mobile gun platforms deployed in offensive and defensive roles alike. Though their
+insectlike
+design gives them an eerie, almost lifelike quality, these heavilyarmored
+monstrosities are
+purely robotic. Their advanced tracking systems can account for multiple targets as their forward
+repeaters and massive main gun sweep the battlefield for threats. Mine dispensers provide close
+defense against dismounted infantry, and an onboard
+Shank foundry produces armed repair drones.
+Walkers are immediate and deadly threats, having ended the Light of countless Guardians. The
+Fallen do not hesitate to deploy them to provide overwatch for their salvage and extraction crews.
+Walkers are also commonly used as blocking forces to guard key Fallen assets. At the Battle of
+Twilight Gap, Walkers engaged in a thunderous artillery duel with the City's gun positions.
+The collected wisdom of battlehardened
+Guardians suggests Walkers can be beaten by focusing fire
+on the legs, overloading the Walker and rendering its armored core briefly vulnerable. When the
+Walker stumbles, Guardians should focus all available firepower on the exposed components
+beneath the neck plating. Some externally mounted weapons can also be disabled with precise fire.
+Collection: Fallen Leadership
+Cards:
+Riksis, Devil Archon
+Simiks3
+Draksis, Winter Kell
+Sepiks Prime
+Aksor, Archon Priest
+Card: Riksis, Devil Archon , Points: 15
+"The Archons are the links between the Fallen and their Servitors. We break those links, we
+break the Fallen."
+Archons are revered amongst the Fallen. It is unknown whether these high priests are the caretakers
+of the Prime Servitors, or simply vicious arbiters of the Primes' will.
+Riksis collects the skulls of dead Guardians. Whether he keeps them as trophies or presents them as
+offerings to whatever Prime he serves, his threat is very real, and his death will bring great joy to a
+City in need of hope.
+Card: Simiks3
+, Points: 10
+"Its thirst for knowledge was left unquenched for so long, its death will almost be considered a
+tragedy."
+Simiks3
+was born of Winter's Prime Servitor, rumored to have been destroyed long ago. From
+readings gathered during the battle, it appears Simiks3
+was uniquely equipped to process and store
+huge amounts of intel between itself and a chain of nearby Servitors.
+Card: Draksis, Winter Kell , Points: 15
+"The architect of Winter's strategy. And he still shows his strength on the front line."
+Draksis, Kell of the Wintership Simiksfel,
+has been an elusive target for the Vanguards. After his
+countless raids on jumpship reclamation convoys, Cayde6
+personally upped the bounty on him. With
+confirmed sightings of the Kell in the Ishtar Sink, the time to strike is now.
+Defeating Draksis could throw Winter into chaos. With Simiks Prime allegedly already lost, the House
+leadership would be gutted although
+proof of the Servitor's demise remains elusive.
+Card: Sepiks Prime , Points: 15
+"I never believed a machine could know hatred."
+Floating, emotionless arbiters of life and death, Servitors are quasireligious
+automata defended by
+the Fallen with zealous ferocity.
+The exalted Servitor of the Fallen House of Devils, Sepiks Prime, has long been rumored to dwell
+deep within the bowels of the Cosmodrome. While the Kells are the political leaders of the Fallen,
+Servitors are said to be their gods and
+the source of their lifesustaining
+ether. A Prime Servitor is a
+target worthy of even the greatest sacrifice. Those willing to accept such a challenge will have the
+eternal gratitude of a City desperate for relief.
+Sepiks Prime relies on fanatical reinforcements and its own considerable tactical abilities including
+a
+shortrange
+teleport and a powerful directed energy weapon. Aim for the eye, and break contact if it
+turns your way.
+Card: Aksor, Archon Priest , Points: 15
+A disciple of the Prime Servitor Kaliks, Aksor initiated brutal crusades against human settlements
+beyond the City and ravaged countless Awoken enclaves throughout the Reef. When the Queen
+waged her war against the Wolves, Aksor was taken alive and sealed into the infamous Prison of
+Elders.
+Killing Aksor before he can join the ranks of the House of Winter weakens the Fallen, strengthens ties
+to the Reef, and brings the City one step closer to gaining a solid foothold along the Shattered Coast.
+Collection: Hive
+Cards:
+The Hive
+Thrall
+Acolyte
+Knight
+Ogre
+Wizard
+The Hidden Swarm
+Spawn of Crota
+Blood of Oryx
+Ghost Fragment: Hive
+Ghost Fragment: Hive 2
+Card: The Hive , Points: 5
+"There are nightmares rising from the shadows, and they hunger for our dying hope."
+The Hive are an ancient, festering evil. Their antipathy to the Light transcends hatred. To the Hive,
+the eternal struggle between Light and Dark is not only a war, it is a crusade all
+Light must be
+devoured so Darkness can reclaim the universe.
+Card: Thrall , Points: 5
+"The shadows have claws."
+Feral and fearless, Thrall are a plague upon the battlefield.
+Their swarming, twisted frames are driven by unfettered rage. Of all the terrors born of the Hive's vile
+will, they are the basest.
+Card: Acolyte , Points: 5
+"Belief is a powerful weapon."
+It would be a mistake to view the Hive's Acolytes as foot soldiers, because the Hive is not merely an
+army, it is a dark force rising. It is belief and horror, and its Acolytes are its instruments, hungry to
+commit the atrocities that will drive their own ascension.
+Card: Knight , Points: 5
+"It put up a hand and swallowed the rocket with a wall of shadow."
+A roaring, striding fortress, the Knight is the Hive's foremost and most zealous defender. Centuries of
+battle have toughened the bony protrusions on its body into an armor as hard as relic iron a
+defense
+only strengthened by the Hive magic that Knights use to summon shields of burning force.
+Card: Ogre , Points: 5
+"Its gaze shattered the rock, and then it smashed the rock to powder."
+Charged with Hive sorcery, Ogres are abominations of flesh and rage, unleashed from the deepest
+Hive tunnels as engines of destruction. Apocryphal lore suggests that Ogres undergo terrible
+transformations as they grow agonizing
+rituals that gift them with might and cunning.
+Card: Wizard , Points: 5
+"The only word for what we saw is sorcery."
+The Wizard is the scalpel with which the Hive vivisect the universe. A nightmare of rag and bone, the
+Wizard conceals herself within darkness and fire, dissecting and experimenting on anything that falls
+into her clutches.
+Card: The Hidden Swarm , Points: 10
+"Mind the cracks and crevices of the Moon. There is an army in their shadows."
+Boiling from the wounded surface of the Moon, the Hidden Swarm is the Hive's outermost line of
+defense a
+numberless legion that repels intruders before they breach the temples and shrines of the
+vast Hive fortress.
+Card: Spawn of Crota , Points: 10
+"Crota's spawn will snuff out the worlds of Light, and Oryx's coming shall be unfettered."
+The heralds of a dark future, led by the champion of a longforgotten
+king. Crota and his legions once
+banished us from our own Moon. Now we fear they are rising again to claim Earth.
+Card: Blood of Oryx , Points: 10
+"They are the shadow of an unknown master, harbingers of a power beyond anything we've
+faced."
+Research into the cyphers and runes of the Hive leads the Cryptarchs to believe the Hive sects all
+serve one great master. The Blood of Oryx are feared to be the direct servants of this dark lord. The
+name Oryx appears too many times in Hive rituals to be ignored.
+Card: Ghost Fragment: Hive , Points: 5
+We were overwhelmed. I could not save mine, so I have hidden myself where I might be found by the
+others, if they even survive. There is most likely no possibility of my return to the City. I prepare here
+in summary the knowledge so painfully won by my Guardian and our fireteam.
+The Moon has been geoengineered into an impregnable fortress, designed to support a vast number
+of creatures
+if
+any mind could be evil enough to create them. Are they alive? They move, they
+shriek, they fall upon us in ravenous waves. But I see death, decay, and corruption, not life. We
+discovered, to our sorrow, one massive set of gates. There are likely more.
+We met a towering monster, wielding a sword of utter darkness. The Light only made it hungry. We
+tried to fight, and we fell. Too many times to remember.
+We were all brave, I assure you. May the Light find Guardians capable of facing this monstrosity, or I
+fear the Moon may be lost to us forever.
+Card: Ghost Fragment: Hive 2 , Points: 5
+At the doors to the Temple he fell for the last time. He fell, and I could not reach him.
+My own Light flickers.
+They took me down into the dark, past tiers of massed Hive, more than we believed could exist. Past
+grisly nurseries hung with pupae. Past writhing worms that they swallow whole. I saw the armaments
+of war.
+I am weak, so weak.
+They have clamped me to this spire while a black foulness eats my Light. The Wizard comes now and
+then to probe with her scaly claws into my systems, to inquire about my making, the City, what I have
+seen. I erase and dump as quickly as I can they
+will learn little from me but
+I am studying them, I
+know pain.
+Always pain.
+I have seen chasms beneath the surface, falling away to green nothingness. I have seen black
+seeders prepared for invasion.
+Their strength is not their own. They draw from another force, something that corrupts, that distorts,
+that eats and will not be satisfied.
+The Wizard is near. I feel her presence as a rip and a knot in the world. She tells me things that I
+immediately forget. I am too small to hold the vastness of them, or the terror.
+I am fading. I have no more that it can take.
+With my last light I say to the City: War comes again from the Moon. This time they want Earth.
+Prepare.
+Collection: Hive Arsenal
+Cards:
+Shredder
+Boomer
+Cleaver
+Tomb Ship
+Shrieker
+Card: Shredder , Points: 10
+The Shredder, like so much Hive technology, appears to be an arcane joining of uncharted sciences
+that verge on magic. It has no discernable mechanism. But in the hands of a Hive warrior, it
+generates bolts of Void fire.
+Card: Boomer , Points: 10
+This devastating Arc weapon is said to contain a shard of some dead celestial body. Lobbing bolts of
+rotting starfire, it is both a ruinous tactical weapon and an instrument of siege.
+Card: Cleaver , Points: 10
+Carved of fossilized bone and hellforged
+metal, dulled by centuries of slaughter and execution, the
+Cleaver is the terrible weapon of a Hive Knight. Despite their mass, they swing easily, as if the sword
+were aware of its action and eager to tear into the Light.
+Card: Tomb Ship , Points: 5
+Tomb Ships are the Hive equivalent of troop carriers, though the term can only be applied loosely.
+They glide from point to point through ominous portals, wounds cut into the flesh of space.
+Card: Shrieker , Points: 5
+These everwatchful
+sentinels are believed, in some circles, to serve as the eyes of the Hive's
+innermost covens, allowing powerful Wizards and Knights to watch over their domains. Others believe
+Shriekers are nothing more than weapons meant to guard Hive ritual sites.
+There is nothing living to the Shrieker, but neither are they mechanical constructs in a classical sense.
+They seem to be dead mass, animated by the arcane will of the Hive. When a Shrieker is broken, its
+Void charge rips free of the hull to seek vengeance.
+Collection: Exalted Hive
+Cards:
+Kranox, The Graven
+Swarm Princes
+Telthor, Unborn
+Sardok, Eye of Oryx
+Mormu, Xol Spawn
+Phogoth, the Untamed
+Card: Kranox, The Graven , Points: 10
+"Their keeper of secrets."
+Kranox, the Graven is said to be the Keeper of the Worlds' Grave, a vast repository chronicling the
+Hive's history of interstellar conquests. Every world they have devoured, every life they have
+eradicated, every enemy they've faced.
+Defeating Kranox and cracking the secrets of the Worlds' Grave could provide the City with the keys
+to unraveling the Hive's true goals and their ultimate plans for Earth.
+Card: Swarm Princes , Points: 15
+"The royalty of nightmare."
+The Swarm Princes are terrible legends. It was their will that forged the Sword of Crota, a weapon
+meant to ravage worlds the
+Great Render of Light, the Darkest Edge. They have waited in the
+shadows of the Hellmouth for their master's return, guarding the Sword and sating its ravenous
+hunger with the Light of Guardians who have dared to challenge them.
+Card: Telthor, Unborn , Points: 10
+"If you see an Ogre, you know you're close to something the Hive values."
+The Unborn are those Ogres who have yet to be given the honor of a summoning. Brute enforcers
+with a singular hunger for destruction, the Unborn serve the will of their greater Hive overlords. Those
+Ogres that display loyalty and strength will be called for an agonizing ritual that earns them the title
+"Reborn."
+Telthor, protector of the Chamber of Night, is kept hungry and chained, awaiting the moment when an
+interloper breaks open the Chamber and threatens the Hive's hateful ambitions.
+Card: Sardok, Eye of Oryx , Points: 15
+"Until the Darkness reigns, the Eyes must never close."
+There are whispers of shrines to the fabled Oryx peppered across the entire system. Stories tell of
+walking nightmares, protectors of bone and fury, towering over these prized chambers.
+Card: Mormu, Xol Spawn , Points: 10
+"How many horrors have they summoned?"
+Behind every dark ritual lurks a coven of Wizards, the architects of the Hive's unspeakable designs.
+Mormu, born of the blood and flesh of Xol, is said to conduct terrible rituals upon the Hive's Ogres.
+Card: Phogoth, the Untamed , Points: 15
+"The summoning tempers their rage...but first that rage must be stoked."
+Phogoth's presence in the Summoning Pits reveals yet another of the Hive's depraved designs a
+ritual of rebirth, where an Ogre's ravenous hunger and violence is honed and given purpose.
+Collection: Vex
+Cards:
+The Vex
+Goblin
+Hobgoblin
+Harpy
+Minotaur
+Hydra
+Hezen Corrective
+Hezen Protective
+Virgo Prohibition
+Sol Divisive
+Precursors
+Descendants
+Ghost Fragment: Vex
+Ghost Fragment: Vex 2
+Ghost Fragment: Vex 3
+
+Card: The Vex , Points: 5
+"Living metal. Incomprehensible intelligence."
+The Vex are architects of ancient and complex structures thought to be buried within every celestial
+body. Linked by a network unlike any on Earth, they operate in unison, directed by a single
+unfathomable purpose.
+Card: Goblin , Points: 5
+"All their joints turning together. Moving together. Towards you."
+The Goblin is the basic unit in the vast computational network that is the Vex. Shattering the large,
+fanshaped
+head does not seem to cause lasting damage but sends the Goblin into a crackling
+frenzy.
+Card: Hobgoblin , Points: 5
+"The air by my cheek twanged twice, stinking of ozone, before I saw it."
+Specialized for sniping, this lean, tough Vex model is fitted with improved optics and acute sensors in
+its horns. Like the Goblin, the Hobgoblin contains a milky radiolarian fluid.
+Attacking a Hobgoblin often triggers a defensive reflex the
+Hobgoblin seals itself in stasis and waits
+for help.
+Card: Harpy , Points: 5
+"It swam back and forth through the air, spinning, the single red eye looking I
+realized for
+me."
+The fastest and most mobile Vex, the Harpy is an airborne unit often deployed in flocks on patrols and
+scouting missions. They must stop and stabilize before attacking.
+Card: Minotaur , Points: 5
+"I thought it was at a safe distance. I was wrong."
+Minotaurs pack brutal heat, but most of their processing power is devoted to the physics of building
+massive Vex complexes, suspected to extend through multiple dimensions. Minotaur models are
+thicker and harder to crack than any other bipedal Vex, and they use their teleportation capability
+aggressively.
+Card: Hydra , Points: 5
+"Our shots dissolved in the translucent matrix around it, useless."
+The Hydra is a miniature fortress. Despite its physical slowness, it is a rapid processor of the data fed
+to it by other Vex, and what it lacks in mobility it makes up for in impregnable defenses and rockmelting
+firepower.
+Card: Hezen Corrective , Points: 10
+We understand the Vex as a network of thoughts, unified and vast. But not all Vex are the same. The
+Hezen Corrective is one example of a Vex subtype, set apart from other Vex by distinct behaviors and
+objectives.
+Swarming across the Ishtar Sink, these Vex aggressively seek out and attack the Fallen House of
+Winter, perform inscrutable operations around shining Confluxes, and even show interest in the
+Golden Age ruins left by the Ishtar Collective.
+The bulk of our contact with Vex forces on Venus has involved the Corrective. Those scholars willing
+to risk their reputations speculating about the Vex often assert that the Corrective is an agent of
+change, designed to solve problems and remake the world in a form suitable to the Vex. Others
+contend that Corrective is simply a strategic distraction meant
+to draw attention away from the
+actions of the Hezen Protective.
+Card: Hezen Protective , Points: 10
+The mysterious Hezen Protective is the second major Vex behavioral unit on Venus. Concentrated
+around the legendary Vault of Glass and the Endless Steps, the site of a massive Vex gate and the
+access point to the towering Citadel, the Protective's behavior seems very defensive.
+But leading Cryptarchs and experienced Guardians warn that it would be a fatal mistake to think of
+the Vex as a conventional military occupying an area. Vex behavior is always a process, active and
+purposeful. The Protective is clearly engaged in a colossal project, but as with much Vex behavior, it's
+unclear whether their ultimate purpose is even comprehensible to us. The Protective may be reacting
+to an event that has yet to occur, or working towards a goal that to
+us is
+already historical fact.
+Card: Virgo Prohibition , Points: 10
+Mars is wracked by an ongoing theaterlevel
+conflict between the Cabal and a Vex subtype known as
+the Virgo Prohibition. These aggressive, relentless Vex constantly test the Cabal exclusion zone,
+apparently heedless of losses.
+In spite of the Vex onslaught, the Cabal have managed to expand its beachhead and maintain a hold
+on several mysterious Vex structures. The Prohibition's tactics seem to be failing in the short run.
+But it seems unlikely that an organization with the sheer computational scope of the Vex could be
+dragged into a losing war of attrition. Is it possible that the Vex are trying to draw out the Cabal
+strength? Or that their surface losses are a distraction from a deeper strategic ploy?
+Ikora Rey has proposed that the Vex units can best be understood as algorithms each
+a unique
+mapping of inputs to behavioral responses. Perhaps the Virgo Prohibition is simply the wrong
+algorithm for its environment, and its failure will drive the greater Vex network to adapt and improve.
+Card: Sol Divisive , Points: 10
+Beyond the towering Meridian Bay gate lies the Black Garden, adrift in time and space. And within the
+Garden dwell the Vex of the Sol Divisive, frozen in rapture.
+We have precious little insight into the Divisive's behavior. They seem central to Vex actions in the
+solar system: the Garden is clearly a place of enormous power.
+Legends and scant field reports all indicate that the Divisive Vex behave religiously. Why would a
+hyperintelligent, timespanning
+thought mesh exhibit religious behavior? The answer seems as
+obvious as it is chilling: if the Vex found worship and devotion more effective than any other behavior,
+they would adopt worship. Whatever the Vex found or
+made in
+the Garden, it transcends even their
+power.
+Card: Precursors , Points: 10
+Sol Primeval
+Those who delve deep into the Vault of Glass have seen time itself torn asunder. Awestruck Ghosts
+report encounters with ancient Vex, their casings built long before the age of humanity.
+It would be easy to assume these Vex are the ancestors of those we face today but
+with the Vex it is
+never so simple.
+Card: Descendants , Points: 10
+Sol Imminent
+Survivors of the Vault of Glass report sightings of ancient Vex ancient
+in the sense that they have
+endured for eons. Convergent analysis from multiple Ghosts suggests that these Vex exist in our
+future.
+If the Vex exist in our future or
+in a possible future should
+we take this as evidence that their defeat
+is impractical or unattainable? The Guardian Vanguard is quick to point out that time travel remains a
+mystery, and that the continued existence of the Vex is not remotely a sure indication of humanity's
+extinction.
+Card: Ghost Fragment: Vex , Points: 5
+From the Records of the Ishtar Collective
+ESI: Maya, I need your help. I don't know how to fix this.
+SUNDARESH: What is it? Chioma. Sit. Tell me.
+ESI: I've figured out what's happening inside the specimen.
+SUNDARESH: Twelve? The operational Vex platform? That's incredible! You must know what this
+means ah,
+so. It's not good, or you'd be on my side of the desk. And it's not urgent, or you'd already
+have evacuated the site. Which means...
+ESI: I have a working interface with the specimen's internal environment. I can see what it's thinking.
+SUNDARESH: In metaphorical terms, of course. The cognitive architectures are so ESI:
+No. I don't need any kind of epistemology bridge.
+SUNDARESH: Are you telling me it's human? A human merkwelt? Human qualia?
+ESI: I'm telling you it's full of humans. It's thinking about us.
+SUNDARESH: About oh
+no.
+ESI: It's simulating us. Vividly. Elaborately. It's running a spectacularly highfidelity
+model of a
+Collective research team studying a captive Vex entity.
+SUNDARESH:...how deep does it go?
+ESI: Right now the simulated Maya Sundaresh is meeting with the simulated Chioma Esi to discuss
+an unexpected problem.
+[indistinct sounds]
+SUNDARESH: There's no divergence? That's impossible. It doesn't have enough information.
+ESI: It inferred. It works from what it sees and it infers the rest. I know that feels unlikely. But it
+obviously has capabilities we don't. It may have breached our shared virtual workspace...the neural
+links could have given it data...
+SUNDARESH: The simulations have interiority? Subjectivity?
+ESI: I can't know that until I look more closely. But they act like us.
+SUNDARESH: We're inside it. By any reasonable philosophical standard, we are inside that Vex.
+ESI: Unless you take a particularly ruthless approach to the problem of causal forks: yes. They are
+us.
+SUNDARESH: Call a team meeting.
+ESI: The other you has too.
+Card: Ghost Fragment: Vex 2 , Points: 5
+From the Records of the Ishtar Collective
+SUNDARESH: So that's the situation as we know it.
+ESI: To the best of my understanding.
+SHIM: Well I'll be a [profane] [profanity]. This is extremely [profane]. That thing has us over a barrel.
+SUNDARESH: Yeah. We're in a difficult position.
+DUANEMCNIADH:
+I don't understand. So it's simulating us? It made virtual copies of us? How does
+that give it power?
+ESI: It controls the simulation. It can hurt our simulated selves. We wouldn't feel that pain, but
+rationally speaking, we have to treat an identical copy's agony as identical to our own.
+SUNDARESH: It's god in there. It can simulate our torment. Forever. If we don't let it go, it'll put us
+through hell.
+DUANEMCNIADH:
+We have no causal connection to the mind state of those sims. They aren't us.
+Just copies. We have no obligation to them.
+ESI: You can't seriously your
+OWN SELF SHIM:
+[profane] idiot. Think. Think. If it can run one simulation, maybe it can run more than one. And
+there will only ever be one reality. Play the odds.
+DUANEMCNIADH:
+Oh...uh oh.
+SHIM: Odds are that we aren't our own originals. Odds are that we exist in one of the Vex simulations
+right now.
+ESI: I didn't think of that.
+SUNDARESH: [indistinct percussive sound]
+Card: Ghost Fragment: Vex 3 , Points: 10
+From the Records of the Ishtar Collective
+SUNDARESH: I have a plan.
+ESI: If you have a plan, then so does your sim, and the Vex knows about it.
+DUANEMCNIADH:
+Does it matter? If we're in Vex hell right now, there's nothing we can SHIM:
+Stop talking about 'real' and 'unreal.' All realities are programs executing laws. Subjectivity is
+all that matters.
+SUNDARESH: We have to act as if we're in the real universe, not one simulated by the specimen.
+Otherwise we might as well give up.
+ESI: Your sim self is saying the same thing.
+SUNDARESH: Chioma, love, please hush. It doesn't help.
+DUANEMCNIADH:
+Maybe the simulations are just billboards! Maybe they don't have interiority! It's
+bluffing!
+SHIM: I wish someone would simulate you shutting up.
+SUNDARESH: If we're sims, we exist in the pocket of the universe that the Vex specimen is able to
+simulate with its onboard brainpower. If we're real, we need to get outside that bubble.
+ESI: ...we call for help.
+SUNDARESH: That's right. We bring in someone smarter than the specimen. Someone too big to
+simulate and predict. A warmind.
+SHIM: In the real world, the warmind will be able to behave in ways the Vex can't simulate. It's too
+smart. The warmind may be able to get into the Vex and rescue us.
+DUANEMCNIADH:
+If we try, won't the Vex torture us for eternity? Or just erase us?
+SUNDARESH: It may simply erase us. But I feel that's preferable to...the alternatives.
+ESI: I agree.
+SHIM: Once we try to make the call, the Vex may...react. So let's all savor this last moment of
+stability.
+SUNDARESH: [indistinct sounds]
+SHIM: You two are adorable.
+DUANEMCNIADH:
+I wish I'd taken that job at Clovis.
+Collection: Vex Arsenal
+Cards:
+Slap Rifle
+Line Rifle
+Torch Hammer
+Slap Grenade
+Cyclops
+Card: Slap Rifle , Points: 10
+From a tactical perspective, the Slap Rifle is a Vex directedenergy
+weapon that fills their analog of
+the light infantry role. From an engineering perspective it's something much more interesting: a
+terminal. The Slap Rifle receives a bolt of Solar energy from somewhere (or somewhen) else and it
+points it at a target.
+The terminal's flexibility is impressive. In noncombat
+conditions, the Slap Rifle seems like it might
+serve as a viable field transmitter, construction tool, navigational beacon, network repeater, or any of
+a number of other utility functions.
+Card: Line Rifle , Points: 10
+The Vex Line Rifle fires highvelocity
+Solar particle jets. Deployed on the Hobgoblin chassis, the Line
+Rifle serves as a sniper weapon, pinning down targets or delivering the killing blow.
+Like the Slap Rifle, the Line Rifle is a terminal weapon, although its source is much more energetic.
+Some believe the weapon pulls material from the accretion disk of a galactic singularity. This would
+imply the Vex are near or
+have already achieved access
+to a terrifying range of civilizationkilling
+weapons. Others consider this unlikely, and propose that the Line Rifle simply draws from a central
+Vex power supply.
+Card: Torch Hammer , Points: 10
+The Torch Hammer is a devastating Vex heavy weapon. Firing projectiles of strange matter, the
+Hammer mauls targets with exotic particle decay and deadly radiation.
+Card: Slap Grenade , Points: 10
+The Vex use Slap Grenades to drive targets out into the open. These devices behave more like
+miniaturized gates than conventional explosives, channeling a Void energy pulse from a remote
+location.
+Card: Cyclops , Points: 5
+The Cyclops is a huge, stationary Vex construct with a powerful Void weapon. Guardians think of
+Cyclops as gun platforms batteries
+installed to protect key points with devastating mortar fire.
+But some evidence suggests that the Cyclops is in fact an enormous sensor or beacon, and that its
+weapons capabilities are secondary. What the Cyclops senses remains unknown, although its mind
+core is vast. It may play a role in the Vex networked intelligence, or in navigation across space and
+time.
+A damaged Cyclops can be forced into a state of punchdrunk
+confusion, its inputs overwhelmed by
+hostile fire. This can result in fratricidal kills on other Vex units.
+Collection: Vex Axis Minds
+Cards:
+Zydron, Gate Lord
+Prohibitive Mind
+Sol Progeny
+Sekrion, Nexus Mind
+The Gorgons
+The Templar
+Atheon, Time's Conflux
+Card: Zydron, Gate Lord , Points: 15
+The intelligence we call Zydron seems to exist in a liminal state, stretched between gates in the Vex
+network. It manifests as a physical being only when called.
+Warlock scholars believe that Gate Lords regulate traffic between Vex gates, and that their minds
+contain codes that might open the way into forbidden realms. An enormous amount of hope and
+anger has been spent on a particular debate could
+we find a Vex gate that opens onto a place and
+time before the Collapse, and somehow forestall it?
+Card: Prohibitive Mind , Points: 15
+Vex Axis Minds are individual Vex hulls that contain local instances of superordinate Vex goal sets.
+This cryptic phrase means something reasonably simple the
+Axis Mind contains a copy of all the
+information required to pursue a particular objective.
+This allows other nearby Vex to focus on their local tasks, leaving global planning to the Axis Mind. Of
+course, this also introduces a centralized weakness for enemies to target. But the Vex seem to
+consider the tradeoff worthwhile.
+The Prohibitive Mind seems to coordinate Vex action against Cabal positions in Meridian Bay. The
+current Vex operational plan to
+the extent that we assume the Vex have operational plans appears
+to involve an attritional campaign on the surface, supplemented by disruptive use of gates to bypass
+Cabal hardpoints.
+Card: Sol Progeny , Points: 15
+To Commander Zavala My
+Thoughts on Recent Events
+Zavala How
+like you to ask me for the bad news, even in this moment of triumph. I've finished going over that
+Ghost's report.
+It is my hypothesis a
+hypothesis at best that
+the Vex saw the abominable presence at the heart of
+the Garden as a divine power. I can hear your protest already: how can machines have a god?
+The answer is simple. The Vex, for all their voracious intelligence, could not understand or decipher
+what they found. They searched through all available reactions, and they settled on the course with
+the greatest payoff...to worship this power, and to remake themselves in its image.
+I believe the three Axis Minds found in proximity to the abomination were Vex machines built to serve
+as vessels for this power: a way to extend its reach across space and time, binding it to the Vex, and
+the Vex to it. If they had succeeded, I cannot begin to guess what horrors they would have unleashed.
+Attend carefully. There is cause for hope. When endangered, the abomination activated these vessels
+and defended itself. This tells us that it was threatened. Whatever it was, Guardians could harm it.
+And it activated only a single vessel at a time. Its strength was limited. Whatever it intended, it was
+not ready yet.
+We must assume the abomination was part of something greater. And we cannot flinch from the
+terrible, obvious comparison: just as the Traveler acts through us, this power was able to act through
+its own servants.
+Let us be wary. There may be other abominations, and other vessels.
+Ikora
+Card: Sekrion, Nexus Mind , Points: 15
+The Vanguard's intelligence sources now believe, with good confidence, that Sekrion oversees the
+expansion of the Vex network through the crust of Venus.
+The Hydra chassis common to many Vex Axis Minds boasts impressive computational capacity.
+Sekrion likely uses this capacity to regulate coordination and crosstalk between Minotaurs operating
+in the construction role.
+Destroying Sekrion should significantly hamper the Vex effort to incorporate the entire planet into their
+network.
+Card: The Gorgons , Points: 15
+Deep in the Vault of Glass, the fabric of reality bends to the will of the Vex. Warlocks speak in tones
+of awe of the Gorgons creatures
+that seem to possess a dreaded, almost unimaginable strength: an
+ontological weapon.
+Like the Oracles and the Templar, the Gorgons reputedly possess the ability to define what is and is
+not real. Whatever they perceive becomes subject to erasure at their will. Until a countermeasure can
+be found, Guardians must avoid their gaze at all costs or
+reply to any detection with immediate,
+overwhelming force.
+The Gorgons' ability must be tied to the nature of the Vault of Glass. We can take some solace in the
+clear fact that the Vex cannot manifest this power in the world outside.
+Card: The Templar , Points: 15
+Even among the Axis Minds, the Templar is extraordinary. Fragmentary glimpses and scattered
+reports suggest a Hydra of impossible capabilities a
+creature out of time.
+The Templar and the Oracles guard the way into the deeper Vault. Legends say that the Oracles
+foresee what is to come, a world as the Vex desire it and
+that the Templar has the power to shape
+reality to match the Oracles' design, expunging any threats.
+The power of the Vault flows through the Templar. It will take something extraordinary to shatter its
+shield.
+Card: Atheon, Time's Conflux , Points: 15
+To speak of Atheon is to accept certain limitations. We are illequipped
+to understand an entity that
+defies simple causality. Let us accept these limitations and proceed.
+Atheon waits in the Vault of Glass. Just as Atheon sidesteps 'past' and 'future', it is impossible to say
+whether Atheon created the Vault or the Vault created Atheon. Causal pathways converge on Atheon
+from every axis in the spacetime
+bulk.
+Atheon has a function. We hazard that it regulates and oversees the Vex conflux system. What are
+these confluxes? How do they relate to the physical Vex network that has devoured so much of
+Mercury and Venus?
+We might guess that the Vex confluxes represent the extension of this network across space and
+time. Perhaps the Vex use closed timelike curves to solve unfathomable computations. Or the Vex
+may seek to transcend a physical substrate, and move their thoughts directly into the fundament of
+the universe.
+If physics is a set of rules that the cosmos uses to calculate itself, perhaps the Vex seek to worm their
+way into these calculations: to become a law of reality, inseparable from existence. A virus in the
+system. Perhaps Atheon was the centerpiece of this project, a command nexus that unified efforts
+across time.
+But we must accept that all of this is speculation.
+Collection: Cabal
+Cards:
+The Cabal
+Legionary
+Centurion
+Colossus
+Psion
+Phalanx
+Sand Eaters
+Dust Giants
+Siege Dancers
+Blind Legion
+Ghost Fragment: Cabal
+Ghost Fragment: Cabal 2
+Card: The Cabal , Points: 5
+"I think you could follow a trail of shattered worlds all the way to their home."
+Tactically efficient, disciplined, and unrelenting, the Cabal are the greatest known military force in the
+system. Their origins and ultimate objectives are a mystery, but it seems clear they have conquered
+more worlds than humanity has ever known.
+Cabal soldiers wear pressurized armor that replicates the environment of their highgravity
+homeworld. Their field tactics depend on ranks of Legionaries supported by air power, elite infantry,
+and ultraheavy
+armor.
+Card: Legionary , Points: 5
+"Their only tactic seems to be 'slow advance.' The problem is, they're really good at it."
+Propelled by jump packs and wielding powerful slug rifles, Legionaries are the Cabal's line infantry
+and the backbone of their military power on the ground. Common Legionary tactics center on the
+bounding advance some
+units attack the target while others close the range or find new firing
+positions.
+Card: Centurion , Points: 5
+"They're not breaking. Why aren't they breaking?"
+Centurions are tactically intelligent, highly skilled field commanders. Their armor boasts a formidable
+array of combat electronics and deployable munitions.
+Card: Colossus , Points: 5
+"Where a Colossus stands, many will fall."
+Towering over other Cabal, equipped with rapidfiring
+heavy weapons and nearly impenetrable armor,
+the Colossus is the most devastating heavy infantry unit in the Cabal order of battle.
+Card: Psion , Points: 5
+"There is no higher warfare than deception."
+Psions are smaller than all other Cabal morphs, and may be an unrelated species. Hyperintelligent,
+fast and unpredictable, they possess strong psionic capabilities including
+the ability to emit
+disorienting and deadly psychokinetic Arc blasts.
+Card: Phalanx , Points: 5
+"Remember, they have to take a shot sometime."
+Phalanx soldiers carry massive shields, used for both attack and defense. While this protection is
+nearly impenetrable, clever opponents can bait the Phalanx or sneak shots around the shield.
+Card: Sand Eaters , Points: 10
+"The sooner we're extinguished, the sooner they can go home."
+The Cabal formation first and most frequently encountered by Guardians, the Sand Eaters represent
+the numerical bulk of the Cabal presence on Mars. Their equipment, tactics, and morale all show the
+weight of a long deployment but
+they continue to pursue their objectives with dogged, weary
+determination.
+Card: Dust Giants , Points: 10
+"Position compromised. Casualties unsustainable. Request heavy air. Request [Dust Giants]."
+Highly trained and heavily conditioned, Dust Giant soldiers seem to be recruited from veteran Sand
+Eater infantry. The Cabal order of battle positions them as a mobile reserve and shock force, rolled in
+to blunt major Vex offensives and reinforce crumbling lines.
+Card: Siege Dancers , Points: 10
+"I've seen how fast they work. We have to hit them before they make the next move."
+The Cabal's elite forward unit, the Siege Dancers are deployed into unsecured areas to take control
+and set up fortifications. Their tactical doctrine allows more freedom to unit commanders perhaps
+because their missions face much greater unknowns.
+Siege Dancer engineers have been observed to compete in demolition challenges. Whether this
+represents training or a form of recreation is unknown.
+Card: Blind Legion , Points: 10
+"PERIMETER SECURE."
+The Cabal presence on Mars is locked in an endless war with the Vex and
+at the heart of this war is
+the Blind Legion. Deployed to defend vital artifacts seized from the Vex, the Legion holds its ground
+with fanatic zeal.
+Blind Legion soldiers brave one of the most thankless, grueling assignments in the Cabal order of
+battle: descending into buried ruins and black catacombs to sweep for Vex presence.
+Card: Ghost Fragment: Cabal , Points: 5
+I have stayed with the Cabal, even as the Light in me dims I
+have been too far from the Traveler for
+too long. If I am not destined to find my own Guardian, at least I can inform the City of what I've
+learned.
+I thought Mars would be the place to find a Guardian. The sand preserves everything well, and Clovis
+Bray had been famous for attracting talent. The brave, the brilliant, the footloose, those restless on
+Earth and itching for fame. I stowed away aboard a Mars scout ship, hoping.
+No luck. The sand ate everything. Clothes from skin, skin from bone. It was as if there were never any
+people here at all. I have been through every broken window in every building. Nothing. That is, no
+Guardian material. And no ride back to Earth. The scout was long gone.
+What I did find, however, was a way into the Cabal Warbase. Their runty piggish eyes are too dull to
+see me, as long as I stay out of their defense systems. The Psions are a different matter: Too quick,
+too clever, throwing their minds around like hammers. I creep around walls, or dig into a heap of
+canisters and watch from there.
+There is a vast Empire behind these creatures, many star systems away. Some pledge allegiance to
+that far Empire, obeying their ancient marching orders. Some do not. They disagree among
+themselves about the answers. I wish arguing Cabal on no one. They slam their plated bodies into
+each other with horrendous roars. Intelligence gathering has never been so painful.
+
+Card: Ghost Fragment: Cabal 2 , Points: 5
+A hologram of a spinning golden planet, in stasis, turning gently. You can see the storms moving over
+its face. But when the Commanders congregate below it, when they activate whatever controls are
+below, it changes. Fissures appear on its face. Is that their home? When the room empties I play with
+the controls, but it's older, native technology that I don't recognize at all.
+I don't know what it means. It's not difficult to hide in these caverns when you're as small as I am,
+although the Psions tend to look around them when they pass me. There are infinitely many cracks
+and crannies. They are not a race that fears infiltration or espionage.
+There is meaning to the structure and layout of their buildings. This is a warrior people, and they lay
+out their fortifications along ancient principles and timetested
+strategies. I can't figure out the sense
+that lies behind it. I would need ten times the computing power for inference calculations. But I know
+it's there. I can intuit it. It's like an open hand, ready to squeeze into a fist. A threat. A gesture of
+power.
+For all their might and strength, for all that they have dug into Mars and flung up battle walls with the
+bureaucratic grimness of conquerors, I suspect they are fleeing from something. That within their hard
+shells and thousandfolded
+shields is a sharp seed of terror. But of what? Does something follow
+them? Should we fear it too?
+Collection: Cabal Arsenal
+Cards:
+Slug Rifle
+Projection Rifle
+Heavy Slug Thrower
+Cabal Shield
+Harvester
+Interceptor
+Goliath Tank
+Card: Slug Rifle , Points: 10
+The workhorse of the Cabal field arsenal, this weapon's apparent simplicity belies the technology
+behind it. Each round is a microrocket capable of efficient operation in varying environmental and
+gravitational conditions. Standardissue
+warheads mount a duplex explosive that combines an armorpiercing
+penetrator with a fleshshredding
+shrapnel bus.
+Cabal forces on Mars favor rockets with low velocity but high impact, perhaps due to their
+effectiveness against the Vex. In Guardian parlance, these weapons deal Solar damage.
+Card: Projection Rifle , Points: 10
+This weapon fires salvos of explosive rounds designed to incapacitate, disorient, and destroy. The
+weapon feeds ballistic data to each projectile at the moment of launch, coordinating the salvo for
+maximum effect. These weapons deal Solar damage.
+Card: Heavy Slug Thrower , Points: 10
+This devastating squad support weapon is capable of completely halting enemy advances with a hail
+of microrockets. It performs so well that it has undergone very little enhancement or modification
+since its introduction. The Cabal's Colossus heavy infantry units wield Heavy Slug Throwers to
+devastating effect.
+In Guardian parlance, these weapons deal Solar damage.
+Card: Cabal Shield , Points: 10
+Built to the same spec as Cabal hull plating, this tactical shield is nearly indestructible to conventional
+weapons. It has integrated sensors that relay information not only to the shield bearer but also the
+Cabal battle network, allowing nearby units to coordinate more effectively.
+Card: Harvester , Points: 5
+The blocky, dull exterior of the Cabal Harvester belies the grace and power with which they
+maneuver. Guardians have described them dropping in aggressively from low orbit with a deafening
+boom, kicking up dust storms and swooping through the silent skyscrapers of Mars' dead cities.
+Harvesters often remain on station after deploying Cabal troops, providing support fire with their
+turrets. These weapons deal Solar damage.
+Card: Interceptor , Points: 5
+Though they lack the speed of a Fallen Pike, and their unwieldy shape cannot match the
+maneuverability of a Guardian's Sparrow, the Cabal Interceptor more than makes up for both
+shortcomings with firepower a
+pair of lowvelocity,
+highyield
+antipersonnel/
+antiarmor
+cannons on
+articulated mounts. These weapons deal Solar damage.
+Powered by a variant of the same boosters used in infantry jump jets and the massive Goliath tanks,
+Interceptors skate over the dunes of Mars, keeping close watch on the Cabal Exclusion Zone.
+Card: Goliath Tank , Points: 5
+With a few bloodcurdling
+exceptions, the Goliath is the single largest piece of groundbased
+ordnance the Cabal has deployed in our system. These huge armored vehicles sport an incredible
+arsenal of weapons, tailormade
+for massive area denial. The Goliath's main gun is almost certainly
+capable of engaging spacecraft.
+Four massive boosters keep the Goliath mobile. This locomotion system makes the Goliath
+surprisingly agile, but it is also a weakness. Targeting the boosters should allow a quick mobility kill,
+rendering the Goliath vulnerable to followup
+attack.
+Most Goliath weapons deal Solar damage.
+Collection: Cabal Command
+Cards:
+Bracus Tho'ourg
+Bracus Tha'aurn
+Primus Sha'aull
+The Psion Flayers
+Valus Ta'aurc
+Card: Bracus Tho'ourg , Points: 10
+Victory comes on the wings of death.
+Reports of the one they call Bracus Tho'ourg began in the earliest days of contact with the Cabal. The
+first Guardians who faced him are long lost, but the legends speak of a powerful commander who
+secured the Buried City with merely a fraction of the Cabal's forces on Mars. If these reports are
+accurate, they provide clues not only to Tho'ourg's tactical prowess but to the Cabal lifespan.
+Card: Bracus Tha'aurn , Points: 15
+Embrace suffering. Only then can it be conquered.
+Bracus Tha'aurn appears remarkable among Cabal commanders for his interest in the glories of our
+Golden Age. Having been faced only in the company of Psions, the Vanguard has reason to believe
+he maintains some sort of command over their deployment.
+Card: Primus Sha'aull , Points: 15
+If your enemy speaks with a blade, master the sword.
+No one knows what fascination the Vex hold for the leader of the Blind Legion, but Primus Sha'aull
+has put his command at great risk by pushing into lands occupied by the machines.
+Card: The Psion Flayers , Points: 15
+"We have just as much to learn from our enemies as we do from our past."
+Somewhere among their forces, the Cabal hide one of their most powerful weapons, the Psion
+Flayers. The extent of their ability is still uncharted, but Cryptarch studies and Warlock fears have led
+the Vanguard to classify them as a serious threat.
+Many among the Warlock orders believe the Flayers pulled Phobos from its natural orbit, holding it in
+place, waiting for the order to release as a weapon.
+Card: Valus Ta'aurc , Points: 15
+"The last sounds to reach their ears were the creak of tank tread and the battlecry
+of Ta'aurc."
+From his armored seat of power, Valus Ta'aurc has claimed more ground on Mars than any known
+Cabal commander. His name is feared throughout Meridian Bay, and the treadmarks
+left by his tank
+have come to signify the expansion of the Cabal's everwidening
+Exclusion Zone.
+Collection: Darkness
+Cards:
+The Darkness
+Ghost Fragment: Darkness
+Ghost Fragment: Darkness 2
+Ghost Fragment: Darkness 3
+Ghost Fragment: Darkness 4
+Card: The Darkness , Points: 5
+Something hit us. Killed our Golden Age. Nearly wiped us out. Only the Traveler saved us, and at a
+shattering cost.
+The Speaker tells of a cosmic force that swept over us and caused the Collapse. Legend calls it the
+Darkness, the Traveler's ancient enemy, which hunted it across space.
+All we have left are questions. Centuries of debate gave birth to competing arguments on the nature
+of the Darkness and the Collapse.
+The Pujari Position describes the Darkness as a force with both physical and moral presence, an
+actualization of evil. Pujari art depicts the Darkness as a great storm, or as a change in conduct, a
+corruption that emerged from within and poisoned the Golden Age.
+Saint14'
+s Position argues that the Darkness was an invading armada, an alien force of incredible but
+tangible power.
+Some adherents believe that this armada sprang from species rejected or
+discarded by the Traveler for their sins.
+UlanTan's
+Thesis considers the Darkness a necessary symmetry to the Traveler in a cosmic
+balance. In this view, the Traveler's goodness led it to sacrifice for others, and it is up to us to return
+this goodness by healing the Traveler.
+The Monist Position, or the Deflationary Position, considers the Darkness as a technologically
+sophisticated force, perhaps a postSingularity
+intelligence. Adherents invoke information theory or
+contend that the universe is a simulation, allowing advanced intelligence to gain weakly acausal
+powers by bending the rules.
+The Acataleptic Clause claims that we are intrinsically unable to understand the Darkness. In many
+respects this belief parallels the Praxic Creed, which suggests that we should stop worrying about the
+nature of the Darkness and focus on resisting and defeating it.
+Certain positions often
+labeled heretical imply
+that the Traveler itself triggered the Collapse, or that
+it knew the Darkness was coming for it and hoped to use the Solar System as a sacrifice or a proxy
+army. The Binary Star cult is one notable example.
+Card: Ghost Fragment: Darkness , Points: 5
+V113NNI070XMX001 SECRET HADAL INSTANT
+AICOM/
+RSPN: SOLSECCENT//SxISR//DEEPSPACE
+CONTACT CONTACT CONTACT
+TRANSIENT. NULLSOURCE. NULLTYPE.
+This is a SKYSHOCK ALERT.
+Multiple distributed ISR assets report a TRANSIENT NEAR EXTRASOLAR EVENT. Event duration
+ZERO POINT THREE SECONDS. Event footprint includes sterile neutrino scattering and gravity
+waves. Omnibus analysis detects deep structure information content (nine sigma) and internal
+teleonomy.
+No hypothesis on event mechanism (FLAG ACAUSAL). Bootstrap simulation suggests event is
+DIRECTED and INIMICABLE (convergent qBayes/
+Monte Carlo probability approaches 1).
+No hypothesis on deep structure encoding (TCC/NPHARD).
+Source blueshift suggests IMMINENT SOLAR ENTRY.
+Promote event to SKYSHOCK: OCP: EXTINCTION. Activate VOLUSPA. Activate YUGA. Cauterize
+public sources to SECURE ISIS and harden for defensive action.
+I am invoking CARRHAE WHITE and assuming control of solar defenses.
+STOP STOP STOP V113NNI070XMX091
+Card: Ghost Fragment: Darkness 2 , Points: 5
+Dreams of Alpha Lupi
+The universe is a beast.
+The body is made from tiny stuff, from nearnothings.
+From atoms swimming through a blood of
+crackling sparks. Simple, eternal Laws shape the beast. The largest galaxy is ruled by principles of
+mass and motion. Electrons are slaves to charge and to chance. And this is why the universe feels
+inexhaustible, eternal.
+No sun complains about its death. Life is the problem. Life can be woven from flesh or circuit or
+thoughtful light. Origins don't matter. But small, halfsmart
+creatures have a fierce talent for denying
+the inevitable, for balking and complaining about injustices that don't exist and consequences that
+should be borne in silence.
+Card: Ghost Fragment: Darkness 3 , Points: 10
+From the Journals of Toland, the Shattered
+I drive myself to the edge of madness trying to explain the truth.
+It's so simple. Elegant like a knife point. It explains this
+is not hyperbole, this is the farthest thing
+from exaggeration EVERYTHING.
+But you lay it out and they stare at you like you've just been exhaling dust. Maybe they're missing
+some underlying scaffold of truth. Maybe they are all propped on a bed of lies that must be burned
+away.
+Why does anything exist?
+No no no no no don't reach for that word. There's no 'reason'. That's teleology and teleology will stitch
+your eyelids shut.
+Why do we have atoms? Because atomic matter is more stable than the primordial broth. Atoms
+defeated the broth. That was the first war. There were two ways to be and one of them won. And
+everything that came next was made of atoms.
+Atoms made stars. Stars made galaxies. Worlds simmered down to rock and acid and in those
+smoking primal seas the first living molecule learned to copy itself. All of this happened by the one
+law, the blind law, which exists without mind or meaning. It's the simplest law but it has no
+worshippers here (out there, though, out there !)
+HOW DO I EXPLAIN IT it's so simple WHY DON'T YOU SEE
+Imagine three great nations under three great queens. The first queen writes a great book of law and
+her rule is just. The second queen builds a high tower and her people climb it to see the stars. The
+third queen raises an army and conquers everything.
+The future belongs to one of these queens. Her rule is harshest and her people are unhappy. But she
+rules.
+This explains everything, understand? This is why the universe is the way it is, and not some other
+way. Existence is a game that everything plays, and some strategies are winners: the ability to exist,
+to shape existence, to remake it so that your descendants molecules
+or stars or people or ideas will
+flourish, and others will find no ground to grow.
+And as the universe ticks on towards the close, the great players will face each other. In the next
+round there will be three queens and all of them will have armies, and now it will be a battle of swords
+until
+one discovers the cannon, or the plague, or the killing word.
+Everything is becoming more ruthless and in the end only the most ruthless will remain (LOOK UP AT
+THE SKY) and they will hunt the territories of the night and extinguish the first glint of competition
+before it can even understand what it faces or why it has transgressed. This is the shape of victory: to
+rule the universe so absolutely that nothing will ever exist except by your consent. This is the queen
+at the end of time, whose sovereignty is eternal because no other sovereign can defeat it. And there
+is no reason for it, no more than there was reason for the victory of the atom. It is simply the winning
+play.
+Of course, it might be that there was another country, with other queens, and in this country they sat
+down together and made one law and one tower and one army to guard their borders. This is the
+dream of small minds: a gentle place ringed in spears.
+But I do not think those spears will hold against the queen of the country of armies. And that is all that
+will matter in the end.
+Card: Ghost Fragment: Darkness 4 , Points: 15
+This war is all there is for you.
+What else do you have? You walk among mortals and immortals, a creature lost in time. Your only
+purpose is the struggle.
+Does it seem unfair? To be brought back into this, the end of days, the long dwindling exhalation of
+an ancient corpse? You were at peace. Now you are a dead husk charged with war. Do you
+remember anything of freedom?
+Fight on, then. The war IS everything.
+But consider the choices before you.

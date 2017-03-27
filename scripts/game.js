@@ -12,7 +12,7 @@ function reloadTable(choice, num) {
     if(choice){
       $.ajax ({
         type: 'post',
-        url: '/library-of-codexes/loadtable.php',
+        url: '/loadtable.php',
         data: {
           type: choice,
           game_id: num,

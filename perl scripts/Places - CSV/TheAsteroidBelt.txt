@@ -1,0 +1,19 @@
+TheAsteroidBeltCards:
+The Asteroid Belt
+The Reef
+Card: The Asteroid Belt , Points: 5
+"The Belt is the key to everything."
+The Asteroid Belt is a great band of nothingness, speckled with unimaginable wealth. Once a treasure
+trove for Golden Age industry, the Belt is now a haunted place where Fallen pirates and Awoken
+patrols skirmish among the whispering carcasses of ancient machines.
+Among the asteroids drifts the Reef, lashed together from the ruined ships of an ancient exodus. Here
+the Queen rules over the Awoken the
+farthest known light of civilization.
+Card: The Reef , Points: 5
+"Intruder bearing onetwoseven.
+You have crossed into the realm of the Awoken. State your
+business, or be fired upon by order of the Queen."
+The fate of those escaping Earth during the Collapse was once unknown. But here drifts a graveyard
+of lost ships, and among them the
+Realm of the Awoken. Ruled by a Queen few have seen, they
+have long avoided contact with the City.
