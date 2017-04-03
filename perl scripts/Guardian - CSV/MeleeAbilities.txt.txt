@@ -1,4 +1,0 @@
- '','' A bolt of Void Light which forks into smaller bolts on impact, seeking out enemies.\n\nMeleeAbilitiesCards:\n\nPunch\n\nStab\n\nPalm
-Stab '','' With their finely tuned reflexes, Hunters are naturally gifted with knives. The make and shape of the perfect knife is a matter of endless debate.
-Palm '','' Curiosity gets a Warlock into trouble, and force of will gets a Warlock out. Even novices can shear reality with a single deadly gesture.
-Punch '','' The brute strength of a Titan's melee offers a fullforce response to immediate danger.

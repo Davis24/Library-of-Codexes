@@ -49,28 +49,46 @@ $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpM
 #User information request
 print "-- Library of Codexes -- \n";
 print "START ID #: ";
-$start_ID = <>;
+my $start_ID = <>;
 print "END ID #: ";
-$end_ID = <>;
+my $end_ID = <>;
 
+createFiles();
+#rawr();
+sub createFiles{
 
+my $forloopcheck = 0;
+my $queryCheck = 0;
 #Create a file for each ID that contains the proper HTML
-for( $i = $start_ID; $i <= $end_ID; $i++)
+
+for(my $i = $start_ID; $i <= $end_ID; $i++)
 {
 
 	$query = $myConnection->prepare("SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as name, FK_AUTHOR_ID, CODEX_TEXT FROM codexes INNER JOIN authors ON FK_AUTHOR_ID = authors.AUTHOR_ID WHERE CODEX_ID = $i");
-	$query->execute();
+	$query->execute() or die $DBI::errstr;
+	if($query->rows > 0)
+	{
 
-	while(@test = $query->fetchrow_array())
+	}
+	else
+	{
+		print "ID: $i DOES NOT PULL ANYTHING \n";
+	}
+		while(@test = $query->fetchrow_array())
 	{	
+		$queryCheck++;
 		#stripping file information
-		$filename_stripped = $test[0];
+		my $filename_stripped = $test[0];
 		$filename_stripped =~ s/(:|"|\?)//g;
-		$filename = $filename_stripped.".html";
+		$filename_stripped =~ s/(\\|\/)/ /g;
+		my $filename = $filename_stripped.".html";
 		$var = "<p></p>";
 		$test[3] =~ s/\n/$var/g;
-
-		#opening filing 
+		if(-f $filename)
+		{
+			$filename = $filename_stripped." (1).html";
+		}
+		#opening file
 		open(my $fh, '>', $filename) or die "Failed on ID $i";
 		print $fh "<html><head><title> $test[0] </title></head><body> \n"; 
 		print $fh "<h2><b> $test[0] </b></h2> \n";
@@ -79,8 +97,45 @@ for( $i = $start_ID; $i <= $end_ID; $i++)
 		print $fh "</body> \n </html>";
 		close $fh;
 	}	
+
+	$forloopcheck++;
+
+
+}
+
+print "FOR LOOP CHECK: $forloopcheck \n";
+print "QUERY CHECK: $queryCheck\n";
+
 }
 
 
+sub rawr{
+	my $foundCount = 0;
+	for(my $i = $start_ID; $i <= $end_ID; $i++)
+	{
+
+		$query = $myConnection->prepare("SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as name, FK_AUTHOR_ID, CODEX_TEXT FROM codexes INNER JOIN authors ON FK_AUTHOR_ID = authors.AUTHOR_ID WHERE CODEX_ID = $i");
+		$query->execute();
+
+	
+		while(@test = $query->fetchrow_array())
+		{
+			my $filename_stripped = $test[0];
+			$filename_stripped =~ s/(:|"|\?|\\)//g;
+			$filename_stripped =~ s/(\\|\/)/ /g;
+			$filename = $filename_stripped.".html";
+		
+			if(-f $filename){
+				$foundCount++;
+			}
+			else
+			{
+				print "$filename  -- Not Found \n";
+			}
+		}
+	}
+
+	print "FOUND COUNT: $foundCount";
+}
 
 
