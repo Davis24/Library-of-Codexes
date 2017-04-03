@@ -31,20 +31,22 @@
       <a href="javascript:void(0);" onclick="gamepopup(5);"><img src="img/mass_effect-min.png" alt="Mass Effect"></a>
     </div>
     <div class="w3-col s6 m3 l3">
-    	<a href="javascript:void(0);" onclick="gamepopup(2);"><img src="img/swtor-min.png" alt="Star Wars: The Old Republic"></a>
+      <a href="javascript:void(0);" onclick="gamepopup(11);"><img src="img/metroid_prime-min.png" alt="Metroid Prime"></a>
     </div>
     <div class="w3-col s6 m3 l3">
-      <a href="javascript:void(0);" onclick="gamepopup(10);"><img src="img/the_elder_scrolls-min.png" alt="The Elder Scrolls"></a>
+    	<a href="javascript:void(0);" onclick="gamepopup(2);"><img src="img/swtor-min.png" alt="Star Wars: The Old Republic"></a>
     </div>
   </div>
   <div class="w3-row-padding book-img">
+    <div class="w3-col s6 m3 l3">
+      <a href="javascript:void(0);" onclick="gamepopup(10);"><img src="img/the_elder_scrolls-min.png" alt="The Elder Scrolls"></a>
+    </div>
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(8);"><img src="img/the_last_of_us-min.png" alt="The Last of Us"></a>
     </div>
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(6);"><img src="img/tomb_raider-min.png" alt="Tomb Raider"></a>
     </div>
-    <div class="w3-col s6 m3 l3"></div>
     <div class="w3-col s6 m3 l3"></div>
 		<div class="w3-col s6 m3 l3"></div>
   </div>
