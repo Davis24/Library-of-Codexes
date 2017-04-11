@@ -36,6 +36,7 @@
 							<a href="/game=4/Diablo">Diablo</a>
 	  						<a href="/game=1/Dishonored">Dishonored</a>
 	  						<a href="/game=7/Fable">Fable</a>
+	  						<a href="/game=12/Kingdoms-of-Amalur">Kingdoms of Amalur</a>
 	  						<a href="/game=5/Mass-Effect">Mass Effect</a>
 	  						<a href="/game=11/Metroid-Prime">Metroid Prime</a>
                   			<a href="/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
@@ -70,6 +71,7 @@
 						<a href="/game=4/Diablo">Diablo</a>
 	  					<a href="/game=1/Dishonored">Dishonored</a>
 	  					<a href="/game=7/Fable">Fable</a>
+	  					<a href="/game=12/Kingdoms-of-Amalur">Kingdoms of Amalur</a>
 	  					<a href="/game=5/Mass-Effect">Mass Effect</a>
 	  					<a href="/game=11/Metroid-Prime">Metroid Prime</a>
                   		<a href="/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
