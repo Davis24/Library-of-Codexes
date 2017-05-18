@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php 
+    //Connect to database
+	require_once('./scripts/dbconnect.php');
+	if($db === false)	{
+		echo "error occured, put in an error page";
+	}
+
     if(!isset($_tpl))
     {
         $_tpl = array();
         $_tpl['title'] = 'Library of Codexes';
-        $_tpl['meta_desc'] = '';
+        $_tpl['meta_desc'] = 'Welcome to Library of Codexes, the most comprehensive collection of Video Game codexes. The collection includes Elder Scrolls, Mass Effect, World of Warcraft and more.';
     }
     ?>
     <link rel="icon" href="/img/library_of_codexes_icon-3.png" />
@@ -31,19 +37,15 @@
 					<li class="w3-hide-small w3-hide-medium w3-hover-book"><a href="/ebooks">Ebooks</a></li>
 					<li class="w3-hide-small w3-hide-medium w3-dropdown-hover"><a href="javascript:void(0);">Games <i class="fa fa-caret-down"></i></a>
 						<div class="w3-dropdown-content w3-white w3-card-4">
-							<a href="/game=3/Baldur-s-Gate">Baldur's Gate</a>	
-							<a href="/game=9/Deus-Ex">Deus Ex</a>	
-							<a href="/game=4/Diablo">Diablo</a>
-	  						<a href="/game=1/Dishonored">Dishonored</a>
-	  						<a href="/game=7/Fable">Fable</a>
-	  						<a href="/game=12/Kingdoms-of-Amalur">Kingdoms of Amalur</a>
-	  						<a href="/game=5/Mass-Effect">Mass Effect</a>
-	  						<a href="/game=11/Metroid-Prime">Metroid Prime</a>
-                  			<a href="/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
-                  			<a href="/game=10/The-Elder-Scrolls">The Elder Scrolls</a>
-                  			<a href="/game=8/The-Last-of-Us">The Last of Us</a>
-                  			<a href="/game=6/Tomb-Raider">Tomb Raider</a>	
-                  			<a href="/game=13/World-of-Warcraft">World of Warcraft</a>
+						<?php 
+							$query = "SELECT GAME_TITLE, GAME_ID FROM games ORDER BY GAME_TITLE ASC";
+							if($result = $db -> query($query)){
+  								while($row = $result -> fetch_assoc()) {
+  									$game_name = str_replace(" ", "-", preg_replace("![^a-z0-9\s]+!i", "-", $row["GAME_TITLE"]));
+    								echo '<a href="/game='.$row["GAME_ID"].'/'.$game_name.'">'.$row["GAME_TITLE"]."</a>";
+			  					}
+  							} 
+  						?>
 						</div>
 					</li>
 					<form method = "post" action ="/search">
@@ -67,19 +69,15 @@
     			<li><a href="/ebooks">Ebooks</a></li>
     			<li class="w3-dropdown-hover"><a href="#">Games</a>
     				<div class="w3-dropdown-content w3-white w3-card-4">
-						<a href="/game=3/Baldur-s-Gate">Baldur's Gate</a>	
-						<a href="/game=9/Deus-Ex">Deus Ex</a>	
-						<a href="/game=4/Diablo">Diablo</a>
-	  					<a href="/game=1/Dishonored">Dishonored</a>
-	  					<a href="/game=7/Fable">Fable</a>
-	  					<a href="/game=12/Kingdoms-of-Amalur">Kingdoms of Amalur</a>
-	  					<a href="/game=5/Mass-Effect">Mass Effect</a>
-	  					<a href="/game=11/Metroid-Prime">Metroid Prime</a>
-                  		<a href="/game=2/Star-Wars-The-Old-Republic">Star Wars: The Old Republic</a>
-                  		<a href="/game=10/The-Elder-Scrolls">The Elder Scrolls</a>
-                  		<a href="/game=8/The-Last-of-Us">The Last of Us</a>
-                  		<a href="/game=6/Tomb-Raider">Tomb Raider</a>
-                  		<a href="/game=13/World-of-Warcraft">World of Warcraft</a>
+						<?php 
+							$query = "SELECT GAME_TITLE, GAME_ID FROM games ORDER BY GAME_TITLE ASC";
+							if($result = $db -> query($query)){
+  								while($row = $result -> fetch_assoc()) {
+  									$game_name = str_replace(" ", "-", preg_replace("![^a-z0-9\s]+!i", "-", $row["GAME_TITLE"]));
+    								echo '<a href="/game='.$row["GAME_ID"].'/'.$game_name.'">'.$row["GAME_TITLE"]."</a>";
+			  					}
+  							} 
+  						?>
 					</div>
     			</li>
     			<li><a href="/contact">Contact</a></li>
