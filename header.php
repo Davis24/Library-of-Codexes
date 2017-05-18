@@ -43,6 +43,7 @@
                   			<a href="/game=10/The-Elder-Scrolls">The Elder Scrolls</a>
                   			<a href="/game=8/The-Last-of-Us">The Last of Us</a>
                   			<a href="/game=6/Tomb-Raider">Tomb Raider</a>	
+                  			<a href="/game=13/World-of-Warcraft">World of Warcraft</a>
 						</div>
 					</li>
 					<form method = "post" action ="/search">
@@ -78,6 +79,7 @@
                   		<a href="/game=10/The-Elder-Scrolls">The Elder Scrolls</a>
                   		<a href="/game=8/The-Last-of-Us">The Last of Us</a>
                   		<a href="/game=6/Tomb-Raider">Tomb Raider</a>
+                  		<a href="/game=13/World-of-Warcraft">World of Warcraft</a>
 					</div>
     			</li>
     			<li><a href="/contact">Contact</a></li>

@@ -2,8 +2,7 @@
 	if(isset($_POST['game'])) {
 		$game_id = $_POST['game']; //Incoming Variable
 		//Create database connection
-		$config = parse_ini_file('config.ini');
-		$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+		require_once('./scripts/dbconnect.php');
 		$row = $db->query("SELECT GAME_TITLE, GAME_DESCRIPTION FROM games WHERE GAME_ID = ('".$game_id."')")->fetch_assoc();
 		mysqli_close($db);
 		//Display game title, link to ebooks, and description

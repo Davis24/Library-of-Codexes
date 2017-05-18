@@ -1,6 +1,5 @@
 <?php 
-	$config = parse_ini_file('config.ini');
-    $db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+	require_once('./scripts/dbconnect.php');
   	$author_id = (int)$_GET["a"]; //Incoming Variable
 	
 	$row = $db->query("SELECT CONCAT(FIRST_NAME,' ', LAST_NAME) as Name, BIOGRAPHY FROM authors WHERE AUTHOR_ID = ('".$author_id."')")->fetch_assoc();

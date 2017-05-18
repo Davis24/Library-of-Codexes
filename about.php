@@ -1,8 +1,7 @@
 <?php 
 	include('header.php'); 
 	//Database Connection
-	$config = parse_ini_file('config.ini');
-		$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+	require_once('./scripts/dbconnect.php');
 	//Query for numbers
 	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM codexes")->fetch_object()->count;
 	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM authors")->fetch_object()->count;

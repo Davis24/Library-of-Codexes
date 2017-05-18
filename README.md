@@ -7,6 +7,7 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 ## To Do
 
 * Create 404 Page
+* Optimization improvements
 
 ## Built With
 

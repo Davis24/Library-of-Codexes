@@ -9,7 +9,7 @@
 </div>
 <!-- Start of Images -->	
 <div class="centering">
-	<div class="w3-row-padding book-img">
+  <div class="w3-row-padding book-img">
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(3);"><img src="img/baldurs_gate-min.png" alt="Baldur's Gate"></a>
     </div>
@@ -19,7 +19,7 @@
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(4);"><img src="img/diablo-min.png" alt="Diablo"></a>
     </div>
-		<div class="w3-col s6 m3 l3">
+    <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(1);"><img src="img/dishonored-min.png" alt="Dishonored"></a>
     </div>
   </div>
@@ -50,6 +50,14 @@
     <div class="w3-col s6 m3 l3">
       <a href="javascript:void(0);" onclick="gamepopup(6);"><img src="img/tomb_raider-min.png" alt="Tomb Raider"></a>
     </div>
+  </div>
+  <div class="w3-row-padding book-img">
+    <div class="w3-col s6 m3 l3">
+      <a href="javascript:void(0);" onclick="gamepopup(13);"><img src="img/world_of_warcraft-min.png" alt="World of Warcraft"></a>
+    </div>
+    <div class="w3-col s6 m3 l3"></div>
+    <div class="w3-col s6 m3 l3"></div>
+    <div class="w3-col s6 m3 l3"></div>
   </div>
 </div>
 <!-- Game link popup -->

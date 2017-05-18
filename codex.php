@@ -1,7 +1,6 @@
 <?php 
 	$codex_id = (int)$_GET["c"]; //Incoming Variable
-	$config = parse_ini_file('config.ini');
-		$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+	require_once('./scripts/dbconnect.php');
 	//Pulls game id and game title
 	$row = $db->query("SELECT FK_GAME_ID, games.GAME_TITLE FROM codexes INNER JOIN games ON FK_GAME_ID = games.GAME_ID WHERE CODEX_ID = ('".$codex_id."')")->fetch_assoc();
 	$game_id = $row["FK_GAME_ID"];

@@ -1,17 +1,13 @@
 <?php 
 	//Connect to database
-	$config = parse_ini_file('config.ini');
-	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if($db === false)	{
-		echo "error occured, put in an error page";
-	}
+	require_once('./scripts/dbconnect.php');
 	//Variables and Queries 
 	$game_num = (int)$_GET["g"];
-	$game_title = $db->query("SELECT GAME_TITLE FROM GAMES WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
-  
+	$game_title = $db->query("SELECT GAME_TITLE FROM games WHERE GAME_ID = ('".$game_num."')")->fetch_object()->GAME_TITLE;
+  $game_temp = preg_replace("![^a-z0-9]+!i", "-", $game_title);
 	//Codex Count Query
-	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM CODEXES WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
-	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM AUTHORS WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
+	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM codexes WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
+	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM authors WHERE FK_GAME_ID = ('".$game_num."')")->fetch_object()->count;
  
   $_tpl = array();
   $_tpl['title'] = $game_title ." | Library of Codexes";
@@ -47,7 +43,7 @@
         </thead>
         <tbody>
         	<?php
-        		$query = "SELECT CODEX_TITLE, CONCAT(authors.TITLE,' ',authors.FIRST_NAME, ' ', authors.LAST_NAME) as Name,
+        		$query = "SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as Name,
                 	FK_AUTHOR_ID, CODEX_ID FROM codexes INNER JOIN authors ON codexes.FK_AUTHOR_ID = authors.AUTHOR_ID 
                 	WHERE codexes.FK_GAME_ID = ('".$game_num."')";
        			if($result = $db->query($query))

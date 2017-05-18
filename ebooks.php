@@ -1,10 +1,6 @@
 <?php
   //Database Connection
-	$config = parse_ini_file('config.ini');
-	$db = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
-	if(!$db)	{
-		echo "error occured, put in an error page";
-	}
+	require_once('./scripts/dbconnect.php');
   $_tpl = array();
   $_tpl['title'] = 'Ebooks | Library of Codexes';
   $_tpl['meta_desc'] = 'A video game codex database website with authors, collections, and ebooks from your favorite games.';
@@ -14,7 +10,7 @@
 <!--- Banner -->
 <div id="banner">
   <div class="centering-text">
-	   <h1 id="text-change">EBOOKS</h1>
+     <h1 id="text-change">EBOOKS</h1>
   </div>
 </div>
 
