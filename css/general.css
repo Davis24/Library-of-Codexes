@@ -16,25 +16,7 @@ p{
     padding-left: 2%;
     padding-right: 2%;
 }
-/*Banner CSS - Need to be before centering CSS*/
-#banner{    
-    background-color: #fff4d3;
-    position: relative;   
-    top: -15px;
-    width:100%;
-}
 
-#banner > .centering, #banner > .centering-text{
-    padding-top: 2%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 2%;
-    margin-top: 15px;
-}
-#home-banner{
-    max-height: 325px;  
-    width:100%;
-}
 /* Centering body element and text */
 .centering{
     display:block;
@@ -55,17 +37,6 @@ p{
     float: right;
     margin-bottom: 2%;
 }
-.book-img{
-    text-align: center;
-}
-.book-img img{
-    margin-top: 15%;
-    max-width: 200px;
-    width:100%;
-}
-.book-img img:hover{
-    opacity: .7;
-}
 
 #popup{
     bottom: 0;
@@ -85,11 +56,6 @@ p{
     float:none;
 }
 
-@media only screen and (max-width: 600px){
-    #banner-display{
-        display: none;
-    }
-}
 ul.tab { 
     background-color: #f1f1f1;
     border: 1px solid #ccc;
@@ -121,30 +87,7 @@ ul.tab li a:focus, .active {
     background-color: #ccc;
 }
 
-/* Style the tab content */
-.tabcontent {
-    border: 1px solid #ccc;
-    border-top: none;
-    display: none;
-    padding: 6px 12px;
-}
 
-.row-table-link tr td a {
-    display:block;
-    height:100%;
-    width:100%;
-}
-#Codexes{
-    display: block;
-}
-
-h3 a:hover, h4 a:hover, #game_info a:hover{
-    color: gray;
-}
-
-th {
-    text-align: left;
-}
 
 
 

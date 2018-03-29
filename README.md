@@ -15,7 +15,6 @@ The purpose of this project is to rewrite the Library of Codexes website (which 
 * Adobe Illustrator
 * Datatables Library
 * TypeCast
-* Jem's PHP Mail Forum
 
 ## Authors
 

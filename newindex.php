@@ -5,7 +5,7 @@
         <h1 style="padding-top:30px;"><b>LEVEL YOUR LORE SKILL.</b></h1>
         <h3>Read codexes from your favourite games.</h3>
         <br><br>
-        <img src="books.png">
+        <img src="<?php echo URLROOT;?>/img/books.png">
         <br><br>
         <br><br>
         <form>
@@ -44,8 +44,6 @@
             <a id="download" href="#" class="w3-button w3-xlarge w3-round-large w3-blue" download>Download</a>
     </div>  
 </div>
-        
-
 
 </div>
 </body>

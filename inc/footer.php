@@ -8,12 +8,8 @@
         </p>
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2016</p>
 </footer>
-<link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet">
 <script src = "<?php echo URLROOT; ?>/scripts/jquery-3.1.1.min.js"></script>
-<script src="<?php echo URLROOT; ?>/https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
-<script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
-<script src="/scripts/table.js"></script>
 <!-- for mobile header -->
 <script>
 function myFunction() {
