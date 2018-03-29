@@ -1,22 +1,3 @@
-function gamepopup(game_choice){
-	document.getElementById('popup').style.display='block';
-	reloadGame(game_choice);
-}
-function reloadGame(game_choice){
-	if(game_choice){
-		$.ajax ({
-			type: 'post',
-			url: './loadgame.php',
-			data: {
-				game: game_choice,
-			},
-			success: function(response){
-				$('#game_info').html(response);
-			}
-		});
-	}
-}
-
 function ebookText(ebook_choice){
 	console.log("reaching ebookText: " +ebook_choice);
 	if(ebook_choice){
@@ -42,9 +23,9 @@ function getBaseUrl() {
 }
 
 $("select[name='game']").change(function() {
-    console.log($("select").val());    
+    //console.log($("select").val());    
+	//console.log("Base URL" +getBaseUrl());
 	ebookText($("select").val());
-	console.log("Base URL" +getBaseUrl());
 	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook'").val();
 	$('#download').attr('href',$ebook_path);
 })
