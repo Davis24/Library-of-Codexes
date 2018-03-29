@@ -1,18 +1,18 @@
-<br/>
 <footer class="footer-basic-centered">
     <p class="footer-company-motto">Level up your lore skill.</p>
     <p class="footer-links">
-        <a href="/home">Home</a> &#183;
-        <a href="/about">About</a> &#183;
-        <a href="javascript:void(0);" onclick="document.getElementById('support_modal').style.display ='block'">Support</a> &#183;
-        <a href="/contact">Contact</a>
+        <a href="<?php echo URLROOT; ?>/home">Home</a> &#183;
+        <a href="<?php echo URLROOT; ?>/about">About</a> &#183;
+        <a href="https://www.patreon.com/thelibrarian" >Patreon</a> &#183;
+        <a href="" >Paypal</a>
         </p>
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2016</p>
 </footer>
 <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet">
-<script src = "/scripts/jquery-3.1.1.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-<script src="/scripts/change_text.js"></script>
+<script src = "<?php echo URLROOT; ?>/scripts/jquery-3.1.1.min.js"></script>
+<script src="<?php echo URLROOT; ?>/https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
+<script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
 <script src="/scripts/table.js"></script>
 <!-- for mobile header -->
 <script>
@@ -24,11 +24,13 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
 $(document).ready(function() {
   $('[data-toggle="toggle"]').change(function(){
     $(this).parents().next('.hide').toggle();
   });
 });
+
 </script>
 </body>
 </html>

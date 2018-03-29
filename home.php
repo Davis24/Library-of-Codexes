@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php require_once 'inc/header.php'; ?>
 <!-- Jumbotron Banner -->
 <div id="banner-display" class ="w3-display-container w3-text-white">
 	<img id="home-banner" src="img/banner-min.jpg" alt="">
@@ -67,5 +67,5 @@
     <div id="game_info"></div>
 	</div>
 </div>
-<script src="/scripts/home.js"></script>
-<?php include('footer.html'); ?>
+<script src="scripts/home.js"></script>
+<?php require_once 'inc/footer.html'; ?>

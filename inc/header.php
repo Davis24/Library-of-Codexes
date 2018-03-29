@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <?php 
+	//Connect to database
+	require_once 'app/config/config.php';
+	require_once('./scripts/dbconnect.php');
+	if($db === false)	{
+		echo "error occured, put in an error page";
+	}
+
+    if(!isset($_tpl))
+    {
+        $_tpl = array();
+        $_tpl['title'] = 'Library of Codexes';
+        $_tpl['meta_desc'] = 'Welcome to Library of Codexes, the most comprehensive collection of Video Game codexes. The collection includes Elder Scrolls, Mass Effect, World of Warcraft and more.';
+    }
+    ?>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "description" content = "<?php echo $_tpl['meta_desc']?>">
+    <meta name = "keywords" content = "library, codexes, video games, reading, lore, codex, dishonored, mass effect">
+	
+	<title><?php echo $_tpl['title']?></title>
+	
+	<link rel="icon" href="<?php echo URLROOT; ?>/img/library_of_codexes_icon-3.png" />    
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w3.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/general-min.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer-min.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/modernscale-min.css"> 
+	<header>
+	<!--web header navigation -->
+		<nav>
+			<ul class = "w3-navbar w3-black w3-xlarge">
+				<div class="centering">
+					<li class="w3-hide-large w3-opennav w3-right">
+    					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    				</li>
+					<li><a href="/home"><b>Library of Codexes</b></a></li>
+					<li class="w3-hide-small w3-hide-medium w3-right"><a href="https://www.patreon.com/thelibrarian"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
+	
+		<!-- mobile header navigation-->
+		<nav id="mobile" class="w3-hide w3-hide-large">
+		<li class="w3-right w3-hide-large"><a href="https://www.patreon.com/thelibrarian"><img src = "img/patreon_logo-min.png" height = "30">Patreon</a></li>
+		</nav>
+	</header>
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79563886-1', 'auto');
+  ga('send', 'pageview');
+</script>

@@ -21,7 +21,7 @@
 #
 ##############################################################
 use warnings;
-use Data::Dumper qw(Dumper);a
+use Data::Dumper qw(Dumper);
 $Data::Dumper::Sortkeys = 1;
 use DBI;
 use Encode;
@@ -29,7 +29,7 @@ use Encode;
 
 my $filename = $ARGV[0];
 
-my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpMAu3Bh");
+#my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpMAu3Bh");
 
 my $string; #used to keep track of text from file
 my $temp = 0; #temp is used to count off lines in instances where the CSV information for a single entry spans multiple lines
@@ -39,6 +39,41 @@ my %codexhash;
 my $author_count = 4000;   #faster than quering the highest author ID everytime
 
 
+shadow_of_mordor_check();
+
+sub shadow_of_mordor_check{
+	### Part 1 - Open File ###
+	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
+	### Part 2 - Read file and put into hash
+	while(my $row = <$fh>)
+	{
+		chomp $row;
+		$row =~ s/\\xA0/ /g;
+
+		my @text = split('","', $row);
+
+			## Title fixes
+			$text[5] =~ s/"//g;
+			$text[5] =~ s/([\w']+)/\u\L$1/g;
+			
+			text_sanitize($text[6]);
+
+			$codexhash{$tempnum}{Title} = $text[5];
+			$codexhash{$tempnum}{Author} = '0'; #temp 
+			
+			$tempnum++;
+		print "running";		
+		#$string .= $row;
+	}
+
+	### Part 3 - Check Empty (before enabling this run ascii to make sure all replaces are accounted for)
+	#check_for_null();
+	### Part 4 - Check ASCII #####
+	replace_ascii();
+	### Part 5 - Add Codexes to DB
+	#insert_codex(11);
+	print_hash();
+}
 
 
 
@@ -182,7 +217,7 @@ sub replace_ascii{
 				}
 				elsif(ord($r) == 8230) # 8230 = …
 				{
-					$replaceString .= "...";
+					$replaceString .= "&#8230;";
 				}
 				elsif(ord($r) == 65279)
 				{
@@ -200,6 +235,22 @@ sub replace_ascii{
 				{
 					$replaceString .="&#176;";
 				}
+				elsif(ord($r) ==  235) #235 = ë
+				{
+					$replaceString .="&#235;";
+				}
+				elsif(ord($r) ==  243) #243 = ó
+				{
+					$replaceString .="&#243;";
+				}
+				elsif(ord($r) ==  250) #250 = ú 
+				{
+					$replaceString .="&#250;";
+				}
+				elsif(ord($r) ==  251) #251 = û 
+				{
+					$replaceString .="&#251;";
+				}	
 				else
 				{
 					$replaceString .= $r;
@@ -213,12 +264,14 @@ sub replace_ascii{
 
 sub text_sanitize{
 	my $text = $_[0];
-
+	$text =~ s/In-Game Description//g;
 	$text =~ s/\[\{""text[0-9]?"":""//g;
+	$text =~ s/\[\{""descriptiong[0-9]?"":""//g;
 	$text =~ s/""\}\]"//g;
 	$text =~ s/""\}\]//g;
 	$text =~ s/\h+/ /g;
 	$text =~ s/(\\n\\n)*""\},\{""text[0-9]?"":""/\n\n/g;
+	$text =~ s/(\\n\\n)*""\},\{""descriptiong[0-9]?"":""/\n\n/g;
 	$text =~ s/\\n\\n/\n\n/g;
 	$text =~ s/\\n/\n/g;
 	$text =~ s/\n\n\n/\n\n/g;
@@ -239,6 +292,7 @@ sub text_sanitize{
 	$text =~ s/\\xEF/&#239;/g;
 	$text =~ s/\\x97/&mdash;/g;
 	$text =~ s/\\x96//g;
+	$text =~ s/Memory Audio/<b>Memory Audio<\/b>/g; #only for Shadows of Mordor
 	$text =~ s/Codex entry.*//s; #only for dragon age
 	$text =~ s/\[[0-9]+\]"//s; #only for metroid prime
 
