@@ -29,22 +29,6 @@ p{
     max-width:1248px;
     text-align: center;
 }
-.modal-header{
-    text-align:center;
-}
-
-#modal-button{
-    float: right;
-    margin-bottom: 2%;
-}
-
-#popup{
-    bottom: 0;
-    margin-bottom: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-}
 
 #buttons{
     display: block;
@@ -55,38 +39,6 @@ p{
 #buttons .w3-btn{
     float:none;
 }
-
-ul.tab { 
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-/* Float the list items side by side */
-ul.tab li {float: left;}
-/* Style the links inside the list items */
-ul.tab li a {
-    color: black;
-    display: inline-block;
-    font-family: 'Merriweather', serif;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.3s;  
-}
-
-/* Change background color of links on hover */
-ul.tab li a:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-
 
 
 
