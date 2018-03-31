@@ -1,13 +1,9 @@
 /* attributes are a-z order */
-nav, .w3-modal h2, #popup h1, #popup h4, #banner h1, #banner h2, footer a,{
-    font-family: 'Oswald', sans-serif;
-}
-h1,h2,h3,h4,h5,p, tr, th {
+h1,h2,h3,h4,h5,p,tr,th{
    font-family: 'Merriweather', serif;
    padding-left: 2%;
    padding-right:2%; 
 }
-
 #text-change{
     font-family: 'Oswald', sans-serif;
 }
@@ -16,7 +12,6 @@ p{
     padding-left: 2%;
     padding-right: 2%;
 }
-
 /* Centering body element and text */
 .centering{
     display:block;
@@ -29,78 +24,3 @@ p{
     max-width:1248px;
     text-align: center;
 }
-
-#buttons{
-    display: block;
-    font-size: 20px;
-    margin:0px auto 0px auto;   
-}
-
-#buttons .w3-btn{
-    float:none;
-}
-
-
- /* Reset Select */
- select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
-    border: 0 !important;
-    background: #fff;
-    background-image: none;
-  }
-  /* Custom Select */
-  .select {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 3em;
-    line-height: 3;
-    background: #fff;
-    overflow: hidden;
-    margin-top:10px;
-  }
-  select {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0 0 0 .5em;
-    color: black;
-    cursor: pointer;
-    resize: none !important;
-  }
-  select::-ms-expand {
-    display: none;
-  }
-  /* Arrow */
-  .select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0 1em;
-    background:white;
-    pointer-events: none;
-  }
-  /* Transition */
-  .select:hover::after {
-    color: black;
-  }
-  .select::after {
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
-  }
-
-  .select-items{
-    background-color: DodgerBlue;
-  }
-
-
-
-
