@@ -40,11 +40,11 @@
     					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
     				</li>
 					<li><a href="<?php echo URLROOT; ?>/home"><b>Library of Codexes</b></a></li>
-					<li class="w3-hide-small w3-hide-medium w3-right"><a href="https://www.patreon.com/thelibrarian"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
+					<li class="w3-hide-small w3-hide-medium w3-right"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
 	
 		<!-- mobile header navigation-->
 		<nav id="mobile" class="w3-hide w3-hide-large">
-		<li class="w3-right w3-hide-large"><a href="https://www.patreon.com/thelibrarian"><img src = "img/patreon_logo-min.png" height = "30">Patreon</a></li>
+		<li class="w3-right w3-hide-large"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30">Patreon</a></li>
 		</nav>
 	</header>
 <body>
