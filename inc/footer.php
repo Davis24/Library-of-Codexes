@@ -3,8 +3,8 @@
     <p class="footer-links">
         <a href="<?php echo URLROOT; ?>/home">Home</a> &#183;
         <a href="<?php echo URLROOT; ?>/about">About</a> &#183;
-        <a href="https://www.patreon.com/thelibrarian" >Patreon</a> &#183;
-        <a href="" >Paypal</a>
+        <a href="https://www.patreon.com/thelibrarian" target="_blank">Patreon</a> &#183;
+        <a href="https://ko-fi.com/V7V7BH05" target="_blank">Buy Me a Coffee</a>
         </p>
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2016</p>
 </footer>

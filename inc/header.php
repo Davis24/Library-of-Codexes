@@ -36,15 +36,17 @@
 		<nav>
 			<ul class = "w3-navbar w3-black w3-xlarge">
 				<div class="centering">
-					<li class="w3-hide-large w3-opennav w3-right">
-    					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-    				</li>
+					<li class="w3-hide-large w3-hide-medium w3-opennav w3-right"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
 					<li><a href="<?php echo URLROOT; ?>/home"><b>Library of Codexes</b></a></li>
-					<li class="w3-hide-small w3-hide-medium w3-right"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
-	
+					<li class="w3-hide-small w3-right"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
+					<li class="w3-hide-small w3-right"><a href='https://ko-fi.com/V7V7BH05' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+		</nav>
 		<!-- mobile header navigation-->
 		<nav id="mobile" class="w3-hide w3-hide-large">
-		<li class="w3-right w3-hide-large"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30">Patreon</a></li>
+			<ul class="w3-navbar w3-left-align w3-large w3-black">
+				<li class="w3-right w3-hide-medium w3-hide-large"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "30">Patreon</a></li>
+				<li class="w3-right w3-hide-medium w3-hide-large"><a href='https://ko-fi.com/V7V7BH05' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+			</ul>
 		</nav>
 	</header>
 <body>
