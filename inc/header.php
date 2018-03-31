@@ -27,7 +27,7 @@
 	<link rel="icon" href="<?php echo URLROOT; ?>/img/library_of_codexes_icon-3.png" />    
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w3.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w4.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/general-min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer-min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/modernscale-min.css"> 
