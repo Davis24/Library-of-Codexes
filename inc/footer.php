@@ -8,7 +8,7 @@
         </p>
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2016</p>
 </footer>
-<script src = "<?php echo URLROOT; ?>/scripts/jquery-3.1.1.min.js"></script>
+<script src = "<?php echo URLROOT; ?>/scripts/jquery-3.3.1.min.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
 <!-- for mobile header -->
