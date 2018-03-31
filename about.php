@@ -1,5 +1,5 @@
 <?php 
-	include('header.php'); 
+ 	require_once 'inc/header.php'; 
 	//Database Connection
 	require_once('./scripts/dbconnect.php');
 	//Query for numbers
@@ -17,7 +17,7 @@
 <br/>
 <div class="centering">
 	<h1><b>Our Mission</b></h1>
-	<p>Videogames have always excelled at creating complex worlds filled with creatures, items, and that one mind-numbingly slow NPC you <em>must</em> escort. These games often have a plethora of in-game text that can be difficult to collect and read in-game. Library of Codexes sole mission is to create an archive of in-game text that is easily accessible, either online or offline (ebooks).</p>
+	<p>Videogames have always excelled at creating complex worlds filled with creatures, items, and that one mind-numbingly slow NPC you <em>must</em> escort. These games often have a plethora of in-game text that can be difficult to collect and read in-game. Library of Codexes sole mission is to create an archive of in-game text that is easily accessible.</p>
 </div>
 
-<?php include('footer_min.html'); ?>
+<?php require_once 'inc/footer.php'; ?>

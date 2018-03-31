@@ -39,7 +39,7 @@
 					<li class="w3-hide-large w3-opennav w3-right">
     					<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
     				</li>
-					<li><a href="/home"><b>Library of Codexes</b></a></li>
+					<li><a href="<?php echo URLROOT; ?>/home"><b>Library of Codexes</b></a></li>
 					<li class="w3-hide-small w3-hide-medium w3-right"><a href="https://www.patreon.com/thelibrarian"><img src = "img/patreon_logo-min.png" height = "30"> Patreon</a></li>
 	
 		<!-- mobile header navigation-->
