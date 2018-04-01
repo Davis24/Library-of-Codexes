@@ -6,7 +6,7 @@
         <a href="https://www.patreon.com/thelibrarian" target="_blank">Patreon</a> &#183;
         <a href="https://ko-fi.com/V7V7BH05" target="_blank">Buy Me a Coffee</a>
         </p>
-    <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2016</p>
+    <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2018</p>
 </footer>
 <script src = "<?php echo URLROOT; ?>/scripts/jquery-3.3.1.min.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
