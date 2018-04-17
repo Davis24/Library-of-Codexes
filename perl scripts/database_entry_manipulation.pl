@@ -21,13 +21,13 @@
 #	-   Some refactoring and code clean up
 ########################################################
 use warnings;
-use Data::Dumper qw(Dumper);a
+use Data::Dumper qw(Dumper);
 $Data::Dumper::Sortkeys = 1;
 use DBI;
 use Encode;
 
 my $filename = $ARGV[0];
-my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpMAu3Bh");
+my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "123456");
 
 menu();
 
@@ -40,6 +40,7 @@ sub menu{
 	print "   4 - Delete Empty Authors \n";
 	print "   5 - Delete Duplicate Authors with Misspelled Names \n";
 	print "   6 - Update Codex Text \n";
+	print "   7 - Fix Text \n";
 	print "  -1 - Exit \n";
 
 	menu_response();
@@ -67,7 +68,11 @@ sub menu_response{
 		}
 		elsif($response == 6){
 			#takes in input
-			print_hash();
+			update_codex_text();
+		}
+		elsif($response == 7){
+			#takes in input
+			fix_text();
 		}
 		elsif($response == -1)
 		{
@@ -81,7 +86,7 @@ sub menu_response{
 sub delete_codexes{
 	print "File: ";
 	my $file = <STDIN>;
-	open(my $file, '<:encoding(UTF-8)', $filename) or die "Could not open";
+	#open(my $file, '<:encoding(UTF-8)', $filename) or die "Could not open";
 	while(my $row = <$fh>){
 		chomp $row;		
 		my $query = $myConnection->prepare("DELETE FROM codexes WHERE CODEX_ID = ?");
@@ -91,7 +96,7 @@ sub delete_codexes{
 }
 
 sub delete_extra_codexes{
-	my $query = $myConnection->prepare("SELECT GROUP_CONCAT(CODEX_ID) as ids, COUNT(*) c, CODEX_TITLE as name FROM codexes WHERE FK_GAME_ID = 11 GROUP BY name HAVING c = 2");
+	my $query = $myConnection->prepare("SELECT GROUP_CONCAT(CODEX_ID) as ids, COUNT(*) c, CODEX_TITLE as name FROM codexes WHERE FK_GAME_ID = 32 GROUP BY name HAVING c = 2");
 	$query->execute();
 	while(@return = $query->fetchrow_array())
 	{	
@@ -170,7 +175,7 @@ sub delete_empty_authors{
 sub duplicate_author_name_mismatch{
 	print "File: ";
 	my $file = <STDIN>;
-	open(my $file, '<:encoding(UTF-8)', $filename) or die "Could not open";
+	#open(my $file, '<:encoding(UTF-8)', $filename) or die "Could not open";
 	while(my $row = <$fh>){
 		chomp $row;
 		my @IDS = split(',',$row);
@@ -259,18 +264,13 @@ sub remove_extras_from_author{
 
 ##No idea what this was used for originally -- keeping just in case it comes back
 sub fix_text{
-	my $query = $myConnection-> prepare("SELECT CODEX_ID, CODEX_TEXT, CODEX_TITLE FROM codexes WHERE FK_GAME_ID = 11");
+	my $query = $myConnection-> prepare("SELECT CODEX_ID, CODEX_TEXT, CODEX_TITLE FROM codexes WHERE FK_GAME_ID = 32");
 	$query->execute();
 
 	while(@data = $query->fetchrow_array()){
-		if($data[1] =~ m/""/)
-		{
-			$data[1] =~ s/""/"/g;
-		}	
-		
-		my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = ? WHERE CODEX_ID = ?");
-		$statement->execute($data[1], $data[0]) or die $DBI::errstr;
-		$statement->finish();
+			my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = TRIM(TRAILING '\n\r' FROM CODEX_TEXT) WHERE CODEX_ID = ?");
+			$statement->execute($data[0]) or die $DBI::errstr;
+			$statement->finish();
 	}
 	$query->finish();
 

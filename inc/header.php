@@ -5,9 +5,9 @@
     <?php 
 	//Connect to database
 	require_once 'app/config/config.php';
-	require_once('./scripts/dbconnect.php');
-	if($db === false)	{
-		echo "error occured, put in an error page";
+	require_once 'scripts/dbconnect.php';
+	if($db === false){
+		echo "Error occured, put in an error page";
 	}
 
     if(!isset($_tpl))
@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w4.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/general-min.css">
-	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer-min.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/modernscale-min.css"> 
 	<header>
 	<!--web header navigation -->

@@ -44,7 +44,7 @@ use warnings;
 use DBI;
 
 
-$myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpMAu3Bh");
+$myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
 #User information request
 print "-- Library of Codexes -- \n";
@@ -52,6 +52,7 @@ print "START ID #: ";
 my $start_ID = <>;
 print "END ID #: ";
 my $end_ID = <>;
+my $int = 1;
 
 createFiles();
 #rawr();
@@ -64,7 +65,7 @@ my $queryCheck = 0;
 for(my $i = $start_ID; $i <= $end_ID; $i++)
 {
 
-	$query = $myConnection->prepare("SELECT CODEX_TITLE, CONCAT(authors.FIRST_NAME, ' ', authors.LAST_NAME) as name, FK_AUTHOR_ID, CODEX_TEXT FROM codexes INNER JOIN authors ON FK_AUTHOR_ID = authors.AUTHOR_ID WHERE CODEX_ID = $i");
+	$query = $myConnection->prepare("SELECT CODEX_TITLE, CONCAT(authors.Name) as name, FK_AUTHOR_ID, CODEX_TEXT FROM codexes INNER JOIN authors ON FK_AUTHOR_ID = authors.AUTHOR_ID WHERE CODEX_ID = $i");
 	$query->execute() or die $DBI::errstr;
 	if($query->rows > 0)
 	{
@@ -82,17 +83,17 @@ for(my $i = $start_ID; $i <= $end_ID; $i++)
 		$filename_stripped =~ s/(:|"|\?)//g;
 		$filename_stripped =~ s/(\\|\/)/ /g;
 		my $filename = $filename_stripped.".html";
-		$var = "<p></p>";
-		$test[3] =~ s/\n/$var/g;
+		$test[3] =~ s/\n(.*?)\n/<p>$1<\/p>/g;
 		if(-f $filename)
 		{
-			$filename = $filename_stripped." (1).html";
+			$filename = $filename_stripped." (".$int.").html";
+			$int++;
 		}
 		#opening file
 		open(my $fh, '>', $filename) or die "Failed on ID $i";
 		print $fh "<html><head><title> $test[0] </title></head><body> \n"; 
 		print $fh "<h2><b> $test[0] </b></h2> \n";
-		print $fh "<h3><b> $test[1] </b></h3> \n";
+		print $fh "<p><b> $test[1] </b></p> \n";
 		print $fh "<p> $test[3] </p> \n";	
 		print $fh "</body> \n </html>";
 		close $fh;

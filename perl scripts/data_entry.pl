@@ -29,49 +29,59 @@ use Encode;
 
 my $filename = $ARGV[0];
 
-#my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "hMdCxTP7bpMAu3Bh");
+my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "123456");
 
 my $string; #used to keep track of text from file
 my $temp = 0; #temp is used to count off lines in instances where the CSV information for a single entry spans multiple lines
 my $tempnum = 0; #used to assign codex information to the right spots
 my $tempstring; #hold the text being read in from the text file
 my %codexhash;
-my $author_count = 4000;   #faster than quering the highest author ID everytime
+my $author_count = 5602;   #faster than quering the highest author ID everytime
+my $series_id = 15;
+my $game_id = 36;
+my $codex_id;
 
 
-shadow_of_mordor_check();
+assassins_creed();
 
-sub shadow_of_mordor_check{
+sub assassins_creed{
 	### Part 1 - Open File ###
 	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
 	### Part 2 - Read file and put into hash
 	while(my $row = <$fh>)
 	{
 		chomp $row;
-		$row =~ s/\\xA0/ /g;
 
-		my @text = split('","', $row);
-
-			## Title fixes
-			$text[5] =~ s/"//g;
-			$text[5] =~ s/([\w']+)/\u\L$1/g;
-			
-			text_sanitize($text[6]);
-
-			$codexhash{$tempnum}{Title} = $text[5];
-			$codexhash{$tempnum}{Author} = '0'; #temp 
+		if($row =~ m/Title:/)
+		{
+			if($tempnum != 0)
+			{
+				$codexhash{$tempnum}{Text} = text_sanitize($tempstring);
+				
+			}
 			
 			$tempnum++;
-		print "running";		
-		#$string .= $row;
+			$row =~ s/Title://;
+			$codexhash{$tempnum}{Title} = text_sanitize($row); 			
+			$codexhash{$tempnum}{Author} = $author_count;
+			$tempstring = "";
+		}
+		else
+		{
+			$tempstring .= $row . "\n";
+		}
 	}
+	#print $tempstring;
+	$codexhash{$tempnum}{Text} = text_sanitize($tempstring);
 
 	### Part 3 - Check Empty (before enabling this run ascii to make sure all replaces are accounted for)
 	#check_for_null();
 	### Part 4 - Check ASCII #####
-	replace_ascii();
+	replace_ascii();	
+	### Part 4 - Check if Author exists in MYSQL, if author exists replace 
+	#authors_call();
 	### Part 5 - Add Codexes to DB
-	#insert_codex(11);
+	insert_codex();
 	print_hash();
 }
 
@@ -165,12 +175,22 @@ sub insert_author{
 }
 
 sub insert_codex{
-	my $query = $myConnection->prepare("INSERT INTO CODEXES (CODEX_ID, CODEX_TITLE, CODEX_TEXT, FK_AUTHOR_ID, FK_GAME_ID) values (?,?,?,?,?)");
+	my $query = $myConnection->prepare("INSERT INTO CODEXES (CODEX_ID, CODEX_TITLE, CODEX_TEXT, FK_AUTHOR_ID, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?,?,?)");
 
 	for my $item (keys %codexhash){
-		$query->execute(undef, $codexhash{$item}{Title}, $codexhash{$item}{Text}, $codexhash{$item}{Author}, $_[0]) or die $DBI::errstr;	
+		$query->execute(null, $codexhash{$item}{Title}, $codexhash{$item}{Text}, $codexhash{$item}{Author}, $game_id, $series_id) or die $DBI::errstr;	
+		$codex_id = $query->{mysql_insertid};
 		$query->finish();
+		
+		
+		insert_codex_authors($codexhash{$item}{Author}, $codex_id);
 	}
+}
+
+sub insert_codex_authors{
+	my $query2 = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID, FK_GAME_ID) values (?,?,?)");
+	$query2->execute($_[0], $_[1], $game_id) or die $DBI::errstr;
+	$query2->finish();
 }
 
 sub print_hash{
@@ -191,7 +211,7 @@ sub replace_ascii{
 				{
 					print "$r is higher than 128 - ".ord($r)."\n";
 				}
-				if(ord($r) == 8211)
+				if(ord($r) == 8211) #8211 dash
 				{
 					$replaceString .= "&ndash;";
 				}
@@ -207,13 +227,17 @@ sub replace_ascii{
 				{
 					$replaceString .= "\'";
 				}
+				elsif(ord($r) == 8220) # 8220 = “
+				{
+					$replaceString .= "\"";
+				}
 				elsif(ord($r) == 8221) # 8221 = ”
 				{
 					$replaceString .= "\"";
 				}
-				elsif(ord($r) == 8220) # 8220 = “
+				elsif(ord($r) == 8226)    # 8226 = •
 				{
-					$replaceString .= "\"";
+					$replaceString .="&bull;";
 				}
 				elsif(ord($r) == 8230) # 8230 = …
 				{
@@ -223,21 +247,33 @@ sub replace_ascii{
 				{
 					$replaceString .= "";
 				}
-				elsif(ord($r) == 8226)    # 8226 = •
+				elsif(ord($r) == 176)    #176 =  ° 
 				{
-					$replaceString .="&bull;";
+					$replaceString .="&#176;";
 				}
 				elsif(ord($r) == 184)    #184 = ¸
 				{
 					$replaceString .=",";
 				}
-				elsif(ord($r) == 176)    #176 =  ° 
+				elsif(ord($r) ==  224) #224 = à
 				{
-					$replaceString .="&#176;";
+					$replaceString .="&#224;";
+				}
+				elsif(ord($r) ==  227) #227
+				{
+					$replaceString .="&#227;";
+				}
+				elsif(ord($r) ==  233) #233 = é
+				{
+					$replaceString .="&#233;";
 				}
 				elsif(ord($r) ==  235) #235 = ë
 				{
 					$replaceString .="&#235;";
+				}
+				elsif(ord($r) ==  239) #239 = ï
+				{
+					$replaceString .="&#239;";
 				}
 				elsif(ord($r) ==  243) #243 = ó
 				{
@@ -287,7 +323,7 @@ sub text_sanitize{
 	$text =~ s/\\xEA/&#xea;/g;
 	$text =~ s/\\x93|\\x94/"/g;
 	$text =~ s/\\x85/.../g;
-	$text =~ s/\\xE9/&#233;/g;
+	$text =~ s/(\\xE9|\\x\{e9\})/&#233;/g;
 	$text =~ s/\\xB8/&cedil;/g;
 	$text =~ s/\\xEF/&#239;/g;
 	$text =~ s/\\x97/&mdash;/g;
