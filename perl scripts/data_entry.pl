@@ -26,67 +26,67 @@ $Data::Dumper::Sortkeys = 1;
 use DBI;
 use Encode;
 
-
 my $filename = $ARGV[0];
+my $choice = $ARGV[1];
 
-my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "123456");
+if(!defined($choice)){
+	$choice = 0;
+}
+
+my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
 my $string; #used to keep track of text from file
 my $temp = 0; #temp is used to count off lines in instances where the CSV information for a single entry spans multiple lines
 my $tempnum = 0; #used to assign codex information to the right spots
 my $tempstring; #hold the text being read in from the text file
 my %codexhash;
-my $author_count = 5602;   #faster than quering the highest author ID everytime
-my $series_id = 15;
-my $game_id = 36;
+my $author_count = -1;   #faster than quering the highest author ID everytime
+my $series_id = 16;
+my $game_id = 42;
 my $codex_id;
 
+witcher();
 
-assassins_creed();
-
-sub assassins_creed{
+sub witcher{
 	### Part 1 - Open File ###
 	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
 	### Part 2 - Read file and put into hash
 	while(my $row = <$fh>)
 	{
 		chomp $row;
+		$row =~ s/\\xA0/ /g;
 
-		if($row =~ m/Title:/)
-		{
-			if($tempnum != 0)
-			{
-				$codexhash{$tempnum}{Text} = text_sanitize($tempstring);
-				
-			}
+		my @words = split('","', $row);
+
+		## Title fixes
+		$words[4] =~ s/"//g;
+		$words[4] =~ s/([\w']+)/$1/g;
 			
-			$tempnum++;
-			$row =~ s/Title://;
-			$codexhash{$tempnum}{Title} = text_sanitize($row); 			
-			$codexhash{$tempnum}{Author} = $author_count;
-			$tempstring = "";
-		}
-		else
-		{
-			$tempstring .= $row . "\n";
-		}
+		text_sanitize($words[5]);
+
+		$codexhash{$tempnum}{Title} = $words[4];
+		$codexhash{$tempnum}{Author} = 10000;
+			
+		$tempnum++;
+		
+		$string .= $row;
 	}
-	#print $tempstring;
-	$codexhash{$tempnum}{Text} = text_sanitize($tempstring);
 
 	### Part 3 - Check Empty (before enabling this run ascii to make sure all replaces are accounted for)
-	#check_for_null();
+	alert_null();
 	### Part 4 - Check ASCII #####
-	replace_ascii();	
+	replace_ascii();
+	### Run the second time
 	### Part 4 - Check if Author exists in MYSQL, if author exists replace 
 	#authors_call();
 	### Part 5 - Add Codexes to DB
-	insert_codex();
+	if($choice == 1)
+	{
+		insert_codex();
+	}
+	
 	print_hash();
 }
-
-
-
 
 ########################### Non-Specific Game Subroutines ################################
 
@@ -146,6 +146,17 @@ sub check_for_null{
 	}
 }
 
+sub alert_null{
+	for my $item (keys %codexhash){
+		for my $subitem(keys %{$codexhash{$item}}){
+	 		if(!$codexhash{$item}{$subitem}){
+				print $codexhash{$item}{Title}.":".$subitem." is not defined.\n";
+			}
+		}
+	}
+}
+
+
 sub insert_author{
 	my $query = $myConnection->prepare("INSERT INTO AUTHORS (AUTHOR_ID, TITLE, FIRST_NAME, LAST_NAME, BIOGRAPHY, FK_GAME_ID) values (?,?,?,?,?,?)");
 	my $authorName = $codexhash{$_[0]}{Author};
@@ -200,8 +211,8 @@ sub print_hash{
 	print "########################################\n";
 }
 
+#Go over each character in the hash to determine if it's part of UTF-8
 sub replace_ascii{
-	print "Start of Text ASCII Replacing \n";
 	for my $item (keys %codexhash){
 		for my $subitem (keys %{$codexhash{$item}}) {
 			my @array = split(//, $codexhash{$item}{$subitem});	
@@ -210,82 +221,7 @@ sub replace_ascii{
 				if(ord($r) > 128)
 				{
 					print "$r is higher than 128 - ".ord($r)."\n";
-				}
-				if(ord($r) == 8211) #8211 dash
-				{
-					$replaceString .= "&ndash;";
-				}
-				elsif(ord($r) == 8203)
-				{
-					$replaceString .= "";	
-				}
-				elsif(ord($r) == 8212)
-				{
-					$replaceString .= "&mdash;";
-				}
-				elsif(ord($r) == 8217) # 8217 = ’
-				{
-					$replaceString .= "\'";
-				}
-				elsif(ord($r) == 8220) # 8220 = “
-				{
-					$replaceString .= "\"";
-				}
-				elsif(ord($r) == 8221) # 8221 = ”
-				{
-					$replaceString .= "\"";
-				}
-				elsif(ord($r) == 8226)    # 8226 = •
-				{
-					$replaceString .="&bull;";
-				}
-				elsif(ord($r) == 8230) # 8230 = …
-				{
-					$replaceString .= "&#8230;";
-				}
-				elsif(ord($r) == 65279)
-				{
-					$replaceString .= "";
-				}
-				elsif(ord($r) == 176)    #176 =  ° 
-				{
-					$replaceString .="&#176;";
-				}
-				elsif(ord($r) == 184)    #184 = ¸
-				{
-					$replaceString .=",";
-				}
-				elsif(ord($r) ==  224) #224 = à
-				{
-					$replaceString .="&#224;";
-				}
-				elsif(ord($r) ==  227) #227
-				{
-					$replaceString .="&#227;";
-				}
-				elsif(ord($r) ==  233) #233 = é
-				{
-					$replaceString .="&#233;";
-				}
-				elsif(ord($r) ==  235) #235 = ë
-				{
-					$replaceString .="&#235;";
-				}
-				elsif(ord($r) ==  239) #239 = ï
-				{
-					$replaceString .="&#239;";
-				}
-				elsif(ord($r) ==  243) #243 = ó
-				{
-					$replaceString .="&#243;";
-				}
-				elsif(ord($r) ==  250) #250 = ú 
-				{
-					$replaceString .="&#250;";
-				}
-				elsif(ord($r) ==  251) #251 = û 
-				{
-					$replaceString .="&#251;";
+					$replaceString .= "&#".ord($r).";";
 				}	
 				else
 				{
@@ -629,188 +565,6 @@ sub detect_authors{
 }
 
 
-### Dragon age stuff while likely be removed later
-sub remove_extras_text_dragon_age{
-	my $string_temp;
-	my $query = $myConnection->prepare("SELECT CODEX_ID, CODEX_TEXT FROM CODEXES WHERE FK_GAME_ID = 11");
-	$query->execute();
-	while(@data = $query->fetchrow_array()){
-		my @text = split('\n',$data[1]);
-		foreach my $r (@text){
-			if($r =~ /Dragon Age (2|:)/)
-			{
-
-			}
-			elsif($r =~ /Dragon Age: /)
-			{
-
-			}
-			elsif($r =~ /According to Dragon Age (tabletop RPG)/)
-			{
-
-			}
-			elsif($r =~ /<img/)
-			{
-
-			}
-			elsif($r =~ /Damage against/)
-			{
-
-			}
-			elsif($r =~ /this codex/i)
-			{
-
-			}
-			elsif($r =~/â”€/)
-			{
-				$r =~ s/(â”€)+/&mdash;/g;
-				$string_temp .= $r ."\n";
-				#print "found it";
-			}
-			elsif($r =~ /Ãª/)
-			{
-				$r =~ s/(Ãª)+/&#234;/g;
-			}
-			else
-			{
-				$string_temp .= $r ."\n";
-			}
-		}
-		
-		my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = ? WHERE CODEX_ID = ?");
-		$statement->execute($string_temp, $data[0]) or die $DBI::errstr;
-		$statement->finish();
-		$string_temp = "";
-	}
-	$query->finish();
-
-}
-
-## know the type for the ebook format
-sub dragon_age_seperate_type{
-	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
-
-
-	open my $creatures, '>', "creatures.txt" or die $!;
-	open my $places, '>', "places.txt" or die $!;
-	open my $characters, '>', "characters.txt" or die $!;
-	open my $notes, '>', "notes.txt" or die $!;
-	open my $items, '>', "items.txt" or die $!;
-	open my $lore, '>', "lore.txt" or die $!;
-	open my $letters, '>', "letters.txt" or die $!;
-	open my $art, '>', "art.txt" or die $!;
-	open my $magic, '>', "magic.txt" or die $!;
-	open my $unknown, '>', "unknown.txt" or die $!;
-	open my $culture, '>', "culture.txt" or die $!;
-	open my $songs, '>', "songs.txt" or die $!;
-	open my $controls, '>', "controls.txt" or die $!;
-	open my $spellcombo, '>', "spellcombo.txt" or die $!;
-	open my $tales, '>', "tales.txt" or die $!;
-	open my $crafting, '>', "crafting.txt" or die $!;
-	open my $tutorials, '>', "tutorials.txt" or die $!;
-	open my $groups, '>', "groups.txt" or die $!;
-	open my $maps, '>', "maps.txt" or die $!;
-	open my $history, '>', "history.txt" or die $!;
-
-	my $count = 0;
-	while(my $row = <$fh>)
-	{
-		my $unedited_row = $row;
-		my @values = split('","', $row);
-
-		
-		if($values[4] =~ /places/i)
-		{
-			print $places $row;
-		}
-		elsif($values[4] =~ /culture/i)
-		{
-			print $culture $row;
-		}
-		elsif($values[4] =~ /songs/i)
-		{
-			print $songs $row;
-		}
-		elsif($values[4] =~ /controls/i)
-		{
-			print $controls $row;
-		}
-		elsif($values[4] =~ /spell/i)
-		{
-			print $spellcombo $row;
-		}
-		elsif($values[4] =~ /quest/i)
-		{
-			print $quest $row;
-		}
-		elsif($values[4] =~ /creatures/i)
-		{
-			print $creatures $row;
-		}
-		elsif($values[4] =~ /places/i)
-		{
-			print $places $row;
-		}
-		elsif($values[4] =~ /characters/i)
-		{
-			print $characters $row;
-		}
-		elsif($values[4] =~ /letters and notes/i)
-		{
-			print $letters $row;
-		}
-		elsif($values[4] =~ /notes/i)
-		{
-			print $notes $row;
-		}
-		elsif($values[4] =~ /lore/i)
-		{
-			print $lore $row;
-		}
-		elsif($values[4] =~ /art/i)
-		{
-			print $art $row;
-		}
-		elsif($values[4] =~ /items/i)
-		{
-			print $items $row;
-		}
-		elsif($values[4] =~ /magic/i)
-		{
-			print $magic $row;
-		}
-		elsif($values[4] =~ /tales/i)
-		{
-			print $tales $row;
-		}
-		elsif($values[4] =~ /crafting/i)
-		{
-			print $crafting $row;
-		}
-		elsif($values[4] =~ /groups/i)
-		{
-			print $groups $row;
-		}
-		elsif($values[4] =~ /tutorial/i)
-		{
-			print $tutorials $row;
-		}
-		elsif($values[4] =~ /maps/i)
-		{
-			print $maps $row;
-		}
-		elsif($values[4] =~ /history/i)
-		{
-			print $history $row;
-		}
-		else
-		{
-			print $values[4] ."\n";
-			print $unknown $row;
-		}
-	}
-}
-
 
 sub dragon_age{
 	### Part 1 - Open File ###
@@ -864,39 +618,4 @@ sub dragon_age{
 }
 
 
-sub metroid_prime_check{
-	### Part 1 - Open File ###
-	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
-	### Part 2 - Read file and put into hash
-	while(my $row = <$fh>)
-	{
-		chomp $row;
-		$row =~ s/\\xA0/ /g;
 
-		my @words = split('","', $row);
-
-			## Title fixes
-			$words[0] =~ s/"//g;
-			$words[0] =~ s/([\w']+)/\u\L$1/g;
-			
-			text_sanitize($words[2]);
-
-			$codexhash{$tempnum}{Title} = $words[0];
-			$codexhash{$tempnum}{Author} = 2201;
-			
-			$tempnum++;
-		
-		$string .= $row;
-	}
-
-	### Part 3 - Check Empty (before enabling this run ascii to make sure all replaces are accounted for)
-	check_for_null();
-	### Part 4 - Check ASCII #####
-	replace_ascii();
-	### Run the second time
-	### Part 4 - Check if Author exists in MYSQL, if author exists replace 
-	#authors_call();
-	### Part 5 - Add Codexes to DB
-	insert_codex(11);
-	print_hash();
-}

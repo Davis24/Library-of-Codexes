@@ -6,7 +6,7 @@ body {
     margin: 0 0 200px; /* bottom = footer height */
 }
 footer {
-    
+   
     bottom: 0;
     height: 200px;
     left: 0;
@@ -22,9 +22,6 @@ footer {
 	margin-top: 80px;
 	padding: 45px;
 	text-align: center;
-	
-	
-	
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -57,7 +54,7 @@ footer {
 .footer-links a:hover{
 	color:gray;
 }
-@media (max-width: 360px){
+@media (max-width: 450px){
 	body {
     	margin: 0 0 300px; /* bottom = footer height */
 	}

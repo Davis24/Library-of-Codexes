@@ -84,6 +84,7 @@ for(my $i = $start_ID; $i <= $end_ID; $i++)
 		$filename_stripped =~ s/(\\|\/)/ /g;
 		my $filename = $filename_stripped.".html";
 		$test[3] =~ s/\n(.*?)\n/<p>$1<\/p>/g;
+		#$test[3] =~ s/(.*?)\n/$1<br \/>/g;
 		if(-f $filename)
 		{
 			$filename = $filename_stripped." (".$int.").html";

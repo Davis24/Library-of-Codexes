@@ -11,18 +11,17 @@
 <script src = "<?php echo URLROOT; ?>/scripts/jquery-3.3.1.min.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
+<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 <!-- for mobile header -->
 <script>
-function myFunction() {
-    var x = document.getElementById("mobile");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
+    function myFunction() {
+        var x = document.getElementById("mobile");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
     }
-}
-
-
 </script>
 </body>
 </html>

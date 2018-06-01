@@ -15,12 +15,13 @@
 </IfModule>  
 # END Expire headers 
 
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule ^about$ about.php [L]
 RewriteRule ^$ home.php [L]
 RewriteRule ^home$ home.php [L]
+RewriteRule ^notfound$ notfound.php [L]
 </IfModule>
 
- 
+ErrorDocument 404 /notfound.php
+

@@ -3,12 +3,13 @@
 
   
 	
-	$game_id = 15;
+	$game_id = 41;
 ?> 
 
 <div class ="w3-container">
 <?php
-		$query = "SELECT CODEX_TITLE, FK_AUTHOR_ID, CODEX_TEXT FROM codexes WHERE codexes.FK_SERIES_ID = ('".$game_id."') ORDER BY codexes . CODEX_TITLE ASC";
+		$query = "SELECT CODEX_TITLE, FK_AUTHOR_ID, CODEX_TEXT, CODEX_ID FROM codexes WHERE FK_SERIES_ID = 16  ORDER BY codexes . CODEX_TITLE ASC";
+		#query = "SELECT CODEX_TITLE, FK_AUTHOR_ID, CODEX_TEXT, CODEX_ID FROM codexes ORDER BY codexes . CODEX_TITLE ASC";
 		echo $query;
   		if($result = $db -> query($query)){
   			while($row = $result -> fetch_assoc()) {

@@ -347,6 +347,8 @@ select::-ms-expand {
 .select-items{
   background-color: DodgerBlue;
 }
-
-
+/* Fix small line of black under the LoC in nav bar*/
+nav > ul > div > li > a {
+  height:55px;
+}
 

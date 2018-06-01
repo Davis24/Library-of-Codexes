@@ -27,7 +27,7 @@ use DBI;
 use Encode;
 
 my $filename = $ARGV[0];
-my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "123456");
+my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
 menu();
 
@@ -48,6 +48,7 @@ sub menu{
 
 sub menu_response{
 	while (1) {
+		print "Choice: ";
 		my $response = <STDIN>;
 		chomp $response;
 
@@ -119,11 +120,11 @@ sub delete_extra_codexes{
 
 ##haven't tested since augmenting code
 sub delete_authors{
-	print "Game ID: ";
+	print "Series ID: ";
 	my $gID = <STDIN>;
 	chomp $gID;
 
-	my $query = $myConnection->prepare("SELECT GROUP_CONCAT(AUTHOR_ID) as ids, COUNT(*) c, REPLACE(CONCAT(FIRST_NAME,LAST_NAME),' ','') as name FROM authors WHERE FK_GAME_ID = ? GROUP BY name HAVING c > 1");
+	my $query = $myConnection->prepare("SELECT GROUP_CONCAT(AUTHOR_ID) as ids, COUNT(*) c, NAME FROM authors WHERE FK_SERIES_ID = ? GROUP BY name HAVING c > 1");
 	$query->execute($gID);
 	while(@return = $query->fetchrow_array()){	
 		my @IDS = split(',', $return[0]); #id[0] smallest ID so probably the most accurate, 
@@ -234,9 +235,30 @@ sub update_codex_text{
 	$text =~ s/\\x97/&mdash;/g;
 	$text =~ s/\\x96//g;
 
+	$text = replace_ascii($text);
+
 	$query = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = ? WHERE CODEX_ID = ?");
 	$query->execute($text, $codexID) or die $DBI::errstr;
 	$query->finish();
+}
+
+
+#Go over each character in the hash to determine if it's part of UTF-8
+sub replace_ascii{
+	my @array = split(//,$_[0]);	
+	my $replaceString;
+	foreach my $r (@array){
+		if(ord($r) > 128)
+		{
+			print "$r is higher than 128 - ".ord($r)."\n";
+			$replaceString .= "&#".ord($r).";";
+		}	
+		else
+		{
+			$replaceString .= $r;
+		}
+	}
+	return $replaceString;
 }
 
 

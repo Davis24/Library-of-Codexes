@@ -1,5 +1,4 @@
 html{min-height:100%;position:relative}
-body{margin:0 0 200px}
 footer{bottom:0;height:200px;left:0;position:absolute;width:100%}
 .footer-basic-centered{background-color:#000;box-shadow:0 1px 1px 0 rgba(0,0,0,0.12);box-sizing:border-box;font:normal 18px sans-serif;margin-top:80px;padding:45px;text-align:center}
 .footer-basic-centered .footer-company-motto{color:#8d9093;font-size:24px;margin:0}
@@ -9,5 +8,5 @@ footer{bottom:0;height:200px;left:0;position:absolute;width:100%}
 .footer-links a:hover{color:gray}
 @media (max-width: 360px) {
 body{margin:0 0 300px}
-footer{bottom:0;height:300px;left:0;position:absolute;width:100%}
+footer{bottom:0;height:0;left:0;position:absolute;width:100%}
 }
