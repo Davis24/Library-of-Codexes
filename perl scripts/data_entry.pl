@@ -1,25 +1,12 @@
 #!/usr/bin/perl -w
-
-############################################################
-#	text_manipulation.pl
+###################################################################################
+#	data_entry.pl
 #	02/08/2017
 # 	Author: Davis24 (https://github.com/Davis24)
 #	Purpose: To assist with inserting new data into Library of Codexes database
-#
-#	Non-Specific Subroutines:
-#		check_author_exists: Check if author exists in database, assigns the codex with the authorID or inserts new author 
-#		check_for_null: Checks hash for null values and replaces them with user input
-#		insert_author: Inserts new author into database
-#		insert_codex: Inserts new codex into database
-#		print_hash: Takes in a hash and prints it out
-#		replace_ascii: Replaces ASCII that doesn't fall into UTF-8 encoding
-#		text_sanitize: Sanitizes codex text
-#
-#	To Do:
-# 	-  Refactor so there is less repeating code
-#	-  Clean up lines and variable names
-#
-##############################################################
+#	
+#	perl data_entry.pl <filename> <seriesID> <gameID> insert(to insert records) authors(to be prompted to insert the author name for each record) null(the user will be prompted to fill null records)
+####################################################################################
 use warnings;
 use Data::Dumper qw(Dumper);
 use HTML::Entities;
@@ -32,14 +19,14 @@ my $seriesID = $ARGV[1];
 my $gameID = $ARGV[2];
 my $insertRecords = $ARGV[3]; #If insertRecords == insert, then the records will be intersted otherwise they will just print to screen
 my $selectAuthors = $ARGV[4]; #If selectAuthors == authors, then the user will be prompted each time to insert the author name
+my $selectNullRecords = $ARGV[5]; #If selectNullRecords = null, the user will prompted to fill null records
 
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $authorCount = 10000; #Used as a placeholder if needed for later queries
-
+my $authorCount = 5838; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -49,6 +36,9 @@ if(!defined($insertRecords)){
 if(!defined($selectAuthors)){
 	$selectAuthors = 0;
 }
+if(!defined($selectNullRecords)){
+	$selectNullRecords = 0;
+}
 if(!defined($seriesID)){
 	$seriesID = 0;
 }
@@ -57,7 +47,10 @@ if(!defined($gameID)){
 }
 
 
-sub insert_game{
+main();
+
+#This is the main subroutine -> Which reads the data and inserts it into the DB
+sub main{
 	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";
 	while(my $row = <$fh>)
 	{
@@ -68,51 +61,56 @@ sub insert_game{
 
 		## Codex Title sanitization
 		#$words[4] =~ s/"//g;
-		$words[4] =~ s/([\w']+)/$1/g;
-		$words[4] = replace_non_utf_8_characters($words[4]);
-		$codexHash{$tempNum}{Title} = $words[4];
+		$words[2] =~ s/([\w']+)/$1/g;
+		$words[2] =~ s/Note: //g;
+		$words[2] = replace_non_utf_8_characters($words[2]);
+		$codexHash{$tempNum}{Title} = $words[2];
 		
 		## Codex Description	
 		$codexHash{$tempNum}{Text} = replace_non_utf_8_characters(text_sanitize($words[5]));
-
 		## Codex Authors
 		if($selectAuthors eq "authors")
 		{
-			$codexHash{$tempNum}{Author} = assign_author();
+			assign_author();
 		}
 		else
 		{
 			$codexHash{$tempNum}{Author} = $authorCount;
 		}
-		
 		$tempNum++;
 	}
 
-	alert_null();	
+	if($selectNullRecords eq "null"){
 
+	}
+	else
+	{
+		alert_null();	
+	}
+	
 	#Insert Codexes
 	if($insertRecords eq "insert")
 	{
 		insert_codex();
 	}
 
-	print_hash();
+	#print_hash();
 }
 
-########################### Non-Specific Game Subroutines ################################
+##########################################
+# Below subroutines handle author values #
+##########################################
 
-#Rewrite completed
-#NOT TESTED
 sub assign_author{
 	print "\n";
-	print "Codex Title: $codexHash{$tempNum}{Title}\n";
+	print "Codex Title: ".$codexHash{$tempNum}{Title}."\n";
 	print "Author Name: ";
 	my $tempAuthor = <STDIN>;
 	chomp $tempAuthor;
 
 	if($tempAuthor eq "-1")
 	{
-		print "\nNo, author default assigned.\n";
+		print "No, author default assigned.\n";
 		$codexHash{$tempNum}{Author} = $authorCount;
 	}
 	else
@@ -121,20 +119,23 @@ sub assign_author{
 	}
 }
 
-#Completed Rewrite
-#NOT TESTED
 sub check_author_exists{
 	#$_[0] is Author Name
 
-	my $query = $myConnection-> prepare("SELECT AUTHOR_ID FROM AUTHORS WHERE NAME LIKE '$_[0]' AND FK_SERIES = $seriesID");
+	$_[0] =~ s/'/\'/g;
+	$_[0] =~ s/"/\"/g;
+	my $query = $myConnection-> prepare("SELECT AUTHOR_ID FROM AUTHORS WHERE NAME LIKE '$_[0]' AND FK_SERIES_ID = $seriesID");
 	$query->execute();
 
 	if($query->rows > 0)
 	{
+		my $authorID;
 		while (@data = $query->fetchrow_array()) {
-            my $authorID = $data[0];
-            $codexHash{$tempNum}{Author} = $authorID;
-          }
+            $authorID = $data[0];
+        }
+
+		$codexHash{$tempNum}{Author} = $authorID;
+		print "Author Found - $authorID\n";
 	}
 	else
 	{
@@ -144,31 +145,50 @@ sub check_author_exists{
 	$query->finish();
 }
 
-#Completed Rewrite
-#NOT TESTED
 sub insert_author{
 	my $queryAuthor = $myConnection->prepare("INSERT INTO AUTHORS (AUTHOR_ID, NAME, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?)");
 	
 	$queryAuthor->execute(null, $_[0], $gameID, $seriesID) or die $DBI::errstr;
-	$codexHash{$tempNum}{Author} = $queryAuthor->{mysql_insertid}; #grab previously inserted ID 
+	$authorIDInserted = $queryAuthor->{mysql_insertid}; #grab previously inserted ID 
+	$codexHash{$tempNum}{Author} = $authorIDInserted;
 	$queryAuthor->finish();
 
-	print "Author successfully added to DB. \n";
+	print "$authorIDInserted Author successfully added to DB. \n";
 }
 
+#########################################
+# Below subroutines handle codex values #
+#########################################
+
+#Insert codex into database
 sub insert_codex{
 	my $query = $myConnection->prepare("INSERT INTO CODEXES (CODEX_ID, CODEX_TITLE, CODEX_TEXT, FK_AUTHOR_ID, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?,?,?)");
 	for my $item (keys %codexHash){
 		$query->execute(null, $codexHash{$item}{Title}, $codexHash{$item}{Text}, $codexHash{$item}{Author}, $gameID, $seriesID) or die $DBI::errstr;	
 		$codex_id = $query->{mysql_insertid};
+		print "$codex_id\n";
 		$query->finish();
 		
 		#insert_codex_authors($codexHash{$item}{Author}, $codex_id);
 	}
 }
 
-## REMOVE THIS ###
-sub check_for_null{
+########################################
+# Below subroutines handle null values #
+########################################
+
+## Prints which codex entry is not definied.
+sub alert_null{
+	for my $item (keys %codexHash){
+		for my $subitem(keys %{$codexHash{$item}}){
+	 		if(!$codexHash{$item}{$subitem}){
+				print $codexHash{$item}{Title}.":".$subitem." is not defined.\n";
+			}
+		}
+	}
+}
+
+sub replace_null{
 	for my $item (keys %codexHash){
 		for my $subitem(keys %{$codexHash{$item}}){
 	 		if(!$codexHash{$item}{$subitem}){
@@ -185,47 +205,21 @@ sub check_for_null{
 				foreach my $i (@a){
 					$arrayString .= $i;
 				}
-				$codexHash{$item}{Text} = $arrayString;
+				$codexHash{$item}{Text} = replace_non_utf_8_characters(text_sanitize($arrayString));
 			}
 		}
 	}
 }
 
-### REMOVE ABOVE ###
-
-## Prints which codex entry is not definied.
-sub alert_null{
-	for my $item (keys %codexHash){
-		for my $subitem(keys %{$codexHash{$item}}){
-	 		if(!$codexHash{$item}{$subitem}){
-				print $codexHash{$item}{Title}.":".$subitem." is not defined.\n";
-			}
-		}
-	}
-}
-
-
-
-
-
-
-## Ignore till properly fixed
-sub insert_codex_authors{
-	my $query2 = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID, FK_gameID) values (?,?,?)");
-	$query2->execute($_[0], $_[1], $gameID) or die $DBI::errstr;
-	$query2->finish();
-}
-###
+##############################################
+# Below subroutines handle text and printing #
+##############################################
 
 sub print_hash{
 	print "########################################\n";
 	print Dumper \%codexHash;
 	print "########################################\n";
 }
-
-
-
-
 
 #Replaces data added from webscraping
 sub text_sanitize{
@@ -260,6 +254,14 @@ sub text_sanitize{
 	
 	return $text;
 }
+
+sub replace_non_utf_8_characters{
+	return encode_entities($_[0]);
+}
+
+########################################
+# Below Likely need to be deleted      #
+########################################
 
 sub dragon_age{
 	### Part 1 - Open File ###
@@ -312,5 +314,9 @@ sub dragon_age{
 	#print "# added $tempNum";
 }
 
-
-
+### Not fixed yet
+sub insert_codex_authors{
+	my $query2 = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID, FK_gameID) values (?,?,?)");
+	$query2->execute($_[0], $_[1], $gameID) or die $DBI::errstr;
+	$query2->finish();
+}

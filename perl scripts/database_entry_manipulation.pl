@@ -25,11 +25,90 @@ use Data::Dumper qw(Dumper);
 $Data::Dumper::Sortkeys = 1;
 use DBI;
 use Encode;
+use HTML::Entities;
 
-my $filename = $ARGV[0];
+
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
-menu();
+#menu();
+
+check_if_author_is_in_codexes_authors();
+check_if_codex_is_in_codexes_authors();
+
+sub insert_author_to_existing_codex{
+	print "Author Name: ";
+	my $authorName = <STDIN>;
+	chomp $authorName;
+	$authorName =~ s/('|")//g;
+	
+	print "Series ID: ";
+	my $seriesID = <STDIN>;
+	chomp $seriesID;
+	
+	print "Game ID: ";
+	my $gameID = <STDIN>;
+	chomp $gameID;
+
+	print "Codex ID: ";
+	my $codexTitle = <STDIN>;
+	chomp $codexTitle;
+	#$codexTitle =~ s/('|")//g;
+
+	my $authorID;
+	my $codexID = $codexTitle;
+
+	#Check if the author current exists, if so grab the ID and assign it. Otherwise insert_author to db.
+	my $queryAuthorCheck = $myConnection-> prepare("SELECT AUTHOR_ID FROM AUTHORS WHERE NAME LIKE '$authorName' AND FK_SERIES_ID = $seriesID");
+	$queryAuthorCheck->execute();
+	if($queryAuthorCheck->rows > 0)
+	{
+		while (@data = $queryAuthorCheck->fetchrow_array()) {
+            $authorID = $data[0];
+        }
+		print "Author Found - $authorID\n";	
+	}
+	else ## insert author into db
+	{
+		$authorID = insert_author($authorName, $gameID, $seriesID);
+		print "Inserted Author - $authorID\n";
+	}
+	$queryAuthorCheck->finish();
+	
+	##Find Codex ID, exit if no codex is found
+	#my $codexQuery = $myConnection-> prepare("SELECT CODEX_ID FROM CODEXES WHERE CODEX_TITLE LIKE '$codexTitle' AND FK_SERIES_ID = $seriesID");
+	#$codexQuery->execute();
+	#if($codexQuery->rows > 0)
+	#{
+	#	while (@data = $codexQuery->fetchrow_array()) {
+     #       $codexID = $data[0];
+      #  }	
+		#print "Codex Found - $codexID\n";
+	#}
+	#else
+	#{
+	#	print "Error: No Codex Found!\n";
+	#	exit();
+	#}
+	#$codexQuery->finish();
+
+	##Add author to codexes_authors
+	print "Adding entry to codexes_authors\n";
+	insert_entry_into_codexes_authors($authorID, $codexID);
+}
+
+sub insert_entry_into_codexes_authors{
+	my $authorQuery = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID) values (?,?)");
+	$authorQuery->execute($_[0], $_[1]) or die $DBI::errstr;
+	$authorQuery->finish();
+}
+
+sub insert_author{
+	my $query = $myConnection->prepare("INSERT INTO AUTHORS (AUTHOR_ID, NAME, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?)");
+	$query->execute(null,$_[0],$_[1],$_[2]) or die $DBI::errstr;
+	my $ID = $query->{mysql_insertid};
+	$query->finish();
+	return $ID;
+}
 
 sub menu{
 	print "--------------------------\n";
@@ -81,6 +160,105 @@ sub menu_response{
 		}
 	}
 }
+
+#This runs a query over all records in codexes_authors and checks to see if the author or codex is missing, if so it deletes the entry
+sub check_codexes_authors_for_IDS_that_dont_exist{
+	my $query = $myConnection->prepare("SELECT * FROM codexes_authors");
+	$query->execute();
+	while (@data = $query->fetchrow_array()) {
+        $authorID = $data[0];
+		$codexID = $data[1];
+
+		my $authorQuery = $myConnection->prepare("SELECT COUNT(*) FROM authors WHERE AUTHOR_ID = ?");
+		$authorQuery->execute($authorID);
+		@return = $authorQuery->fetchrow_array();
+		my $count = $return[0];
+
+		my $temp = 0;
+
+		if($count == 0){
+			print "There is no author($authorID) that matches this\n";
+
+			my $deleteQuery = $myConnection->prepare("DELETE FROM codexes_authors WHERE FK_AUTHOR_ID =?");
+			$deleteQuery->execute($authorID);
+			$deleteQuery->finish();
+
+			$temp = 1;
+		}
+		$authorQuery->finish();
+
+		my $codexQuery = $myConnection->prepare("SELECT COUNT(*) FROM codexes WHERE CODEX_ID = ?");
+		$codexQuery->execute($codexID);
+		@return = $codexQuery->fetchrow_array();
+		$count = $return[0];
+
+		if($count == 0 && $temp == 0){
+			print "There is no codex:($codexID) that matches this\n";
+
+			my $deleteQuery = $myConnection->prepare("DELETE FROM codexes_authors WHERE FK_CODEX_ID = ?");
+			$deleteQuery->execute($codexID);
+			$deleteQuery->finish();
+		}
+		$codexQuery->finish();
+    }
+	$query->finish();
+}
+
+sub check_if_author_is_in_codexes_authors{
+	my $query = $myConnection->prepare("SELECT AUTHOR_ID FROM AUTHORS");
+	$query->execute();
+	while (@data = $query->fetchrow_array()) {
+		$authorID = $data[0];
+
+		my $authorQuery = $myConnection->prepare("SELECT COUNT(*) FROM codexes_authors WHERE FK_AUTHOR_ID = ?");
+		$authorQuery->execute($authorID);
+		@return = $authorQuery->fetchrow_array();
+		my $count = $return[0];
+
+		if($count == 0)
+		{
+			print "This author($authorID) has no codex\n";
+		}
+
+	}
+	$query->finish();
+}
+
+sub check_if_codex_is_in_codexes_authors{
+	my $query = $myConnection->prepare("SELECT CODEX_ID, FK_AUTHOR_ID FROM CODEXES");
+	$query->execute();
+	while (@data = $query->fetchrow_array()) {
+		$codexID = $data[0];
+		$authorID = $data[1];
+
+		###Make this into a subroutine
+		my $codexQuery = $myConnection->prepare("SELECT COUNT(*) FROM codexes_authors WHERE FK_CODEX_ID = ?");
+		$codexQuery->execute($codexID);
+		@return = $codexQuery->fetchrow_array();
+		my $count = $return[0];
+		$codexQuery->finish();
+
+		if($count == 0)
+		{
+			#If the codexes' author exists create the link in codexes_authors
+			my $authorQuery = $myConnection->prepare("SELECT COUNT(*) FROM AUTHORS WHERE AUTHOR_ID = ?");
+			$authorQuery->execute($authorID);
+			@return = $authorQuery->fetchrow_array();
+			my $authorCheck = $return[0];
+
+			print "This codex($codexID)-($authorID) has no codex\n";
+
+			if($authorCheck > 0){
+				my $recordInsert = $myConnection->prepare("INSERT INTO codexes_authors (FK_AUTHOR_ID, FK_CODEX_ID) values (?,?)");
+				$recordInsert->execute($authorID, $codexID);
+				$recordInsert->finish();
+			}
+		}
+
+	}
+	$query->finish();
+}
+
 
 
 ##haven't tested since augmenting code
@@ -235,7 +413,7 @@ sub update_codex_text{
 	$text =~ s/\\x97/&mdash;/g;
 	$text =~ s/\\x96//g;
 
-	$text = replace_ascii($text);
+	$text = replace_non_utf_8_characters($text);
 
 	$query = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = ? WHERE CODEX_ID = ?");
 	$query->execute($text, $codexID) or die $DBI::errstr;
@@ -243,22 +421,28 @@ sub update_codex_text{
 }
 
 
-#Go over each character in the hash to determine if it's part of UTF-8
-sub replace_ascii{
-	my @array = split(//,$_[0]);	
-	my $replaceString;
-	foreach my $r (@array){
-		if(ord($r) > 128)
-		{
-			print "$r is higher than 128 - ".ord($r)."\n";
-			$replaceString .= "&#".ord($r).";";
-		}	
-		else
-		{
-			$replaceString .= $r;
-		}
+sub fix_text{
+	my $query = $myConnection->prepare("SELECT CODEX_ID, CODEX_TEXT FROM CODEXES WHERE FK_SERIES_ID = 17");
+	$query->execute();
+	while(@return = $query->fetchrow_array()){
+		my $id = $return[0];
+		my $text = $return[1];
+		
+		#$text = replace_non_utf_8_characters($text);
+		#$text =~ s/If (.*?)(:|\.\.\.)/\<i\>If $1$2\<\/i\>/g;
+		$text =~ s/(\<i\>){2,}/\<i\>/g;
+		$text =~ s/(\<\/i\>){2,}/\<\/i\>/g;
+
+		my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT =? WHERE CODEX_ID = ?");
+		$statement->execute($text, $id) or die $DBI::errstr;
+		$statement->finish();			
 	}
-	return $replaceString;
+	$query->finish();
+
+}
+
+sub replace_non_utf_8_characters{
+	return encode_entities($_[0]);
 }
 
 
@@ -282,19 +466,5 @@ sub remove_extras_from_author{
 		}
 	}
 	$query->finish();
-}
-
-##No idea what this was used for originally -- keeping just in case it comes back
-sub fix_text{
-	my $query = $myConnection-> prepare("SELECT CODEX_ID, CODEX_TEXT, CODEX_TITLE FROM codexes WHERE FK_GAME_ID = 32");
-	$query->execute();
-
-	while(@data = $query->fetchrow_array()){
-			my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT = TRIM(TRAILING '\n\r' FROM CODEX_TEXT) WHERE CODEX_ID = ?");
-			$statement->execute($data[0]) or die $DBI::errstr;
-			$statement->finish();
-	}
-	$query->finish();
-
 }
 

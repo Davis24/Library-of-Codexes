@@ -9,7 +9,6 @@
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2018</p>
 </footer>
 <script src = "<?php echo URLROOT; ?>/scripts/jquery-3.3.1.min.js"></script>
-<script src="<?php echo URLROOT; ?>/scripts/change_text.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
 <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 <!-- for mobile header -->
@@ -22,6 +21,16 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
+
+
+var a = document.createElement('a');
+		if(typeof a.download != "undefined") {
+   			// download attribute is supported
+			console.log("supported");
+			document.getElementById("download").removeAttribute('download');
+		} else {
+  			// download attribute is not supported
+	}
 </script>
 </body>
 </html>
