@@ -21,16 +21,6 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
-
-
-var a = document.createElement('a');
-		if(typeof a.download != "undefined") {
-   			// download attribute is supported
-			console.log("supported");
-			document.getElementById("download").removeAttribute('download');
-		} else {
-  			// download attribute is not supported
-	}
 </script>
 </body>
 </html>
