@@ -1,5 +1,16 @@
+//Temporary fix for Safari download issue
+//-Written by Gerrit
+$(document).ready(function () {
+	if(isSafari()) {
+		$("#download").attr('target', '_');
+		$("#download").removeAttr('download');
+	}  
+ });
+ 
+ 
+
 function ebookText(ebook_choice){
-	console.log("reaching ebookText: " +ebook_choice);
+	//console.log("reaching ebookText: " +ebook_choice);
 	if(ebook_choice){
 		$.ajax ({
 			type: 'post',
@@ -11,7 +22,7 @@ function ebookText(ebook_choice){
 				$('#ebook_info').html(response);
 			},
 			error: function(){
-				console.log("Something went wrong");
+				//console.log("Something went wrong");
 			}
 		});
 	}
@@ -20,6 +31,12 @@ function ebookText(ebook_choice){
 function getBaseUrl() {
     var re = new RegExp(/^.*\//);
     return re.exec(window.location.href);
+}
+
+//Temporary fix for Safari download issue
+//-Written by Gerrit
+function isSafari () {
+	return isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 }
 
 $("select[name='game']").change(function() {

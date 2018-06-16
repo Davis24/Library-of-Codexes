@@ -101,6 +101,13 @@ sub main{
 # Below subroutines handle author values #
 ##########################################
 
+#Inserts the codexID and authorID into the codexes_authors table
+sub insert_codexes_authors{
+	my $codexAuthorQuery = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID) values (?,?)");
+	$codexAuthorQuery->execute($_[0], $_[1], $gameID) or die $DBI::errstr;
+	$codexAuthorQuery->finish();
+}
+
 sub assign_author{
 	print "\n";
 	print "Codex Title: ".$codexHash{$tempNum}{Title}."\n";
@@ -162,14 +169,14 @@ sub insert_author{
 
 #Insert codex into database
 sub insert_codex{
-	my $query = $myConnection->prepare("INSERT INTO CODEXES (CODEX_ID, CODEX_TITLE, CODEX_TEXT, FK_AUTHOR_ID, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?,?,?)");
+	my $query = $myConnection->prepare("INSERT INTO CODEXES (CODEX_ID, CODEX_TITLE, CODEX_TEXT, FK_GAME_ID, FK_SERIES_ID) values (?,?,?,?,?)");
 	for my $item (keys %codexHash){
-		$query->execute(null, $codexHash{$item}{Title}, $codexHash{$item}{Text}, $codexHash{$item}{Author}, $gameID, $seriesID) or die $DBI::errstr;	
+		$query->execute(null, $codexHash{$item}{Title}, $codexHash{$item}{Text}, $gameID, $seriesID) or die $DBI::errstr;	
 		$codex_id = $query->{mysql_insertid};
 		print "$codex_id\n";
 		$query->finish();
 		
-		#insert_codex_authors($codexHash{$item}{Author}, $codex_id);
+		insert_codexes_authors($codexHash{$item}{Author}, $codex_id);
 	}
 }
 
@@ -255,68 +262,7 @@ sub text_sanitize{
 	return $text;
 }
 
+#Remove  Non UTF-8 characters and replaces with entities
 sub replace_non_utf_8_characters{
 	return encode_entities($_[0]);
-}
-
-########################################
-# Below Likely need to be deleted      #
-########################################
-
-sub dragon_age{
-	### Part 1 - Open File ###
-	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";	
-	### Part 2 - Read file and put into hash
-	while(my $row = <$fh>)
-	{
-		chomp $row;
-		my @words = split('","', $row);
-		#title
-		$words[2] =~ s/Note: //g;
-		$codexHash{$tempNum}{Title} = $words[2];
-		
-
-		if(scalar @words == 6) {
-			if(length($words[3]) > length($words[5])) {
-				$words[3] =~ s/\\xA0//g;
-				$words[3] =~ s/^\s+|\s+$//g;
-				text_sanitize($words[3]);
-			}	
-			else {
-				$words[5] =~ s/\\xA0//g;
-				$words[5] =~ s/^\s+|\s+$//g;
-				text_sanitize($words[5]);
-			}			
-		}
-		else
-		{
-				#text
-				$words[3] =~ s/\\xA0//g;
-				$words[3] =~ s/^\s+|\s+$//g;
-				text_sanitize($words[3]);	
-		}
-
-
-		$codexHash{$tempNum}{Author} = "temp";
-
-		$tempNum++;
-	}
-	
-	### Part 3 - Check Empty (before enabling this run ascii to make sure all replaces are accounted for)
-	check_for_null();
-	### Part 4 - Check ASCII #####
-	replace_ascii();	
-	### Part 4 - Check if Author exists in MYSQL, if author exists replace 
-	authors_call(11);
-	### Part 5 - Add Codexes to DB
-	insert_codex(11);
-	print_hash();
-	#print "# added $tempNum";
-}
-
-### Not fixed yet
-sub insert_codex_authors{
-	my $query2 = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID, FK_gameID) values (?,?,?)");
-	$query2->execute($_[0], $_[1], $gameID) or die $DBI::errstr;
-	$query2->finish();
 }

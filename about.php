@@ -1,11 +1,9 @@
 <?php 
  	require_once 'inc/header.php'; 
-	//Database Connection
-	require_once('./scripts/dbconnect.php');
-	//Query for numbers
-	$codexes_num = $db->query("SELECT COUNT(CODEX_ID) as 'count' FROM codexes")->fetch_object()->count;
-	$authors_num = $db->query("SELECT COUNT(AUTHOR_ID) as 'count' FROM authors")->fetch_object()->count;
-	$games_num = $db->query("SELECT COUNT(*) as 'count' FROM games")->fetch_object()->count;
+	//Changing to manual update since site DB will be changed to only hold up to date ebook information
+	$codexes_num = 12304;
+	$games_num = 44;
+	$authors_num = 3270;
 	mysqli_close($db);
 ?>
 <!--Banner-->
