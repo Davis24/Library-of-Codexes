@@ -20,7 +20,7 @@
 	GROUP BY
 		c.CODEX_ID,
 		c.CODEX_TITLE
-	HAVING c.FK_SERIES_ID = 17 ORDER BY c.CODEX_TITLE ASC";
+	HAVING c.FK_SERIES_ID = 18 ORDER BY c.CODEX_TITLE ASC";
 	if($result = $db -> query($query)){
 		while($row = $result -> fetch_assoc()) {
 			echo "<h1>".$row['CODEX_TITLE']."-".$row['CODEX_ID']."-".$row['FK_GAME_ID']."</h1>";

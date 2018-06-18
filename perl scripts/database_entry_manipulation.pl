@@ -26,7 +26,7 @@ if(!defined($seriesID)){
 
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
-
+update_codex_text();
 
 sub menu{
 	print "--------------------------\n";

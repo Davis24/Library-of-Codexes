@@ -25,8 +25,7 @@
                                     $val = str_replace(array(':','\''), '', $row["TITLE"]);
     								echo '<option value="'.$val.'">'.$row["TITLE"]."</option>";
 			  					}
-                              }
-                             
+                              }                         
   						?>
                         </select>
                     </div>

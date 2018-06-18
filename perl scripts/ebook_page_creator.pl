@@ -35,7 +35,7 @@ sub createFiles{
 											CODEX_TITLE,
 											CODEX_TEXT,
 											c.FK_SERIES_ID,
-											GROUP_CONCAT(a.NAME ORDER BY a.NAME SEPERATOR ', ') AUTHORS
+											GROUP_CONCAT(a.NAME ORDER BY a.NAME) AUTHORS
 										FROM 
 										codexes c
 												INNER JOIN
@@ -53,12 +53,14 @@ sub createFiles{
 			$fileName =~ s/(:|"|\?|\.)//g;
 			$fileName =~ s/(\\|\/)/ /g;
 			$fileName = $fileName.".html";
-
-			#Text
-			$array[3] =~ s/\n(.*?)\n/<p>$1<\/p>/g;
+	
+			$array[2] =~ s/([^\r\n])(\r\n)([^\r\n])/$1\@BR$3/g;
+			$array[2] =~s/\@BR/\<br\/\>/g;
+			#print $array[2]; 	
 
 			#Author
 			$array[4] =~ s/(.*?)(\[(.*?)\])/$1/g;
+			$array[4] =~ s/,/, /g;
 
 			if(-f $fileName)
 			{

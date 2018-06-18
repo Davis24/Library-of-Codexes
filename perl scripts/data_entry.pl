@@ -26,7 +26,7 @@ my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $authorCount = 5838; #Used as a placeholder if needed for later queries
+my $authorCount = 6389; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -69,6 +69,7 @@ sub main{
 		## Codex Description	
 		$codexHash{$tempNum}{Text} = replace_non_utf_8_characters(text_sanitize($words[5]));
 		## Codex Authors
+	
 		if($selectAuthors eq "authors")
 		{
 			assign_author();
@@ -104,7 +105,7 @@ sub main{
 #Inserts the codexID and authorID into the codexes_authors table
 sub insert_codexes_authors{
 	my $codexAuthorQuery = $myConnection->prepare("INSERT INTO CODEXES_AUTHORS (FK_AUTHOR_ID, FK_CODEX_ID) values (?,?)");
-	$codexAuthorQuery->execute($_[0], $_[1], $gameID) or die $DBI::errstr;
+	$codexAuthorQuery->execute($_[0], $_[1]) or die $DBI::errstr;
 	$codexAuthorQuery->finish();
 }
 
@@ -114,16 +115,43 @@ sub assign_author{
 	print "Author Name: ";
 	my $tempAuthor = <STDIN>;
 	chomp $tempAuthor;
-
-	if($tempAuthor eq "-1")
+	
+	my $authorsList;
+	if($tempAuthor =~ m/,/)
 	{
-		print "No, author default assigned.\n";
-		$codexHash{$tempNum}{Author} = $authorCount;
+		print "Multiple Authors Found\n";
+		my @authors = split(',', $tempAuthor);
+		foreach $a (@authors)
+		{
+			
+			if($a eq "-1")
+			{
+				print "No, author default assigned.\n";
+				#$codexHash{$tempNum}{Author} = $authorCount;
+				$authorsList .= ",$authorCount";
+			}
+			else
+			{
+				$authorsList.= ",".check_author_exists($a);
+			}
+		}
+
 	}
 	else
 	{
-		check_author_exists($tempAuthor);
+		if($tempAuthor eq "-1")
+		{
+			print "No, author default assigned.\n";
+			#$codexHash{$tempNum}{Author} = $authorCount;
+			$authorsList = "$authorCount";
+		}
+		else
+		{
+			$authorsList = check_author_exists($tempAuthor);
+		}
 	}
+
+	$codexHash{$tempNum}{Author} = $authorsList;
 }
 
 sub check_author_exists{
@@ -141,12 +169,13 @@ sub check_author_exists{
             $authorID = $data[0];
         }
 
-		$codexHash{$tempNum}{Author} = $authorID;
+		#$codexHash{$tempNum}{Author} = $authorID;
+		return $authorID;
 		print "Author Found - $authorID\n";
 	}
 	else
 	{
-		insert_author($_[0]);
+		return insert_author($_[0]);
 	}
 
 	$query->finish();
@@ -157,10 +186,10 @@ sub insert_author{
 	
 	$queryAuthor->execute(null, $_[0], $gameID, $seriesID) or die $DBI::errstr;
 	$authorIDInserted = $queryAuthor->{mysql_insertid}; #grab previously inserted ID 
-	$codexHash{$tempNum}{Author} = $authorIDInserted;
+	#$codexHash{$tempNum}{Author} = $authorIDInserted;
 	$queryAuthor->finish();
-
 	print "$authorIDInserted Author successfully added to DB. \n";
+	return  $authorIDInserted;
 }
 
 #########################################
@@ -176,7 +205,19 @@ sub insert_codex{
 		print "$codex_id\n";
 		$query->finish();
 		
-		insert_codexes_authors($codexHash{$item}{Author}, $codex_id);
+		#Check if there are multiple authors
+		if($codexHash{$item}{Author} =~ m/,/)
+		{
+			my @authors = split(',', $codexHash{$item}{Author});
+			foreach $a (@authors)
+			{
+				insert_codexes_authors($a, $codex_id);
+			}
+		}
+		else
+		{
+			insert_codexes_authors($codexHash{$item}{Author}, $codex_id);
+		}	
 	}
 }
 
