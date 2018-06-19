@@ -10,7 +10,7 @@ $(document).ready(function () {
  //Temporary fix for Safari download issue
 //-Written by Gerrit
 function isSafari () {
-	return isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+	return /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 }
  
 
@@ -44,12 +44,12 @@ $("select[name='game']").change(function() {
     //console.log($("select").val());    
 	//console.log("Base URL" +getBaseUrl());
 	ebookText($("select").val());
-	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook'").val();
+	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook']").val();
 	$('#download').attr('href',$ebook_path);
 })
 
 $("select[name='ebook']").change(function() {
-	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook'").val();
+	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook']").val();
 	$('#download').attr('href',$ebook_path);
 })
 
