@@ -9,8 +9,9 @@
 ####################################################################################
 use warnings;
 use Data::Dumper qw(Dumper);
-use HTML::Entities;
 $Data::Dumper::Sortkeys = 1;
+use HTML::Entities;
+use Browser::Open qw( open_browser );
 use DBI;
 
 #Command Line Arguements
@@ -26,7 +27,7 @@ my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $authorCount = 6389; #Used as a placeholder if needed for later queries
+my $authorCount = 6499; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -52,24 +53,43 @@ main();
 #This is the main subroutine -> Which reads the data and inserts it into the DB
 sub main{
 	open(my $fh, '<:encoding(UTF-8)', $filename) or die "Could not open";
-	while(my $row = <$fh>)
+	my $header = <$fh>;
+	while(<$fh>)
 	{
-		chomp $row;
-		$row =~ s/\\xA0/ /g;
-
-		my @words = split('","', $row);
+		next if/^\s*$/; #skip blank lines
+		chomp($_);
+		$_ =~ s/\\xA0/ /g;
+		my @words = split('","', $_);
 
 		## Codex Title sanitization
-		#$words[4] =~ s/"//g;
 		$words[2] =~ s/([\w']+)/$1/g;
-		$words[2] =~ s/Note: //g;
 		$words[2] = replace_non_utf_8_characters($words[2]);
 		$codexHash{$tempNum}{Title} = $words[2];
 		
-		## Codex Description	
-		$codexHash{$tempNum}{Text} = replace_non_utf_8_characters(text_sanitize($words[5]));
-		## Codex Authors
-	
+		#Opens Website
+		open_browser($words[3]);
+
+		## Codex Description
+		if($words[5] eq "[]\""){
+			print "\n";
+			print "$codexHash{$tempNum}{Title}\n";
+			print "Text Null Insert Below:\n";
+			my @a;
+			while (<STDIN>) {
+    			push @a, $_;
+			}
+			my $arrayString = "";	
+			foreach my $i (@a){
+				$arrayString .= $i;
+			}
+			$codexHash{$tempNum}{Text} = replace_non_utf_8_characters(text_sanitize($arrayString));
+		}
+		else
+		{
+			$codexHash{$tempNum}{Text} = replace_non_utf_8_characters(text_sanitize($words[5]));
+		}		
+
+		# Codex Authors
 		if($selectAuthors eq "authors")
 		{
 			assign_author();
@@ -82,7 +102,7 @@ sub main{
 	}
 
 	if($selectNullRecords eq "null"){
-
+		replace_null();
 	}
 	else
 	{
@@ -190,6 +210,10 @@ sub insert_author{
 	$queryAuthor->finish();
 	print "$authorIDInserted Author successfully added to DB. \n";
 	return  $authorIDInserted;
+}
+
+sub author_detection{
+
 }
 
 #########################################

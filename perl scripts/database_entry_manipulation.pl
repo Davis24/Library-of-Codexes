@@ -19,14 +19,14 @@ use DBI;
 use Encode;
 use HTML::Entities;
 
-my $seriesID = $ARGV[1];
+my $seriesID = $ARGV[0];
 if(!defined($seriesID)){
 	$seriesID = 0;
 }
 
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
-update_codex_text();
+insert_author_into_existing_codex();
 
 sub menu{
 	print "--------------------------\n";
