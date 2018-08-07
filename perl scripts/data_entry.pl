@@ -27,7 +27,7 @@ my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $authorCount = 6499; #Used as a placeholder if needed for later queries
+my $defaultAuthor = 125; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -96,7 +96,7 @@ sub main{
 		}
 		else
 		{
-			$codexHash{$tempNum}{Author} = $authorCount;
+			$codexHash{$tempNum}{Author} = $defaultAuthor;
 		}
 		$tempNum++;
 	}
@@ -147,8 +147,8 @@ sub assign_author{
 			if($a eq "-1")
 			{
 				print "No, author default assigned.\n";
-				#$codexHash{$tempNum}{Author} = $authorCount;
-				$authorsList .= ",$authorCount";
+				#$codexHash{$tempNum}{Author} = $defaultAuthor;
+				$authorsList .= ",$defaultAuthor";
 			}
 			else
 			{
@@ -162,8 +162,8 @@ sub assign_author{
 		if($tempAuthor eq "-1")
 		{
 			print "No, author default assigned.\n";
-			#$codexHash{$tempNum}{Author} = $authorCount;
-			$authorsList = "$authorCount";
+			#$codexHash{$tempNum}{Author} = $defaultAuthor;
+			$authorsList = "$defaultAuthor";
 		}
 		else
 		{
@@ -323,6 +323,7 @@ sub text_sanitize{
 	$text =~ s/\\xEF/&#239;/g;
 	$text =~ s/\\x97/&mdash;/g;
 	$text =~ s/\\x96//g;
+	$text =~ s/This (audiograph|book|note) can be found (.*?)\.//g;
 	
 	return $text;
 }

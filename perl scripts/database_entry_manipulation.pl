@@ -26,7 +26,8 @@ if(!defined($seriesID)){
 
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
-insert_author_into_existing_codex();
+#insert_author_into_existing_codex();
+check_codexes_authors_for_IDS_that_dont_exist();
 
 sub menu{
 	print "--------------------------\n";
