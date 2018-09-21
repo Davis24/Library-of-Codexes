@@ -27,7 +27,7 @@ my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $defaultAuthor = 125; #Used as a placeholder if needed for later queries
+my $defaultAuthor = 71; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -41,7 +41,7 @@ if(!defined($selectNullRecords)){
 	$selectNullRecords = 0;
 }
 if(!defined($seriesID)){
-	$seriesID = 0;
+	$seriesID = 0; 
 }
 if(!defined($gameID)){
 	$gameID = 0;
@@ -63,14 +63,19 @@ sub main{
 
 		## Codex Title sanitization
 		$words[2] =~ s/([\w']+)/$1/g;
+		$words[2] =~ s/\(Codex Entry\)//g;
 		$words[2] = replace_non_utf_8_characters($words[2]);
 		$codexHash{$tempNum}{Title} = $words[2];
 		
 		#Opens Website
-		open_browser($words[3]);
+		if($selectAuthors eq "authors")
+		{
+			open_browser($words[3]);
+		}		
 
 		## Codex Description
 		if($words[5] eq "[]\""){
+			open_browser($words[3]);
 			print "\n";
 			print "$codexHash{$tempNum}{Title}\n";
 			print "Text Null Insert Below:\n";
@@ -323,8 +328,7 @@ sub text_sanitize{
 	$text =~ s/\\xEF/&#239;/g;
 	$text =~ s/\\x97/&mdash;/g;
 	$text =~ s/\\x96//g;
-	$text =~ s/This (audiograph|book|note) can be found (.*?)\.//g;
-	
+	$text =~ s/This (audiograph|book|note) can be found (.*?)\.//g;	
 	return $text;
 }
 

@@ -26,19 +26,16 @@ if(!defined($seriesID)){
 
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
+
+menu();
 #insert_author_into_existing_codex();
-check_codexes_authors_for_IDS_that_dont_exist();
+#check_codexes_authors_for_IDS_that_dont_exist();
 
 sub menu{
 	print "--------------------------\n";
 	print "  Database Manipulation Menu \n";
-	print "   1 - Delete Codexes \n";
-	print "   2 - Delete Extra Codexes \n";
-	print "   3 - Delete (Duplicate) Authors \n";
-	print "   4 - Delete Empty Authors \n";
-	print "   5 - Delete Duplicate Authors with Misspelled Names \n";
-	print "   6 - Update Codex Text \n";
-	print "   7 - Fix Text \n";
+	print "   1 - Insert Author into Existing Codex \n";
+	print "   2 - Check Codexes_Authors Table for IDS that don't exist \n";
 	print "  -1 - Exit \n";
 
 	menu_response();
@@ -51,27 +48,10 @@ sub menu_response{
 		chomp $response;
 
 		if($response == 1){
-			delete_codexes();
+			insert_author_into_existing_codex();
 		}	
 		elsif($response == 2){
-			delete_extra_codexes();
-		}
-		elsif($response == 3){
-			delete_authors();
-		}
-		elsif($response == 4){
-			delete_empty_authors();
-		}
-		elsif($response == 5){
-			remove_extras_from_author();
-		}
-		elsif($response == 6){
-			#takes in input
-			update_codex_text();
-		}
-		elsif($response == 7){
-			#takes in input
-			fix_text();
+			check_codexes_authors_for_IDS_that_dont_exist();
 		}
 		elsif($response == -1)
 		{

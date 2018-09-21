@@ -4,7 +4,8 @@
         $codex_id = $_POST['codex']; 
         $text = $_POST['str'];
         //Replace \r\n in text otherwise it'll render extra spaces in the browser
-        $text = str_replace("\r\n",'', $text);
+        $text = str_replace("\n","<br>",$text);
+        //$text = str_replace("\r\n",'', $text);
         $text = str_replace("\r",'', $text);
         $text = str_replace("\n",'', $text);
         //Escape any necessary characters
