@@ -1,8 +1,50 @@
+html {min-height: 100%;position: relative; }
+body {margin: 0 0 200px; /* bottom = footer height */}
+#download{width:100%;}
 h1,h2,h3,h4,h5,p,tr,th{font-family:'Merriweather',serif;padding-left:2%;padding-right:2%}
-#text-change{font-family:'Oswald',sans-serif}
 p{font-size:19px;padding-left:2%;padding-right:2%}
 .centering{display:block;margin:0 auto;max-width:1248px}
 .centering-text{display:block;margin:0 auto;max-width:1248px;text-align:center}
+
+.checkbox-container{width:100%;height: 100%;text-align:left;}
+.checkbox-label{display:block;padding-right: 10px;padding-left: 22px;text-indent: -22px;}
+
+@media (max-width: 500px){
+	body {
+    	margin: 0 0 300px; /* bottom = footer height */
+	}
+	footer {
+		bottom: 0;
+		height: 300px;
+		left: 0;
+    	position: absolute;  	
+    	width: 100%;
+    }	
+}
+@media (min-width:501px) and (max-width:700px){
+    .checkbox-container{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+    }
+}
+
+@media (min-width:701px) and (max-width:1200px){
+    .checkbox-container{
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+}
+@media (min-width:1201px){
+    .checkbox-container{
+        -webkit-column-count: 4; /* Chrome, Safari, Opera */
+        -moz-column-count: 4; /* Firefox */
+        column-count: 4;
+    }
+}
+
 /* About Page */
 #banner{background-color:#fff4d3;position:relative;top:-15px;width:100%}
 #banner > .centering,#banner > .centering-text{margin-top:15px;padding:2% 1%}
+

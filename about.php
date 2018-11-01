@@ -8,14 +8,15 @@
 ?>
 <!--Banner-->
 <div id="banner">
-	<div class="centering-text">
-		<h1> The Library of Codexes currently contains: <?php echo $codexes_num." individual works, ".$authors_num." authors, and ".$games_num." games."?></h1>
-	</div>
+	<blockquote class="w3-panel centering-text" >
+		<h1><i>"Reading can be sexy."</i></h1>
+		<h4>- Kassandra: Assassin's Creed Odyessy</h4>
+	</blockquote> 
 </div>
 <br/>
 <div class="centering">
-	<h1><b>Our Mission</b></h1>
-	<p>Videogames have always excelled at creating complex worlds filled with creatures, items, and that one mind-numbingly slow NPC you <em>must</em> escort. These games often have a plethora of in-game text that can be difficult to collect and read in-game. Library of Codexes sole mission is to create an archive of in-game text that is easily accessible.</p>
+	<p>Library of Codexes has been around for nearly three years. In that time the website has changed in scope and design, but the core mission has remained the same: <em>easy access to in-game text</em>. With that in mind in the past three years LoC has grown from the initial 5 games to now over 59 games, which encompasses 22 video game series.</p>
+	<p> This collection will continue to grow in the coming months and years. As the sole librarian, coder, and keyboard monkey behind the scenes I’ve been excited by the support people have had for this project. And I'm incredibly thankful to all who have given support through Patreon and Ko-Fi to keep the lights on. </p>
 </div>
 
 <?php require_once 'inc/footer.php'; ?>

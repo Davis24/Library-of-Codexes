@@ -95,9 +95,26 @@ sub main{
 		}		
 
 		# Codex Authors
+		$words[6] =~ s/"//g;
 		if($selectAuthors eq "authors")
 		{
-			assign_author();
+			if(exists($words[6])) 
+			{
+				if($words[6] ne "null")
+				{
+					print "Author Found :" .$words[6]. "\n";
+					assign_author($words[6]);
+				}
+				else
+				{
+					assign_author();
+				}
+			}
+			else
+			{
+				assign_author();
+			}
+			
 		}
 		else
 		{
@@ -135,13 +152,23 @@ sub insert_codexes_authors{
 }
 
 sub assign_author{
-	print "\n";
-	print "Codex Title: ".$codexHash{$tempNum}{Title}."\n";
-	print "Author Name: ";
-	my $tempAuthor = <STDIN>;
-	chomp $tempAuthor;
+	
+	my $tempAuthor = "";
+	if(scalar(@_) == 1){
+		$tempAuthor = $_[0];
+	}
+	else
+	{
+		print "\n";
+		print "Codex Title: ".$codexHash{$tempNum}{Title}."\n";
+		print "Author Name: ";
+		$tempAuthor = <STDIN>;
+		chomp $tempAuthor;
+	}
 	
 	my $authorsList;
+	$tempAuthor =~ s/'/''/g;
+	print "Before Going into the match check: $tempAuthor";
 	if($tempAuthor =~ m/,/)
 	{
 		print "Multiple Authors Found\n";

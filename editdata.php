@@ -20,7 +20,7 @@
 	GROUP BY
 		c.CODEX_ID,
 		c.CODEX_TITLE
-	HAVING c.FK_GAME_ID = 58 ORDER BY c.CODEX_TITLE ASC
+	HAVING c.FK_GAME_ID = 50 and CODEX_ID >= 22570 and CODEX_ID <= 22655 ORDER BY c.CODEX_TITLE ASC
 	#HAVING c.FK_SERIES_ID = 2 ORDER BY c.CODEX_TITLE ASC";
 	if($result = $db -> query($query)){
 		while($row = $result -> fetch_assoc()) {
