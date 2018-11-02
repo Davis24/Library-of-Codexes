@@ -1,17 +1,17 @@
-<?php require_once 'inc/header.php'; ?>
-<div class ="w3-display-container" style="padding:10px; padding-bottom:50px;">
+<?php require_once 'inc/header.php' ?>
+<div class ="w3-display-container" id="container-padding">
     <div class="centering-text">
         <?php
             $titles = array("+1 to Intellect","Achievement Unlocked: Lore Expert","It's dangerous to go alone take this!", "+100 Reputation with College of Winterhold", "The book is a lie!","Books. Books never change.","Stay awhile, and read!", 
             "Books are super effective!", "Does this book have a soul?");
             $rand = rand(0, count($titles) -1);
         ?>
-        <h1 style="padding-top:30px;"><b><?php echo $titles[$rand];?></b></h1>
+        <h1 id="title-padding"><b><?php echo $titles[$rand];?></b></h1>
         <h3>Read codexes from your favourite games.</h3>
         <br/><br/>
         <img src="<?php echo URLROOT;?>/img/books.png">
-        <br/><br/>
-        <br/><br/>
+        <br><br>
+        <br><br>
         <!-- Ebook Selection -->
         <form class="w3-container">
             <div class="w3-row" style="text-align:left;">
@@ -42,7 +42,6 @@
         </form>
         <p id="ebook_info"></p>
         <br>
-
         <!-- End ebook selection -->
     </div><!-- center-text -->
 </div><!-- w3-display-container -->

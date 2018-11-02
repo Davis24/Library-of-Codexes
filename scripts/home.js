@@ -12,6 +12,11 @@ $(document).ready(function () {
 function isSafari () {
 	return /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 }
+
+function getBaseUrl() {
+    var re = new RegExp(/^.*\//);
+    return re.exec(window.location.href);
+}
  
 function ebookText(ebook_choice){
 	//console.log("reaching ebookText: " +ebook_choice);
@@ -32,12 +37,34 @@ function ebookText(ebook_choice){
 	}
 }
 
-function getBaseUrl() {
-    var re = new RegExp(/^.*\//);
-    return re.exec(window.location.href);
+$("#download").on("click", function(){
+    callPHPZip();
+});
+
+function callPHPZip(){
+	//console.log("calledPHPZip");
+    var ebookList = [];
+    $("input:checked").each(function(){
+		//console.log($(this).val());
+        ebookList.push("ebooks/" + $(this).val() + "." +$("select[name='ebook']").val());
+    });
+	//console.log("The Ebook List:" + ebookList.join(", "));
+	
+    $.ajax ({
+		type: 'post',
+        url: "./zipEbooks.php",
+		data: {data : JSON.stringify(ebookList)},
+		success: function(response){
+			window.location = response;
+		},
+        error: function(err){
+            console.log(err);
+        }
+    });
 }
 
-$("select[name='game']").change(function() {
+
+/*$("select[name='game']").change(function() {
     //console.log($("select").val());    
 	//console.log("Base URL" +getBaseUrl());
 	ebookText($("select").val());
@@ -48,30 +75,4 @@ $("select[name='game']").change(function() {
 $("select[name='ebook']").change(function() {
 	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook']").val();
 	$('#download').attr('href',$ebook_path);
-})
-
-
-$("#download").on("click", function () {
-    callPHPZip();
-});
-
-function callPHPZip(){
-    console.log("Made it here");
-    var ebookList = [];
-    $("input:checked").each(function(){
-        ebookList.push("ebooks/" + $(this).val() + "." +$("select[name='ebook']").val());
-    });
-    console.log(ebookList.join(", "));
-    var ebookListString = JSON.stringify(ebookList);
-    $.ajax ({
-        url: "zipEbooks.php",
-        type: "POST",
-        data: {data : ebookListString},
-        success: function(status){
-            console.log(status);
-        },
-        error: function(err){
-            console.log(err);
-        }
-    });
-}
+})*/
