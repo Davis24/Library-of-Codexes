@@ -13,16 +13,17 @@
         <br><br>
         <br><br>
         <!-- Ebook Selection -->
+        <p id="ebook_info" class="w3-text-red"></p>
         <form class="w3-container">
             <div class="w3-row" style="text-align:left;">
                 <label><b>Select Videogame Series:</b></label>
                     <div class="checkbox-container centering">        
                     <?php 
-                        $query = "SELECT TITLE FROM ebooks ORDER BY TITLE ASC";
+                        $query = "SELECT TITLE, EBOOK_DESCRIPTION FROM ebooks ORDER BY TITLE ASC";
                         if($result = $db -> query($query)){
                             while($row = $result -> fetch_assoc()) {
                                 $val = str_replace(array(':','\''), '', $row["TITLE"]);
-                                echo '<label class="checkbox-label"><input type="checkbox" class="w3-check" value="'.$val.'">'.$row["TITLE"]."</label>";
+                                echo '<label class="checkbox-label"><input type="checkbox" class="w3-check" value="'.$val.'" >'.$row["TITLE"].'</label>';
                             }
                         }                         
                     ?>                   
@@ -40,7 +41,6 @@
             <br> 
             <a id="download" href="#" class="w3-button w3-xlarge w3-block w3-green">Download</a>
         </form>
-        <p id="ebook_info"></p>
         <br>
         <!-- End ebook selection -->
     </div><!-- center-text -->

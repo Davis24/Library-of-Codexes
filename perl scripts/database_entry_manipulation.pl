@@ -27,9 +27,13 @@ if(!defined($seriesID)){
 my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 
 
-menu();
+#delete_entries_in_codexes_authors();
 #insert_author_into_existing_codex();
-#check_codexes_authors_for_IDS_that_dont_exist();
+combine_authors_with_same_name();
+check_codexes_authors_for_IDS_that_dont_exist();
+remove_authors_that_dont_exists_in_codexes_authors();
+remove_codexes_that_dont_exist_in_codexes_authors();
+fix_text();
 
 sub menu{
 	print "--------------------------\n";
@@ -57,6 +61,135 @@ sub menu_response{
 		{
 			last;
 		}
+	}
+}
+
+sub assign_series_id_to_author{
+	print "Game ID: ";
+	my $response = <STDIN>;
+	chomp $response;
+	print "Series ID: ";
+	my $seriesID = <STDIN>;
+	chomp $seriesID;
+
+	my $author_select = $myConnection->prepare("SELECT AUTHOR_ID FROM AUTHORS WHERE FK_GAME_ID = ?");
+	$author_select->execute($response) or die $DBI::errstr;
+	while (@data = $author_select->fetchrow_array()) {
+        $authorID = $data[0];
+
+		my $update_statement = $myConnection->prepare("UPDATE AUTHORS SET FK_SERIES_ID = ? WHERE AUTHOR_ID = ?");
+		$update_statement->execute($seriesID, $authorID) or die $DBI::errstr;
+		$update_statement->finish();			
+    }
+	$author_select->finish();
+	
+}
+
+sub remove_authors_that_dont_exists_in_codexes_authors{
+	my $author_select = $myConnection->prepare("SELECT AUTHOR_ID, NAME FROM AUTHORS");
+	$author_select->execute() or die $DBI::errstr;
+	print "Removing Authors That Don't Exist!\n";
+	while(@data = $author_select->fetchrow_array()){
+		$authorID = $data[0];
+
+		my $check_statement = $myConnection->prepare("SELECT * FROM CODEXES_AUTHORS WHERE FK_AUTHOR_ID = ?");
+		$check_statement->execute($authorID) or die $DBI::errstr;
+		if($check_statement->rows > 0){
+
+		}
+		else
+		{
+			my $delete_statement = $myConnection->prepare("DELETE FROM AUTHORS WHERE AUTHOR_ID = ?");
+			$delete_statement->execute($data[0]);
+			$delete_statement->finish();
+			print($data[1]);
+			print("\n");
+		}
+		
+		$check_statement->finish();
+	}
+	$author_select->finish();
+}
+
+sub remove_codexes_that_dont_exist_in_codexes_authors{
+	my $codex_select = $myConnection->prepare("SELECT CODEX_ID, CODEX_TITLE FROM CODEXES");
+	$codex_select->execute() or die $DBI::errstr;
+	print "Removing Codexes That Don't Exist!\n";
+	while(@data = $codex_select->fetchrow_array()){
+		$codexID = $data[0];
+
+		my $check_statement = $myConnection->prepare("SELECT * FROM CODEXES_AUTHORS WHERE FK_CODEX_ID = ?");
+		$check_statement->execute($codexID) or die $DBI::errstr;
+		if($check_statement->rows > 0){
+
+		}
+		else
+		{
+			my $delete_statement = $myConnection->prepare("DELETE FROM CODEXES WHERE CODEX_ID = ?");
+			$delete_statement->execute($data[0]);
+			$delete_statement->finish();
+			
+			print($data[1]);
+			print("\n");
+		}
+		
+		$check_statement->finish();
+	}
+	$codex_select->finish();
+}
+
+#Series and Game ID
+sub combine_authors_with_same_name{
+	#SELECT GROUP_CONCAT(AUTHOR_ID), NAME, COUNT(*) c FROM authors GROUP BY NAME HAVING c > 1 
+	print "Game ID: ";
+	my $gameID = <STDIN>;
+	chomp $gameID;
+
+	my $queryAuthorCheck = $myConnection->prepare("SELECT GROUP_CONCAT(AUTHOR_ID), NAME, COUNT(*) c FROM authors WHERE FK_GAME_ID = ? GROUP BY NAME HAVING c > 1 ");
+	$queryAuthorCheck->execute($gameID) or die $DBI::errstr;
+	print "Found Matching Authors!\n";
+	while(@data = $queryAuthorCheck->fetchrow_array()){
+		print "Data: ";
+		print $data[1];
+		print "\n";
+		my $groupIDs = $data[0];
+		my @ids = split(',', $data[0]);
+		my $default_id;
+
+		for($i = 0; $i < scalar(@ids); $i++){
+			if($i == 0){
+				$default_id = $ids[$i];
+			}
+			else
+			{
+				my $queryCodexesAuthors = $myConnection->prepare("SELECT * FROM CODEXES_AUTHORS WHERE FK_AUTHOR_ID = ?");
+				$queryCodexesAuthors->execute($ids[$i]) or die $DBI::errstr;
+				my $updateCodexesAuthors = $myConnection->prepare("UPDATE CODEXES_AUTHORS SET FK_AUTHOR_ID = ? WHERE FK_AUTHOR_ID = ?");
+				while(@data = $queryCodexesAuthors->fetchrow_array()){
+					$updateCodexesAuthors->execute($default_id, $ids[$i]);
+				}
+				$updateCodexesAuthors->finish();
+				$queryCodexesAuthors->finish();
+			}
+		}
+	}
+	$queryAuthorCheck->finish();
+
+}
+
+sub delete_entries_in_codexes_authors{
+	print "List of Codex IDs: ";
+	my $codexIDS = <STDIN>;
+	chomp $codexIDS;
+
+	print "Author ID: ";
+	my $authorID = <STDIN>;
+	chomp $authorID;
+
+	my @data = split(',' , $codexIDS);
+	foreach $cID (@data){
+		my $deleteQuery = $myConnection->prepare("DELETE FROM CODEXES_AUTHORS WHERE FK_CODEX_ID = ? AND FK_AUTHOR_ID = ?");
+		$deleteQuery->execute($cID, $authorID)
 	}
 }
 
@@ -227,7 +360,7 @@ sub check_if_codex_is_in_codexes_authors{
 # Below subroutines handle text and printing #
 ##############################################
 sub fix_text{
-	my $query = $myConnection->prepare("SELECT CODEX_ID, CODEX_TEXT FROM CODEXES WHERE FK_SERIES_ID = 17");
+	my $query = $myConnection->prepare("SELECT CODEX_ID, CODEX_TEXT FROM CODEXES WHERE FK_GAME_ID = 64");
 	$query->execute();
 	while(@return = $query->fetchrow_array()){
 		my $id = $return[0];
@@ -235,8 +368,9 @@ sub fix_text{
 		
 		#$text = replace_non_utf_8_characters($text);
 		#$text =~ s/If (.*?)(:|\.\.\.)/\<i\>If $1$2\<\/i\>/g;
-		$text =~ s/(\<i\>){2,}/\<i\>/g;
-		$text =~ s/(\<\/i\>){2,}/\<\/i\>/g;
+		#$text =~ s/(\<i\>){2,}/\<i\>/g;
+		#$text =~ s/(\<\/i\>){2,}/\<\/i\>/g;
+		$text =~ s/\<br\>\<\/div\>\<div class\="ql-clipboard" tabindex="-1" contenteditable="true"\>\<\/div>\<div class="ql-tooltip ql-hidden" style="margin-top: -*[0-9]*px;"\>\<a class="ql-preview" target="_blank" href="about:blank"\>\<\/a\>\<input type="text" data-formula="e=mc\^2" data-link="https:\/\/quilljs.com" data-video="Embed URL"\>\<a class="ql-action"\>\<\/a\>\<a class="ql-remove"\>\<\/a\>\<\/div\>//g;
 
 		my $statement = $myConnection->prepare("UPDATE CODEXES SET CODEX_TEXT =? WHERE CODEX_ID = ?");
 		$statement->execute($text, $id) or die $DBI::errstr;

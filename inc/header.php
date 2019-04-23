@@ -3,8 +3,8 @@
 <head>
     <?php 
 	//Connect to database
-	require_once 'app/config/config.php';
-	require_once 'scripts/dbconnect.php';
+	require_once '../app/config/config.php';
+	require_once '../scripts/dbconnect.php';
 	if($db === false){
 		echo "Error occured, put in an error page";
 	}
@@ -21,9 +21,11 @@
 	<title>Library of Codexes</title>
 	
 	<link rel="icon" href="img/favicon.ico" type="image/ico" />    
+	<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w4.css">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/balloon.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/general-min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer-min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/modernscale-min.css"> 
@@ -33,9 +35,9 @@
 			<ul class = "w3-navbar w3-black w3-xlarge">
 				<div class="centering">
 					<li class="w3-hide-large w3-hide-medium w3-opennav w3-right"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
-					<li><a href="<?php echo URLROOT; ?>/home"><b>Library of Codexes</b></a></li>
+					<li><a href="<?php echo URLROOT; ?>/"><b>Library of Codexes</b></a></li>
 					<li class="w3-hide-small w3-right"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "36"></a></li>
-					<li class="w3-hide-small w3-right"><a href='https://ko-fi.com/V7V7BH05' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+					<li class="w3-hide-small w3-right"><a href="https://ko-fi.com/V7V7BH05" target='_blank'><img height='36' style="border:0px;height:36px;" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com" /></a>
 				</div>
 			</ul>
 		</nav>

@@ -1,37 +1,33 @@
 <?php
+    require_once 'app/config/config.php';
     if(isset($_POST['data'])){
-        $dir = 'C:/Users/Megan/Desktop/Loc_Test/';		
-        $zipname = 'loc_ebooks.zip';
+        $dir = "downloads";
+        $random_id = rand(1,5000000);	
+        $zipname = $random_id.'_loc_ebooks.zip';
         if (!file_exists($dir) && !is_dir($dir)) {
             mkdir($dir,0744);         
-            #echo "<p>The Folder should have been created.</p>";
         }
 
-        if (is_writable(dirname($dir.$zipname))) {
-            #echo "<p>The Downloads Folder is writable.</p>";
-            
+        if (is_writable(dirname($dir.$zipname))) { 
             $ebooks = json_decode($_POST['data']);
             $zip = new ZipArchive;
 
-            $zip->open($dir.$zipname, ZipArchive::CREATE|ZipArchive::OVERWRITE);
+            $zip->open($dir."/".$zipname, ZipArchive::CREATE|ZipArchive::OVERWRITE);
             foreach($ebooks as $val){
                 $zip->addFile($val);
             }
             $zip->close();
 
-            if(file_exists($dir.$zipname)){
-                echo "http://localhost/libraryofcodexes/downloads/loc_ebooks.zip";
-                #unlink($zipname);
+            if(file_exists($dir."/".$zipname)){
+                echo $dir."/".$zipname;
+                unlink($zipname);
             }
-            else
-            {
+            else{
                 echo "File Does Not Exist";
-            }
-            
+            }  
         }
-        else
-        {
-            #echo "<p>This downloads folder is not writable</p>";
+        else{
+            echo "This downloads folder is not writable";
         }           
     }
-    ?>
+?>

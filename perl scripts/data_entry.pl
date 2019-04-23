@@ -27,7 +27,7 @@ my $myConnection = DBI->connect("DBI:mysql:library:localhost", "root", "");
 my $codex_id;
 my $tempNum = 0; #Increases after each record is added to the hash
 my $tempString; #Hold text read in from file, used for if codex spans multiple lines
-my $defaultAuthor = 71; #Used as a placeholder if needed for later queries
+my $defaultAuthor = 8079; #Used as a placeholder if needed for later queries
 my %codexHash;
 
 #If the command line argument isn't given set it to zero
@@ -49,6 +49,7 @@ if(!defined($gameID)){
 
 
 main();
+#print_hash();
 
 #This is the main subroutine -> Which reads the data and inserts it into the DB
 sub main{
@@ -62,10 +63,10 @@ sub main{
 		my @words = split('","', $_);
 
 		## Codex Title sanitization
-		$words[2] =~ s/([\w']+)/$1/g;
-		$words[2] =~ s/\(Codex Entry\)//g;
-		$words[2] = replace_non_utf_8_characters($words[2]);
-		$codexHash{$tempNum}{Title} = $words[2];
+		$words[4] =~ s/([\w']+)/$1/g;
+		$words[4] =~ s/\(Codex Entry\)//g;
+		$words[4] = replace_non_utf_8_characters($words[4]);
+		$codexHash{$tempNum}{Title} = $words[4];
 		
 		#Opens Website
 		if($selectAuthors eq "authors")
@@ -74,7 +75,7 @@ sub main{
 		}		
 
 		## Codex Description
-		if($words[5] eq "[]\""){
+		if($words[4] eq "[]\""){
 			open_browser($words[3]);
 			print "\n";
 			print "$codexHash{$tempNum}{Title}\n";
@@ -95,7 +96,6 @@ sub main{
 		}		
 
 		# Codex Authors
-		$words[6] =~ s/"//g;
 		if($selectAuthors eq "authors")
 		{
 			if(exists($words[6])) 

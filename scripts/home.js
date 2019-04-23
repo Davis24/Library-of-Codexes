@@ -5,12 +5,21 @@ $(document).ready(function () {
 		$("#download").attr('target', '_');
 		$("#download").removeAttr('download');
 	}
+	if(isChrome()){
+		console.log("IS chrome");
+		$("#download").attr('target', '_');
+		$("#download").removeAttr('download');
+	}
  });
  
 //Temporary fix for Safari download issue
 //-Written by Gerrit
 function isSafari () {
 	return /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+}
+
+function isChrome(){
+	return window.chrome;
 }
 
 function getBaseUrl() {
@@ -42,37 +51,34 @@ $("#download").on("click", function(){
 });
 
 function callPHPZip(){
-	//console.log("calledPHPZip");
-    var ebookList = [];
-    $("input:checked").each(function(){
-		//console.log($(this).val());
-        ebookList.push("ebooks/" + $(this).val() + "." +$("select[name='ebook']").val());
-    });
-	//console.log("The Ebook List:" + ebookList.join(", "));
-	
-    $.ajax ({
-		type: 'post',
-        url: "./zipEbooks.php",
-		data: {data : JSON.stringify(ebookList)},
-		success: function(response){
-			window.location = response;
-		},
-        error: function(err){
-            console.log(err);
-        }
-    });
+	if($( "input:checked" ).length == 0){
+		$('#ebook_info').html("No Videogame Series selected.");
+	}
+	else if($( "input:checked" ).length == 1){
+		$("input:checked").each(function(){
+			$ebook_path = getBaseUrl() +"ebooks/" + $(this).val() + "." + $("select[name='ebook']").val();
+			window.location = $ebook_path;
+		});
+		$('#ebook_info').html("");
+	}
+	else
+	{
+		var ebookList = [];
+		$("input:checked").each(function(){
+			ebookList.push("ebooks/" + $(this).val() + "." +$("select[name='ebook']").val());
+		});
+		$('#ebook_info').html("");
+
+		$.ajax ({
+			type: 'post',
+			url: "./zipEbooks.php",
+			data: {data : JSON.stringify(ebookList)},
+			success: function(response){
+				window.location = response;
+			},
+			error: function(err){
+				console.log(err);
+			}
+		});
+	}
 }
-
-
-/*$("select[name='game']").change(function() {
-    //console.log($("select").val());    
-	//console.log("Base URL" +getBaseUrl());
-	ebookText($("select").val());
-	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook']").val();
-	$('#download').attr('href',$ebook_path);
-})
-
-$("select[name='ebook']").change(function() {
-	$ebook_path = getBaseUrl() +"ebooks/" + $("select").val() + "." + $("select[name='ebook']").val();
-	$('#download').attr('href',$ebook_path);
-})*/
