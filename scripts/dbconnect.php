@@ -8,7 +8,7 @@
             // Load configuration as an array. Use the actual location of your configuration file
             
             //Local
-            $config = parse_ini_file('C:/xampp/htdocs/LibraryofCodexes/config.ini'); 
+            $config = parse_ini_file('D:\xampp\htdocs\LibraryofCodexes\config.ini'); 
 
             //Web
             //$config = parse_ini_file('../private/config.ini'); 

@@ -24,15 +24,24 @@ p{font-family: 'Raleway', sans-serif;}
 }
 
 
-#banner-header, #praise-header, #download-header, #footer-header{font-family: 'Permanent Marker', cursive;}
+#banner-header, #praise-header, #download-header, #footer-header, #logo{font-family: 'Permanent Marker', cursive;}
 #banner-header{font-size: 92px;}
 #praise-header, #download-header{font-size: 42px;}
-#download-header{font-size: 32px;}
+#logo{letter-spacing: 0.1em;}
+#banner h1 ,#praise h1{
+    color:#F2E85C;
+}
+.user_name{
+    color:#F2E85C;
+}
 
 #praise{
     position:relative; 
     top:-150px;
     margin-bottom: -130px;
+}
+#ebooks{
+    background-color:white;
 }
 
 .w3-badge {height:13px;width:13px;padding:0}

@@ -27,24 +27,24 @@ function getBaseUrl() {
     return re.exec(window.location.href);
 }
  
-function ebookText(ebook_choice){
+//function ebookText(ebook_choice){
 	//console.log("reaching ebookText: " +ebook_choice);
-	if(ebook_choice){
-		$.ajax ({
-			type: 'post',
-			url: './loadgame.php',
-			data: {
-				ebook: ebook_choice,
-			},
-			success: function(response){
-				$('#ebook_info').html(response);
-			},
-			error: function(){
-				//console.log("Something went wrong");
-			}
-		});
-	}
-}
+//	if(ebook_choice){
+//		$.ajax ({
+//			type: 'post',
+//			url: './loadgame.php',
+//			data: {
+//				ebook: ebook_choice,
+//			},
+//			success: function(response){
+//				$('#ebook_info').html(response);
+//			},
+//			error: function(){
+//				//console.log("Something went wrong");
+//			}
+//		});
+//	}
+//}
 
 $("#download").on("click", function(){
     callPHPZip();

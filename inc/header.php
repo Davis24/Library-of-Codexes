@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php 
+<?php 
 	//Connect to database
+	
 	require_once '../app/config/config.php';
 	require_once '../scripts/dbconnect.php';
 	if($db === false){
@@ -17,44 +18,24 @@
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="200">
 	<meta property="og:image:height" content="200">
-	
+	<link rel="icon" href="img/favicon.ico" type="image/ico" />    
+
 	<title>Library of Codexes</title>
 	
-	<link rel="icon" href="img/favicon.ico" type="image/ico" />    
-	<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet"> 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w4.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/w3.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/balloon.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/general-min.css">
 	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/footer-min.css">
-	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/modernscale-min.css"> 
-	<header>
-	<!--web header navigation -->
-		<nav>
-			<ul class = "w3-navbar w3-black w3-xlarge">
-				<div class="centering">
-					<li class="w3-hide-large w3-hide-medium w3-opennav w3-right"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
-					<li><a href="<?php echo URLROOT; ?>/"><b>Library of Codexes</b></a></li>
-					<li class="w3-hide-small w3-right"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "36"></a></li>
-					<li class="w3-hide-small w3-right"><a href="https://ko-fi.com/V7V7BH05" target='_blank'><img height='36' style="border:0px;height:36px;" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com" /></a>
-				</div>
-			</ul>
-		</nav>
-		<!-- mobile header navigation-->
-		<nav id="mobile" class="w3-hide w3-hide-large">
-			<ul class="w3-navbar w3-left-align w3-large w3-black">
-				<li class="w3-right w3-hide-medium w3-hide-large"><a href="https://www.patreon.com/thelibrarian" target="_blank"><img src = "img/patreon_logo-min.png" height = "36"></a></li>
-				<li class="w3-right w3-hide-medium w3-hide-large"><a href='https://ko-fi.com/V7V7BH05' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-			</ul>
-		</nav>
-	</header>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-79563886-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway" rel="stylesheet"> 
+</head>
+
+<!-- Web Header Navigation -->
+<nav>
+    <div class="w3-bar w3-black">
+        <a id="logo" href="#" class="w3-bar-item w3-button w3-hover-white" ><b>Library of Codexes</b></a>
+        <a href="https://ko-fi.com/V7V7BH05" target='_blank' class="w3-hide-small w3-bar-item w3-button w3-right w3-hover-white"><img height='36' style="border:0px;height:36px;" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com"></a>
+        <a href="https://www.patreon.com/thelibrarian" target="_blank" class="w3-hide-small w3-bar-item w3-button w3-right w3-hover-white"><img src = "img/patreon_logo-min.png" height = "36"></a>
+    </div>
+</nav>

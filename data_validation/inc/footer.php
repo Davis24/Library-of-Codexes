@@ -6,9 +6,10 @@
         </p>
     <p class="footer-company-name">Codexes utilized within this site are property of their publisher. Library of Codexes &copy; 2018</p>
 </footer>
-<script src = "<?php echo URLROOT; ?>/scripts/jquery-3.4.0.min.js"></script>
+<script src = "<?php echo URLROOT; ?>/scripts/jquery-3.3.1.min.js"></script>
 <script src="<?php echo URLROOT; ?>/scripts/home.js"></script>
 <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 <!-- for mobile header -->
 <script>
     function myFunction() {
