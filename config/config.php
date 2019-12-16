@@ -4,7 +4,8 @@
   // URL Root
 
   //Local
-  define('URLROOT', 'http://localhost/libraryofcodexes/');
+  define('URLROOT', 'http://localhost/libraryofcodexes/public/');
+  define('ROOT', 'http://localhost/libraryofcodexes/');
 
   //Web
   //define('URLROOT', '');

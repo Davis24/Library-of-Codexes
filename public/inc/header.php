@@ -26,9 +26,9 @@
 	<title><?php echo $title ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet"> 
 	<!-- Production uses URLROOT /css/ -->
- 	<link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'resources/semantic/semantic.min.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'resources/semantic/components/hamburger.css' ?>"><!-- Get this added to semantic.min.css-->
-    <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'resources/semantic/components/footer.css' ?>"><!-- Get this added to semantic.min.css-->
+ 	<link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/semantic.min.css' ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/hamburger.css' ?>"><!-- Get this added to semantic.min.css-->
+    <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/footer.min.css' ?>"><!-- Get this added to semantic.min.css-->
     
     <style type="text/css"><?php echo $custom_css ?></style>   
     

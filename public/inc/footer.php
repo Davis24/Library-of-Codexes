@@ -15,8 +15,8 @@
         <script src="./scripts/jquery-3.4.1.min.js"></script>
         <script src="./scripts/home.js"></script>
         <!-- Production uses URLROOT /css/ -->
-        <script src="<?php echo URLROOT . 'resources/semantic/components/hamburger.js' ?>"></script> <!-- TODO: Get Hamburger added to semantic.js -->
-        <script src="<?php echo URLROOT . 'resources/semantic/semantic.js' ?>"></script><!-- TODO: Fix Exclusive for Accordian so I can switch back to min.js -->
+        <script src="<?php echo ROOT . 'resources/semantic/components/hamburger.js' ?>"></script> <!-- TODO: Get Hamburger added to semantic.js -->
+        <script src="<?php echo ROOT . 'resources/semantic/semantic.min.js' ?>"></script><!-- TODO: Fix Exclusive for Accordian so I can switch back to min.js -->
         <script>
             $('.ui.dropdown').dropdown();
             $('.ui.accordion').accordion();

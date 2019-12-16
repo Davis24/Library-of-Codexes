@@ -5,7 +5,7 @@
     }
     .ui.inverted.vertical.masthead.segment{
       min-height: 500px;
-      background-image: url('./img/banner2000x1250.png') !important;
+      background-image: url('./img/banner2000x1250.jpg') !important;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
