@@ -16,7 +16,7 @@
             $ebooks = json_decode($_POST['data']);
             
             $zip = new ZipArchive;
-            if($zip->open($full_dir, ZipArchive::CREATE|ZipArchive::OVERWRITE) === TRUE){
+            if($zip->open($full_dir, ZipArchive::CREATE|ZipArchive::OVERWRITE) === FALSE){
                 
                 foreach($ebooks as $e){
                     if(file_exists($e)){

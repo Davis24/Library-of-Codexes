@@ -77,8 +77,8 @@
             <option value="mass effect andromeda">Mass Effect Andromeda</option>
             <option value="metroid prime">Metroid Prime</option>
             <option value="middle earth shadow of mordor">Middle-earth: Shadow of Mordor</option>
-            <!--<option value="nier">Nier</option>-->  
-            <!--<option value="red dead redemption">Red Dead Redemption</option>-->
+            <option value="nier">Nier</option>
+            <option value="red dead redemption">Red Dead Redemption</option>
             <option value="star wars the old republic">Star Wars: The Old Republic</option>
             <option value="system shock">System Shock</option>
             <option value="the division">The Division</option>
