@@ -71,6 +71,7 @@
             <option value="dying light">Dying Light</option>
             <option value="fable">Fable</option>
             <option value="fallout">Fallout</option>
+			<option value="gears of war">Gears of War</option>
             <option value="horizon zero dawn">Horizon Zero Dawn</option>
             <option value="kingdoms of amalur">Kingdoms of Amalur</option>
             <option value="mass effect">Mass Effect</option>

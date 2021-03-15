@@ -4,6 +4,8 @@
     if(isset($_POST['data'])){
         $dir = "./downloads";
         
+        $error = 0;
+
         $random_id = rand(1,5000000);	
         $zipname = $random_id.'_loc_ebooks.zip';
         $full_dir = $dir."/".$zipname;
@@ -23,13 +25,18 @@
                         $zip->addFile($e);    
                     }
                     else{
-                        echo "Error occurred, please try again.";
+                        $error = 1;
                     }
                 }
 
                 if($zip->close()){
-                    echo $full_dir;
-                    //unlink($zipname);
+                    if($error == 1){
+                        echo "Error occurred, please try again.";
+                    }
+                    else{
+                        echo $full_dir;
+                        //unlink($zipname);
+                    }
                 }
                 else{
                     echo "Error occurred, please try again.";

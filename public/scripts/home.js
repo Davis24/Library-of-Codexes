@@ -67,7 +67,14 @@ function callPHPZip(){
 						$('#message').text(response);
 					}
 					else{
-						window.location = response;
+						if(response.includes('Error')){
+							$('.message').removeClass('hidden');
+							$('#message').text(response);
+						}
+						else{
+							window.location = response;
+						}
+						
 					}
 					
 				},

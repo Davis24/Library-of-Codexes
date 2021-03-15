@@ -26,7 +26,7 @@
 	<title><?php echo $title ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet"> 
 	<!-- Production uses URLROOT /css/ -->
- 	<link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/semantic.min.css' ?>">
+ 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/hamburger.css' ?>"><!-- Get this added to semantic.min.css-->
     <link rel="stylesheet" type="text/css" href="<?php echo URLROOT . 'css/footer.min.css' ?>"><!-- Get this added to semantic.min.css-->
     
@@ -38,7 +38,7 @@
         <nav>
             <div class="ui stackable borderless menu">
                 <div class="ui container">
-					<a href="index.php" class="header item left aligned">Library of Codexes</a>
+					<a href="<?php echo URLROOT; ?>" class="header item left aligned">Library of Codexes</a>
 					<div class="right item">
 						<a href="https://www.patreon.com/thelibrarian" target="_blank" class="item"><i class="patreon icon"></i>Patreon</a>
 						<a href="https://ko-fi.com/V7V7BH05" target="_blank" class="item"><i class="coffee icon"></i>Ko-fi: Buy me a coffee</a>
